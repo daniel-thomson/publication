@@ -18,6 +18,7 @@
 !/webroot/publish-setup.json
 !/webroot/package-feed.xml
 !/webroot/publication-feed.xml
+!/webroot/package-registry.json
 # build zips: keep the run log (publisher + resolved dependency versions)
 !/webroot/ig-build-zips/
 /webroot/ig-build-zips/*
