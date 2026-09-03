@@ -1,0 +1,173 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/pho-status> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "pho-status"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "11" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-03T12:26:02.681+12:00"^^xsd:dateTime ] ;
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://standards.digital.health.nz/ns/nzhts-usage-tags" ] ;
+       fhir:Coding.code [ fhir:value "NZBase" ]
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PHO</h2><tt>https://standards.digital.health.nz/ns/pho-code</tt><p>Primary Healthcare Organization</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://standards.digital.health.nz/ns/pho-code"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "PHO"] ;
+  fhir:CodeSystem.title [ fhir:value "PHO"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-10-18T11:59:31.000Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 New Zealand"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 New Zealand" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "mailto:admin@hl7.org.nz" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Primary Healthcare Organization"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://nzhts.digital.health.nz/fhir/ValueSet/pho-code" ;
+     fhir:link <https://nzhts.digital.health.nz/fhir/ValueSet/pho-code>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "29"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05487-G" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Auckland PHO Limited" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05491-J" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Christchurch PHO" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G02384-D" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Central Primary Health Organisation" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00755-C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Compass Health" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05272-H" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Comprehensive Care PHO Limited" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05493-B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cosine Primary Care Network Trust" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05495-F" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Eastern Bay Primary Health Alliance" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05494-D" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "East Health Trust Board" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G09738-D" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hauraki PHO" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05498-A" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Health Hawke's Bay Limited" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G0F252-G" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Te Kaupapa Mahitahi Hauora - Papa o Te Raki Trust" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G04639-K" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Marlborough PHO Trust" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05484-A" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Midlands Health Network Limited" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05507-J" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "National Hauora Coalition Limited" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05454-C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nelson Bays Primary Health Trust" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00246-D" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nga Mataapuna Oranga Limited" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G04805-A" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ngati Porou Hauora Charitable Trust Board" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G04764-B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ora Toa PHO Limited" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G03310-B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pegasus Health (Charitable) Limited" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05533-K" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Procare Networks Limited" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G08550-C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rotorua Area Primary Health Services Ltd" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00886-G" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rural Canterbury PHO Limited" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05596-A" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Total Healthcare Charitable Trust" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G05569-J" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Wellsouth Primary Health Network" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00039-K" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "West Coast PHO" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00507-F" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Western Bay of Plenty Primary Healthcare Organisation Limited" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G01220-B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Whanganui Regional Health Network" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G0P656-E" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Arataki (Tend)" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G0K668-C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "The Cause Collective" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/pho-status.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

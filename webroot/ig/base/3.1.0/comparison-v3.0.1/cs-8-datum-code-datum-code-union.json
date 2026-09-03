@@ -1,0 +1,19 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-23",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-23",
+  "name" : "UnionDatumCodeAndDatumCode",
+  "title" : "Union of Datum codes And Datum codes",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "WGS84",
+    "display" : "WGS84",
+    "definition" : "global datum, used by google maps"
+  },
+  {
+    "code" : "NZGD2000",
+    "display" : "NZGD2000",
+    "definition" : "Nz official datum, used by MoH address service"
+  }]
+}

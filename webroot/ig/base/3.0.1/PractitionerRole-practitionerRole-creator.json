@@ -1,0 +1,39 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "practitionerRole-creator",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole-creator</b></p><a name=\"practitionerRole-creator\"> </a><a name=\"hcpractitionerRole-creator\"> </a><a name=\"practitionerRole-creator-en-US\"> </a><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Organization  #mmh</b></p><a name=\"practitionerRole-creator/mmh\"> </a><a name=\"hcpractitionerRole-creator/mmh\"> </a><a name=\"practitionerRole-creator/mmh-en-US\"> </a><p><b>identifier</b>: <a href=\"NamingSystem-hpiOrganization.html\" title=\"HPI organizations\">HPIOrganization</a>/mmh</p><p><b>name</b>: Middlemore Hospital</p></blockquote><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Practitioner  #administrator</b></p><a name=\"practitionerRole-creator/administrator\"> </a><a name=\"hcpractitionerRole-creator/administrator\"> </a><a name=\"practitionerRole-creator/administrator-en-US\"> </a><p><b>name</b>: Amy Administrator</p></blockquote></div>"
+  },
+  "contained" : [{
+    "resourceType" : "Organization",
+    "id" : "mmh",
+    "identifier" : [{
+      "system" : "https://standards.digital.health.nz/ns/hpi-organisation-id",
+      "value" : "mmh"
+    }],
+    "name" : "Middlemore Hospital"
+  },
+  {
+    "resourceType" : "Practitioner",
+    "id" : "administrator",
+    "name" : [{
+      "text" : "Amy Administrator"
+    }]
+  }],
+  "extension" : [{
+    "extension" : [{
+      "url" : "person",
+      "valueReference" : {
+        "reference" : "#administrator"
+      }
+    },
+    {
+      "url" : "organization",
+      "valueReference" : {
+        "reference" : "#mmh"
+      }
+    }],
+    "url" : "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator"
+  }]
+}

@@ -1,0 +1,23 @@
+{
+  "resourceType" : "Organization",
+  "id" : "organization-edi-address",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization organization-edi-address</b></p><a name=\"organization-edi-address\"> </a><a name=\"hcorganization-edi-address\"> </a><p><b>name</b>: Health R Us</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Telecom</b></td></tr><tr><td style=\"display: none\">*</td><td>HealthLink EDI account</td><td>-unknown-</td></tr></table></div>"
+  },
+  "name" : "Health R Us",
+  "contact" : [{
+    "name" : {
+      "text" : "HealthLink EDI account"
+    },
+    "telecom" : [{
+      "system" : "other",
+      "_system" : {
+        "extension" : [{
+          "url" : "http://hl7.org.nz/fhir/StructureDefinition/edi-address",
+          "valueString" : "ABC-876"
+        }]
+      }
+    }]
+  }]
+}

@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>NZ Iwi - HL7® FHIR® New Zealand Base Implementation Guide v3.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.91"}
+    h3,h4,h5,h6{--heading-prefix:"7.91"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+
+      
+<!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="http://hl7.org.nz">
+      <img height="50" alt="Project home" src="assets/images/hl7nz-logo.jpg"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7® FHIR® New Zealand Base Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">3.1.0 - Release
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">IG Home</a>
+  </li>
+  <li>
+    <a href="extensions.html">Extensions</a>
+  </li>
+  <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="terminology.html">Terminology</a>
+  </li>
+  <li>
+    <a href="namingSystems.html">Identifiers</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="full-ig.zip">Download IG</a>
+      </li>
+      <li>
+        <a href="http://hl7.org/fhir/R4/index.html">FHIR Spec</a>
+      </li>
+      <li>
+        <a href="definitions.json.zip">Artifacts (Json)</a>
+      </li>
+      <li>
+        <a href="definitions.xml.zip">Artifacts (Xml)</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>NZ Iwi</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the HL7® FHIR® New Zealand Base Implementation Guide (v3.1.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version in its permanent home (it will always be available at this URL).  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.org.nz/ig/base/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-iwi-code.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-iwi-code.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-iwi-code.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: NZ Iwi
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://standards.digital.health.nz/ns/iwi-code<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://standards.digital.health.nz/ns/iwi-code"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">2.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://standards.digital.health.nz/ns/iwi-code|2.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2026-07-24
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">Iwi_code</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>NZ iwi and iwi-related groups statistical classification</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-iwi.html">Iwi</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="iwi-code"> </a><a name="hciwi-code"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 13; Last updated: 2026-06-26 15:35:00+1200</p><p style="margin-bottom: 0px">Tag: </p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
+<table class="grid" data-fhir="generated"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
+<tr><td>Parent</td>
+<td>parent</td>
+<td>http://hl7.org/fhir/concept-properties#parent</td>
+<td>code</td>
+<td>The concept identified in this property is a parent of the concept on which it is used</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/iwi-code</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Parent</b></td><td><b>English (New Zeland) (English (New Zeland), en)</b></td></tr>
+<tr><td style="white-space:nowrap">01<a name="iwi-code-01"> </a></td>
+<td>Te Tai Tokerau/Tāmaki-makaurau (Northland/Auckland) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">02<a name="iwi-code-02"> </a></td>
+<td>Hauraki (Coromandel) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">03<a name="iwi-code-03"> </a></td>
+<td>Waikato/Te Rohe Pōtae (Waikato/King Country) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">04<a name="iwi-code-04"> </a></td>
+<td>Te Arawa/Taupō (Rotorua/Taupō) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">05<a name="iwi-code-05"> </a></td>
+<td>Tauranga Moana/Mātaatua (Bay of Plenty) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">06<a name="iwi-code-06"> </a></td>
+<td>Te Tai Rāwhiti (East Coast) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">0808<a name="iwi-code-0808"> </a></td>
+<td>Taranaki</td>
+<td>08</td>
+<td>Ngati Hopotu</td></tr>
+<tr><td style="white-space:nowrap">07<a name="iwi-code-07"> </a></td>
+<td>Te Matau-a-Māui/Wairarapa (Hawke's Bay/Wairarapa) Region iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">0809<a name="iwi-code-0809"> </a></td>
+<td>Tangāhoe</td>
+<td>08</td>
+<td>Ngati Tupito</td></tr>
+<tr><td style="white-space:nowrap">08<a name="iwi-code-08"> </a></td>
+<td>Taranaki Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">09<a name="iwi-code-09"> </a></td>
+<td>Whanganui/Rangitīkei (Wanganui/Rangitīkei) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">2306<a name="iwi-code-2306"> </a></td>
+<td>Te Tai Rāwhiti Region, Iwi not named</td>
+<td>23</td>
+<td>East Coast</td></tr>
+<tr><td style="white-space:nowrap">2305<a name="iwi-code-2305"> </a></td>
+<td>Tauranga Moana/Mātaatua Region, Iwi not named</td>
+<td>23</td>
+<td>Ngati Pongo</td></tr>
+<tr><td style="white-space:nowrap">2304<a name="iwi-code-2304"> </a></td>
+<td>Te Arawa/Taupō Region, Iwi not named</td>
+<td>23</td>
+<td>Te Onga</td></tr>
+<tr><td style="white-space:nowrap">2303<a name="iwi-code-2303"> </a></td>
+<td>Waikato/Te Rohe Pōtae Region, Iwi not named</td>
+<td>23</td>
+<td>Ngati Upokura</td></tr>
+<tr><td style="white-space:nowrap">2302<a name="iwi-code-2302"> </a></td>
+<td>Hauraki Region, Iwi not named</td>
+<td>23</td>
+<td>Ngaiwi</td></tr>
+<tr><td style="white-space:nowrap">2301<a name="iwi-code-2301"> </a></td>
+<td>Te Tai Tokerau/Tāmaki-makaurau Region, Iwi not named</td>
+<td>23</td>
+<td>Mata Rahurahu</td></tr>
+<tr><td style="white-space:nowrap">0121<a name="iwi-code-0121"> </a></td>
+<td>Ngāti Kahu ki Whangaroa</td>
+<td>01</td>
+<td>O Whangaroa</td></tr>
+<tr><td style="white-space:nowrap">0806<a name="iwi-code-0806"> </a></td>
+<td>Ngāti Ruanui</td>
+<td>08</td>
+<td>Nga Te Ruanui</td></tr>
+<tr><td style="white-space:nowrap">0807<a name="iwi-code-0807"> </a></td>
+<td>Ngāti Tama (Taranaki)</td>
+<td>08</td>
+<td>Ngati Tama Taranaki</td></tr>
+<tr><td style="white-space:nowrap">0804<a name="iwi-code-0804"> </a></td>
+<td>Ngā Rauru</td>
+<td>08</td>
+<td>Ngaraoro</td></tr>
+<tr><td style="white-space:nowrap">8888<a name="iwi-code-8888"> </a></td>
+<td>Response Outside Scope</td>
+<td>88</td>
+<td>All</td></tr>
+<tr><td style="white-space:nowrap">0805<a name="iwi-code-0805"> </a></td>
+<td>Ngāruahine</td>
+<td>08</td>
+<td>Ngāruahine</td></tr>
+<tr><td style="white-space:nowrap">0802<a name="iwi-code-0802"> </a></td>
+<td>Ngāti Maru (Taranaki)</td>
+<td>08</td>
+<td>Ngati Maru (Taranaki)</td></tr>
+<tr><td style="white-space:nowrap">0803<a name="iwi-code-0803"> </a></td>
+<td>Ngāti Mutunga (Taranaki)</td>
+<td>08</td>
+<td>Ngatai Mutunga Taranaki</td></tr>
+<tr><td style="white-space:nowrap">2309<a name="iwi-code-2309"> </a></td>
+<td>Whanganui/Rangitīkei Region, Iwi not named</td>
+<td>23</td>
+<td>Wanganui Iwi not further defined</td></tr>
+<tr><td style="white-space:nowrap">2308<a name="iwi-code-2308"> </a></td>
+<td>Taranaki Region, Iwi not named</td>
+<td>23</td>
+<td>New Plymouth</td></tr>
+<tr><td style="white-space:nowrap">0801<a name="iwi-code-0801"> </a></td>
+<td>Te Atiawa (Taranaki)</td>
+<td>08</td>
+<td>Ati Awa New Plymouth</td></tr>
+<tr><td style="white-space:nowrap">10<a name="iwi-code-10"> </a></td>
+<td>Manawatū/Horowhenua/Te Whanganui-a-Tara (Manawatū/Horowhenua/Wellington) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">2307<a name="iwi-code-2307"> </a></td>
+<td>Te Matau-a-Māui/Wairarapa Region, Iwi not named</td>
+<td>23</td>
+<td>Tamakinui A Rua</td></tr>
+<tr><td style="white-space:nowrap">11<a name="iwi-code-11"> </a></td>
+<td>Te Waipounamu (South Island) Region Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">12<a name="iwi-code-12"> </a></td>
+<td>Rēkohu/Wharekauri (Chatham Islands) Region Imi/Iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">1110<a name="iwi-code-1110"> </a></td>
+<td>Ngāti Tama ki Te Tauihu</td>
+<td>11</td>
+<td>Ngāti Tama ki Te Tauihu</td></tr>
+<tr><td style="white-space:nowrap">1107<a name="iwi-code-1107"> </a></td>
+<td>Rangitāne (Te Waipounamu/South Island)</td>
+<td>11</td>
+<td>Rangitāne Blenheim</td></tr>
+<tr><td style="white-space:nowrap">0810<a name="iwi-code-0810"> </a></td>
+<td>Pakakohi</td>
+<td>08</td>
+<td>Ngati Tanewai</td></tr>
+<tr><td style="white-space:nowrap">1104<a name="iwi-code-1104"> </a></td>
+<td>Kāti Māmoe</td>
+<td>11</td>
+<td>Mamoe</td></tr>
+<tr><td style="white-space:nowrap">1103<a name="iwi-code-1103"> </a></td>
+<td>Ngāti Kuia</td>
+<td>11</td>
+<td>Kuia</td></tr>
+<tr><td style="white-space:nowrap">1102<a name="iwi-code-1102"> </a></td>
+<td>Ngāti Koata</td>
+<td>11</td>
+<td>Ngāti Koata Te Waipounamu (South Island) Region</td></tr>
+<tr><td style="white-space:nowrap">2312<a name="iwi-code-2312"> </a></td>
+<td>Rēkohu/Wharekauri Region, Imi/Iwi not named</td>
+<td>23</td>
+<td>Chathams</td></tr>
+<tr><td style="white-space:nowrap">1101<a name="iwi-code-1101"> </a></td>
+<td>Te Atiawa (Te Waipounamu/South Island)</td>
+<td>11</td>
+<td>Ati Awa Rai Valley</td></tr>
+<tr><td style="white-space:nowrap">2311<a name="iwi-code-2311"> </a></td>
+<td>Te Waipounamu Region, Iwi not named</td>
+<td>23</td>
+<td>Te Waipounamu</td></tr>
+<tr><td style="white-space:nowrap">2310<a name="iwi-code-2310"> </a></td>
+<td>Manawatū/Horowhenua/Te Whanganui-a-Tara Region, Iwi not named</td>
+<td>23</td>
+<td>Ngati Hamua Wellington</td></tr>
+<tr><td style="white-space:nowrap">1109<a name="iwi-code-1109"> </a></td>
+<td>Ngāi Tahu / Kāi Tahu</td>
+<td>11</td>
+<td>Ngai Rekehu</td></tr>
+<tr><td style="white-space:nowrap">20<a name="iwi-code-20"> </a></td>
+<td>Confederations and Waka, iwi not named</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">1108<a name="iwi-code-1108"> </a></td>
+<td>Ngāti Rārua</td>
+<td>11</td>
+<td>Ngati Rarua</td></tr>
+<tr><td style="white-space:nowrap">21<a name="iwi-code-21"> </a></td>
+<td>Iwi named, region not known</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">22<a name="iwi-code-22"> </a></td>
+<td>Hapū affiliated to more than one iwi</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">23<a name="iwi-code-23"> </a></td>
+<td>Region known, Iwi not named</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">0709<a name="iwi-code-0709"> </a></td>
+<td>Ngāti Kahungunu ki Tamakinui a Rua</td>
+<td>07</td>
+<td>Ngati Pakapaka Wairarapa</td></tr>
+<tr><td style="white-space:nowrap">1113<a name="iwi-code-1113"> </a></td>
+<td>Ngāti Apa ki Te Rā Tō</td>
+<td>11</td>
+<td>Ngāti Apa ki Te Rā Tō</td></tr>
+<tr><td style="white-space:nowrap">1112<a name="iwi-code-1112"> </a></td>
+<td>Waitaha (Te Waipounamu/South Island)</td>
+<td>11</td>
+<td>Waitaha Te Waipounamu</td></tr>
+<tr><td style="white-space:nowrap">2201<a name="iwi-code-2201"> </a></td>
+<td>Hapū affiliated to more than one iwi</td>
+<td>22</td>
+<td>Tannaki</td></tr>
+<tr><td style="white-space:nowrap">1111<a name="iwi-code-1111"> </a></td>
+<td>Ngāti Toarangatira (Te Waipounamu/South Island)</td>
+<td>11</td>
+<td>Ngati Toa Te Wai Pounamu</td></tr>
+<tr><td style="white-space:nowrap">0707<a name="iwi-code-0707"> </a></td>
+<td>Ngāti Kahungunu ki Te Whanganui-a-Orotu</td>
+<td>07</td>
+<td>Mawete</td></tr>
+<tr><td style="white-space:nowrap">0708<a name="iwi-code-0708"> </a></td>
+<td>Ngāti Kahungunu ki Tamatea</td>
+<td>07</td>
+<td>Pukututu</td></tr>
+<tr><td style="white-space:nowrap">9999<a name="iwi-code-9999"> </a></td>
+<td>Not Stated</td>
+<td>99</td>
+<td>Not specified</td></tr>
+<tr><td style="white-space:nowrap">0706<a name="iwi-code-0706"> </a></td>
+<td>Rangitāne (Te Matau-a-Māui/Hawke's Bay/Wairarapa)</td>
+<td>07</td>
+<td>Ngati Tumapuhia</td></tr>
+<tr><td style="white-space:nowrap">0703<a name="iwi-code-0703"> </a></td>
+<td>Ngāti Kahungunu ki Heretaunga</td>
+<td>07</td>
+<td>Kahungungu Puketapu</td></tr>
+<tr><td style="white-space:nowrap">0704<a name="iwi-code-0704"> </a></td>
+<td>Ngāti Kahungunu ki Wairarapa</td>
+<td>07</td>
+<td>Ngati Hamua Wairarapa</td></tr>
+<tr><td style="white-space:nowrap">0701<a name="iwi-code-0701"> </a></td>
+<td>Rongomaiwahine (Te Māhia)</td>
+<td>07</td>
+<td>Ngati Rongomaiwahine</td></tr>
+<tr><td style="white-space:nowrap">0702<a name="iwi-code-0702"> </a></td>
+<td>Ngāti Kahungunu ki Te Wairoa</td>
+<td>07</td>
+<td>Kahungungu Mohaka</td></tr>
+<tr><td style="white-space:nowrap">0710<a name="iwi-code-0710"> </a></td>
+<td>Ngāti Pāhauwera</td>
+<td>07</td>
+<td>Ngati Pahauewera</td></tr>
+<tr><td style="white-space:nowrap">1008<a name="iwi-code-1008"> </a></td>
+<td>Ngāti Kauwhata</td>
+<td>10</td>
+<td>Ngati Kauwhata</td></tr>
+<tr><td style="white-space:nowrap">0711<a name="iwi-code-0711"> </a></td>
+<td>Ngāti Rākaipaaka</td>
+<td>07</td>
+<td>Rehu</td></tr>
+<tr><td style="white-space:nowrap">1007<a name="iwi-code-1007"> </a></td>
+<td>Ngāti Tama ki Te Upoko o Te Ika (Te Whanganui-a-Tara/Wellington)</td>
+<td>10</td>
+<td>Ngati Tama Ki Te Upoko o Te Ika (Te Whanganui-a-Tara/Wellington)</td></tr>
+<tr><td style="white-space:nowrap">1006<a name="iwi-code-1006"> </a></td>
+<td>Te Atiawa ki Whakarongotai</td>
+<td>10</td>
+<td>Ati Awa Paekakariki</td></tr>
+<tr><td style="white-space:nowrap">1005<a name="iwi-code-1005"> </a></td>
+<td>Ngāti Toarangatira (Te Whanganui-a-Tara/Wellington)</td>
+<td>10</td>
+<td>Ngati Te Maunu Manawatu</td></tr>
+<tr><td style="white-space:nowrap">1004<a name="iwi-code-1004"> </a></td>
+<td>Ngāti Raukawa (Horowhenua/Manawatū)</td>
+<td>10</td>
+<td>Raukana Horowhenua</td></tr>
+<tr><td style="white-space:nowrap">1003<a name="iwi-code-1003"> </a></td>
+<td>Rangitāne (Manawatū)</td>
+<td>10</td>
+<td>Ngati Tohinga</td></tr>
+<tr><td style="white-space:nowrap">1002<a name="iwi-code-1002"> </a></td>
+<td>Muaūpoko</td>
+<td>10</td>
+<td>Muaopoka</td></tr>
+<tr><td style="white-space:nowrap">1001<a name="iwi-code-1001"> </a></td>
+<td>Te Atiawa (Te Whanganui-a-Tara/Wellington)</td>
+<td>10</td>
+<td>Atiawa Porirua</td></tr>
+<tr><td style="white-space:nowrap">0716<a name="iwi-code-0716"> </a></td>
+<td>Te Hika o Pāpāuma</td>
+<td>07</td>
+<td>Hiko O Papa Uma</td></tr>
+<tr><td style="white-space:nowrap">0717<a name="iwi-code-0717"> </a></td>
+<td>Ngāti Hinemanu (Heretaunga)</td>
+<td>07</td>
+<td>Ngati Hinemanu Heretaunga</td></tr>
+<tr><td style="white-space:nowrap">0714<a name="iwi-code-0714"> </a></td>
+<td>Rangitāne o Tamaki nui ā Rua</td>
+<td>07</td>
+<td>Rangitāne o Tamaki nui ā Rua</td></tr>
+<tr><td style="white-space:nowrap">0715<a name="iwi-code-0715"> </a></td>
+<td>Ngāti Ruapani ki Waikaremoana</td>
+<td>07</td>
+<td>Ngāti Ruapani ki Waikaremoana Te Matau-a-Māui/Wairarapa (Hawke's Bay/Wairarapa) Region</td></tr>
+<tr><td style="white-space:nowrap">0712<a name="iwi-code-0712"> </a></td>
+<td>Ngāti Hineuru</td>
+<td>07</td>
+<td>Ngati Hiniuru</td></tr>
+<tr><td style="white-space:nowrap">0713<a name="iwi-code-0713"> </a></td>
+<td>Maungaharuru Tangitū</td>
+<td>07</td>
+<td>Maungaharuru Tangitu</td></tr>
+<tr><td style="white-space:nowrap">1009<a name="iwi-code-1009"> </a></td>
+<td>Ngāti Tukorehe</td>
+<td>10</td>
+<td>Ngati Tukorehe Wellington</td></tr>
+<tr><td style="white-space:nowrap">44<a name="iwi-code-44"> </a></td>
+<td>Don't Know</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">2111<a name="iwi-code-2111"> </a></td>
+<td>Ngāi Tai, region not known</td>
+<td>21</td>
+<td>Ngai Tai region not known</td></tr>
+<tr><td style="white-space:nowrap">2110<a name="iwi-code-2110"> </a></td>
+<td>Ngāti Apa, region not known</td>
+<td>21</td>
+<td>Ngatiapa</td></tr>
+<tr><td style="white-space:nowrap">2108<a name="iwi-code-2108"> </a></td>
+<td>Ngāti Toa, region not known</td>
+<td>21</td>
+<td>Ngati Maunu</td></tr>
+<tr><td style="white-space:nowrap">0601<a name="iwi-code-0601"> </a></td>
+<td>Ngāti Porou</td>
+<td>06</td>
+<td>Ngati Konohi</td></tr>
+<tr><td style="white-space:nowrap">2107<a name="iwi-code-2107"> </a></td>
+<td>Ngāti Tama, region not known</td>
+<td>21</td>
+<td>Ngati Tama</td></tr>
+<tr><td style="white-space:nowrap">2106<a name="iwi-code-2106"> </a></td>
+<td>Ngāti Raukawa, region not known</td>
+<td>21</td>
+<td>Ngati Ruakawa</td></tr>
+<tr><td style="white-space:nowrap">2105<a name="iwi-code-2105"> </a></td>
+<td>Rangitāne, region not known</td>
+<td>21</td>
+<td>Ngati Rangitane</td></tr>
+<tr><td style="white-space:nowrap">2104<a name="iwi-code-2104"> </a></td>
+<td>Ngāti Mutunga, region not known</td>
+<td>21</td>
+<td>Ngati Mutanga</td></tr>
+<tr><td style="white-space:nowrap">2103<a name="iwi-code-2103"> </a></td>
+<td>Ngāti Maru, region not known</td>
+<td>21</td>
+<td>Tamakehu</td></tr>
+<tr><td style="white-space:nowrap">2102<a name="iwi-code-2102"> </a></td>
+<td>Ngāti Haua, region not known</td>
+<td>21</td>
+<td>Haaua</td></tr>
+<tr><td style="white-space:nowrap">2101<a name="iwi-code-2101"> </a></td>
+<td>Te Atiawa, region not known</td>
+<td>21</td>
+<td>Kai Tangata</td></tr>
+<tr><td style="white-space:nowrap">0604<a name="iwi-code-0604"> </a></td>
+<td>Ngāi Tāmanuhiri</td>
+<td>06</td>
+<td>Ngati Tahupo</td></tr>
+<tr><td style="white-space:nowrap">0605<a name="iwi-code-0605"> </a></td>
+<td>Te Aitanga ā Hauiti</td>
+<td>06</td>
+<td>Te Aitanga a Hauiti</td></tr>
+<tr><td style="white-space:nowrap">0602<a name="iwi-code-0602"> </a></td>
+<td>Te Aitanga-a-Māhaki</td>
+<td>06</td>
+<td>Tangarite</td></tr>
+<tr><td style="white-space:nowrap">0603<a name="iwi-code-0603"> </a></td>
+<td>Rongowhakaata</td>
+<td>06</td>
+<td>Kahutia</td></tr>
+<tr><td style="white-space:nowrap">2109<a name="iwi-code-2109"> </a></td>
+<td>Waitaha, region not known</td>
+<td>21</td>
+<td>Waitaha</td></tr>
+<tr><td style="white-space:nowrap">55<a name="iwi-code-55"> </a></td>
+<td>Refused To Answer</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">2001<a name="iwi-code-2001"> </a></td>
+<td>Tainui, iwi not named</td>
+<td>20</td>
+<td>Ngati Tainui</td></tr>
+<tr><td style="white-space:nowrap">2114<a name="iwi-code-2114"> </a></td>
+<td>Ngāti Hinemanu, region not known</td>
+<td>21</td>
+<td>Ngāti Hinemanu, region not known</td></tr>
+<tr><td style="white-space:nowrap">2113<a name="iwi-code-2113"> </a></td>
+<td>Ngāti Tūwharetoa, region not known</td>
+<td>21</td>
+<td>Ngati Tuwharetoa region not known</td></tr>
+<tr><td style="white-space:nowrap">2112<a name="iwi-code-2112"> </a></td>
+<td>Ngāti Kahungunu, region not known</td>
+<td>21</td>
+<td>Kahununu</td></tr>
+<tr><td style="white-space:nowrap">2012<a name="iwi-code-2012"> </a></td>
+<td>Muriwhenua, iwi not named</td>
+<td>20</td>
+<td>Muriwhenua</td></tr>
+<tr><td style="white-space:nowrap">2011<a name="iwi-code-2011"> </a></td>
+<td>Kurahaupō, iwi not named</td>
+<td>20</td>
+<td>Kurahaupō</td></tr>
+<tr><td style="white-space:nowrap">2010<a name="iwi-code-2010"> </a></td>
+<td>Tokomaru, iwi not named</td>
+<td>20</td>
+<td>Tokomaru</td></tr>
+<tr><td style="white-space:nowrap">0501<a name="iwi-code-0501"> </a></td>
+<td>Ngāti Pūkenga</td>
+<td>05</td>
+<td>Ngāti Pūkenga</td></tr>
+<tr><td style="white-space:nowrap">2009<a name="iwi-code-2009"> </a></td>
+<td>Nukutere, iwi not named</td>
+<td>20</td>
+<td>Nukutere</td></tr>
+<tr><td style="white-space:nowrap">0502<a name="iwi-code-0502"> </a></td>
+<td>Ngāi Te Rangi</td>
+<td>05</td>
+<td>Ngaiterangi Tauranga</td></tr>
+<tr><td style="white-space:nowrap">2008<a name="iwi-code-2008"> </a></td>
+<td>Ngātokimatawhaorua, iwi not named</td>
+<td>20</td>
+<td>Ngatokimatawhaorua</td></tr>
+<tr><td style="white-space:nowrap">2007<a name="iwi-code-2007"> </a></td>
+<td>Māmari, iwi not named</td>
+<td>20</td>
+<td>Mamari</td></tr>
+<tr><td style="white-space:nowrap">2006<a name="iwi-code-2006"> </a></td>
+<td>Mahuru, iwi not named</td>
+<td>20</td>
+<td>Mahuru</td></tr>
+<tr><td style="white-space:nowrap">2005<a name="iwi-code-2005"> </a></td>
+<td>Mātaatua, iwi not named</td>
+<td>20</td>
+<td>Mātaatua</td></tr>
+<tr><td style="white-space:nowrap">2004<a name="iwi-code-2004"> </a></td>
+<td>Aotea, iwi not named</td>
+<td>20</td>
+<td>Aotea</td></tr>
+<tr><td style="white-space:nowrap">2003<a name="iwi-code-2003"> </a></td>
+<td>Tākitimu, iwi not named</td>
+<td>20</td>
+<td>Tākitimu</td></tr>
+<tr><td style="white-space:nowrap">2002<a name="iwi-code-2002"> </a></td>
+<td>Te Arawa, iwi not named</td>
+<td>20</td>
+<td>Ngāti Te Arawa</td></tr>
+<tr><td style="white-space:nowrap">0509<a name="iwi-code-0509"> </a></td>
+<td>Te Whānau-ā-Apanui</td>
+<td>05</td>
+<td>Harawaka</td></tr>
+<tr><td style="white-space:nowrap">0507<a name="iwi-code-0507"> </a></td>
+<td>Tūhoe</td>
+<td>05</td>
+<td>Tamakaimoana</td></tr>
+<tr><td style="white-space:nowrap">0508<a name="iwi-code-0508"> </a></td>
+<td>Whakatōhea</td>
+<td>05</td>
+<td>Patumoana</td></tr>
+<tr><td style="white-space:nowrap">0505<a name="iwi-code-0505"> </a></td>
+<td>Ngāti Manawa</td>
+<td>05</td>
+<td>Ngati Hui</td></tr>
+<tr><td style="white-space:nowrap">0506<a name="iwi-code-0506"> </a></td>
+<td>Ngāi Tai (Tauranga Moana/Mātaatua)</td>
+<td>05</td>
+<td>Ngāi Tai Bay of Plenty</td></tr>
+<tr><td style="white-space:nowrap">0503<a name="iwi-code-0503"> </a></td>
+<td>Ngāti Ranginui</td>
+<td>05</td>
+<td>Ahi</td></tr>
+<tr><td style="white-space:nowrap">0504<a name="iwi-code-0504"> </a></td>
+<td>Ngāti Awa</td>
+<td>05</td>
+<td>Pukeko Rangataua</td></tr>
+<tr><td style="white-space:nowrap">77<a name="iwi-code-77"> </a></td>
+<td>Response Unidentifiable</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">0512<a name="iwi-code-0512"> </a></td>
+<td>Te Upokorehe</td>
+<td>05</td>
+<td>Upokorehe</td></tr>
+<tr><td style="white-space:nowrap">0513<a name="iwi-code-0513"> </a></td>
+<td>Ngāti Tūwharetoa ki Kawerau</td>
+<td>05</td>
+<td>Ngati Tuwharetoa Rotorua</td></tr>
+<tr><td style="white-space:nowrap">0510<a name="iwi-code-0510"> </a></td>
+<td>Ngāti Whare</td>
+<td>05</td>
+<td>Ngati Koiwi Ngati Whare</td></tr>
+<tr><td style="white-space:nowrap">2018<a name="iwi-code-2018"> </a></td>
+<td>Mōkai Pātea, iwi not named</td>
+<td>20</td>
+<td>Mōkai Pātea</td></tr>
+<tr><td style="white-space:nowrap">0511<a name="iwi-code-0511"> </a></td>
+<td>Ngā Pōtiki ā Tamapahore</td>
+<td>05</td>
+<td>Ngā Pōtiki ā Tamapahore</td></tr>
+<tr><td style="white-space:nowrap">2017<a name="iwi-code-2017"> </a></td>
+<td>Horouta, iwi not named</td>
+<td>20</td>
+<td>Horouta</td></tr>
+<tr><td style="white-space:nowrap">2016<a name="iwi-code-2016"> </a></td>
+<td>Tauranga Moana, iwi not named</td>
+<td>20</td>
+<td>Tauranga Moana</td></tr>
+<tr><td style="white-space:nowrap">2015<a name="iwi-code-2015"> </a></td>
+<td>Te Tauihu o Te Waka a Māui, iwi not named</td>
+<td>20</td>
+<td>Te Tauihu O Te Waka A Maui</td></tr>
+<tr><td style="white-space:nowrap">2014<a name="iwi-code-2014"> </a></td>
+<td>Tūranganui a Kiwa, iwi not named</td>
+<td>20</td>
+<td>Te Runanga a Turanganui a Kiwa</td></tr>
+<tr><td style="white-space:nowrap">2013<a name="iwi-code-2013"> </a></td>
+<td>Hauraki / Pare Hauraki, iwi not named</td>
+<td>20</td>
+<td>Hauraki</td></tr>
+<tr><td style="white-space:nowrap">88<a name="iwi-code-88"> </a></td>
+<td>Response Outside Scope</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">0402<a name="iwi-code-0402"> </a></td>
+<td>Ngāti Rangiteaorere (Te Arawa)</td>
+<td>04</td>
+<td>Ngati Rangitiaorere</td></tr>
+<tr><td style="white-space:nowrap">0403<a name="iwi-code-0403"> </a></td>
+<td>Ngāti Rangitihi (Te Arawa)</td>
+<td>04</td>
+<td>Ngati Tionga</td></tr>
+<tr><td style="white-space:nowrap">0401<a name="iwi-code-0401"> </a></td>
+<td>Ngāti Pikiao (Te Arawa)</td>
+<td>04</td>
+<td>Pikio</td></tr>
+<tr><td style="white-space:nowrap">4444<a name="iwi-code-4444"> </a></td>
+<td>Don't Know</td>
+<td>44</td>
+<td>Do Not Know</td></tr>
+<tr><td style="white-space:nowrap">0408<a name="iwi-code-0408"> </a></td>
+<td>Uenuku-Kōpako (Te Arawa)</td>
+<td>04</td>
+<td>Uenuku-Kōpako (Te Arawa) Te Arawa/Taupō (Rotorua/Taupō) Region</td></tr>
+<tr><td style="white-space:nowrap">0409<a name="iwi-code-0409"> </a></td>
+<td>Waitaha (Te Arawa)</td>
+<td>04</td>
+<td>Ngati Waitaha Arawa</td></tr>
+<tr><td style="white-space:nowrap">0406<a name="iwi-code-0406"> </a></td>
+<td>Ngāti Tarāwhai (Te Arawa)</td>
+<td>04</td>
+<td>Ngati Rangitakaroro</td></tr>
+<tr><td style="white-space:nowrap">0407<a name="iwi-code-0407"> </a></td>
+<td>Tūhourangi (Te Arawa)</td>
+<td>04</td>
+<td>Tūhourangi</td></tr>
+<tr><td style="white-space:nowrap">0404<a name="iwi-code-0404"> </a></td>
+<td>Ngāti Rangiwewehi (Te Arawa)</td>
+<td>04</td>
+<td>Ngati Te Wai</td></tr>
+<tr><td style="white-space:nowrap">0405<a name="iwi-code-0405"> </a></td>
+<td>Tapuika (Te Arawa)</td>
+<td>04</td>
+<td>Moko</td></tr>
+<tr><td style="white-space:nowrap">99<a name="iwi-code-99"> </a></td>
+<td>Not Stated</td>
+<td></td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">0413<a name="iwi-code-0413"> </a></td>
+<td>Ngāti Mākino</td>
+<td>04</td>
+<td>Ngāti Mākino</td></tr>
+<tr><td style="white-space:nowrap">0414<a name="iwi-code-0414"> </a></td>
+<td>Ngāti Kearoa / Ngāti Tuarā</td>
+<td>04</td>
+<td>Ngāti Kearoa / Ngāti Tuarā</td></tr>
+<tr><td style="white-space:nowrap">0411<a name="iwi-code-0411"> </a></td>
+<td>Ngāti Tūwharetoa (ki Taupō)</td>
+<td>04</td>
+<td>Ngati Rungarangi</td></tr>
+<tr><td style="white-space:nowrap">0412<a name="iwi-code-0412"> </a></td>
+<td>Ngāti Tahu-Ngāti Whaoa (Te Arawa)</td>
+<td>04</td>
+<td>Whaoa Tahu</td></tr>
+<tr><td style="white-space:nowrap">0410<a name="iwi-code-0410"> </a></td>
+<td>Ngāti Whakaue (Te Arawa)</td>
+<td>04</td>
+<td>Ngati Rangiiwaho</td></tr>
+<tr><td style="white-space:nowrap">0415<a name="iwi-code-0415"> </a></td>
+<td>Ngāti Rongomai (Te Arawa)</td>
+<td>04</td>
+<td>Ngāti Rongomai (Te Arawa) Te Arawa/Taupō (Rotorua/Taupō) Region</td></tr>
+<tr><td style="white-space:nowrap">0303<a name="iwi-code-0303"> </a></td>
+<td>Raukawa (Waikato)</td>
+<td>03</td>
+<td>Ngati Tihinga</td></tr>
+<tr><td style="white-space:nowrap">0304<a name="iwi-code-0304"> </a></td>
+<td>Waikato</td>
+<td>03</td>
+<td>Ngāti Māhanga Tainui</td></tr>
+<tr><td style="white-space:nowrap">0301<a name="iwi-code-0301"> </a></td>
+<td>Ngāti Haua (Waikato)</td>
+<td>03</td>
+<td>Ngāti Haua (Waikato)</td></tr>
+<tr><td style="white-space:nowrap">0302<a name="iwi-code-0302"> </a></td>
+<td>Ngāti Maniapoto</td>
+<td>03</td>
+<td>Manipoto</td></tr>
+<tr><td style="white-space:nowrap">5555<a name="iwi-code-5555"> </a></td>
+<td>Refused To Answer</td>
+<td>55</td>
+<td>Refused to answer</td></tr>
+<tr><td style="white-space:nowrap">0309<a name="iwi-code-0309"> </a></td>
+<td>Ngāti Korokī Kahukura</td>
+<td>03</td>
+<td>Te Oro Kahukura</td></tr>
+<tr><td style="white-space:nowrap">0307<a name="iwi-code-0307"> </a></td>
+<td>Rereahu</td>
+<td>03</td>
+<td>Ngati Rereatu</td></tr>
+<tr><td style="white-space:nowrap">0308<a name="iwi-code-0308"> </a></td>
+<td>Ngāti Tiipa</td>
+<td>03</td>
+<td>Ngati Tepa</td></tr>
+<tr><td style="white-space:nowrap">0305<a name="iwi-code-0305"> </a></td>
+<td>Ngāti Te Ata</td>
+<td>03</td>
+<td>Ngatiata</td></tr>
+<tr><td style="white-space:nowrap">0306<a name="iwi-code-0306"> </a></td>
+<td>Ngāti Hīkairo</td>
+<td>03</td>
+<td>Ngāti Hīkairo Tainui</td></tr>
+<tr><td style="white-space:nowrap">0312<a name="iwi-code-0312"> </a></td>
+<td>Tainui Awhiro</td>
+<td>03</td>
+<td>Tainui Awhiro Waikato/Te Rohe Pōtae (Waikato/King Country) Region</td></tr>
+<tr><td style="white-space:nowrap">0313<a name="iwi-code-0313"> </a></td>
+<td>Ngāti Hinerangi</td>
+<td>03</td>
+<td>Ngati Hinerangi Waikato</td></tr>
+<tr><td style="white-space:nowrap">0310<a name="iwi-code-0310"> </a></td>
+<td>Ngāti Tamaoho</td>
+<td>03</td>
+<td>Ngāti Tamaoho Waikato/Te Rohe Pōtae (Waikato/King Country) Region</td></tr>
+<tr><td style="white-space:nowrap">0311<a name="iwi-code-0311"> </a></td>
+<td>Te Ākitai-Waiohua</td>
+<td>03</td>
+<td>Te Akitai-Waiohua</td></tr>
+<tr><td style="white-space:nowrap">0204<a name="iwi-code-0204"> </a></td>
+<td>Ngāti Paoa</td>
+<td>02</td>
+<td>Ngati Hakaipuku</td></tr>
+<tr><td style="white-space:nowrap">0205<a name="iwi-code-0205"> </a></td>
+<td>Patukirikiri</td>
+<td>02</td>
+<td>Ngati Patukirikiri</td></tr>
+<tr><td style="white-space:nowrap">0202<a name="iwi-code-0202"> </a></td>
+<td>Ngāti Hei</td>
+<td>02</td>
+<td>Ngati Hei</td></tr>
+<tr><td style="white-space:nowrap">0203<a name="iwi-code-0203"> </a></td>
+<td>Ngāti Maru (Hauraki)</td>
+<td>02</td>
+<td>Ngati Hauauru</td></tr>
+<tr><td style="white-space:nowrap">0201<a name="iwi-code-0201"> </a></td>
+<td>Ngāti Hako</td>
+<td>02</td>
+<td>Koi Tokanui</td></tr>
+<tr><td style="white-space:nowrap">0208<a name="iwi-code-0208"> </a></td>
+<td>Ngāti Rāhiri Tumutumu</td>
+<td>02</td>
+<td>Tumutumu</td></tr>
+<tr><td style="white-space:nowrap">0206<a name="iwi-code-0206"> </a></td>
+<td>Ngāti Porou ki Harataunga ki Mataora</td>
+<td>02</td>
+<td>Ngati Porou ki Harataunga ki Mataora</td></tr>
+<tr><td style="white-space:nowrap">0207<a name="iwi-code-0207"> </a></td>
+<td>Ngāti Pūkenga ki Waiau</td>
+<td>02</td>
+<td>Ngāti Pūkenga Coromandel</td></tr>
+<tr><td style="white-space:nowrap">0213<a name="iwi-code-0213"> </a></td>
+<td>Ngāti Huarere</td>
+<td>02</td>
+<td>Ngāti Huarere Hauraki (Coromandel) Region</td></tr>
+<tr><td style="white-space:nowrap">0211<a name="iwi-code-0211"> </a></td>
+<td>Ngāti Tara Tokanui</td>
+<td>02</td>
+<td>Ngāti Tara Tokanui</td></tr>
+<tr><td style="white-space:nowrap">0212<a name="iwi-code-0212"> </a></td>
+<td>Ngāti Whanaunga</td>
+<td>02</td>
+<td>Mateao</td></tr>
+<tr><td style="white-space:nowrap">0210<a name="iwi-code-0210"> </a></td>
+<td>Ngāti Tamaterā</td>
+<td>02</td>
+<td>Taharua</td></tr>
+<tr><td style="white-space:nowrap">0909<a name="iwi-code-0909"> </a></td>
+<td>Uenuku (Ruapehu, Waimarino)</td>
+<td>09</td>
+<td>Ngati Uenuku Whanganui</td></tr>
+<tr><td style="white-space:nowrap">0907<a name="iwi-code-0907"> </a></td>
+<td>Ngāti Tamakōpiri (Rangitīkei)</td>
+<td>09</td>
+<td>Ngāti Tamakōpiri (Rangitīkei) Whanganui/Rangitīkei (Wanganui/Rangitīkei) Region</td></tr>
+<tr><td style="white-space:nowrap">0908<a name="iwi-code-0908"> </a></td>
+<td>Ngāti Rangi (Ruapehu, Whanganui)</td>
+<td>09</td>
+<td>Ngati Rangi (Ruapehu/Ohakune)</td></tr>
+<tr><td style="white-space:nowrap">0105<a name="iwi-code-0105"> </a></td>
+<td>Ngāpuhi ki Whaingaroa-Ngāti Kahu ki Whaingaroa</td>
+<td>01</td>
+<td>Ngati Kahu Whaingaroa</td></tr>
+<tr><td style="white-space:nowrap">0106<a name="iwi-code-0106"> </a></td>
+<td>Te Rarawa</td>
+<td>01</td>
+<td>Teuriotai</td></tr>
+<tr><td style="white-space:nowrap">0103<a name="iwi-code-0103"> </a></td>
+<td>Ngāti Kurī</td>
+<td>01</td>
+<td>Ngati Kuri North Auckland</td></tr>
+<tr><td style="white-space:nowrap">0104<a name="iwi-code-0104"> </a></td>
+<td>Ngāpuhi</td>
+<td>01</td>
+<td>Ngapuhi Whangarei</td></tr>
+<tr><td style="white-space:nowrap">0101<a name="iwi-code-0101"> </a></td>
+<td>Te Aupōuri</td>
+<td>01</td>
+<td>Te Aou Pouri</td></tr>
+<tr><td style="white-space:nowrap">0102<a name="iwi-code-0102"> </a></td>
+<td>Ngāti Kahu</td>
+<td>01</td>
+<td>Te Uri O Ranui</td></tr>
+<tr><td style="white-space:nowrap">0905<a name="iwi-code-0905"> </a></td>
+<td>Ngāti Whitikaupeka (Rangitīkei)</td>
+<td>09</td>
+<td>Ngāti Whitikaupeka (Rangitīkei)</td></tr>
+<tr><td style="white-space:nowrap">0906<a name="iwi-code-0906"> </a></td>
+<td>Ngāi Te Ohuake (Rangitīkei)</td>
+<td>09</td>
+<td>Ngāi Te Ohuake (Rangitīkei) Whanganui/Rangitīkei (Wanganui/Rangitīkei) Region</td></tr>
+<tr><td style="white-space:nowrap">7777<a name="iwi-code-7777"> </a></td>
+<td>Response Unidentifiable</td>
+<td>77</td>
+<td>Mopokako</td></tr>
+<tr><td style="white-space:nowrap">0903<a name="iwi-code-0903"> </a></td>
+<td>Ngāti Haua (Taumarunui)</td>
+<td>09</td>
+<td>Ngati Haua Taumarunui</td></tr>
+<tr><td style="white-space:nowrap">0904<a name="iwi-code-0904"> </a></td>
+<td>Ngāti Hauiti (Rangitīkei)</td>
+<td>09</td>
+<td>Ngati Hauiti</td></tr>
+<tr><td style="white-space:nowrap">0109<a name="iwi-code-0109"> </a></td>
+<td>Ngāti Whātua (not Ōrākei or Kaipara)</td>
+<td>01</td>
+<td>Te Uri O Terangi</td></tr>
+<tr><td style="white-space:nowrap">0901<a name="iwi-code-0901"> </a></td>
+<td>Ngā Wairiki Ngāti Apa</td>
+<td>09</td>
+<td>Hikapirau</td></tr>
+<tr><td style="white-space:nowrap">0902<a name="iwi-code-0902"> </a></td>
+<td>Te Ati Haunui-a-Pāpārangi</td>
+<td>09</td>
+<td>Tuera Parikino</td></tr>
+<tr><td style="white-space:nowrap">0107<a name="iwi-code-0107"> </a></td>
+<td>Ngāi Takoto</td>
+<td>01</td>
+<td>Ngaitako</td></tr>
+<tr><td style="white-space:nowrap">0108<a name="iwi-code-0108"> </a></td>
+<td>Ngāti Wai</td>
+<td>01</td>
+<td>Te Ngare Raumate</td></tr>
+<tr><td style="white-space:nowrap">0120<a name="iwi-code-0120"> </a></td>
+<td>Ngāti Torehina ki Mata-ure ō Hau</td>
+<td>01</td>
+<td>Ngati Torehina Kerekeri</td></tr>
+<tr><td style="white-space:nowrap">0116<a name="iwi-code-0116"> </a></td>
+<td>Ngāti Hine (Te Tai Tokerau)</td>
+<td>01</td>
+<td>Hine Kapotai</td></tr>
+<tr><td style="white-space:nowrap">0117<a name="iwi-code-0117"> </a></td>
+<td>Te Paatu</td>
+<td>01</td>
+<td>Te Paatuteretere</td></tr>
+<tr><td style="white-space:nowrap">0114<a name="iwi-code-0114"> </a></td>
+<td>Ngāti Whātua o Ōrākei</td>
+<td>01</td>
+<td>Ngāti Whātua o Ōrākei Te Tai Tokerau/Tāmaki-makaurau (Northland/Auckland) Region</td></tr>
+<tr><td style="white-space:nowrap">0115<a name="iwi-code-0115"> </a></td>
+<td>Ngāi Tai ki Tāmaki</td>
+<td>01</td>
+<td>Ngai Tai Hauraki</td></tr>
+<tr><td style="white-space:nowrap">0112<a name="iwi-code-0112"> </a></td>
+<td>Te Roroa</td>
+<td>01</td>
+<td>Te Raroa</td></tr>
+<tr><td style="white-space:nowrap">1202<a name="iwi-code-1202"> </a></td>
+<td>Ngāti Mutunga (Wharekauri/Chatham Islands)</td>
+<td>12</td>
+<td>Ngāti Mutunga Chatham Islands</td></tr>
+<tr><td style="white-space:nowrap">0113<a name="iwi-code-0113"> </a></td>
+<td>Ngāti Whātua o Kaipara</td>
+<td>01</td>
+<td>Ngāti Whātua o Kaipara</td></tr>
+<tr><td style="white-space:nowrap">1201<a name="iwi-code-1201"> </a></td>
+<td>Moriori</td>
+<td>12</td>
+<td>Moriori Rēkohu</td></tr>
+<tr><td style="white-space:nowrap">0110<a name="iwi-code-0110"> </a></td>
+<td>Te Kawerau ā Maki</td>
+<td>01</td>
+<td>Te Kawerau ā Maki Te Tai Tokerau/Tāmaki-makaurau (Northland/Auckland) Region</td></tr>
+<tr><td style="white-space:nowrap">0111<a name="iwi-code-0111"> </a></td>
+<td>Te Uri-o-Hau</td>
+<td>01</td>
+<td>Uriopau</td></tr>
+<tr><td style="white-space:nowrap">0912<a name="iwi-code-0912"> </a></td>
+<td>Ngāti Hinemanu (Rangitīkei)</td>
+<td>09</td>
+<td>Ngāti Hinemanu Whanganui</td></tr>
+<tr><td style="white-space:nowrap">0118<a name="iwi-code-0118"> </a></td>
+<td>Ngāti Manuhiri</td>
+<td>01</td>
+<td>Ngati Manuhiri</td></tr>
+<tr><td style="white-space:nowrap">0910<a name="iwi-code-0910"> </a></td>
+<td>Tamahaki (Ruapehu, Waimarino)</td>
+<td>09</td>
+<td>Tamahaki (Ruapehu, Waimarino) Whanganui/Rangitīkei (Wanganui/Rangitīkei) Region</td></tr>
+<tr><td style="white-space:nowrap">0119<a name="iwi-code-0119"> </a></td>
+<td>Ngāti Rehua</td>
+<td>01</td>
+<td>Wai Rehua</td></tr>
+<tr><td style="white-space:nowrap">0911<a name="iwi-code-0911"> </a></td>
+<td>Tamakana (Ruapehu, Waimarino)</td>
+<td>09</td>
+<td>Tamakana (Ruapehu Waimarino)</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:admin@hl7.org.nz">HL7 New Zealand</a>.  Package fhir.org.nz.ig.base#3.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 24, 2026 15:52+1200">2026-07-24</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

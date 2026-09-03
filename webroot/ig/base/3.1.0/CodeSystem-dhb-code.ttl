@@ -1,0 +1,140 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/dhb-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "dhb-code"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "8" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-05-07T20:15:43.802+12:00"^^xsd:dateTime ] ;
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://standards.digital.health.nz/ns/nzhts-usage-tags" ] ;
+       fhir:Coding.code [ fhir:value "NZBase" ]
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ DHB</h2><tt>https://standards.digital.health.nz/ns/dhb-code</tt><p>NZ District Health Board (HPI-ORG) Codes</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://standards.digital.health.nz/ns/dhb-code"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "Dhb_code"] ;
+  fhir:CodeSystem.title [ fhir:value "NZ DHB"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-10-25T23:00:00.000Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 New Zealand"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 New Zealand" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "mailto:admin@hl7.org.nz" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "NZ District Health Board (HPI-ORG) Codes"] ;
+  fhir:CodeSystem.copyright [ fhir:value "© 2020+ New Zealand Crown Copyright"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code" ;
+     fhir:link <https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code>
+  ] ;
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.versionNeeded [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "20"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00011-K" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Auckland District Health Board" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00031-E" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bay of Plenty District Health Board" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00005-D" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Canterbury District Health Board" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00036-D" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Capital and Coast District Health Board" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00012-A" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Counties Manukau District Health Board" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00032-G" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hawkes Bay District Health Board" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00006-F" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hutt Valley District Health Board" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00028-E" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lakes District Health Board" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00033-J" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mid Central District Health Board" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00038-H" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nelson Marlborough District Health Board" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00026-A" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Northland District Health Board" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00025-K" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "South Canterbury District Health Board" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G02328-E" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Southern District Health Board" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00029-G" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tairawhiti District Health Board" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00030-C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Taranaki District Health Board" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00027-C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Waikato District Health Board" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00037-F" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Wairarapa District Health Board" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00013-C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Waitemata District Health Board" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00039-K" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "West Coast District Health Board" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G00035-B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Whanganui District Health Board" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/dhb-code.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

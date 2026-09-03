@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/ValueSet/information-source> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "information-source"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet information-source</b></p><a name=\"information-source\"> </a><a name=\"hcinformation-source\"> </a><a name=\"information-source-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-information-source.html\"><code>https://standards.digital.health.nz/ns/information-source-code</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "InformationSource"] ; # 
+  fhir:title [ fhir:v "Information Source"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The source from where the value of this item was sourced"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://standards.digital.health.nz/ns/information-source-code"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:fhir="http://hl7.org/fhir/feed" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>HL7 New Zealand FHIR Packages</title>
+    <description>New Packages published by HL7NZ</description>
+    <link>https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true</link>
+    <generator>HL7, Inc FHIR Publication tooling</generator>
+    <lastBuildDate>Fri, 24 Jul 2026 03:52:23 +1200</lastBuildDate>
+    <atom:link href="https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 24 Jul 2026 03:52:23 +1200</pubDate>
+    <language>en</language>
+    <ttl>600</ttl>
+    <item>
+      <title>fhir.org.nz.ig.base#3.1.0</title>
+      <description>Release 3.1.0 of the NZ Base Implementation Guide</description>
+      <link>https://fhir.org.nz/ig/base/3.1.0/package.tgz</link>
+      <guid isPermaLink="true">https://fhir.org.nz/ig/base/3.1.0/package.tgz</guid>
+      <dc:creator>HL7 New Zealand</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Fri, 24 Jul 2026 03:52:23 +1200</pubDate>
+    </item>
+    <item>
+      <title>fhir.org.nz.ig.base#3.0.1</title>
+      <description>New Zealand base profiles</description>
+      <link>https://github.com/HL7NZ/nzbase/releases/download/v3.0.1-release-source/package.tgz</link>
+      <guid isPermaLink="true">https://github.com/HL7NZ/nzbase/releases/download/v3.0.1-release-source/package.tgz</guid>
+      <dc:creator>HL7NZ</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Fri, 17 Oct 2024 12:34:37 UTC</pubDate>
+    </item>
+  </channel>
+</rss>

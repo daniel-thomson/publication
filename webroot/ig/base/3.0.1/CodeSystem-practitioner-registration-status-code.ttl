@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/practitioner-registration-status-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitioner-registration-status-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem practitioner-registration-status-code</b></p><a name=\"practitioner-registration-status-code\"> </a><a name=\"hcpractitioner-registration-status-code\"> </a><a name=\"practitioner-registration-status-code-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/practitioner-registration-status-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">current<a name=\"practitioner-registration-status-code-current\"> </a></td><td>Current</td><td>A provider who holds or is deemed to hold a current practising certificate.</td></tr><tr><td style=\"white-space:nowrap\">inactive<a name=\"practitioner-registration-status-code-inactive\"> </a></td><td>Inactive</td><td>A provider who is not practising</td></tr><tr><td style=\"white-space:nowrap\">removed<a name=\"practitioner-registration-status-code-removed\"> </a></td><td>Removed</td><td>A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased</td></tr><tr><td style=\"white-space:nowrap\">suspended<a name=\"practitioner-registration-status-code-suspended\"> </a></td><td>Suspended</td><td>A provider who is suspended from practising by a Responsible Authority</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/practitioner-registration-status-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2.0"] ; # 
+  fhir:name [ fhir:v "PractitionerRegistrationStatusCode"] ; # 
+  fhir:title [ fhir:v "Registration Status of Practitioners"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The code list represents the current practicing status of the Provider Person as per their registration with an RA."] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "current" ] ;
+     fhir:display [ fhir:v "Current" ] ;
+     fhir:definition [ fhir:v "A provider who holds or is deemed to hold a current practising certificate." ]
+  ] [
+     fhir:code [ fhir:v "inactive" ] ;
+     fhir:display [ fhir:v "Inactive" ] ;
+     fhir:definition [ fhir:v "A provider who is not practising" ]
+  ] [
+     fhir:code [ fhir:v "removed" ] ;
+     fhir:display [ fhir:v "Removed" ] ;
+     fhir:definition [ fhir:v "A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased" ]
+  ] [
+     fhir:code [ fhir:v "suspended" ] ;
+     fhir:display [ fhir:v "Suspended" ] ;
+     fhir:definition [ fhir:v "A provider who is suspended from practising by a Responsible Authority" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

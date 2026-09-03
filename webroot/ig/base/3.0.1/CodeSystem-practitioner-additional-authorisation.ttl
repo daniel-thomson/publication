@@ -1,0 +1,213 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/practitioner-additional-authorisation> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitioner-additional-authorisation"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem practitioner-additional-authorisation</b></p><a name=\"practitioner-additional-authorisation\"> </a><a name=\"hcpractitioner-additional-authorisation\"> </a><a name=\"practitioner-additional-authorisation-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CA01<a name=\"practitioner-additional-authorisation-CA01\"> </a></td><td>Cardiothoracic Surgery: Cardiothoracic Surgeon</td><td>Alternate name.</td></tr><tr><td style=\"white-space:nowrap\">CA02<a name=\"practitioner-additional-authorisation-CA02\"> </a></td><td>Cardiothoracic Surgery: Transplant Surgeon</td><td>Alternate name.</td></tr><tr><td style=\"white-space:nowrap\">DI01<a name=\"practitioner-additional-authorisation-DI01\"> </a></td><td>Diagnostic Imaging authorisation</td><td>A practitioner is authorised to perform diagnostic imaging in rural settings.</td></tr><tr><td style=\"white-space:nowrap\">DP01<a name=\"practitioner-additional-authorisation-DP01\"> </a></td><td>Diabetes Prescriber</td><td>A Registered Nurse Diabetes Prescriber.</td></tr><tr><td style=\"white-space:nowrap\">EC01<a name=\"practitioner-additional-authorisation-EC01\"> </a></td><td>ECP authorisation</td><td>A practitioner is authorised to dispense the emergency contraceptive pill.</td></tr><tr><td style=\"white-space:nowrap\">FS01<a name=\"practitioner-additional-authorisation-FS01\"> </a></td><td>First Surgical Assistant</td><td>A nurse authorised to undertake an expanded role to assist the surgeon during surgery.</td></tr><tr><td style=\"white-space:nowrap\">IMMU<a name=\"practitioner-additional-authorisation-IMMU\"> </a></td><td>Immunisation</td><td>A person authorised to administer immunizations.</td></tr><tr><td style=\"white-space:nowrap\">INTR<a name=\"practitioner-additional-authorisation-INTR\"> </a></td><td>Intravenous Infusions</td><td>A practitioner who is certified to administer intravenous infusions.</td></tr><tr><td style=\"white-space:nowrap\">MD01<a name=\"practitioner-additional-authorisation-MD01\"> </a></td><td>Internal Medicine: Cardiologist</td><td>An internal medicine specialist working in the role of cardiologist.</td></tr><tr><td style=\"white-space:nowrap\">MD02<a name=\"practitioner-additional-authorisation-MD02\"> </a></td><td>Internal Medicine: Endocrinologist</td><td>An internal medicine specialist working in the role of endocrinologist.</td></tr><tr><td style=\"white-space:nowrap\">MD03<a name=\"practitioner-additional-authorisation-MD03\"> </a></td><td>Internal Medicine: Gastroenterologist</td><td>An internal medicine specialist working in the role of gastroenterologist.</td></tr><tr><td style=\"white-space:nowrap\">MD04<a name=\"practitioner-additional-authorisation-MD04\"> </a></td><td>Internal Medicine: Geriatrician</td><td>An internal medicine specialist working in the role of geriatrician.</td></tr><tr><td style=\"white-space:nowrap\">MD05<a name=\"practitioner-additional-authorisation-MD05\"> </a></td><td>Internal Medicine: Infectious Disease Specialist</td><td>An internal medicine specialist working in the role of infectious disease specialist.</td></tr><tr><td style=\"white-space:nowrap\">MD06<a name=\"practitioner-additional-authorisation-MD06\"> </a></td><td>Internal Medicine: Nephrologist</td><td>An internal medicine specialist working in the role of nephrologist.</td></tr><tr><td style=\"white-space:nowrap\">MD07<a name=\"practitioner-additional-authorisation-MD07\"> </a></td><td>Internal Medicine: Neurologist</td><td>An internal medicine specialist working in the role of neurologist.</td></tr><tr><td style=\"white-space:nowrap\">MD08<a name=\"practitioner-additional-authorisation-MD08\"> </a></td><td>Internal Medicine: Oncologist</td><td>An internal medicine specialist working in the role of oncologist.</td></tr><tr><td style=\"white-space:nowrap\">MD09<a name=\"practitioner-additional-authorisation-MD09\"> </a></td><td>Internal Medicine: Physician for the Elderly (FRACP)</td><td>An internal medicine specialist working in the role of physician for the Elderly (FRACP = Royal Australasian College of Physicians).</td></tr><tr><td style=\"white-space:nowrap\">MD10<a name=\"practitioner-additional-authorisation-MD10\"> </a></td><td>Internal Medicine: Renal Physician</td><td>An internal medicine specialist working in the role of renal physician.</td></tr><tr><td style=\"white-space:nowrap\">MD11<a name=\"practitioner-additional-authorisation-MD11\"> </a></td><td>Internal Medicine: Respiratory Specialist</td><td>An internal medicine specialist working in the role of respiratory specialist.</td></tr><tr><td style=\"white-space:nowrap\">MD12<a name=\"practitioner-additional-authorisation-MD12\"> </a></td><td>Internal Medicine: Rheumatologist</td><td>An internal medicine specialist working in the role of rheumatologist.</td></tr><tr><td style=\"white-space:nowrap\">NC01<a name=\"practitioner-additional-authorisation-NC01\"> </a></td><td>Prescribing authorisation</td><td>A nurse practitioner is authorised to prescribe.</td></tr><tr><td style=\"white-space:nowrap\">NC02<a name=\"practitioner-additional-authorisation-NC02\"> </a></td><td>Nurse Colposcopist</td><td>A nurse authorised to undertake colposcopy procedures.</td></tr><tr><td style=\"white-space:nowrap\">NC03<a name=\"practitioner-additional-authorisation-NC03\"> </a></td><td>A nurse authorised to prescribe with primary health and speciality teams</td><td>A nurse authorised to prescribe with primary health and speciality teams.</td></tr><tr><td style=\"white-space:nowrap\">NC04<a name=\"practitioner-additional-authorisation-NC04\"> </a></td><td>A nurse authorised to prescribe in community health</td><td>A nurse authorised to prescribe in community health.</td></tr><tr><td style=\"white-space:nowrap\">OG01<a name=\"practitioner-additional-authorisation-OG01\"> </a></td><td>Obstetrics and Gynaecology: Gynaecologist</td><td>Alternate name.</td></tr><tr><td style=\"white-space:nowrap\">OG02<a name=\"practitioner-additional-authorisation-OG02\"> </a></td><td>Obstetrics and Gynaecology: Obstetrician</td><td>Alternate name.</td></tr><tr><td style=\"white-space:nowrap\">ON01<a name=\"practitioner-additional-authorisation-ON01\"> </a></td><td>Radiation Oncology: Oncologist</td><td>Alternate name.</td></tr><tr><td style=\"white-space:nowrap\">ON02<a name=\"practitioner-additional-authorisation-ON02\"> </a></td><td>Radiation Oncology: Radiation Oncologist</td><td>Alternate name.</td></tr><tr><td style=\"white-space:nowrap\">OP01<a name=\"practitioner-additional-authorisation-OP01\"> </a></td><td>Optometrists</td><td>Optometrists.</td></tr><tr><td style=\"white-space:nowrap\">PA01<a name=\"practitioner-additional-authorisation-PA01\"> </a></td><td>Paediatrics: Cardiologist</td><td>A paediatrician working in the role of cardiologist.</td></tr><tr><td style=\"white-space:nowrap\">PA02<a name=\"practitioner-additional-authorisation-PA02\"> </a></td><td>Paediatrics: Endocrinologist</td><td>A paediatrician working in the role of endocrinologist.</td></tr><tr><td style=\"white-space:nowrap\">PA03<a name=\"practitioner-additional-authorisation-PA03\"> </a></td><td>Paediatrics: Gastroenterologist</td><td>A paediatrician working in the role of gastroenterologist.</td></tr><tr><td style=\"white-space:nowrap\">PA04<a name=\"practitioner-additional-authorisation-PA04\"> </a></td><td>Paediatrics: Geriatrician</td><td>A paediatrician working in the role of geriatrician.</td></tr><tr><td style=\"white-space:nowrap\">PA05<a name=\"practitioner-additional-authorisation-PA05\"> </a></td><td>Paediatrics: Infectious Disease Specialist</td><td>A paediatrician working in the role of infectious disease specialist.</td></tr><tr><td style=\"white-space:nowrap\">PA06<a name=\"practitioner-additional-authorisation-PA06\"> </a></td><td>Paediatrics: Nephrologist</td><td>A paediatrician working in the role of nephrologist.</td></tr><tr><td style=\"white-space:nowrap\">PA07<a name=\"practitioner-additional-authorisation-PA07\"> </a></td><td>Paediatrics: Neurologist</td><td>A paediatrician working in the role of neurologist.</td></tr><tr><td style=\"white-space:nowrap\">PA08<a name=\"practitioner-additional-authorisation-PA08\"> </a></td><td>Paediatrics: Oncologist</td><td>A paediatrician working in the role of oncologist.</td></tr><tr><td style=\"white-space:nowrap\">PA09<a name=\"practitioner-additional-authorisation-PA09\"> </a></td><td>Paediatrics: Physician for the Elderly (FRACP)</td><td>A paediatrician working in the role of of physician for the elderly (FRACP = Royal Australasian College of Physicians).</td></tr><tr><td style=\"white-space:nowrap\">PA10<a name=\"practitioner-additional-authorisation-PA10\"> </a></td><td>Paediatrics: Renal Physician</td><td>A paediatrician working in the role of renal physician.</td></tr><tr><td style=\"white-space:nowrap\">PA11<a name=\"practitioner-additional-authorisation-PA11\"> </a></td><td>Paediatrics: Respiratory Specialist</td><td>A paediatrician working in the role of respiratory specialist.</td></tr><tr><td style=\"white-space:nowrap\">PA12<a name=\"practitioner-additional-authorisation-PA12\"> </a></td><td>Paediatrics: Rheumatologist</td><td>A paediatrician working in the role of rheumatologist.</td></tr><tr><td style=\"white-space:nowrap\">PS01<a name=\"practitioner-additional-authorisation-PS01\"> </a></td><td>Psychiatry: Psychiatrist</td><td>Alternate name.</td></tr><tr><td style=\"white-space:nowrap\">PS02<a name=\"practitioner-additional-authorisation-PS02\"> </a></td><td>Psychiatry: Psychological Medicine Specialist</td><td>Alternate name.</td></tr><tr><td style=\"white-space:nowrap\">SMEA<a name=\"practitioner-additional-authorisation-SMEA\"> </a></td><td>Smear Taker</td><td>A person authorised by the Cervical Screening Programme to participate in smear taking and on the register.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "AdditionalAuthorisation"] ; # 
+  fhir:title [ fhir:v "Additional Authorisation"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Additional authorisations that a practitioner is authorised to practice or prescribe."] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "44"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CA01" ] ;
+     fhir:display [ fhir:v "Cardiothoracic Surgery: Cardiothoracic Surgeon" ] ;
+     fhir:definition [ fhir:v "Alternate name." ]
+  ] [
+     fhir:code [ fhir:v "CA02" ] ;
+     fhir:display [ fhir:v "Cardiothoracic Surgery: Transplant Surgeon" ] ;
+     fhir:definition [ fhir:v "Alternate name." ]
+  ] [
+     fhir:code [ fhir:v "DI01" ] ;
+     fhir:display [ fhir:v "Diagnostic Imaging authorisation" ] ;
+     fhir:definition [ fhir:v "A practitioner is authorised to perform diagnostic imaging in rural settings." ]
+  ] [
+     fhir:code [ fhir:v "DP01" ] ;
+     fhir:display [ fhir:v "Diabetes Prescriber" ] ;
+     fhir:definition [ fhir:v "A Registered Nurse Diabetes Prescriber." ]
+  ] [
+     fhir:code [ fhir:v "EC01" ] ;
+     fhir:display [ fhir:v "ECP authorisation" ] ;
+     fhir:definition [ fhir:v "A practitioner is authorised to dispense the emergency contraceptive pill." ]
+  ] [
+     fhir:code [ fhir:v "FS01" ] ;
+     fhir:display [ fhir:v "First Surgical Assistant" ] ;
+     fhir:definition [ fhir:v "A nurse authorised to undertake an expanded role to assist the surgeon during surgery." ]
+  ] [
+     fhir:code [ fhir:v "IMMU" ] ;
+     fhir:display [ fhir:v "Immunisation" ] ;
+     fhir:definition [ fhir:v "A person authorised to administer immunizations." ]
+  ] [
+     fhir:code [ fhir:v "INTR" ] ;
+     fhir:display [ fhir:v "Intravenous Infusions" ] ;
+     fhir:definition [ fhir:v "A practitioner who is certified to administer intravenous infusions." ]
+  ] [
+     fhir:code [ fhir:v "MD01" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Cardiologist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of cardiologist." ]
+  ] [
+     fhir:code [ fhir:v "MD02" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Endocrinologist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of endocrinologist." ]
+  ] [
+     fhir:code [ fhir:v "MD03" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Gastroenterologist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of gastroenterologist." ]
+  ] [
+     fhir:code [ fhir:v "MD04" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Geriatrician" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of geriatrician." ]
+  ] [
+     fhir:code [ fhir:v "MD05" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Infectious Disease Specialist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of infectious disease specialist." ]
+  ] [
+     fhir:code [ fhir:v "MD06" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Nephrologist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of nephrologist." ]
+  ] [
+     fhir:code [ fhir:v "MD07" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Neurologist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of neurologist." ]
+  ] [
+     fhir:code [ fhir:v "MD08" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Oncologist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of oncologist." ]
+  ] [
+     fhir:code [ fhir:v "MD09" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Physician for the Elderly (FRACP)" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of physician for the Elderly (FRACP = Royal Australasian College of Physicians)." ]
+  ] [
+     fhir:code [ fhir:v "MD10" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Renal Physician" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of renal physician." ]
+  ] [
+     fhir:code [ fhir:v "MD11" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Respiratory Specialist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of respiratory specialist." ]
+  ] [
+     fhir:code [ fhir:v "MD12" ] ;
+     fhir:display [ fhir:v "Internal Medicine: Rheumatologist" ] ;
+     fhir:definition [ fhir:v "An internal medicine specialist working in the role of rheumatologist." ]
+  ] [
+     fhir:code [ fhir:v "NC01" ] ;
+     fhir:display [ fhir:v "Prescribing authorisation" ] ;
+     fhir:definition [ fhir:v "A nurse practitioner is authorised to prescribe." ]
+  ] [
+     fhir:code [ fhir:v "NC02" ] ;
+     fhir:display [ fhir:v "Nurse Colposcopist" ] ;
+     fhir:definition [ fhir:v "A nurse authorised to undertake colposcopy procedures." ]
+  ] [
+     fhir:code [ fhir:v "NC03" ] ;
+     fhir:display [ fhir:v "A nurse authorised to prescribe with primary health and speciality teams" ] ;
+     fhir:definition [ fhir:v "A nurse authorised to prescribe with primary health and speciality teams." ]
+  ] [
+     fhir:code [ fhir:v "NC04" ] ;
+     fhir:display [ fhir:v "A nurse authorised to prescribe in community health" ] ;
+     fhir:definition [ fhir:v "A nurse authorised to prescribe in community health." ]
+  ] [
+     fhir:code [ fhir:v "OG01" ] ;
+     fhir:display [ fhir:v "Obstetrics and Gynaecology: Gynaecologist" ] ;
+     fhir:definition [ fhir:v "Alternate name." ]
+  ] [
+     fhir:code [ fhir:v "OG02" ] ;
+     fhir:display [ fhir:v "Obstetrics and Gynaecology: Obstetrician" ] ;
+     fhir:definition [ fhir:v "Alternate name." ]
+  ] [
+     fhir:code [ fhir:v "ON01" ] ;
+     fhir:display [ fhir:v "Radiation Oncology: Oncologist" ] ;
+     fhir:definition [ fhir:v "Alternate name." ]
+  ] [
+     fhir:code [ fhir:v "ON02" ] ;
+     fhir:display [ fhir:v "Radiation Oncology: Radiation Oncologist" ] ;
+     fhir:definition [ fhir:v "Alternate name." ]
+  ] [
+     fhir:code [ fhir:v "OP01" ] ;
+     fhir:display [ fhir:v "Optometrists" ] ;
+     fhir:definition [ fhir:v "Optometrists." ]
+  ] [
+     fhir:code [ fhir:v "PA01" ] ;
+     fhir:display [ fhir:v "Paediatrics: Cardiologist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of cardiologist." ]
+  ] [
+     fhir:code [ fhir:v "PA02" ] ;
+     fhir:display [ fhir:v "Paediatrics: Endocrinologist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of endocrinologist." ]
+  ] [
+     fhir:code [ fhir:v "PA03" ] ;
+     fhir:display [ fhir:v "Paediatrics: Gastroenterologist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of gastroenterologist." ]
+  ] [
+     fhir:code [ fhir:v "PA04" ] ;
+     fhir:display [ fhir:v "Paediatrics: Geriatrician" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of geriatrician." ]
+  ] [
+     fhir:code [ fhir:v "PA05" ] ;
+     fhir:display [ fhir:v "Paediatrics: Infectious Disease Specialist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of infectious disease specialist." ]
+  ] [
+     fhir:code [ fhir:v "PA06" ] ;
+     fhir:display [ fhir:v "Paediatrics: Nephrologist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of nephrologist." ]
+  ] [
+     fhir:code [ fhir:v "PA07" ] ;
+     fhir:display [ fhir:v "Paediatrics: Neurologist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of neurologist." ]
+  ] [
+     fhir:code [ fhir:v "PA08" ] ;
+     fhir:display [ fhir:v "Paediatrics: Oncologist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of oncologist." ]
+  ] [
+     fhir:code [ fhir:v "PA09" ] ;
+     fhir:display [ fhir:v "Paediatrics: Physician for the Elderly (FRACP)" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of of physician for the elderly (FRACP = Royal Australasian College of Physicians)." ]
+  ] [
+     fhir:code [ fhir:v "PA10" ] ;
+     fhir:display [ fhir:v "Paediatrics: Renal Physician" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of renal physician." ]
+  ] [
+     fhir:code [ fhir:v "PA11" ] ;
+     fhir:display [ fhir:v "Paediatrics: Respiratory Specialist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of respiratory specialist." ]
+  ] [
+     fhir:code [ fhir:v "PA12" ] ;
+     fhir:display [ fhir:v "Paediatrics: Rheumatologist" ] ;
+     fhir:definition [ fhir:v "A paediatrician working in the role of rheumatologist." ]
+  ] [
+     fhir:code [ fhir:v "PS01" ] ;
+     fhir:display [ fhir:v "Psychiatry: Psychiatrist" ] ;
+     fhir:definition [ fhir:v "Alternate name." ]
+  ] [
+     fhir:code [ fhir:v "PS02" ] ;
+     fhir:display [ fhir:v "Psychiatry: Psychological Medicine Specialist" ] ;
+     fhir:definition [ fhir:v "Alternate name." ]
+  ] [
+     fhir:code [ fhir:v "SMEA" ] ;
+     fhir:display [ fhir:v "Smear Taker" ] ;
+     fhir:definition [ fhir:v "A person authorised by the Cervical Screening Programme to participate in smear taking and on the register." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

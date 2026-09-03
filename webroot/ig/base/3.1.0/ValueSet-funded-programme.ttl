@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/ValueSet/funded-programme> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "funded-programme"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-05-07T20:41:17.065+12:00"^^xsd:dateTime ] ;
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://standards.digital.health.nz/ns/nzhts-usage-tags" ] ;
+       fhir:Coding.code [ fhir:value "NZBase" ]
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Funded Programme</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code</tt><p>Codes to describe NZ-specific types of funded programmes</p></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code"] ;
+  fhir:ValueSet.version [ fhir:value "1.0.0"] ;
+  fhir:ValueSet.name [ fhir:value "FundedProgramme"] ;
+  fhir:ValueSet.title [ fhir:value "Funded Programme"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2023-10-18T11:59:31.000Z"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 New Zealand"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 New Zealand" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "mailto:admin@hl7.org.nz" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Codes to describe NZ-specific types of funded programmes"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://standards.digital.health.nz/ns/funded-programme-code" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "1.0.0" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/ValueSet/funded-programme.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

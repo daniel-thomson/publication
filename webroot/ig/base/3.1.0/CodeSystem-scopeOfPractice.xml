@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="scopeOfPractice"/>
+  <meta>
+    <versionId value="13"/>
+    <lastUpdated value="2026-05-07T20:21:31.272+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Scope of practice</h2><tt>https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code</tt><p>A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.</p></div>
+  </text>
+  <url value="https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code"/>
+  <version value="2.1.0"/>
+  <name value="ScopeOfPractice"/>
+  <title value="Scope of practice"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-02-03T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority."/>
+  <caseSensitive value="true"/>
+  <valueSet value="https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code"/>
+  <content value="complete"/>
+  <count value="124"/>
+  <concept>
+    <code value="CHIR"/>
+    <display value="Chiropractor"/>
+  </concept>
+  <concept>
+    <code value="DEAC"/>
+    <display value="Adult Care in Dental Therapy Practice"/>
+  </concept>
+  <concept>
+    <code value="DECD"/>
+    <display value="Clinical Dental Technology Practice"/>
+  </concept>
+  <concept>
+    <code value="DEDH"/>
+    <display value="Dental Hygiene Practice"/>
+  </concept>
+  <concept>
+    <code value="DEDT"/>
+    <display value="Dental Technology Practice"/>
+  </concept>
+  <concept>
+    <code value="DEEN"/>
+    <display value="Endodontic Specialists"/>
+  </concept>
+  <concept>
+    <code value="DEGD"/>
+    <display value="General Dental Therapy Practice"/>
+  </concept>
+  <concept>
+    <code value="DEIA"/>
+    <display value="Implant over dentures in clinical dental technology practice"/>
+  </concept>
+  <concept>
+    <code value="DENT"/>
+    <display value="General Dental Practice"/>
+  </concept>
+  <concept>
+    <code value="DEOA"/>
+    <display value="Orthodontic Auxiliary Practice"/>
+  </concept>
+  <concept>
+    <code value="DEOM"/>
+    <display value="Oral Medicine Specialists"/>
+  </concept>
+  <concept>
+    <code value="DEOP"/>
+    <display value="Oral Pathology Specialists"/>
+  </concept>
+  <concept>
+    <code value="DEOR"/>
+    <display value="Oral and Maxillofacial Surgery Specialists"/>
+  </concept>
+  <concept>
+    <code value="DEOS"/>
+    <display value="Oral Surgery Specialists"/>
+  </concept>
+  <concept>
+    <code value="DEPA"/>
+    <display value="Paediatric Dentistry Specialists"/>
+  </concept>
+  <concept>
+    <code value="DEPE"/>
+    <display value="Periodontic Specialists"/>
+  </concept>
+  <concept>
+    <code value="DEPH"/>
+    <display value="Public Health Dentistry (or Community Dentistry) Specialists"/>
+  </concept>
+  <concept>
+    <code value="DEPS"/>
+    <display value="Prosthodontic Specialists"/>
+  </concept>
+  <concept>
+    <code value="DERE"/>
+    <display value="Restorative Dentistry Specialists"/>
+  </concept>
+  <concept>
+    <code value="DESN"/>
+    <display value="Special Needs Dentistry Specialists"/>
+  </concept>
+  <concept>
+    <code value="DESP"/>
+    <display value="Orthodontic Specialists"/>
+  </concept>
+  <concept>
+    <code value="DIET"/>
+    <display value="Dietitian"/>
+  </concept>
+  <concept>
+    <code value="LTAT"/>
+    <display value="Anaesthetic Technician"/>
+  </concept>
+  <concept>
+    <code value="LTPA"/>
+    <display value="Medical Laboratory Pre-Analytical Technician"/>
+  </concept>
+  <concept>
+    <code value="LTLS"/>
+    <display value="Medical Laboratory Scientist"/>
+  </concept>
+  <concept>
+    <code value="LTLT"/>
+    <display value="Medical Laboratory Technician"/>
+  </concept>
+  <concept>
+    <code value="MCAM"/>
+    <display value="Vocational Scope of Accident and Medical Practice"/>
+  </concept>
+  <concept>
+    <code value="MCAN"/>
+    <display value="Vocational Scope of Anaesthesia"/>
+  </concept>
+  <concept>
+    <code value="MCAP"/>
+    <display value="Vocational Scope of Pain Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCBM"/>
+    <display value="Vocational Scope of Breast Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCCG"/>
+    <display value="Vocational Scope of Clinical Genetics"/>
+  </concept>
+  <concept>
+    <code value="MCCS"/>
+    <display value="Vocational Scope of Cardiothoracic Surgery"/>
+  </concept>
+  <concept>
+    <code value="MCDE"/>
+    <display value="Vocational Scope of Dermatology"/>
+  </concept>
+  <concept>
+    <code value="MCDI"/>
+    <display value="Vocational Scope of Diagnostic and Interventional Radiology"/>
+  </concept>
+  <concept>
+    <code value="MCEM"/>
+    <display value="Vocational Scope of Emergency Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCFP"/>
+    <display value="Vocational Scope of Family Planning/Reproductive Health"/>
+  </concept>
+  <concept>
+    <code value="MCGE"/>
+    <display value="General Scope of Practice"/>
+  </concept>
+  <concept>
+    <code value="MCGP"/>
+    <display value="Vocational Scope of General Practice"/>
+  </concept>
+  <concept>
+    <code value="MCGS"/>
+    <display value="Vocational Scope of General Surgery"/>
+  </concept>
+  <concept>
+    <code value="MCIC"/>
+    <display value="Vocational Scope of Intensive Care Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCIM"/>
+    <display value="Vocational Scope of Internal Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCMA"/>
+    <display value="Vocational Scope of Medical Administration"/>
+  </concept>
+  <concept>
+    <code value="MCMM"/>
+    <display value="Vocational Scope of Musculoskeletal Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCNS"/>
+    <display value="Vocational Scope of Neurosurgery"/>
+  </concept>
+  <concept>
+    <code value="MCOG"/>
+    <display value="Vocational Scope of Obstetrics and Gynaecology"/>
+  </concept>
+  <concept>
+    <code value="MCOH"/>
+    <display value="Vocational Scope of Otolaryngology Head and Neck Surgery"/>
+  </concept>
+  <concept>
+    <code value="MCOM"/>
+    <display value="Vocational Scope of Occupational Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCOP"/>
+    <display value="Vocational Scope of Ophthalmology"/>
+  </concept>
+  <concept>
+    <code value="MCOR"/>
+    <display value="Vocational Scope of Oral and Maxillofacial Surgery"/>
+  </concept>
+  <concept>
+    <code value="MCOS"/>
+    <display value="Vocational Scope of Orthopaedic Surgery"/>
+  </concept>
+  <concept>
+    <code value="MCPA"/>
+    <display value="Vocational Scope of Pathology"/>
+  </concept>
+  <concept>
+    <code value="MCPE"/>
+    <display value="Vocational Scope of Paediatrics"/>
+  </concept>
+  <concept>
+    <code value="MCPG"/>
+    <display value="Provisional General Scope of Practice"/>
+  </concept>
+  <concept>
+    <code value="MCPH"/>
+    <display value="Vocational Scope of Public Health Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCPM"/>
+    <display value="Vocational Scope of Palliative Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCPR"/>
+    <display value="Vocational Scope of Plastic and Reconstructive Surgery"/>
+  </concept>
+  <concept>
+    <code value="MCPS"/>
+    <display value="Vocational Scope of Paediatric Surgery"/>
+  </concept>
+  <concept>
+    <code value="MCPV"/>
+    <display value="Provisional Vocational Scope of Practice"/>
+  </concept>
+  <concept>
+    <code value="MCPY"/>
+    <display value="Vocational Scope of Psychiatry"/>
+  </concept>
+  <concept>
+    <code value="MCRH"/>
+    <display value="Vocational Scope of Rural Hospital Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCRM"/>
+    <display value="Vocational Scope of Rehabilitation Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCRO"/>
+    <display value="Vocational Scope of Radiation Oncology"/>
+  </concept>
+  <concept>
+    <code value="MCSH"/>
+    <display value="Vocational Scope of Sexual Health Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCSM"/>
+    <display value="Vocational Scope of Sports Medicine"/>
+  </concept>
+  <concept>
+    <code value="MCSP"/>
+    <display value="Special Purpose Scope of Practice"/>
+  </concept>
+  <concept>
+    <code value="MCTR"/>
+    <display value="Medical Council Temporary Registration"/>
+  </concept>
+  <concept>
+    <code value="MCUR"/>
+    <display value="Vocational Scope of Urology"/>
+  </concept>
+  <concept>
+    <code value="MCVO"/>
+    <display value="Vocational Scope of Practice"/>
+  </concept>
+  <concept>
+    <code value="MCVS"/>
+    <display value="Vocational Scope of Vascular Surgery"/>
+  </concept>
+  <concept>
+    <code value="MWIF"/>
+    <display value="Midwife"/>
+  </concept>
+  <concept>
+    <code value="NCEN"/>
+    <display value="Enrolled Nurse"/>
+  </concept>
+  <concept>
+    <code value="NCNA"/>
+    <display value="Nurse Assistant"/>
+  </concept>
+  <concept>
+    <code value="NCNP"/>
+    <display value="Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <code value="NCRN"/>
+    <display value="Registered Nurse"/>
+  </concept>
+  <concept>
+    <code value="OCCT"/>
+    <display value="Occupational Therapist"/>
+  </concept>
+  <concept>
+    <code value="OPDI"/>
+    <display value="Optical Dispensing (Dispensing Optician)"/>
+  </concept>
+  <concept>
+    <code value="OPED"/>
+    <display value="Educator in Optometry (Educator Optometrist)"/>
+  </concept>
+  <concept>
+    <code value="OPET"/>
+    <display value="Educator in Optometry (TPA Endorsement) (Educator Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)"/>
+  </concept>
+  <concept>
+    <code value="OPTP"/>
+    <display value="Optometry (Optometrist)"/>
+  </concept>
+  <concept>
+    <code value="OSTE"/>
+    <display value="Osteopath"/>
+  </concept>
+  <concept>
+    <code value="PHAR"/>
+    <display value="Pharmacist"/>
+  </concept>
+  <concept>
+    <code value="PHIN"/>
+    <display value="Intern Pharmacist"/>
+  </concept>
+  <concept>
+    <code value="PHPP"/>
+    <display value="Pharmacist Prescriber"/>
+  </concept>
+  <concept>
+    <code value="PHSO"/>
+    <display value="Physiotherapist"/>
+  </concept>
+  <concept>
+    <code value="PODI"/>
+    <display value="Podiatrist"/>
+  </concept>
+  <concept>
+    <code value="PODP"/>
+    <display value="Podiatric Prescriber"/>
+  </concept>
+  <concept>
+    <code value="PODR"/>
+    <display value="Podiatric Radiographic Imager"/>
+  </concept>
+  <concept>
+    <code value="PODS"/>
+    <display value="Podiatric Surgeon"/>
+  </concept>
+  <concept>
+    <code value="POVD"/>
+    <display value="Visiting Podiatrist Educator/Presenter"/>
+  </concept>
+  <concept>
+    <code value="PSCE"/>
+    <display value="Clinical and Educational"/>
+  </concept>
+  <concept>
+    <code value="PSCL"/>
+    <display value="Clinical Psychologist"/>
+  </concept>
+  <concept>
+    <code value="PSCO"/>
+    <display value="Counselling Psychologist"/>
+  </concept>
+  <concept>
+    <code value="PSED"/>
+    <display value="Educational Psychologist"/>
+  </concept>
+  <concept>
+    <code value="PSIT"/>
+    <display value="Trainee or Intern Psychologist"/>
+  </concept>
+  <concept>
+    <code value="PSYC"/>
+    <display value="Psychologist"/>
+  </concept>
+  <concept>
+    <code value="RTMR"/>
+    <display value="Magnetic Resonance Technologist"/>
+  </concept>
+  <concept>
+    <code value="RTMS"/>
+    <display value="Sonographer"/>
+  </concept>
+  <concept>
+    <code value="RTMT"/>
+    <display value="Nuclear Medicine Technologist"/>
+  </concept>
+  <concept>
+    <code value="RTRT"/>
+    <display value="Radiation Therapist"/>
+  </concept>
+  <concept>
+    <code value="RTTE"/>
+    <display value="Medical Radiation Technologist"/>
+  </concept>
+  <concept>
+    <code value="RTTM"/>
+    <display value="Trainee Magnetic Resonance Imaging (MRI) Technologist"/>
+  </concept>
+  <concept>
+    <code value="RTTN"/>
+    <display value="Trainee Nuclear Medicine Technologist"/>
+  </concept>
+  <concept>
+    <code value="RTTS"/>
+    <display value="Trainee Sonographer"/>
+  </concept>
+  <concept>
+    <code value="DEOH"/>
+    <display value="Oral Health Practice"/>
+  </concept>
+  <concept>
+    <code value="OPLS"/>
+    <display value="Ophthalmic Laser Surgeries"/>
+  </concept>
+  <concept>
+    <code value="OPPO"/>
+    <display value="Provisional Optometrist"/>
+  </concept>
+  <concept>
+    <code value="OSCA"/>
+    <display value="Osteopath -Child and Adolescent Health"/>
+  </concept>
+  <concept>
+    <code value="OSED"/>
+    <display value="Osteopath - Educator"/>
+  </concept>
+  <concept>
+    <code value="OSGE"/>
+    <display value="Osteopath -Gerontology"/>
+  </concept>
+  <concept>
+    <code value="OSPM"/>
+    <display value="Osteopath -Pain Management"/>
+  </concept>
+  <concept>
+    <code value="OSSP"/>
+    <display value="Osteopath - Special Purpose"/>
+  </concept>
+  <concept>
+    <code value="OSTO"/>
+    <display value="Trainee Osteopath"/>
+  </concept>
+  <concept>
+    <code value="OSVO"/>
+    <display value="Visiting Osteopath Presenter"/>
+  </concept>
+  <concept>
+    <code value="OSWA"/>
+    <display value="Osteopath -Western Medical Acupuncture"/>
+  </concept>
+  <concept>
+    <code value="PAPS"/>
+    <display value="Paramedic"/>
+  </concept>
+  <concept>
+    <code value="PBCA"/>
+    <display value="Psychotherapist with Child and Adolescent Specialism"/>
+  </concept>
+  <concept>
+    <code value="PBIN"/>
+    <display value="Interim Psychotherapist"/>
+  </concept>
+  <concept>
+    <code value="PBPS"/>
+    <display value="Psychotherapist"/>
+  </concept>
+  <concept>
+    <code value="PSHE"/>
+    <display value="Health Psychologist"/>
+  </concept>
+  <concept>
+    <code value="PSNE"/>
+    <display value="Neuropsychologist"/>
+  </concept>
+  <concept>
+    <code value="CMAC"/>
+    <display value="Chinese medicine practitioner (acupuncturist)"/>
+  </concept>
+  <concept>
+    <code value="CMMP"/>
+    <display value="Chinese massage (tuina) practition"/>
+  </concept>
+  <concept>
+    <code value="CMSP"/>
+    <display value="Chinese medicine special purpose"/>
+  </concept>
+  <concept>
+    <code value="CMST"/>
+    <display value="Chinese medicine specialist"/>
+  </concept>
+</CodeSystem>

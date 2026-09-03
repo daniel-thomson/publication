@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationRequest xmlns="http://hl7.org/fhir">
+  <id value="medicationrequest-nzeps-supply-period-reason"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MedicationRequest medicationrequest-nzeps-supply-period-reason</b></p><a name="medicationrequest-nzeps-supply-period-reason"> </a><a name="hcmedicationrequest-nzeps-supply-period-reason"> </a><p><b>NZePS Supply Period Reason</b>: Going overseas</p><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title="Codes:{http://snomed.info/sct 261000}">Codeine phosphate</span></p><p><b>subject</b>: <a href="Patient-patient-dhb.html">John Doe Male, DoB: 1998-01-01</a></p></div>
+  </text>
+  <extension url="http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason">
+    <valueString value="Going overseas"/>
+  </extension>
+  <status value="active"/>
+  <intent value="order"/>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="261000"/>
+      <display value="Codeine phosphate"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/patient-dhb"/>
+  </subject>
+</MedicationRequest>

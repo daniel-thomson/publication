@@ -1,0 +1,34 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Condition/condition-long-term-condition> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "condition-long-term-condition"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition condition-long-term-condition</b></p><a name=\"condition-long-term-condition\"> </a><a name=\"hccondition-long-term-condition\"> </a><a name=\"condition-long-term-condition-en-US\"> </a><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1201005}\">Benign essential hypertension (disorder)</span></p><p><b>subject</b>: <a href=\"Patient-patient-dhb.html\">John Doe Male, DoB: 1998-01-01</a></p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "true"^^xsd:boolean ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:1201005 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1201005" ] ;
+       fhir:display [ fhir:v "Benign essential hypertension (disorder)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://fhir.org.nz/ig/base/Patient/patient-dhb> ;
+     fhir:reference [ fhir:v "Patient/patient-dhb" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,29 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/PractitionerRole/practitionerRole-status-reason> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitionerRole-status-reason"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole-status-reason</b></p><a name=\"practitionerRole-status-reason\"> </a><a name=\"hcpractitionerRole-status-reason\"> </a><a name=\"practitionerRole-status-reason-en-US\"> </a><p><b>active</b>: false</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "duplicate" ] ;
+         fhir:display [ fhir:v "duplicate" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:active [ fhir:v "false"^^xsd:boolean] . # 
+
+# -------------------------------------------------------------------------------------
+

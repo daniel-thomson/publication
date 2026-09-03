@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="practitionerRole-creator"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PractitionerRole practitionerRole-creator</b></p><a name="practitionerRole-creator"> </a><a name="hcpractitionerRole-creator"> </a><a name="practitionerRole-creator-en-US"> </a><hr/><blockquote><p class="res-header-id"><b>Generated Narrative: Organization  #mmh</b></p><a name="practitionerRole-creator/mmh"> </a><a name="hcpractitionerRole-creator/mmh"> </a><a name="practitionerRole-creator/mmh-en-US"> </a><p><b>identifier</b>: <a href="NamingSystem-hpiOrganization.html" title="HPI organizations">HPIOrganization</a>/mmh</p><p><b>name</b>: Middlemore Hospital</p></blockquote><hr/><blockquote><p class="res-header-id"><b>Generated Narrative: Practitioner  #administrator</b></p><a name="practitionerRole-creator/administrator"> </a><a name="hcpractitionerRole-creator/administrator"> </a><a name="practitionerRole-creator/administrator-en-US"> </a><p><b>name</b>: Amy Administrator</p></blockquote></div>
+  </text>
+  <contained>
+    <Organization>
+      <id value="mmh"/>
+      <identifier>
+        <system value="https://standards.digital.health.nz/ns/hpi-organisation-id"/>
+        <value value="mmh"/>
+      </identifier>
+      <name value="Middlemore Hospital"/>
+    </Organization>
+  </contained>
+  <contained>
+    <Practitioner>
+      <id value="administrator"/>
+      <name>
+        <text value="Amy Administrator"/>
+      </name>
+    </Practitioner>
+  </contained>
+  <extension url="http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator">
+    <extension url="person">
+      <valueReference>
+        <reference value="#administrator"/>
+      </valueReference>
+    </extension>
+    <extension url="organization">
+      <valueReference>
+        <reference value="#mmh"/>
+      </valueReference>
+    </extension>
+  </extension>
+</PractitionerRole>

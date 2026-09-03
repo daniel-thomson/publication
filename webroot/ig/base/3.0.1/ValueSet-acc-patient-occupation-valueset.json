@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "acc-patient-occupation-valueset",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet acc-patient-occupation-valueset</b></p><a name=\"acc-patient-occupation-valueset\"> </a><a name=\"hcacc-patient-occupation-valueset\"> </a><a name=\"acc-patient-occupation-valueset-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-acc-patient-occupation-codesystem.html\"><code>https://standards.digital.health.nz/ns/acc-patient-occupation-code</code></a></li></ul></div>"
+  },
+  "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code",
+  "version" : "1.0.0",
+  "name" : "AccPatientOccupationValueSet",
+  "title" : "ACC Patient Occupation",
+  "status" : "active",
+  "date" : "2024-08-14T09:20:22+12:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "ValueSet of codes for classifying patient occupations, drawn from the ACC codeset",
+  "compose" : {
+    "include" : [{
+      "system" : "https://standards.digital.health.nz/ns/acc-patient-occupation-code"
+    }]
+  }
+}

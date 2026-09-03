@@ -1,0 +1,37 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-47",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-47",
+  "name" : "UnionMaoriDescentAndMaoriDescentCodes",
+  "title" : "Union of Māori Descent And Māori descent codes",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "1",
+    "display" : "Māori Descent"
+  },
+  {
+    "code" : "2",
+    "display" : "No Māori Descent"
+  },
+  {
+    "code" : "4",
+    "display" : "Don't Know"
+  },
+  {
+    "code" : "5",
+    "display" : "Refused to Answer"
+  },
+  {
+    "code" : "7",
+    "display" : "Response Unidentifiable"
+  },
+  {
+    "code" : "8",
+    "display" : "Response Outside Scope"
+  },
+  {
+    "code" : "9",
+    "display" : "Not Stated"
+  }]
+}

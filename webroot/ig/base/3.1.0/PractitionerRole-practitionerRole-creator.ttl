@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/PractitionerRole/practitionerRole-creator> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "practitionerRole-creator"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole-creator</b></p><a name=\"practitionerRole-creator\"> </a><a name=\"hcpractitionerRole-creator\"> </a><blockquote><p><b>PractitionerRoleCreator</b></p><ul><li>person: <a href=\"#hcpractitionerRole-creator/administrator\">Practitioner Amy Administrator</a></li><li>organization: <a href=\"#hcpractitionerRole-creator/mmh\">Organization Middlemore Hospital</a></li></ul></blockquote><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Organization #mmh</b></p><a name=\"practitionerRole-creator/mmh\"> </a><a name=\"hcpractitionerRole-creator/mmh\"> </a><p><b>identifier</b>: <a href=\"NamingSystem-hpi-organisation-id.html\" title=\"HPI organizations\">HPIOrganization</a>/mmh</p><p><b>name</b>: Middlemore Hospital</p></blockquote><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Practitioner #administrator</b></p><a name=\"practitionerRole-creator/administrator\"> </a><a name=\"hcpractitionerRole-creator/administrator\"> </a><p><b>name</b>: Amy Administrator</p></blockquote></div>"
+  ] ;
+  fhir:DomainResource.contained [
+     a fhir:Organization ;
+     fhir:index 0 ;
+     fhir:Resource.id [ fhir:value "mmh" ] ;
+     fhir:Organization.identifier [
+       fhir:index 0 ;
+       fhir:Identifier.system [ fhir:value "https://standards.digital.health.nz/ns/hpi-organisation-id" ] ;
+       fhir:Identifier.value [ fhir:value "mmh" ]
+     ] ;
+     fhir:Organization.name [ fhir:value "Middlemore Hospital" ]
+  ], [
+     a fhir:Practitioner ;
+     fhir:index 1 ;
+     fhir:Resource.id [ fhir:value "administrator" ] ;
+     fhir:Practitioner.name [
+       fhir:index 0 ;
+       fhir:HumanName.text [ fhir:value "Amy Administrator" ]
+     ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "person" ] ;
+       fhir:Extension.valueReference [
+         fhir:Reference.reference [ fhir:value "#administrator" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "organization" ] ;
+       fhir:Extension.valueReference [
+         fhir:Reference.reference [ fhir:value "#mmh" ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/PractitionerRole/practitionerRole-creator.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

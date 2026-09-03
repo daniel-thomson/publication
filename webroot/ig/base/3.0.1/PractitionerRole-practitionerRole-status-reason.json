@@ -1,0 +1,19 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "practitionerRole-status-reason",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole-status-reason</b></p><a name=\"practitionerRole-status-reason\"> </a><a name=\"hcpractitionerRole-status-reason\"> </a><a name=\"practitionerRole-status-reason-en-US\"> </a><p><b>active</b>: false</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+        "code" : "duplicate",
+        "display" : "duplicate"
+      }]
+    }
+  }],
+  "active" : false
+}

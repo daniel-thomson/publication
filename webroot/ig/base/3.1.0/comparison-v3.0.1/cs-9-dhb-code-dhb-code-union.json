@@ -1,0 +1,89 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-26",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-26",
+  "name" : "UnionDhb_codeAndDhb_code",
+  "title" : "Union of NZ DHB And NZ DHB",
+  "status" : "draft",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "G00011-K",
+    "display" : "Auckland District Health Board"
+  },
+  {
+    "code" : "G00031-E",
+    "display" : "Bay of Plenty District Health Board"
+  },
+  {
+    "code" : "G00005-D",
+    "display" : "Canterbury District Health Board"
+  },
+  {
+    "code" : "G00036-D",
+    "display" : "Capital and Coast District Health Board"
+  },
+  {
+    "code" : "G00012-A",
+    "display" : "Counties Manukau District Health Board"
+  },
+  {
+    "code" : "G00032-G",
+    "display" : "Hawkes Bay District Health Board"
+  },
+  {
+    "code" : "G00006-F",
+    "display" : "Hutt Valley District Health Board"
+  },
+  {
+    "code" : "G00028-E",
+    "display" : "Lakes District Health Board"
+  },
+  {
+    "code" : "G00033-J",
+    "display" : "Mid Central District Health Board"
+  },
+  {
+    "code" : "G00038-H",
+    "display" : "Nelson Marlborough District Health Board"
+  },
+  {
+    "code" : "G00026-A",
+    "display" : "Northland District Health Board"
+  },
+  {
+    "code" : "G00025-K",
+    "display" : "South Canterbury District Health Board"
+  },
+  {
+    "code" : "G02328-E",
+    "display" : "Southern District Health Board"
+  },
+  {
+    "code" : "G00029-G",
+    "display" : "Tairawhiti District Health Board"
+  },
+  {
+    "code" : "G00030-C",
+    "display" : "Taranaki District Health Board"
+  },
+  {
+    "code" : "G00027-C",
+    "display" : "Waikato District Health Board"
+  },
+  {
+    "code" : "G00037-F",
+    "display" : "Wairarapa District Health Board"
+  },
+  {
+    "code" : "G00013-C",
+    "display" : "Waitemata District Health Board"
+  },
+  {
+    "code" : "G00039-K",
+    "display" : "West Coast District Health Board"
+  },
+  {
+    "code" : "G00035-B",
+    "display" : "Whanganui District Health Board"
+  }]
+}

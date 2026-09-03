@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "maori-descent-valueset",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet maori-descent-valueset</b></p><a name=\"maori-descent-valueset\"> </a><a name=\"hcmaori-descent-valueset\"> </a><a name=\"maori-descent-valueset-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-maori-descent-codesystem.html\"><code>https://standards.digital.health.nz/ns/maori-descent-code</code></a></li></ul></div>"
+  },
+  "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
+  "version" : "1.0.0",
+  "name" : "MaoriDescentValues",
+  "title" : "Māori Descent",
+  "status" : "active",
+  "date" : "2024-08-14T09:20:22+12:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "A code indicating whether a person is of Māori descent",
+  "compose" : {
+    "include" : [{
+      "system" : "https://standards.digital.health.nz/ns/maori-descent-code"
+    }]
+  }
+}

@@ -1,0 +1,32 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Organization/organization-edi-address> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "organization-edi-address"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization organization-edi-address</b></p><a name=\"organization-edi-address\"> </a><a name=\"hcorganization-edi-address\"> </a><a name=\"organization-edi-address-en-US\"> </a><p><b>name</b>: Health R Us</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Telecom</b></td></tr><tr><td style=\"display: none\">*</td><td>HealthLink EDI account</td><td>-unknown-</td></tr></table></div>"
+  ] ; # 
+  fhir:name [ fhir:v "Health R Us"] ; # 
+  fhir:contact ( [
+     fhir:name [
+       fhir:text [ fhir:v "HealthLink EDI account" ]
+     ] ;
+     fhir:telecom ( [
+       fhir:system [
+         fhir:v "other" ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/edi-address"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "ABC-876" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

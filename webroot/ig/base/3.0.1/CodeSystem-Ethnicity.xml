@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="Ethnicity"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2023-07-23T21:32:16.962+12:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem Ethnicity</b></p><a name="Ethnicity"> </a><a name="hcEthnicity"> </a><a name="Ethnicity-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2023-07-23 21:32:16+1200</p></div><p>This case-insensitive code system <code>https://standards.digital.health.nz/ns/nz-ethnic-group-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="Ethnicity-1"> </a></td><td>European</td></tr><tr><td style="white-space:nowrap">10<a name="Ethnicity-10"> </a></td><td>European nfd</td></tr><tr><td style="white-space:nowrap">100<a name="Ethnicity-100"> </a></td><td>European nfd</td></tr><tr><td style="white-space:nowrap">10000<a name="Ethnicity-10000"> </a></td><td>European nfd</td></tr><tr><td style="white-space:nowrap">11<a name="Ethnicity-11"> </a></td><td>New Zealand European</td></tr><tr><td style="white-space:nowrap">111<a name="Ethnicity-111"> </a></td><td>New Zealand European</td></tr><tr><td style="white-space:nowrap">11111<a name="Ethnicity-11111"> </a></td><td>New Zealand European</td></tr><tr><td style="white-space:nowrap">12<a name="Ethnicity-12"> </a></td><td>Other European</td></tr><tr><td style="white-space:nowrap">121<a name="Ethnicity-121"> </a></td><td>British and Irish</td></tr><tr><td style="white-space:nowrap">12100<a name="Ethnicity-12100"> </a></td><td>British nfd</td></tr><tr><td style="white-space:nowrap">12111<a name="Ethnicity-12111"> </a></td><td>Celtic nfd</td></tr><tr><td style="white-space:nowrap">12112<a name="Ethnicity-12112"> </a></td><td>Channel Islander</td></tr><tr><td style="white-space:nowrap">12113<a name="Ethnicity-12113"> </a></td><td>Cornish</td></tr><tr><td style="white-space:nowrap">12114<a name="Ethnicity-12114"> </a></td><td>English</td></tr><tr><td style="white-space:nowrap">12116<a name="Ethnicity-12116"> </a></td><td>Irish</td></tr><tr><td style="white-space:nowrap">12117<a name="Ethnicity-12117"> </a></td><td>Manx</td></tr><tr><td style="white-space:nowrap">12119<a name="Ethnicity-12119"> </a></td><td>Scottish</td></tr><tr><td style="white-space:nowrap">12121<a name="Ethnicity-12121"> </a></td><td>Welsh</td></tr><tr><td style="white-space:nowrap">12199<a name="Ethnicity-12199"> </a></td><td>British nec</td></tr><tr><td style="white-space:nowrap">122<a name="Ethnicity-122"> </a></td><td>Dutch</td></tr><tr><td style="white-space:nowrap">12211<a name="Ethnicity-12211"> </a></td><td>Dutch</td></tr><tr><td style="white-space:nowrap">123<a name="Ethnicity-123"> </a></td><td>Greek</td></tr><tr><td style="white-space:nowrap">12311<a name="Ethnicity-12311"> </a></td><td>Greek</td></tr><tr><td style="white-space:nowrap">124<a name="Ethnicity-124"> </a></td><td>Polish</td></tr><tr><td style="white-space:nowrap">12411<a name="Ethnicity-12411"> </a></td><td>Polish</td></tr><tr><td style="white-space:nowrap">125<a name="Ethnicity-125"> </a></td><td>South Slav</td></tr><tr><td style="white-space:nowrap">12500<a name="Ethnicity-12500"> </a></td><td>South Slav nfd</td></tr><tr><td style="white-space:nowrap">12511<a name="Ethnicity-12511"> </a></td><td>Croatian</td></tr><tr><td style="white-space:nowrap">12512<a name="Ethnicity-12512"> </a></td><td>Dalmatian</td></tr><tr><td style="white-space:nowrap">12513<a name="Ethnicity-12513"> </a></td><td>Macedonian</td></tr><tr><td style="white-space:nowrap">12514<a name="Ethnicity-12514"> </a></td><td>Serbian</td></tr><tr><td style="white-space:nowrap">12515<a name="Ethnicity-12515"> </a></td><td>Slovenian</td></tr><tr><td style="white-space:nowrap">12516<a name="Ethnicity-12516"> </a></td><td>Bosnian</td></tr><tr><td style="white-space:nowrap">12599<a name="Ethnicity-12599"> </a></td><td>South Slav nec</td></tr><tr><td style="white-space:nowrap">126<a name="Ethnicity-126"> </a></td><td>Italian</td></tr><tr><td style="white-space:nowrap">12611<a name="Ethnicity-12611"> </a></td><td>Italian</td></tr><tr><td style="white-space:nowrap">127<a name="Ethnicity-127"> </a></td><td>German</td></tr><tr><td style="white-space:nowrap">12711<a name="Ethnicity-12711"> </a></td><td>German</td></tr><tr><td style="white-space:nowrap">128<a name="Ethnicity-128"> </a></td><td>Australian</td></tr><tr><td style="white-space:nowrap">12811<a name="Ethnicity-12811"> </a></td><td>Australian</td></tr><tr><td style="white-space:nowrap">129<a name="Ethnicity-129"> </a></td><td>Other European</td></tr><tr><td style="white-space:nowrap">12911<a name="Ethnicity-12911"> </a></td><td>Albanian</td></tr><tr><td style="white-space:nowrap">12912<a name="Ethnicity-12912"> </a></td><td>Armenian</td></tr><tr><td style="white-space:nowrap">12913<a name="Ethnicity-12913"> </a></td><td>Austrian</td></tr><tr><td style="white-space:nowrap">12914<a name="Ethnicity-12914"> </a></td><td>Belgian</td></tr><tr><td style="white-space:nowrap">12915<a name="Ethnicity-12915"> </a></td><td>Bulgarian</td></tr><tr><td style="white-space:nowrap">12916<a name="Ethnicity-12916"> </a></td><td>Belorussian</td></tr><tr><td style="white-space:nowrap">12918<a name="Ethnicity-12918"> </a></td><td>Cypriot nfd</td></tr><tr><td style="white-space:nowrap">12919<a name="Ethnicity-12919"> </a></td><td>Czech</td></tr><tr><td style="white-space:nowrap">12920<a name="Ethnicity-12920"> </a></td><td>Danish</td></tr><tr><td style="white-space:nowrap">12921<a name="Ethnicity-12921"> </a></td><td>Estonian</td></tr><tr><td style="white-space:nowrap">12922<a name="Ethnicity-12922"> </a></td><td>Finnish</td></tr><tr><td style="white-space:nowrap">12923<a name="Ethnicity-12923"> </a></td><td>Flemish</td></tr><tr><td style="white-space:nowrap">12924<a name="Ethnicity-12924"> </a></td><td>French</td></tr><tr><td style="white-space:nowrap">12926<a name="Ethnicity-12926"> </a></td><td>Hungarian</td></tr><tr><td style="white-space:nowrap">12927<a name="Ethnicity-12927"> </a></td><td>Icelandic</td></tr><tr><td style="white-space:nowrap">12928<a name="Ethnicity-12928"> </a></td><td>Latvian</td></tr><tr><td style="white-space:nowrap">12929<a name="Ethnicity-12929"> </a></td><td>Lithuanian</td></tr><tr><td style="white-space:nowrap">12930<a name="Ethnicity-12930"> </a></td><td>Maltese</td></tr><tr><td style="white-space:nowrap">12931<a name="Ethnicity-12931"> </a></td><td>Norwegian</td></tr><tr><td style="white-space:nowrap">12932<a name="Ethnicity-12932"> </a></td><td>Portuguese</td></tr><tr><td style="white-space:nowrap">12933<a name="Ethnicity-12933"> </a></td><td>Romanian</td></tr><tr><td style="white-space:nowrap">12934<a name="Ethnicity-12934"> </a></td><td>Romani</td></tr><tr><td style="white-space:nowrap">12935<a name="Ethnicity-12935"> </a></td><td>Russian</td></tr><tr><td style="white-space:nowrap">12937<a name="Ethnicity-12937"> </a></td><td>Slavic</td></tr><tr><td style="white-space:nowrap">12938<a name="Ethnicity-12938"> </a></td><td>Slovak</td></tr><tr><td style="white-space:nowrap">12939<a name="Ethnicity-12939"> </a></td><td>Spanish</td></tr><tr><td style="white-space:nowrap">12940<a name="Ethnicity-12940"> </a></td><td>Swedish</td></tr><tr><td style="white-space:nowrap">12941<a name="Ethnicity-12941"> </a></td><td>Swiss</td></tr><tr><td style="white-space:nowrap">12942<a name="Ethnicity-12942"> </a></td><td>Ukrainian</td></tr><tr><td style="white-space:nowrap">12943<a name="Ethnicity-12943"> </a></td><td>American</td></tr><tr><td style="white-space:nowrap">12945<a name="Ethnicity-12945"> </a></td><td>Canadian</td></tr><tr><td style="white-space:nowrap">12947<a name="Ethnicity-12947"> </a></td><td>New Caledonian</td></tr><tr><td style="white-space:nowrap">12948<a name="Ethnicity-12948"> </a></td><td>South African European</td></tr><tr><td style="white-space:nowrap">12949<a name="Ethnicity-12949"> </a></td><td>Afrikaner</td></tr><tr><td style="white-space:nowrap">12950<a name="Ethnicity-12950"> </a></td><td>Zimbabwean European</td></tr><tr><td style="white-space:nowrap">12999<a name="Ethnicity-12999"> </a></td><td>European nec</td></tr><tr><td style="white-space:nowrap">2<a name="Ethnicity-2"> </a></td><td>Māori</td></tr><tr><td style="white-space:nowrap">21<a name="Ethnicity-21"> </a></td><td>Māori</td></tr><tr><td style="white-space:nowrap">211<a name="Ethnicity-211"> </a></td><td>Māori</td></tr><tr><td style="white-space:nowrap">21111<a name="Ethnicity-21111"> </a></td><td>Māori</td></tr><tr><td style="white-space:nowrap">3<a name="Ethnicity-3"> </a></td><td>Pacific Peoples</td></tr><tr><td style="white-space:nowrap">30<a name="Ethnicity-30"> </a></td><td>Pacific Peoples nfd</td></tr><tr><td style="white-space:nowrap">300<a name="Ethnicity-300"> </a></td><td>Pacific Peoples nfd</td></tr><tr><td style="white-space:nowrap">30000<a name="Ethnicity-30000"> </a></td><td>Pacific Peoples nfd</td></tr><tr><td style="white-space:nowrap">31<a name="Ethnicity-31"> </a></td><td>Samoan</td></tr><tr><td style="white-space:nowrap">311<a name="Ethnicity-311"> </a></td><td>Samoan</td></tr><tr><td style="white-space:nowrap">31111<a name="Ethnicity-31111"> </a></td><td>Samoan</td></tr><tr><td style="white-space:nowrap">32<a name="Ethnicity-32"> </a></td><td>Cook Islands Maori</td></tr><tr><td style="white-space:nowrap">321<a name="Ethnicity-321"> </a></td><td>Cook Islands Maori</td></tr><tr><td style="white-space:nowrap">32100<a name="Ethnicity-32100"> </a></td><td>Cook Islands Maori</td></tr><tr><td style="white-space:nowrap">33<a name="Ethnicity-33"> </a></td><td>Tongan</td></tr><tr><td style="white-space:nowrap">331<a name="Ethnicity-331"> </a></td><td>Tongan</td></tr><tr><td style="white-space:nowrap">33111<a name="Ethnicity-33111"> </a></td><td>Tongan</td></tr><tr><td style="white-space:nowrap">34<a name="Ethnicity-34"> </a></td><td>Niuean</td></tr><tr><td style="white-space:nowrap">341<a name="Ethnicity-341"> </a></td><td>Niuean</td></tr><tr><td style="white-space:nowrap">34111<a name="Ethnicity-34111"> </a></td><td>Niuean</td></tr><tr><td style="white-space:nowrap">35<a name="Ethnicity-35"> </a></td><td>Tokelauan</td></tr><tr><td style="white-space:nowrap">351<a name="Ethnicity-351"> </a></td><td>Tokelauan</td></tr><tr><td style="white-space:nowrap">35111<a name="Ethnicity-35111"> </a></td><td>Tokelauan</td></tr><tr><td style="white-space:nowrap">36<a name="Ethnicity-36"> </a></td><td>Fijian</td></tr><tr><td style="white-space:nowrap">361<a name="Ethnicity-361"> </a></td><td>Fijian</td></tr><tr><td style="white-space:nowrap">36111<a name="Ethnicity-36111"> </a></td><td>Fijian</td></tr><tr><td style="white-space:nowrap">37<a name="Ethnicity-37"> </a></td><td>Other Pacific Peoples</td></tr><tr><td style="white-space:nowrap">371<a name="Ethnicity-371"> </a></td><td>Other Pacific Peoples</td></tr><tr><td style="white-space:nowrap">37112<a name="Ethnicity-37112"> </a></td><td>Indigenous Australian</td></tr><tr><td style="white-space:nowrap">37122<a name="Ethnicity-37122"> </a></td><td>Hawaiian</td></tr><tr><td style="white-space:nowrap">37124<a name="Ethnicity-37124"> </a></td><td>Kiribati</td></tr><tr><td style="white-space:nowrap">37130<a name="Ethnicity-37130"> </a></td><td>Nauruan</td></tr><tr><td style="white-space:nowrap">37135<a name="Ethnicity-37135"> </a></td><td>Papua New Guinean</td></tr><tr><td style="white-space:nowrap">37137<a name="Ethnicity-37137"> </a></td><td>Pitcairn Islander</td></tr><tr><td style="white-space:nowrap">37138<a name="Ethnicity-37138"> </a></td><td>Rotuman</td></tr><tr><td style="white-space:nowrap">37140<a name="Ethnicity-37140"> </a></td><td>Tahitian</td></tr><tr><td style="white-space:nowrap">37141<a name="Ethnicity-37141"> </a></td><td>Solomon Islander</td></tr><tr><td style="white-space:nowrap">37144<a name="Ethnicity-37144"> </a></td><td>Tuvaluan</td></tr><tr><td style="white-space:nowrap">37145<a name="Ethnicity-37145"> </a></td><td>Ni Vanuatu</td></tr><tr><td style="white-space:nowrap">37199<a name="Ethnicity-37199"> </a></td><td>Pacific Peoples nec</td></tr><tr><td style="white-space:nowrap">4<a name="Ethnicity-4"> </a></td><td>Asian</td></tr><tr><td style="white-space:nowrap">40<a name="Ethnicity-40"> </a></td><td>Asian nfd</td></tr><tr><td style="white-space:nowrap">400<a name="Ethnicity-400"> </a></td><td>Asian nfd</td></tr><tr><td style="white-space:nowrap">40000<a name="Ethnicity-40000"> </a></td><td>Asian nfd</td></tr><tr><td style="white-space:nowrap">41<a name="Ethnicity-41"> </a></td><td>Southeast Asian</td></tr><tr><td style="white-space:nowrap">410<a name="Ethnicity-410"> </a></td><td>Southeast Asian nfd</td></tr><tr><td style="white-space:nowrap">41000<a name="Ethnicity-41000"> </a></td><td>Southeast Asian nfd</td></tr><tr><td style="white-space:nowrap">411<a name="Ethnicity-411"> </a></td><td>Filipino</td></tr><tr><td style="white-space:nowrap">41111<a name="Ethnicity-41111"> </a></td><td>Filipino</td></tr><tr><td style="white-space:nowrap">412<a name="Ethnicity-412"> </a></td><td>Cambodian</td></tr><tr><td style="white-space:nowrap">41211<a name="Ethnicity-41211"> </a></td><td>Cambodian</td></tr><tr><td style="white-space:nowrap">413<a name="Ethnicity-413"> </a></td><td>Vietnamese</td></tr><tr><td style="white-space:nowrap">41311<a name="Ethnicity-41311"> </a></td><td>Vietnamese</td></tr><tr><td style="white-space:nowrap">414<a name="Ethnicity-414"> </a></td><td>Other Southeast Asian</td></tr><tr><td style="white-space:nowrap">41411<a name="Ethnicity-41411"> </a></td><td>Burmese</td></tr><tr><td style="white-space:nowrap">41412<a name="Ethnicity-41412"> </a></td><td>Indonesian</td></tr><tr><td style="white-space:nowrap">41413<a name="Ethnicity-41413"> </a></td><td>Lao</td></tr><tr><td style="white-space:nowrap">41414<a name="Ethnicity-41414"> </a></td><td>Malay</td></tr><tr><td style="white-space:nowrap">41415<a name="Ethnicity-41415"> </a></td><td>Thai</td></tr><tr><td style="white-space:nowrap">41416<a name="Ethnicity-41416"> </a></td><td>Karen</td></tr><tr><td style="white-space:nowrap">41417<a name="Ethnicity-41417"> </a></td><td>Chin</td></tr><tr><td style="white-space:nowrap">41499<a name="Ethnicity-41499"> </a></td><td>Southeast Asian nec</td></tr><tr><td style="white-space:nowrap">42<a name="Ethnicity-42"> </a></td><td>Chinese</td></tr><tr><td style="white-space:nowrap">421<a name="Ethnicity-421"> </a></td><td>Chinese</td></tr><tr><td style="white-space:nowrap">42100<a name="Ethnicity-42100"> </a></td><td>Chinese nfd</td></tr><tr><td style="white-space:nowrap">42111<a name="Ethnicity-42111"> </a></td><td>Hong Kong Chinese</td></tr><tr><td style="white-space:nowrap">42112<a name="Ethnicity-42112"> </a></td><td>Cambodian Chinese</td></tr><tr><td style="white-space:nowrap">42113<a name="Ethnicity-42113"> </a></td><td>Malaysian Chinese</td></tr><tr><td style="white-space:nowrap">42114<a name="Ethnicity-42114"> </a></td><td>Singaporean Chinese</td></tr><tr><td style="white-space:nowrap">42115<a name="Ethnicity-42115"> </a></td><td>Vietnamese Chinese</td></tr><tr><td style="white-space:nowrap">42116<a name="Ethnicity-42116"> </a></td><td>Taiwanese</td></tr><tr><td style="white-space:nowrap">42199<a name="Ethnicity-42199"> </a></td><td>Chinese nec</td></tr><tr><td style="white-space:nowrap">43<a name="Ethnicity-43"> </a></td><td>Indian</td></tr><tr><td style="white-space:nowrap">431<a name="Ethnicity-431"> </a></td><td>Indian</td></tr><tr><td style="white-space:nowrap">43100<a name="Ethnicity-43100"> </a></td><td>Indian nfd</td></tr><tr><td style="white-space:nowrap">43111<a name="Ethnicity-43111"> </a></td><td>Bengali</td></tr><tr><td style="white-space:nowrap">43112<a name="Ethnicity-43112"> </a></td><td>Fijian Indian</td></tr><tr><td style="white-space:nowrap">43114<a name="Ethnicity-43114"> </a></td><td>Indian Tamil</td></tr><tr><td style="white-space:nowrap">43115<a name="Ethnicity-43115"> </a></td><td>Punjabi</td></tr><tr><td style="white-space:nowrap">43116<a name="Ethnicity-43116"> </a></td><td>Sikh</td></tr><tr><td style="white-space:nowrap">43117<a name="Ethnicity-43117"> </a></td><td>Anglo Indian</td></tr><tr><td style="white-space:nowrap">43118<a name="Ethnicity-43118"> </a></td><td>Malaysian Indian</td></tr><tr><td style="white-space:nowrap">43119<a name="Ethnicity-43119"> </a></td><td>South African Indian</td></tr><tr><td style="white-space:nowrap">43199<a name="Ethnicity-43199"> </a></td><td>Indian nec</td></tr><tr><td style="white-space:nowrap">44<a name="Ethnicity-44"> </a></td><td>Other Asian</td></tr><tr><td style="white-space:nowrap">441<a name="Ethnicity-441"> </a></td><td>Sri Lankan</td></tr><tr><td style="white-space:nowrap">44100<a name="Ethnicity-44100"> </a></td><td>Sri Lankan nfd</td></tr><tr><td style="white-space:nowrap">44111<a name="Ethnicity-44111"> </a></td><td>Sinhalese</td></tr><tr><td style="white-space:nowrap">44112<a name="Ethnicity-44112"> </a></td><td>Sri Lankan Tamil</td></tr><tr><td style="white-space:nowrap">44199<a name="Ethnicity-44199"> </a></td><td>Sri Lankan nec</td></tr><tr><td style="white-space:nowrap">442<a name="Ethnicity-442"> </a></td><td>Japanese</td></tr><tr><td style="white-space:nowrap">44211<a name="Ethnicity-44211"> </a></td><td>Japanese</td></tr><tr><td style="white-space:nowrap">443<a name="Ethnicity-443"> </a></td><td>Korean</td></tr><tr><td style="white-space:nowrap">44311<a name="Ethnicity-44311"> </a></td><td>Korean</td></tr><tr><td style="white-space:nowrap">444<a name="Ethnicity-444"> </a></td><td>Other Asian</td></tr><tr><td style="white-space:nowrap">44411<a name="Ethnicity-44411"> </a></td><td>Afghan</td></tr><tr><td style="white-space:nowrap">44412<a name="Ethnicity-44412"> </a></td><td>Bangladeshi</td></tr><tr><td style="white-space:nowrap">44413<a name="Ethnicity-44413"> </a></td><td>Nepali</td></tr><tr><td style="white-space:nowrap">44414<a name="Ethnicity-44414"> </a></td><td>Pakistani</td></tr><tr><td style="white-space:nowrap">44415<a name="Ethnicity-44415"> </a></td><td>Tibetan</td></tr><tr><td style="white-space:nowrap">44416<a name="Ethnicity-44416"> </a></td><td>Eurasian</td></tr><tr><td style="white-space:nowrap">44417<a name="Ethnicity-44417"> </a></td><td>Bhutanese</td></tr><tr><td style="white-space:nowrap">44418<a name="Ethnicity-44418"> </a></td><td>Maldivian</td></tr><tr><td style="white-space:nowrap">44419<a name="Ethnicity-44419"> </a></td><td>Mongolian</td></tr><tr><td style="white-space:nowrap">44499<a name="Ethnicity-44499"> </a></td><td>Asian nec</td></tr><tr><td style="white-space:nowrap">5<a name="Ethnicity-5"> </a></td><td>Middle Eastern/Latin American/African</td></tr><tr><td style="white-space:nowrap">51<a name="Ethnicity-51"> </a></td><td>Middle Eastern</td></tr><tr><td style="white-space:nowrap">511<a name="Ethnicity-511"> </a></td><td>Middle Eastern</td></tr><tr><td style="white-space:nowrap">51100<a name="Ethnicity-51100"> </a></td><td>Middle Eastern nfd</td></tr><tr><td style="white-space:nowrap">51111<a name="Ethnicity-51111"> </a></td><td>Algerian</td></tr><tr><td style="white-space:nowrap">51112<a name="Ethnicity-51112"> </a></td><td>Arab</td></tr><tr><td style="white-space:nowrap">51113<a name="Ethnicity-51113"> </a></td><td>Assyrian</td></tr><tr><td style="white-space:nowrap">51114<a name="Ethnicity-51114"> </a></td><td>Egyptian</td></tr><tr><td style="white-space:nowrap">51115<a name="Ethnicity-51115"> </a></td><td>Iranian/Persian</td></tr><tr><td style="white-space:nowrap">51116<a name="Ethnicity-51116"> </a></td><td>Iraqi</td></tr><tr><td style="white-space:nowrap">51117<a name="Ethnicity-51117"> </a></td><td>Israeli/Jewish</td></tr><tr><td style="white-space:nowrap">51118<a name="Ethnicity-51118"> </a></td><td>Jordanian</td></tr><tr><td style="white-space:nowrap">51119<a name="Ethnicity-51119"> </a></td><td>Kurd</td></tr><tr><td style="white-space:nowrap">51120<a name="Ethnicity-51120"> </a></td><td>Lebanese</td></tr><tr><td style="white-space:nowrap">51122<a name="Ethnicity-51122"> </a></td><td>Moroccan</td></tr><tr><td style="white-space:nowrap">51124<a name="Ethnicity-51124"> </a></td><td>Palestinian</td></tr><tr><td style="white-space:nowrap">51125<a name="Ethnicity-51125"> </a></td><td>Syrian</td></tr><tr><td style="white-space:nowrap">51127<a name="Ethnicity-51127"> </a></td><td>Turkish</td></tr><tr><td style="white-space:nowrap">51199<a name="Ethnicity-51199"> </a></td><td>Middle Eastern nec</td></tr><tr><td style="white-space:nowrap">52<a name="Ethnicity-52"> </a></td><td>Latin American</td></tr><tr><td style="white-space:nowrap">521<a name="Ethnicity-521"> </a></td><td>Latin American</td></tr><tr><td style="white-space:nowrap">52100<a name="Ethnicity-52100"> </a></td><td>Latin American nfd</td></tr><tr><td style="white-space:nowrap">52111<a name="Ethnicity-52111"> </a></td><td>Argentinian</td></tr><tr><td style="white-space:nowrap">52112<a name="Ethnicity-52112"> </a></td><td>Bolivian</td></tr><tr><td style="white-space:nowrap">52113<a name="Ethnicity-52113"> </a></td><td>Brazilian</td></tr><tr><td style="white-space:nowrap">52114<a name="Ethnicity-52114"> </a></td><td>Chilean</td></tr><tr><td style="white-space:nowrap">52115<a name="Ethnicity-52115"> </a></td><td>Colombian</td></tr><tr><td style="white-space:nowrap">52118<a name="Ethnicity-52118"> </a></td><td>Ecuadorian</td></tr><tr><td style="white-space:nowrap">52123<a name="Ethnicity-52123"> </a></td><td>Mexican</td></tr><tr><td style="white-space:nowrap">52127<a name="Ethnicity-52127"> </a></td><td>Peruvian</td></tr><tr><td style="white-space:nowrap">52128<a name="Ethnicity-52128"> </a></td><td>Puerto Rican</td></tr><tr><td style="white-space:nowrap">52129<a name="Ethnicity-52129"> </a></td><td>Uruguayan</td></tr><tr><td style="white-space:nowrap">52130<a name="Ethnicity-52130"> </a></td><td>Venezuelan</td></tr><tr><td style="white-space:nowrap">52199<a name="Ethnicity-52199"> </a></td><td>Latin American nec</td></tr><tr><td style="white-space:nowrap">53<a name="Ethnicity-53"> </a></td><td>African</td></tr><tr><td style="white-space:nowrap">531<a name="Ethnicity-531"> </a></td><td>African</td></tr><tr><td style="white-space:nowrap">53100<a name="Ethnicity-53100"> </a></td><td>African nfd</td></tr><tr><td style="white-space:nowrap">53113<a name="Ethnicity-53113"> </a></td><td>Jamaican</td></tr><tr><td style="white-space:nowrap">53114<a name="Ethnicity-53114"> </a></td><td>Kenyan</td></tr><tr><td style="white-space:nowrap">53115<a name="Ethnicity-53115"> </a></td><td>Nigerian</td></tr><tr><td style="white-space:nowrap">53116<a name="Ethnicity-53116"> </a></td><td>African American</td></tr><tr><td style="white-space:nowrap">53118<a name="Ethnicity-53118"> </a></td><td>Caribbean</td></tr><tr><td style="white-space:nowrap">53119<a name="Ethnicity-53119"> </a></td><td>Somali</td></tr><tr><td style="white-space:nowrap">53120<a name="Ethnicity-53120"> </a></td><td>Eritrean</td></tr><tr><td style="white-space:nowrap">53121<a name="Ethnicity-53121"> </a></td><td>Ethiopian</td></tr><tr><td style="white-space:nowrap">53122<a name="Ethnicity-53122"> </a></td><td>Ghanaian</td></tr><tr><td style="white-space:nowrap">53123<a name="Ethnicity-53123"> </a></td><td>Burundian</td></tr><tr><td style="white-space:nowrap">53124<a name="Ethnicity-53124"> </a></td><td>Congolese</td></tr><tr><td style="white-space:nowrap">53125<a name="Ethnicity-53125"> </a></td><td>Sudanese</td></tr><tr><td style="white-space:nowrap">53126<a name="Ethnicity-53126"> </a></td><td>Zambian</td></tr><tr><td style="white-space:nowrap">53127<a name="Ethnicity-53127"> </a></td><td>Other Zimbabwean</td></tr><tr><td style="white-space:nowrap">53199<a name="Ethnicity-53199"> </a></td><td>African nec</td></tr><tr><td style="white-space:nowrap">6<a name="Ethnicity-6"> </a></td><td>Other Ethnicity</td></tr><tr><td style="white-space:nowrap">61<a name="Ethnicity-61"> </a></td><td>Other Ethnicity</td></tr><tr><td style="white-space:nowrap">611<a name="Ethnicity-611"> </a></td><td>Other Ethnicity</td></tr><tr><td style="white-space:nowrap">61113<a name="Ethnicity-61113"> </a></td><td>Indigenous American</td></tr><tr><td style="white-space:nowrap">61115<a name="Ethnicity-61115"> </a></td><td>Mauritian</td></tr><tr><td style="white-space:nowrap">61116<a name="Ethnicity-61116"> </a></td><td>Seychellois</td></tr><tr><td style="white-space:nowrap">61117<a name="Ethnicity-61117"> </a></td><td>Other South African</td></tr><tr><td style="white-space:nowrap">61118<a name="Ethnicity-61118"> </a></td><td>New Zealander</td></tr><tr><td style="white-space:nowrap">61199<a name="Ethnicity-61199"> </a></td><td>Other Ethnicity nec</td></tr><tr><td style="white-space:nowrap">9<a name="Ethnicity-9"> </a></td><td>Residual Categories</td></tr><tr><td style="white-space:nowrap">94<a name="Ethnicity-94"> </a></td><td>Don't Know</td></tr><tr><td style="white-space:nowrap">944<a name="Ethnicity-944"> </a></td><td>Don't Know</td></tr><tr><td style="white-space:nowrap">94444<a name="Ethnicity-94444"> </a></td><td>Don't Know</td></tr><tr><td style="white-space:nowrap">95<a name="Ethnicity-95"> </a></td><td>Refused to Answer</td></tr><tr><td style="white-space:nowrap">955<a name="Ethnicity-955"> </a></td><td>Refused to Answer</td></tr><tr><td style="white-space:nowrap">95555<a name="Ethnicity-95555"> </a></td><td>Refused to Answer</td></tr><tr><td style="white-space:nowrap">96<a name="Ethnicity-96"> </a></td><td>Repeated Value</td></tr><tr><td style="white-space:nowrap">966<a name="Ethnicity-966"> </a></td><td>Repeated Value</td></tr><tr><td style="white-space:nowrap">96666<a name="Ethnicity-96666"> </a></td><td>Repeated Value</td></tr><tr><td style="white-space:nowrap">97<a name="Ethnicity-97"> </a></td><td>Response Unidentifiable</td></tr><tr><td style="white-space:nowrap">977<a name="Ethnicity-977"> </a></td><td>Response Unidentifiable</td></tr><tr><td style="white-space:nowrap">97777<a name="Ethnicity-97777"> </a></td><td>Response Unidentifiable</td></tr><tr><td style="white-space:nowrap">98<a name="Ethnicity-98"> </a></td><td>Response Outside Scope</td></tr><tr><td style="white-space:nowrap">988<a name="Ethnicity-988"> </a></td><td>Response Outside Scope</td></tr><tr><td style="white-space:nowrap">98888<a name="Ethnicity-98888"> </a></td><td>Response Outside Scope</td></tr><tr><td style="white-space:nowrap">99<a name="Ethnicity-99"> </a></td><td>Not Stated</td></tr><tr><td style="white-space:nowrap">999<a name="Ethnicity-999"> </a></td><td>Not Stated</td></tr><tr><td style="white-space:nowrap">99999<a name="Ethnicity-99999"> </a></td><td>Not Stated</td></tr></table></div>
+  </text>
+  <url value="https://standards.digital.health.nz/ns/nz-ethnic-group-codes"/>
+  <version value="2.1.0"/>
+  <name value="NZ_ethnic_group_codes"/>
+  <title value="NZ ethnic group codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-08-14T09:20:22+12:00"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to."/>
+  <caseSensitive value="false"/>
+  <valueSet value="https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code"/>
+  <content value="complete"/>
+  <count value="262"/>
+  <concept>
+    <code value="1"/>
+    <display value="European"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="European nfd"/>
+  </concept>
+  <concept>
+    <code value="100"/>
+    <display value="European nfd"/>
+  </concept>
+  <concept>
+    <code value="10000"/>
+    <display value="European nfd"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="New Zealand European"/>
+  </concept>
+  <concept>
+    <code value="111"/>
+    <display value="New Zealand European"/>
+  </concept>
+  <concept>
+    <code value="11111"/>
+    <display value="New Zealand European"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Other European"/>
+  </concept>
+  <concept>
+    <code value="121"/>
+    <display value="British and Irish"/>
+  </concept>
+  <concept>
+    <code value="12100"/>
+    <display value="British nfd"/>
+  </concept>
+  <concept>
+    <code value="12111"/>
+    <display value="Celtic nfd"/>
+  </concept>
+  <concept>
+    <code value="12112"/>
+    <display value="Channel Islander"/>
+  </concept>
+  <concept>
+    <code value="12113"/>
+    <display value="Cornish"/>
+  </concept>
+  <concept>
+    <code value="12114"/>
+    <display value="English"/>
+  </concept>
+  <concept>
+    <code value="12116"/>
+    <display value="Irish"/>
+  </concept>
+  <concept>
+    <code value="12117"/>
+    <display value="Manx"/>
+  </concept>
+  <concept>
+    <code value="12119"/>
+    <display value="Scottish"/>
+  </concept>
+  <concept>
+    <code value="12121"/>
+    <display value="Welsh"/>
+  </concept>
+  <concept>
+    <code value="12199"/>
+    <display value="British nec"/>
+  </concept>
+  <concept>
+    <code value="122"/>
+    <display value="Dutch"/>
+  </concept>
+  <concept>
+    <code value="12211"/>
+    <display value="Dutch"/>
+  </concept>
+  <concept>
+    <code value="123"/>
+    <display value="Greek"/>
+  </concept>
+  <concept>
+    <code value="12311"/>
+    <display value="Greek"/>
+  </concept>
+  <concept>
+    <code value="124"/>
+    <display value="Polish"/>
+  </concept>
+  <concept>
+    <code value="12411"/>
+    <display value="Polish"/>
+  </concept>
+  <concept>
+    <code value="125"/>
+    <display value="South Slav"/>
+  </concept>
+  <concept>
+    <code value="12500"/>
+    <display value="South Slav nfd"/>
+  </concept>
+  <concept>
+    <code value="12511"/>
+    <display value="Croatian"/>
+  </concept>
+  <concept>
+    <code value="12512"/>
+    <display value="Dalmatian"/>
+  </concept>
+  <concept>
+    <code value="12513"/>
+    <display value="Macedonian"/>
+  </concept>
+  <concept>
+    <code value="12514"/>
+    <display value="Serbian"/>
+  </concept>
+  <concept>
+    <code value="12515"/>
+    <display value="Slovenian"/>
+  </concept>
+  <concept>
+    <code value="12516"/>
+    <display value="Bosnian"/>
+  </concept>
+  <concept>
+    <code value="12599"/>
+    <display value="South Slav nec"/>
+  </concept>
+  <concept>
+    <code value="126"/>
+    <display value="Italian"/>
+  </concept>
+  <concept>
+    <code value="12611"/>
+    <display value="Italian"/>
+  </concept>
+  <concept>
+    <code value="127"/>
+    <display value="German"/>
+  </concept>
+  <concept>
+    <code value="12711"/>
+    <display value="German"/>
+  </concept>
+  <concept>
+    <code value="128"/>
+    <display value="Australian"/>
+  </concept>
+  <concept>
+    <code value="12811"/>
+    <display value="Australian"/>
+  </concept>
+  <concept>
+    <code value="129"/>
+    <display value="Other European"/>
+  </concept>
+  <concept>
+    <code value="12911"/>
+    <display value="Albanian"/>
+  </concept>
+  <concept>
+    <code value="12912"/>
+    <display value="Armenian"/>
+  </concept>
+  <concept>
+    <code value="12913"/>
+    <display value="Austrian"/>
+  </concept>
+  <concept>
+    <code value="12914"/>
+    <display value="Belgian"/>
+  </concept>
+  <concept>
+    <code value="12915"/>
+    <display value="Bulgarian"/>
+  </concept>
+  <concept>
+    <code value="12916"/>
+    <display value="Belorussian"/>
+  </concept>
+  <concept>
+    <code value="12918"/>
+    <display value="Cypriot nfd"/>
+  </concept>
+  <concept>
+    <code value="12919"/>
+    <display value="Czech"/>
+  </concept>
+  <concept>
+    <code value="12920"/>
+    <display value="Danish"/>
+  </concept>
+  <concept>
+    <code value="12921"/>
+    <display value="Estonian"/>
+  </concept>
+  <concept>
+    <code value="12922"/>
+    <display value="Finnish"/>
+  </concept>
+  <concept>
+    <code value="12923"/>
+    <display value="Flemish"/>
+  </concept>
+  <concept>
+    <code value="12924"/>
+    <display value="French"/>
+  </concept>
+  <concept>
+    <code value="12926"/>
+    <display value="Hungarian"/>
+  </concept>
+  <concept>
+    <code value="12927"/>
+    <display value="Icelandic"/>
+  </concept>
+  <concept>
+    <code value="12928"/>
+    <display value="Latvian"/>
+  </concept>
+  <concept>
+    <code value="12929"/>
+    <display value="Lithuanian"/>
+  </concept>
+  <concept>
+    <code value="12930"/>
+    <display value="Maltese"/>
+  </concept>
+  <concept>
+    <code value="12931"/>
+    <display value="Norwegian"/>
+  </concept>
+  <concept>
+    <code value="12932"/>
+    <display value="Portuguese"/>
+  </concept>
+  <concept>
+    <code value="12933"/>
+    <display value="Romanian"/>
+  </concept>
+  <concept>
+    <code value="12934"/>
+    <display value="Romani"/>
+  </concept>
+  <concept>
+    <code value="12935"/>
+    <display value="Russian"/>
+  </concept>
+  <concept>
+    <code value="12937"/>
+    <display value="Slavic"/>
+  </concept>
+  <concept>
+    <code value="12938"/>
+    <display value="Slovak"/>
+  </concept>
+  <concept>
+    <code value="12939"/>
+    <display value="Spanish"/>
+  </concept>
+  <concept>
+    <code value="12940"/>
+    <display value="Swedish"/>
+  </concept>
+  <concept>
+    <code value="12941"/>
+    <display value="Swiss"/>
+  </concept>
+  <concept>
+    <code value="12942"/>
+    <display value="Ukrainian"/>
+  </concept>
+  <concept>
+    <code value="12943"/>
+    <display value="American"/>
+  </concept>
+  <concept>
+    <code value="12945"/>
+    <display value="Canadian"/>
+  </concept>
+  <concept>
+    <code value="12947"/>
+    <display value="New Caledonian"/>
+  </concept>
+  <concept>
+    <code value="12948"/>
+    <display value="South African European"/>
+  </concept>
+  <concept>
+    <code value="12949"/>
+    <display value="Afrikaner"/>
+  </concept>
+  <concept>
+    <code value="12950"/>
+    <display value="Zimbabwean European"/>
+  </concept>
+  <concept>
+    <code value="12999"/>
+    <display value="European nec"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Māori"/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="Māori"/>
+  </concept>
+  <concept>
+    <code value="211"/>
+    <display value="Māori"/>
+  </concept>
+  <concept>
+    <code value="21111"/>
+    <display value="Māori"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Pacific Peoples"/>
+  </concept>
+  <concept>
+    <code value="30"/>
+    <display value="Pacific Peoples nfd"/>
+  </concept>
+  <concept>
+    <code value="300"/>
+    <display value="Pacific Peoples nfd"/>
+  </concept>
+  <concept>
+    <code value="30000"/>
+    <display value="Pacific Peoples nfd"/>
+  </concept>
+  <concept>
+    <code value="31"/>
+    <display value="Samoan"/>
+  </concept>
+  <concept>
+    <code value="311"/>
+    <display value="Samoan"/>
+  </concept>
+  <concept>
+    <code value="31111"/>
+    <display value="Samoan"/>
+  </concept>
+  <concept>
+    <code value="32"/>
+    <display value="Cook Islands Maori"/>
+  </concept>
+  <concept>
+    <code value="321"/>
+    <display value="Cook Islands Maori"/>
+  </concept>
+  <concept>
+    <code value="32100"/>
+    <display value="Cook Islands Maori"/>
+  </concept>
+  <concept>
+    <code value="33"/>
+    <display value="Tongan"/>
+  </concept>
+  <concept>
+    <code value="331"/>
+    <display value="Tongan"/>
+  </concept>
+  <concept>
+    <code value="33111"/>
+    <display value="Tongan"/>
+  </concept>
+  <concept>
+    <code value="34"/>
+    <display value="Niuean"/>
+  </concept>
+  <concept>
+    <code value="341"/>
+    <display value="Niuean"/>
+  </concept>
+  <concept>
+    <code value="34111"/>
+    <display value="Niuean"/>
+  </concept>
+  <concept>
+    <code value="35"/>
+    <display value="Tokelauan"/>
+  </concept>
+  <concept>
+    <code value="351"/>
+    <display value="Tokelauan"/>
+  </concept>
+  <concept>
+    <code value="35111"/>
+    <display value="Tokelauan"/>
+  </concept>
+  <concept>
+    <code value="36"/>
+    <display value="Fijian"/>
+  </concept>
+  <concept>
+    <code value="361"/>
+    <display value="Fijian"/>
+  </concept>
+  <concept>
+    <code value="36111"/>
+    <display value="Fijian"/>
+  </concept>
+  <concept>
+    <code value="37"/>
+    <display value="Other Pacific Peoples"/>
+  </concept>
+  <concept>
+    <code value="371"/>
+    <display value="Other Pacific Peoples"/>
+  </concept>
+  <concept>
+    <code value="37112"/>
+    <display value="Indigenous Australian"/>
+  </concept>
+  <concept>
+    <code value="37122"/>
+    <display value="Hawaiian"/>
+  </concept>
+  <concept>
+    <code value="37124"/>
+    <display value="Kiribati"/>
+  </concept>
+  <concept>
+    <code value="37130"/>
+    <display value="Nauruan"/>
+  </concept>
+  <concept>
+    <code value="37135"/>
+    <display value="Papua New Guinean"/>
+  </concept>
+  <concept>
+    <code value="37137"/>
+    <display value="Pitcairn Islander"/>
+  </concept>
+  <concept>
+    <code value="37138"/>
+    <display value="Rotuman"/>
+  </concept>
+  <concept>
+    <code value="37140"/>
+    <display value="Tahitian"/>
+  </concept>
+  <concept>
+    <code value="37141"/>
+    <display value="Solomon Islander"/>
+  </concept>
+  <concept>
+    <code value="37144"/>
+    <display value="Tuvaluan"/>
+  </concept>
+  <concept>
+    <code value="37145"/>
+    <display value="Ni Vanuatu"/>
+  </concept>
+  <concept>
+    <code value="37199"/>
+    <display value="Pacific Peoples nec"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Asian"/>
+  </concept>
+  <concept>
+    <code value="40"/>
+    <display value="Asian nfd"/>
+  </concept>
+  <concept>
+    <code value="400"/>
+    <display value="Asian nfd"/>
+  </concept>
+  <concept>
+    <code value="40000"/>
+    <display value="Asian nfd"/>
+  </concept>
+  <concept>
+    <code value="41"/>
+    <display value="Southeast Asian"/>
+  </concept>
+  <concept>
+    <code value="410"/>
+    <display value="Southeast Asian nfd"/>
+  </concept>
+  <concept>
+    <code value="41000"/>
+    <display value="Southeast Asian nfd"/>
+  </concept>
+  <concept>
+    <code value="411"/>
+    <display value="Filipino"/>
+  </concept>
+  <concept>
+    <code value="41111"/>
+    <display value="Filipino"/>
+  </concept>
+  <concept>
+    <code value="412"/>
+    <display value="Cambodian"/>
+  </concept>
+  <concept>
+    <code value="41211"/>
+    <display value="Cambodian"/>
+  </concept>
+  <concept>
+    <code value="413"/>
+    <display value="Vietnamese"/>
+  </concept>
+  <concept>
+    <code value="41311"/>
+    <display value="Vietnamese"/>
+  </concept>
+  <concept>
+    <code value="414"/>
+    <display value="Other Southeast Asian"/>
+  </concept>
+  <concept>
+    <code value="41411"/>
+    <display value="Burmese"/>
+  </concept>
+  <concept>
+    <code value="41412"/>
+    <display value="Indonesian"/>
+  </concept>
+  <concept>
+    <code value="41413"/>
+    <display value="Lao"/>
+  </concept>
+  <concept>
+    <code value="41414"/>
+    <display value="Malay"/>
+  </concept>
+  <concept>
+    <code value="41415"/>
+    <display value="Thai"/>
+  </concept>
+  <concept>
+    <code value="41416"/>
+    <display value="Karen"/>
+  </concept>
+  <concept>
+    <code value="41417"/>
+    <display value="Chin"/>
+  </concept>
+  <concept>
+    <code value="41499"/>
+    <display value="Southeast Asian nec"/>
+  </concept>
+  <concept>
+    <code value="42"/>
+    <display value="Chinese"/>
+  </concept>
+  <concept>
+    <code value="421"/>
+    <display value="Chinese"/>
+  </concept>
+  <concept>
+    <code value="42100"/>
+    <display value="Chinese nfd"/>
+  </concept>
+  <concept>
+    <code value="42111"/>
+    <display value="Hong Kong Chinese"/>
+  </concept>
+  <concept>
+    <code value="42112"/>
+    <display value="Cambodian Chinese"/>
+  </concept>
+  <concept>
+    <code value="42113"/>
+    <display value="Malaysian Chinese"/>
+  </concept>
+  <concept>
+    <code value="42114"/>
+    <display value="Singaporean Chinese"/>
+  </concept>
+  <concept>
+    <code value="42115"/>
+    <display value="Vietnamese Chinese"/>
+  </concept>
+  <concept>
+    <code value="42116"/>
+    <display value="Taiwanese"/>
+  </concept>
+  <concept>
+    <code value="42199"/>
+    <display value="Chinese nec"/>
+  </concept>
+  <concept>
+    <code value="43"/>
+    <display value="Indian"/>
+  </concept>
+  <concept>
+    <code value="431"/>
+    <display value="Indian"/>
+  </concept>
+  <concept>
+    <code value="43100"/>
+    <display value="Indian nfd"/>
+  </concept>
+  <concept>
+    <code value="43111"/>
+    <display value="Bengali"/>
+  </concept>
+  <concept>
+    <code value="43112"/>
+    <display value="Fijian Indian"/>
+  </concept>
+  <concept>
+    <code value="43114"/>
+    <display value="Indian Tamil"/>
+  </concept>
+  <concept>
+    <code value="43115"/>
+    <display value="Punjabi"/>
+  </concept>
+  <concept>
+    <code value="43116"/>
+    <display value="Sikh"/>
+  </concept>
+  <concept>
+    <code value="43117"/>
+    <display value="Anglo Indian"/>
+  </concept>
+  <concept>
+    <code value="43118"/>
+    <display value="Malaysian Indian"/>
+  </concept>
+  <concept>
+    <code value="43119"/>
+    <display value="South African Indian"/>
+  </concept>
+  <concept>
+    <code value="43199"/>
+    <display value="Indian nec"/>
+  </concept>
+  <concept>
+    <code value="44"/>
+    <display value="Other Asian"/>
+  </concept>
+  <concept>
+    <code value="441"/>
+    <display value="Sri Lankan"/>
+  </concept>
+  <concept>
+    <code value="44100"/>
+    <display value="Sri Lankan nfd"/>
+  </concept>
+  <concept>
+    <code value="44111"/>
+    <display value="Sinhalese"/>
+  </concept>
+  <concept>
+    <code value="44112"/>
+    <display value="Sri Lankan Tamil"/>
+  </concept>
+  <concept>
+    <code value="44199"/>
+    <display value="Sri Lankan nec"/>
+  </concept>
+  <concept>
+    <code value="442"/>
+    <display value="Japanese"/>
+  </concept>
+  <concept>
+    <code value="44211"/>
+    <display value="Japanese"/>
+  </concept>
+  <concept>
+    <code value="443"/>
+    <display value="Korean"/>
+  </concept>
+  <concept>
+    <code value="44311"/>
+    <display value="Korean"/>
+  </concept>
+  <concept>
+    <code value="444"/>
+    <display value="Other Asian"/>
+  </concept>
+  <concept>
+    <code value="44411"/>
+    <display value="Afghan"/>
+  </concept>
+  <concept>
+    <code value="44412"/>
+    <display value="Bangladeshi"/>
+  </concept>
+  <concept>
+    <code value="44413"/>
+    <display value="Nepali"/>
+  </concept>
+  <concept>
+    <code value="44414"/>
+    <display value="Pakistani"/>
+  </concept>
+  <concept>
+    <code value="44415"/>
+    <display value="Tibetan"/>
+  </concept>
+  <concept>
+    <code value="44416"/>
+    <display value="Eurasian"/>
+  </concept>
+  <concept>
+    <code value="44417"/>
+    <display value="Bhutanese"/>
+  </concept>
+  <concept>
+    <code value="44418"/>
+    <display value="Maldivian"/>
+  </concept>
+  <concept>
+    <code value="44419"/>
+    <display value="Mongolian"/>
+  </concept>
+  <concept>
+    <code value="44499"/>
+    <display value="Asian nec"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Middle Eastern/Latin American/African"/>
+  </concept>
+  <concept>
+    <code value="51"/>
+    <display value="Middle Eastern"/>
+  </concept>
+  <concept>
+    <code value="511"/>
+    <display value="Middle Eastern"/>
+  </concept>
+  <concept>
+    <code value="51100"/>
+    <display value="Middle Eastern nfd"/>
+  </concept>
+  <concept>
+    <code value="51111"/>
+    <display value="Algerian"/>
+  </concept>
+  <concept>
+    <code value="51112"/>
+    <display value="Arab"/>
+  </concept>
+  <concept>
+    <code value="51113"/>
+    <display value="Assyrian"/>
+  </concept>
+  <concept>
+    <code value="51114"/>
+    <display value="Egyptian"/>
+  </concept>
+  <concept>
+    <code value="51115"/>
+    <display value="Iranian/Persian"/>
+  </concept>
+  <concept>
+    <code value="51116"/>
+    <display value="Iraqi"/>
+  </concept>
+  <concept>
+    <code value="51117"/>
+    <display value="Israeli/Jewish"/>
+  </concept>
+  <concept>
+    <code value="51118"/>
+    <display value="Jordanian"/>
+  </concept>
+  <concept>
+    <code value="51119"/>
+    <display value="Kurd"/>
+  </concept>
+  <concept>
+    <code value="51120"/>
+    <display value="Lebanese"/>
+  </concept>
+  <concept>
+    <code value="51122"/>
+    <display value="Moroccan"/>
+  </concept>
+  <concept>
+    <code value="51124"/>
+    <display value="Palestinian"/>
+  </concept>
+  <concept>
+    <code value="51125"/>
+    <display value="Syrian"/>
+  </concept>
+  <concept>
+    <code value="51127"/>
+    <display value="Turkish"/>
+  </concept>
+  <concept>
+    <code value="51199"/>
+    <display value="Middle Eastern nec"/>
+  </concept>
+  <concept>
+    <code value="52"/>
+    <display value="Latin American"/>
+  </concept>
+  <concept>
+    <code value="521"/>
+    <display value="Latin American"/>
+  </concept>
+  <concept>
+    <code value="52100"/>
+    <display value="Latin American nfd"/>
+  </concept>
+  <concept>
+    <code value="52111"/>
+    <display value="Argentinian"/>
+  </concept>
+  <concept>
+    <code value="52112"/>
+    <display value="Bolivian"/>
+  </concept>
+  <concept>
+    <code value="52113"/>
+    <display value="Brazilian"/>
+  </concept>
+  <concept>
+    <code value="52114"/>
+    <display value="Chilean"/>
+  </concept>
+  <concept>
+    <code value="52115"/>
+    <display value="Colombian"/>
+  </concept>
+  <concept>
+    <code value="52118"/>
+    <display value="Ecuadorian"/>
+  </concept>
+  <concept>
+    <code value="52123"/>
+    <display value="Mexican"/>
+  </concept>
+  <concept>
+    <code value="52127"/>
+    <display value="Peruvian"/>
+  </concept>
+  <concept>
+    <code value="52128"/>
+    <display value="Puerto Rican"/>
+  </concept>
+  <concept>
+    <code value="52129"/>
+    <display value="Uruguayan"/>
+  </concept>
+  <concept>
+    <code value="52130"/>
+    <display value="Venezuelan"/>
+  </concept>
+  <concept>
+    <code value="52199"/>
+    <display value="Latin American nec"/>
+  </concept>
+  <concept>
+    <code value="53"/>
+    <display value="African"/>
+  </concept>
+  <concept>
+    <code value="531"/>
+    <display value="African"/>
+  </concept>
+  <concept>
+    <code value="53100"/>
+    <display value="African nfd"/>
+  </concept>
+  <concept>
+    <code value="53113"/>
+    <display value="Jamaican"/>
+  </concept>
+  <concept>
+    <code value="53114"/>
+    <display value="Kenyan"/>
+  </concept>
+  <concept>
+    <code value="53115"/>
+    <display value="Nigerian"/>
+  </concept>
+  <concept>
+    <code value="53116"/>
+    <display value="African American"/>
+  </concept>
+  <concept>
+    <code value="53118"/>
+    <display value="Caribbean"/>
+  </concept>
+  <concept>
+    <code value="53119"/>
+    <display value="Somali"/>
+  </concept>
+  <concept>
+    <code value="53120"/>
+    <display value="Eritrean"/>
+  </concept>
+  <concept>
+    <code value="53121"/>
+    <display value="Ethiopian"/>
+  </concept>
+  <concept>
+    <code value="53122"/>
+    <display value="Ghanaian"/>
+  </concept>
+  <concept>
+    <code value="53123"/>
+    <display value="Burundian"/>
+  </concept>
+  <concept>
+    <code value="53124"/>
+    <display value="Congolese"/>
+  </concept>
+  <concept>
+    <code value="53125"/>
+    <display value="Sudanese"/>
+  </concept>
+  <concept>
+    <code value="53126"/>
+    <display value="Zambian"/>
+  </concept>
+  <concept>
+    <code value="53127"/>
+    <display value="Other Zimbabwean"/>
+  </concept>
+  <concept>
+    <code value="53199"/>
+    <display value="African nec"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Other Ethnicity"/>
+  </concept>
+  <concept>
+    <code value="61"/>
+    <display value="Other Ethnicity"/>
+  </concept>
+  <concept>
+    <code value="611"/>
+    <display value="Other Ethnicity"/>
+  </concept>
+  <concept>
+    <code value="61113"/>
+    <display value="Indigenous American"/>
+  </concept>
+  <concept>
+    <code value="61115"/>
+    <display value="Mauritian"/>
+  </concept>
+  <concept>
+    <code value="61116"/>
+    <display value="Seychellois"/>
+  </concept>
+  <concept>
+    <code value="61117"/>
+    <display value="Other South African"/>
+  </concept>
+  <concept>
+    <code value="61118"/>
+    <display value="New Zealander"/>
+  </concept>
+  <concept>
+    <code value="61199"/>
+    <display value="Other Ethnicity nec"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Residual Categories"/>
+  </concept>
+  <concept>
+    <code value="94"/>
+    <display value="Don't Know"/>
+  </concept>
+  <concept>
+    <code value="944"/>
+    <display value="Don't Know"/>
+  </concept>
+  <concept>
+    <code value="94444"/>
+    <display value="Don't Know"/>
+  </concept>
+  <concept>
+    <code value="95"/>
+    <display value="Refused to Answer"/>
+  </concept>
+  <concept>
+    <code value="955"/>
+    <display value="Refused to Answer"/>
+  </concept>
+  <concept>
+    <code value="95555"/>
+    <display value="Refused to Answer"/>
+  </concept>
+  <concept>
+    <code value="96"/>
+    <display value="Repeated Value"/>
+  </concept>
+  <concept>
+    <code value="966"/>
+    <display value="Repeated Value"/>
+  </concept>
+  <concept>
+    <code value="96666"/>
+    <display value="Repeated Value"/>
+  </concept>
+  <concept>
+    <code value="97"/>
+    <display value="Response Unidentifiable"/>
+  </concept>
+  <concept>
+    <code value="977"/>
+    <display value="Response Unidentifiable"/>
+  </concept>
+  <concept>
+    <code value="97777"/>
+    <display value="Response Unidentifiable"/>
+  </concept>
+  <concept>
+    <code value="98"/>
+    <display value="Response Outside Scope"/>
+  </concept>
+  <concept>
+    <code value="988"/>
+    <display value="Response Outside Scope"/>
+  </concept>
+  <concept>
+    <code value="98888"/>
+    <display value="Response Outside Scope"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="Not Stated"/>
+  </concept>
+  <concept>
+    <code value="999"/>
+    <display value="Not Stated"/>
+  </concept>
+  <concept>
+    <code value="99999"/>
+    <display value="Not Stated"/>
+  </concept>
+</CodeSystem>

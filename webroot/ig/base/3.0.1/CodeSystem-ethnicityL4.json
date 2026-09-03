@@ -1,0 +1,982 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ethnicityL4",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ethnicityL4</b></p><a name=\"ethnicityL4\"> </a><a name=\"hcethnicityL4\"> </a><a name=\"ethnicityL4-en-US\"> </a><p>This  code system <code>https://standards.digital.health.nz/ns/ethnic-group-level-4-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">10000<a name=\"ethnicityL4-10000\"> </a></td><td>European NFD</td></tr><tr><td style=\"white-space:nowrap\">11111<a name=\"ethnicityL4-11111\"> </a></td><td>New Zealand European</td></tr><tr><td style=\"white-space:nowrap\">12100<a name=\"ethnicityL4-12100\"> </a></td><td>British NFD</td></tr><tr><td style=\"white-space:nowrap\">12111<a name=\"ethnicityL4-12111\"> </a></td><td>Celtic</td></tr><tr><td style=\"white-space:nowrap\">12112<a name=\"ethnicityL4-12112\"> </a></td><td>Channel Islander</td></tr><tr><td style=\"white-space:nowrap\">12113<a name=\"ethnicityL4-12113\"> </a></td><td>Cornish</td></tr><tr><td style=\"white-space:nowrap\">12114<a name=\"ethnicityL4-12114\"> </a></td><td>English</td></tr><tr><td style=\"white-space:nowrap\">12115<a name=\"ethnicityL4-12115\"> </a></td><td>Gaelic</td></tr><tr><td style=\"white-space:nowrap\">12116<a name=\"ethnicityL4-12116\"> </a></td><td>Irish</td></tr><tr><td style=\"white-space:nowrap\">12117<a name=\"ethnicityL4-12117\"> </a></td><td>Manx</td></tr><tr><td style=\"white-space:nowrap\">12118<a name=\"ethnicityL4-12118\"> </a></td><td>Orkney Islander</td></tr><tr><td style=\"white-space:nowrap\">12119<a name=\"ethnicityL4-12119\"> </a></td><td>Scottish (Scots)</td></tr><tr><td style=\"white-space:nowrap\">12120<a name=\"ethnicityL4-12120\"> </a></td><td>Shetland Islander</td></tr><tr><td style=\"white-space:nowrap\">12121<a name=\"ethnicityL4-12121\"> </a></td><td>Welsh</td></tr><tr><td style=\"white-space:nowrap\">12199<a name=\"ethnicityL4-12199\"> </a></td><td>British NEC</td></tr><tr><td style=\"white-space:nowrap\">12211<a name=\"ethnicityL4-12211\"> </a></td><td>Dutch/Netherlands</td></tr><tr><td style=\"white-space:nowrap\">12311<a name=\"ethnicityL4-12311\"> </a></td><td>Greek (including Greek Cypriot)</td></tr><tr><td style=\"white-space:nowrap\">12411<a name=\"ethnicityL4-12411\"> </a></td><td>Polish</td></tr><tr><td style=\"white-space:nowrap\">12500<a name=\"ethnicityL4-12500\"> </a></td><td>South Slav (formerly Yugoslav groups) NFD</td></tr><tr><td style=\"white-space:nowrap\">12511<a name=\"ethnicityL4-12511\"> </a></td><td>Croat/Croatian</td></tr><tr><td style=\"white-space:nowrap\">12512<a name=\"ethnicityL4-12512\"> </a></td><td>Dalmatian</td></tr><tr><td style=\"white-space:nowrap\">12513<a name=\"ethnicityL4-12513\"> </a></td><td>Macedonian</td></tr><tr><td style=\"white-space:nowrap\">12514<a name=\"ethnicityL4-12514\"> </a></td><td>Serb/Serbian</td></tr><tr><td style=\"white-space:nowrap\">12515<a name=\"ethnicityL4-12515\"> </a></td><td>Slovene/Slovenian</td></tr><tr><td style=\"white-space:nowrap\">12516<a name=\"ethnicityL4-12516\"> </a></td><td>Bosnian</td></tr><tr><td style=\"white-space:nowrap\">12599<a name=\"ethnicityL4-12599\"> </a></td><td>South Slav (formerly Yugoslav groups) NEC</td></tr><tr><td style=\"white-space:nowrap\">12611<a name=\"ethnicityL4-12611\"> </a></td><td>Italian</td></tr><tr><td style=\"white-space:nowrap\">12711<a name=\"ethnicityL4-12711\"> </a></td><td>German</td></tr><tr><td style=\"white-space:nowrap\">12811<a name=\"ethnicityL4-12811\"> </a></td><td>Australian</td></tr><tr><td style=\"white-space:nowrap\">12911<a name=\"ethnicityL4-12911\"> </a></td><td>Albanian</td></tr><tr><td style=\"white-space:nowrap\">12912<a name=\"ethnicityL4-12912\"> </a></td><td>Armenian</td></tr><tr><td style=\"white-space:nowrap\">12913<a name=\"ethnicityL4-12913\"> </a></td><td>Austrian</td></tr><tr><td style=\"white-space:nowrap\">12914<a name=\"ethnicityL4-12914\"> </a></td><td>Belgian</td></tr><tr><td style=\"white-space:nowrap\">12915<a name=\"ethnicityL4-12915\"> </a></td><td>Bulgarian</td></tr><tr><td style=\"white-space:nowrap\">12916<a name=\"ethnicityL4-12916\"> </a></td><td>Belorussian</td></tr><tr><td style=\"white-space:nowrap\">12917<a name=\"ethnicityL4-12917\"> </a></td><td>Corsican</td></tr><tr><td style=\"white-space:nowrap\">12918<a name=\"ethnicityL4-12918\"> </a></td><td>Cypriot Unspecified</td></tr><tr><td style=\"white-space:nowrap\">12919<a name=\"ethnicityL4-12919\"> </a></td><td>Czech</td></tr><tr><td style=\"white-space:nowrap\">12920<a name=\"ethnicityL4-12920\"> </a></td><td>Danish</td></tr><tr><td style=\"white-space:nowrap\">12921<a name=\"ethnicityL4-12921\"> </a></td><td>Estonian</td></tr><tr><td style=\"white-space:nowrap\">12922<a name=\"ethnicityL4-12922\"> </a></td><td>Finnish</td></tr><tr><td style=\"white-space:nowrap\">12923<a name=\"ethnicityL4-12923\"> </a></td><td>Flemish</td></tr><tr><td style=\"white-space:nowrap\">12924<a name=\"ethnicityL4-12924\"> </a></td><td>French</td></tr><tr><td style=\"white-space:nowrap\">12925<a name=\"ethnicityL4-12925\"> </a></td><td>Greenlander</td></tr><tr><td style=\"white-space:nowrap\">12926<a name=\"ethnicityL4-12926\"> </a></td><td>Hungarian</td></tr><tr><td style=\"white-space:nowrap\">12927<a name=\"ethnicityL4-12927\"> </a></td><td>Icelander</td></tr><tr><td style=\"white-space:nowrap\">12928<a name=\"ethnicityL4-12928\"> </a></td><td>Latvian</td></tr><tr><td style=\"white-space:nowrap\">12929<a name=\"ethnicityL4-12929\"> </a></td><td>Lithuanian</td></tr><tr><td style=\"white-space:nowrap\">12930<a name=\"ethnicityL4-12930\"> </a></td><td>Maltese</td></tr><tr><td style=\"white-space:nowrap\">12931<a name=\"ethnicityL4-12931\"> </a></td><td>Norwegian</td></tr><tr><td style=\"white-space:nowrap\">12932<a name=\"ethnicityL4-12932\"> </a></td><td>Portuguese</td></tr><tr><td style=\"white-space:nowrap\">12933<a name=\"ethnicityL4-12933\"> </a></td><td>Romanian / Rumanian</td></tr><tr><td style=\"white-space:nowrap\">12934<a name=\"ethnicityL4-12934\"> </a></td><td>Romany / Gypsy</td></tr><tr><td style=\"white-space:nowrap\">12935<a name=\"ethnicityL4-12935\"> </a></td><td>Russian</td></tr><tr><td style=\"white-space:nowrap\">12936<a name=\"ethnicityL4-12936\"> </a></td><td>Sardinian</td></tr><tr><td style=\"white-space:nowrap\">12937<a name=\"ethnicityL4-12937\"> </a></td><td>Slavic / Slav</td></tr><tr><td style=\"white-space:nowrap\">12938<a name=\"ethnicityL4-12938\"> </a></td><td>Slovak</td></tr><tr><td style=\"white-space:nowrap\">12939<a name=\"ethnicityL4-12939\"> </a></td><td>Spanish</td></tr><tr><td style=\"white-space:nowrap\">12940<a name=\"ethnicityL4-12940\"> </a></td><td>Swedish</td></tr><tr><td style=\"white-space:nowrap\">12941<a name=\"ethnicityL4-12941\"> </a></td><td>Swiss</td></tr><tr><td style=\"white-space:nowrap\">12942<a name=\"ethnicityL4-12942\"> </a></td><td>Ukrainian</td></tr><tr><td style=\"white-space:nowrap\">12943<a name=\"ethnicityL4-12943\"> </a></td><td>American (US)</td></tr><tr><td style=\"white-space:nowrap\">12944<a name=\"ethnicityL4-12944\"> </a></td><td>Burgher</td></tr><tr><td style=\"white-space:nowrap\">12945<a name=\"ethnicityL4-12945\"> </a></td><td>Canadian</td></tr><tr><td style=\"white-space:nowrap\">12946<a name=\"ethnicityL4-12946\"> </a></td><td>Falkland Islander / Kelper</td></tr><tr><td style=\"white-space:nowrap\">12947<a name=\"ethnicityL4-12947\"> </a></td><td>New Caledonian</td></tr><tr><td style=\"white-space:nowrap\">12948<a name=\"ethnicityL4-12948\"> </a></td><td>South African</td></tr><tr><td style=\"white-space:nowrap\">12949<a name=\"ethnicityL4-12949\"> </a></td><td>Afrikaner</td></tr><tr><td style=\"white-space:nowrap\">12950<a name=\"ethnicityL4-12950\"> </a></td><td>Zimbabwean</td></tr><tr><td style=\"white-space:nowrap\">12999<a name=\"ethnicityL4-12999\"> </a></td><td>European NEC</td></tr><tr><td style=\"white-space:nowrap\">21111<a name=\"ethnicityL4-21111\"> </a></td><td>Māori</td></tr><tr><td style=\"white-space:nowrap\">30000<a name=\"ethnicityL4-30000\"> </a></td><td>Pacific peoples NFD</td></tr><tr><td style=\"white-space:nowrap\">31111<a name=\"ethnicityL4-31111\"> </a></td><td>Samoan</td></tr><tr><td style=\"white-space:nowrap\">32100<a name=\"ethnicityL4-32100\"> </a></td><td>Cook Island Māori NFD</td></tr><tr><td style=\"white-space:nowrap\">32111<a name=\"ethnicityL4-32111\"> </a></td><td>Aitutaki Islander</td></tr><tr><td style=\"white-space:nowrap\">32112<a name=\"ethnicityL4-32112\"> </a></td><td>Atiu Islander</td></tr><tr><td style=\"white-space:nowrap\">32113<a name=\"ethnicityL4-32113\"> </a></td><td>Mangaia Islander</td></tr><tr><td style=\"white-space:nowrap\">32114<a name=\"ethnicityL4-32114\"> </a></td><td>Manihiki Islander</td></tr><tr><td style=\"white-space:nowrap\">32115<a name=\"ethnicityL4-32115\"> </a></td><td>Mauke Islander</td></tr><tr><td style=\"white-space:nowrap\">32116<a name=\"ethnicityL4-32116\"> </a></td><td>Mitiaro Islander</td></tr><tr><td style=\"white-space:nowrap\">32117<a name=\"ethnicityL4-32117\"> </a></td><td>Palmerston Islander</td></tr><tr><td style=\"white-space:nowrap\">32118<a name=\"ethnicityL4-32118\"> </a></td><td>Penrhyn Islander</td></tr><tr><td style=\"white-space:nowrap\">32119<a name=\"ethnicityL4-32119\"> </a></td><td>Pukapuka Islander</td></tr><tr><td style=\"white-space:nowrap\">32120<a name=\"ethnicityL4-32120\"> </a></td><td>Rakahanga Islander</td></tr><tr><td style=\"white-space:nowrap\">32121<a name=\"ethnicityL4-32121\"> </a></td><td>Rarotongan</td></tr><tr><td style=\"white-space:nowrap\">33111<a name=\"ethnicityL4-33111\"> </a></td><td>Tongan</td></tr><tr><td style=\"white-space:nowrap\">34111<a name=\"ethnicityL4-34111\"> </a></td><td>Niuean</td></tr><tr><td style=\"white-space:nowrap\">35111<a name=\"ethnicityL4-35111\"> </a></td><td>Tokelauan</td></tr><tr><td style=\"white-space:nowrap\">36111<a name=\"ethnicityL4-36111\"> </a></td><td>Fijian (except Fiji Indian / Indo-Fijian)</td></tr><tr><td style=\"white-space:nowrap\">37111<a name=\"ethnicityL4-37111\"> </a></td><td>Admiralty Islander</td></tr><tr><td style=\"white-space:nowrap\">37112<a name=\"ethnicityL4-37112\"> </a></td><td>Australian Aboriginal</td></tr><tr><td style=\"white-space:nowrap\">37113<a name=\"ethnicityL4-37113\"> </a></td><td>Austral Islander</td></tr><tr><td style=\"white-space:nowrap\">37114<a name=\"ethnicityL4-37114\"> </a></td><td>Belau / Palau Islander</td></tr><tr><td style=\"white-space:nowrap\">37115<a name=\"ethnicityL4-37115\"> </a></td><td>Bismark Archipelagoan</td></tr><tr><td style=\"white-space:nowrap\">37116<a name=\"ethnicityL4-37116\"> </a></td><td>Bougainvillean</td></tr><tr><td style=\"white-space:nowrap\">37117<a name=\"ethnicityL4-37117\"> </a></td><td>Caroline Islander</td></tr><tr><td style=\"white-space:nowrap\">37118<a name=\"ethnicityL4-37118\"> </a></td><td>Easter Islander</td></tr><tr><td style=\"white-space:nowrap\">37119<a name=\"ethnicityL4-37119\"> </a></td><td>Gambier Islander</td></tr><tr><td style=\"white-space:nowrap\">37120<a name=\"ethnicityL4-37120\"> </a></td><td>Guadalcanalian</td></tr><tr><td style=\"white-space:nowrap\">37121<a name=\"ethnicityL4-37121\"> </a></td><td>Guam Islander / Chamorro</td></tr><tr><td style=\"white-space:nowrap\">37122<a name=\"ethnicityL4-37122\"> </a></td><td>Hawaiian</td></tr><tr><td style=\"white-space:nowrap\">37123<a name=\"ethnicityL4-37123\"> </a></td><td>Kanaka / Kanak</td></tr><tr><td style=\"white-space:nowrap\">37124<a name=\"ethnicityL4-37124\"> </a></td><td>I-Kiribati / Gilbertese</td></tr><tr><td style=\"white-space:nowrap\">37125<a name=\"ethnicityL4-37125\"> </a></td><td>Malaitian</td></tr><tr><td style=\"white-space:nowrap\">37126<a name=\"ethnicityL4-37126\"> </a></td><td>Manus Islander</td></tr><tr><td style=\"white-space:nowrap\">37127<a name=\"ethnicityL4-37127\"> </a></td><td>Marianas Islander</td></tr><tr><td style=\"white-space:nowrap\">37128<a name=\"ethnicityL4-37128\"> </a></td><td>Marquesas Islander</td></tr><tr><td style=\"white-space:nowrap\">37129<a name=\"ethnicityL4-37129\"> </a></td><td>Marshall Islander</td></tr><tr><td style=\"white-space:nowrap\">37130<a name=\"ethnicityL4-37130\"> </a></td><td>Nauru Islander</td></tr><tr><td style=\"white-space:nowrap\">37131<a name=\"ethnicityL4-37131\"> </a></td><td>New Britain Islander</td></tr><tr><td style=\"white-space:nowrap\">37132<a name=\"ethnicityL4-37132\"> </a></td><td>New Georgian</td></tr><tr><td style=\"white-space:nowrap\">37133<a name=\"ethnicityL4-37133\"> </a></td><td>New Irelander</td></tr><tr><td style=\"white-space:nowrap\">37134<a name=\"ethnicityL4-37134\"> </a></td><td>Ocean Islander / Banaban</td></tr><tr><td style=\"white-space:nowrap\">37135<a name=\"ethnicityL4-37135\"> </a></td><td>Papuan / New Guinean / Irian Jayan</td></tr><tr><td style=\"white-space:nowrap\">37136<a name=\"ethnicityL4-37136\"> </a></td><td>Phoenix Islander</td></tr><tr><td style=\"white-space:nowrap\">37137<a name=\"ethnicityL4-37137\"> </a></td><td>Pitcairn Islander</td></tr><tr><td style=\"white-space:nowrap\">37138<a name=\"ethnicityL4-37138\"> </a></td><td>Rotuman / Rotuman Islander</td></tr><tr><td style=\"white-space:nowrap\">37139<a name=\"ethnicityL4-37139\"> </a></td><td>Santa Cruz Islander</td></tr><tr><td style=\"white-space:nowrap\">37140<a name=\"ethnicityL4-37140\"> </a></td><td>Society Islander (including Tahitian)</td></tr><tr><td style=\"white-space:nowrap\">37141<a name=\"ethnicityL4-37141\"> </a></td><td>Solomon Islander</td></tr><tr><td style=\"white-space:nowrap\">37142<a name=\"ethnicityL4-37142\"> </a></td><td>Torres Strait Islander / Thursday Islander</td></tr><tr><td style=\"white-space:nowrap\">37143<a name=\"ethnicityL4-37143\"> </a></td><td>Tuamotu Islander</td></tr><tr><td style=\"white-space:nowrap\">37144<a name=\"ethnicityL4-37144\"> </a></td><td>Tuvalu Islander / Ellice Islander</td></tr><tr><td style=\"white-space:nowrap\">37145<a name=\"ethnicityL4-37145\"> </a></td><td>Vanuatu Islander / New Hebridean</td></tr><tr><td style=\"white-space:nowrap\">37146<a name=\"ethnicityL4-37146\"> </a></td><td>Wake Islander</td></tr><tr><td style=\"white-space:nowrap\">37147<a name=\"ethnicityL4-37147\"> </a></td><td>Wallis Islander</td></tr><tr><td style=\"white-space:nowrap\">37148<a name=\"ethnicityL4-37148\"> </a></td><td>Yap Islander</td></tr><tr><td style=\"white-space:nowrap\">37199<a name=\"ethnicityL4-37199\"> </a></td><td>Other Pacific peoples NEC</td></tr><tr><td style=\"white-space:nowrap\">40000<a name=\"ethnicityL4-40000\"> </a></td><td>Asian NFD</td></tr><tr><td style=\"white-space:nowrap\">41000<a name=\"ethnicityL4-41000\"> </a></td><td>Southeast Asian NFD</td></tr><tr><td style=\"white-space:nowrap\">41111<a name=\"ethnicityL4-41111\"> </a></td><td>Filipino</td></tr><tr><td style=\"white-space:nowrap\">41211<a name=\"ethnicityL4-41211\"> </a></td><td>Khmer / Kampuchean / Cambodian</td></tr><tr><td style=\"white-space:nowrap\">41311<a name=\"ethnicityL4-41311\"> </a></td><td>Vietnamese</td></tr><tr><td style=\"white-space:nowrap\">41411<a name=\"ethnicityL4-41411\"> </a></td><td>Burmese</td></tr><tr><td style=\"white-space:nowrap\">41412<a name=\"ethnicityL4-41412\"> </a></td><td>Indonesian (including Javanese / Sundanese / Sumatran)</td></tr><tr><td style=\"white-space:nowrap\">41413<a name=\"ethnicityL4-41413\"> </a></td><td>Lao / Laotian</td></tr><tr><td style=\"white-space:nowrap\">41414<a name=\"ethnicityL4-41414\"> </a></td><td>Malay / Malayan</td></tr><tr><td style=\"white-space:nowrap\">41415<a name=\"ethnicityL4-41415\"> </a></td><td>Thai / Tai / Siamese</td></tr><tr><td style=\"white-space:nowrap\">41499<a name=\"ethnicityL4-41499\"> </a></td><td>Other Southeast Asian NEC</td></tr><tr><td style=\"white-space:nowrap\">42100<a name=\"ethnicityL4-42100\"> </a></td><td>Chinese NFD</td></tr><tr><td style=\"white-space:nowrap\">42111<a name=\"ethnicityL4-42111\"> </a></td><td>Hong Kong Chinese</td></tr><tr><td style=\"white-space:nowrap\">42112<a name=\"ethnicityL4-42112\"> </a></td><td>Kampuchean Chinese</td></tr><tr><td style=\"white-space:nowrap\">42113<a name=\"ethnicityL4-42113\"> </a></td><td>Malaysian Chinese</td></tr><tr><td style=\"white-space:nowrap\">42114<a name=\"ethnicityL4-42114\"> </a></td><td>Singaporean Chinese</td></tr><tr><td style=\"white-space:nowrap\">42115<a name=\"ethnicityL4-42115\"> </a></td><td>Vietnamese Chinese</td></tr><tr><td style=\"white-space:nowrap\">42116<a name=\"ethnicityL4-42116\"> </a></td><td>Taiwanese Chinese</td></tr><tr><td style=\"white-space:nowrap\">42199<a name=\"ethnicityL4-42199\"> </a></td><td>Chinese NEC</td></tr><tr><td style=\"white-space:nowrap\">43100<a name=\"ethnicityL4-43100\"> </a></td><td>Indian NFD</td></tr><tr><td style=\"white-space:nowrap\">43111<a name=\"ethnicityL4-43111\"> </a></td><td>Bengali</td></tr><tr><td style=\"white-space:nowrap\">43112<a name=\"ethnicityL4-43112\"> </a></td><td>Fijian Indian / Indo-Fijian</td></tr><tr><td style=\"white-space:nowrap\">43113<a name=\"ethnicityL4-43113\"> </a></td><td>Gujarati</td></tr><tr><td style=\"white-space:nowrap\">43114<a name=\"ethnicityL4-43114\"> </a></td><td>Tamil</td></tr><tr><td style=\"white-space:nowrap\">43115<a name=\"ethnicityL4-43115\"> </a></td><td>Punjabi</td></tr><tr><td style=\"white-space:nowrap\">43116<a name=\"ethnicityL4-43116\"> </a></td><td>Sikh</td></tr><tr><td style=\"white-space:nowrap\">43117<a name=\"ethnicityL4-43117\"> </a></td><td>Anglo Indian</td></tr><tr><td style=\"white-space:nowrap\">43199<a name=\"ethnicityL4-43199\"> </a></td><td>Indian NEC</td></tr><tr><td style=\"white-space:nowrap\">44100<a name=\"ethnicityL4-44100\"> </a></td><td>Sri Lankan NFD</td></tr><tr><td style=\"white-space:nowrap\">44111<a name=\"ethnicityL4-44111\"> </a></td><td>Sinhalese</td></tr><tr><td style=\"white-space:nowrap\">44112<a name=\"ethnicityL4-44112\"> </a></td><td>Sri Lankan Tamil</td></tr><tr><td style=\"white-space:nowrap\">44199<a name=\"ethnicityL4-44199\"> </a></td><td>Sri Lankan NEC</td></tr><tr><td style=\"white-space:nowrap\">44211<a name=\"ethnicityL4-44211\"> </a></td><td>Japanese</td></tr><tr><td style=\"white-space:nowrap\">44311<a name=\"ethnicityL4-44311\"> </a></td><td>Korean</td></tr><tr><td style=\"white-space:nowrap\">44411<a name=\"ethnicityL4-44411\"> </a></td><td>Afghani</td></tr><tr><td style=\"white-space:nowrap\">44412<a name=\"ethnicityL4-44412\"> </a></td><td>Bangladeshi</td></tr><tr><td style=\"white-space:nowrap\">44413<a name=\"ethnicityL4-44413\"> </a></td><td>Nepalese</td></tr><tr><td style=\"white-space:nowrap\">44414<a name=\"ethnicityL4-44414\"> </a></td><td>Pakistani</td></tr><tr><td style=\"white-space:nowrap\">44415<a name=\"ethnicityL4-44415\"> </a></td><td>Tibetan</td></tr><tr><td style=\"white-space:nowrap\">44416<a name=\"ethnicityL4-44416\"> </a></td><td>Eurasian</td></tr><tr><td style=\"white-space:nowrap\">44499<a name=\"ethnicityL4-44499\"> </a></td><td>Other Asian NEC</td></tr><tr><td style=\"white-space:nowrap\">51100<a name=\"ethnicityL4-51100\"> </a></td><td>Middle Eastern NFD</td></tr><tr><td style=\"white-space:nowrap\">51111<a name=\"ethnicityL4-51111\"> </a></td><td>Algerian</td></tr><tr><td style=\"white-space:nowrap\">51112<a name=\"ethnicityL4-51112\"> </a></td><td>Arab</td></tr><tr><td style=\"white-space:nowrap\">51113<a name=\"ethnicityL4-51113\"> </a></td><td>Assyrian</td></tr><tr><td style=\"white-space:nowrap\">51114<a name=\"ethnicityL4-51114\"> </a></td><td>Egyptian</td></tr><tr><td style=\"white-space:nowrap\">51115<a name=\"ethnicityL4-51115\"> </a></td><td>Iranian / Persian</td></tr><tr><td style=\"white-space:nowrap\">51116<a name=\"ethnicityL4-51116\"> </a></td><td>Iraqi</td></tr><tr><td style=\"white-space:nowrap\">51117<a name=\"ethnicityL4-51117\"> </a></td><td>Israeli / Jewish / Hebrew</td></tr><tr><td style=\"white-space:nowrap\">51118<a name=\"ethnicityL4-51118\"> </a></td><td>Jordanian</td></tr><tr><td style=\"white-space:nowrap\">51119<a name=\"ethnicityL4-51119\"> </a></td><td>Kurd</td></tr><tr><td style=\"white-space:nowrap\">51120<a name=\"ethnicityL4-51120\"> </a></td><td>Lebanese</td></tr><tr><td style=\"white-space:nowrap\">51121<a name=\"ethnicityL4-51121\"> </a></td><td>Libyan</td></tr><tr><td style=\"white-space:nowrap\">51122<a name=\"ethnicityL4-51122\"> </a></td><td>Moroccan</td></tr><tr><td style=\"white-space:nowrap\">51123<a name=\"ethnicityL4-51123\"> </a></td><td>Omani</td></tr><tr><td style=\"white-space:nowrap\">51124<a name=\"ethnicityL4-51124\"> </a></td><td>Palestinian</td></tr><tr><td style=\"white-space:nowrap\">51125<a name=\"ethnicityL4-51125\"> </a></td><td>Syrian</td></tr><tr><td style=\"white-space:nowrap\">51126<a name=\"ethnicityL4-51126\"> </a></td><td>Tunisian</td></tr><tr><td style=\"white-space:nowrap\">51127<a name=\"ethnicityL4-51127\"> </a></td><td>Turkish (including Turkish Cypriot)</td></tr><tr><td style=\"white-space:nowrap\">51128<a name=\"ethnicityL4-51128\"> </a></td><td>Yemeni</td></tr><tr><td style=\"white-space:nowrap\">51199<a name=\"ethnicityL4-51199\"> </a></td><td>Middle Eastern NEC</td></tr><tr><td style=\"white-space:nowrap\">52100<a name=\"ethnicityL4-52100\"> </a></td><td>Latin American / Hispanic NFD</td></tr><tr><td style=\"white-space:nowrap\">52111<a name=\"ethnicityL4-52111\"> </a></td><td>Argentinian</td></tr><tr><td style=\"white-space:nowrap\">52112<a name=\"ethnicityL4-52112\"> </a></td><td>Bolivian</td></tr><tr><td style=\"white-space:nowrap\">52113<a name=\"ethnicityL4-52113\"> </a></td><td>Brazilian</td></tr><tr><td style=\"white-space:nowrap\">52114<a name=\"ethnicityL4-52114\"> </a></td><td>Chilean</td></tr><tr><td style=\"white-space:nowrap\">52115<a name=\"ethnicityL4-52115\"> </a></td><td>Colombian</td></tr><tr><td style=\"white-space:nowrap\">52116<a name=\"ethnicityL4-52116\"> </a></td><td>Costa Rican</td></tr><tr><td style=\"white-space:nowrap\">52117<a name=\"ethnicityL4-52117\"> </a></td><td>Creole (Latin America)</td></tr><tr><td style=\"white-space:nowrap\">52118<a name=\"ethnicityL4-52118\"> </a></td><td>Ecuadorian</td></tr><tr><td style=\"white-space:nowrap\">52119<a name=\"ethnicityL4-52119\"> </a></td><td>Guatemalan</td></tr><tr><td style=\"white-space:nowrap\">52120<a name=\"ethnicityL4-52120\"> </a></td><td>Guyanese</td></tr><tr><td style=\"white-space:nowrap\">52121<a name=\"ethnicityL4-52121\"> </a></td><td>Honduran</td></tr><tr><td style=\"white-space:nowrap\">52122<a name=\"ethnicityL4-52122\"> </a></td><td>Malvinian (Spanish-speaking Falkland Islander)</td></tr><tr><td style=\"white-space:nowrap\">52123<a name=\"ethnicityL4-52123\"> </a></td><td>Mexican</td></tr><tr><td style=\"white-space:nowrap\">52124<a name=\"ethnicityL4-52124\"> </a></td><td>Nicaraguan</td></tr><tr><td style=\"white-space:nowrap\">52125<a name=\"ethnicityL4-52125\"> </a></td><td>Panamanian</td></tr><tr><td style=\"white-space:nowrap\">52126<a name=\"ethnicityL4-52126\"> </a></td><td>Paraguayan</td></tr><tr><td style=\"white-space:nowrap\">52127<a name=\"ethnicityL4-52127\"> </a></td><td>Peruvian</td></tr><tr><td style=\"white-space:nowrap\">52128<a name=\"ethnicityL4-52128\"> </a></td><td>Puerto Rican</td></tr><tr><td style=\"white-space:nowrap\">52129<a name=\"ethnicityL4-52129\"> </a></td><td>Uruguayan</td></tr><tr><td style=\"white-space:nowrap\">52130<a name=\"ethnicityL4-52130\"> </a></td><td>Venezuelan</td></tr><tr><td style=\"white-space:nowrap\">52199<a name=\"ethnicityL4-52199\"> </a></td><td>Latin American / Hispanic NEC</td></tr><tr><td style=\"white-space:nowrap\">53100<a name=\"ethnicityL4-53100\"> </a></td><td>African NFD</td></tr><tr><td style=\"white-space:nowrap\">53112<a name=\"ethnicityL4-53112\"> </a></td><td>Creole (US)</td></tr><tr><td style=\"white-space:nowrap\">53113<a name=\"ethnicityL4-53113\"> </a></td><td>Jamaican</td></tr><tr><td style=\"white-space:nowrap\">53114<a name=\"ethnicityL4-53114\"> </a></td><td>Kenyan</td></tr><tr><td style=\"white-space:nowrap\">53115<a name=\"ethnicityL4-53115\"> </a></td><td>Nigerian</td></tr><tr><td style=\"white-space:nowrap\">53116<a name=\"ethnicityL4-53116\"> </a></td><td>African American</td></tr><tr><td style=\"white-space:nowrap\">53117<a name=\"ethnicityL4-53117\"> </a></td><td>Ugandan</td></tr><tr><td style=\"white-space:nowrap\">53118<a name=\"ethnicityL4-53118\"> </a></td><td>West Indian / Caribbean</td></tr><tr><td style=\"white-space:nowrap\">53119<a name=\"ethnicityL4-53119\"> </a></td><td>Somali</td></tr><tr><td style=\"white-space:nowrap\">53120<a name=\"ethnicityL4-53120\"> </a></td><td>Eritrean</td></tr><tr><td style=\"white-space:nowrap\">53121<a name=\"ethnicityL4-53121\"> </a></td><td>Ethiopian</td></tr><tr><td style=\"white-space:nowrap\">53122<a name=\"ethnicityL4-53122\"> </a></td><td>Ghanaian</td></tr><tr><td style=\"white-space:nowrap\">53199<a name=\"ethnicityL4-53199\"> </a></td><td>Other African NEC</td></tr><tr><td style=\"white-space:nowrap\">61111<a name=\"ethnicityL4-61111\"> </a></td><td>Central American Indian</td></tr><tr><td style=\"white-space:nowrap\">61112<a name=\"ethnicityL4-61112\"> </a></td><td>Inuit / Eskimo</td></tr><tr><td style=\"white-space:nowrap\">61113<a name=\"ethnicityL4-61113\"> </a></td><td>North American Indian</td></tr><tr><td style=\"white-space:nowrap\">61114<a name=\"ethnicityL4-61114\"> </a></td><td>South American Indian</td></tr><tr><td style=\"white-space:nowrap\">61115<a name=\"ethnicityL4-61115\"> </a></td><td>Mauritian</td></tr><tr><td style=\"white-space:nowrap\">61116<a name=\"ethnicityL4-61116\"> </a></td><td>Seychelles Islander</td></tr><tr><td style=\"white-space:nowrap\">61117<a name=\"ethnicityL4-61117\"> </a></td><td>South African Coloured</td></tr><tr><td style=\"white-space:nowrap\">61118<a name=\"ethnicityL4-61118\"> </a></td><td>New Zealander</td></tr><tr><td style=\"white-space:nowrap\">61199<a name=\"ethnicityL4-61199\"> </a></td><td>Other NEC</td></tr><tr><td style=\"white-space:nowrap\">94444<a name=\"ethnicityL4-94444\"> </a></td><td>Don't know</td></tr><tr><td style=\"white-space:nowrap\">95555<a name=\"ethnicityL4-95555\"> </a></td><td>Refused to answer</td></tr><tr><td style=\"white-space:nowrap\">96666<a name=\"ethnicityL4-96666\"> </a></td><td>Repeated Value</td></tr><tr><td style=\"white-space:nowrap\">97777<a name=\"ethnicityL4-97777\"> </a></td><td>Response unidentifiable</td></tr><tr><td style=\"white-space:nowrap\">98888<a name=\"ethnicityL4-98888\"> </a></td><td>Response Outside Scope</td></tr><tr><td style=\"white-space:nowrap\">99999<a name=\"ethnicityL4-99999\"> </a></td><td>Not stated</td></tr></table></div>"
+  },
+  "url" : "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+  "version" : "1.0.0",
+  "name" : "EthnicityL4",
+  "title" : "Level 4 ethnicity codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-08-14T09:20:22+12:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+  "content" : "complete",
+  "count" : 239,
+  "concept" : [{
+    "code" : "10000",
+    "display" : "European NFD"
+  },
+  {
+    "code" : "11111",
+    "display" : "New Zealand European"
+  },
+  {
+    "code" : "12100",
+    "display" : "British NFD"
+  },
+  {
+    "code" : "12111",
+    "display" : "Celtic"
+  },
+  {
+    "code" : "12112",
+    "display" : "Channel Islander"
+  },
+  {
+    "code" : "12113",
+    "display" : "Cornish"
+  },
+  {
+    "code" : "12114",
+    "display" : "English"
+  },
+  {
+    "code" : "12115",
+    "display" : "Gaelic"
+  },
+  {
+    "code" : "12116",
+    "display" : "Irish"
+  },
+  {
+    "code" : "12117",
+    "display" : "Manx"
+  },
+  {
+    "code" : "12118",
+    "display" : "Orkney Islander"
+  },
+  {
+    "code" : "12119",
+    "display" : "Scottish (Scots)"
+  },
+  {
+    "code" : "12120",
+    "display" : "Shetland Islander"
+  },
+  {
+    "code" : "12121",
+    "display" : "Welsh"
+  },
+  {
+    "code" : "12199",
+    "display" : "British NEC"
+  },
+  {
+    "code" : "12211",
+    "display" : "Dutch/Netherlands"
+  },
+  {
+    "code" : "12311",
+    "display" : "Greek (including Greek Cypriot)"
+  },
+  {
+    "code" : "12411",
+    "display" : "Polish"
+  },
+  {
+    "code" : "12500",
+    "display" : "South Slav (formerly Yugoslav groups) NFD"
+  },
+  {
+    "code" : "12511",
+    "display" : "Croat/Croatian"
+  },
+  {
+    "code" : "12512",
+    "display" : "Dalmatian"
+  },
+  {
+    "code" : "12513",
+    "display" : "Macedonian"
+  },
+  {
+    "code" : "12514",
+    "display" : "Serb/Serbian"
+  },
+  {
+    "code" : "12515",
+    "display" : "Slovene/Slovenian"
+  },
+  {
+    "code" : "12516",
+    "display" : "Bosnian"
+  },
+  {
+    "code" : "12599",
+    "display" : "South Slav (formerly Yugoslav groups) NEC"
+  },
+  {
+    "code" : "12611",
+    "display" : "Italian"
+  },
+  {
+    "code" : "12711",
+    "display" : "German"
+  },
+  {
+    "code" : "12811",
+    "display" : "Australian"
+  },
+  {
+    "code" : "12911",
+    "display" : "Albanian"
+  },
+  {
+    "code" : "12912",
+    "display" : "Armenian"
+  },
+  {
+    "code" : "12913",
+    "display" : "Austrian"
+  },
+  {
+    "code" : "12914",
+    "display" : "Belgian"
+  },
+  {
+    "code" : "12915",
+    "display" : "Bulgarian"
+  },
+  {
+    "code" : "12916",
+    "display" : "Belorussian"
+  },
+  {
+    "code" : "12917",
+    "display" : "Corsican"
+  },
+  {
+    "code" : "12918",
+    "display" : "Cypriot Unspecified"
+  },
+  {
+    "code" : "12919",
+    "display" : "Czech"
+  },
+  {
+    "code" : "12920",
+    "display" : "Danish"
+  },
+  {
+    "code" : "12921",
+    "display" : "Estonian"
+  },
+  {
+    "code" : "12922",
+    "display" : "Finnish"
+  },
+  {
+    "code" : "12923",
+    "display" : "Flemish"
+  },
+  {
+    "code" : "12924",
+    "display" : "French"
+  },
+  {
+    "code" : "12925",
+    "display" : "Greenlander"
+  },
+  {
+    "code" : "12926",
+    "display" : "Hungarian"
+  },
+  {
+    "code" : "12927",
+    "display" : "Icelander"
+  },
+  {
+    "code" : "12928",
+    "display" : "Latvian"
+  },
+  {
+    "code" : "12929",
+    "display" : "Lithuanian"
+  },
+  {
+    "code" : "12930",
+    "display" : "Maltese"
+  },
+  {
+    "code" : "12931",
+    "display" : "Norwegian"
+  },
+  {
+    "code" : "12932",
+    "display" : "Portuguese"
+  },
+  {
+    "code" : "12933",
+    "display" : "Romanian / Rumanian"
+  },
+  {
+    "code" : "12934",
+    "display" : "Romany / Gypsy"
+  },
+  {
+    "code" : "12935",
+    "display" : "Russian"
+  },
+  {
+    "code" : "12936",
+    "display" : "Sardinian"
+  },
+  {
+    "code" : "12937",
+    "display" : "Slavic / Slav"
+  },
+  {
+    "code" : "12938",
+    "display" : "Slovak"
+  },
+  {
+    "code" : "12939",
+    "display" : "Spanish"
+  },
+  {
+    "code" : "12940",
+    "display" : "Swedish"
+  },
+  {
+    "code" : "12941",
+    "display" : "Swiss"
+  },
+  {
+    "code" : "12942",
+    "display" : "Ukrainian"
+  },
+  {
+    "code" : "12943",
+    "display" : "American (US)"
+  },
+  {
+    "code" : "12944",
+    "display" : "Burgher"
+  },
+  {
+    "code" : "12945",
+    "display" : "Canadian"
+  },
+  {
+    "code" : "12946",
+    "display" : "Falkland Islander / Kelper"
+  },
+  {
+    "code" : "12947",
+    "display" : "New Caledonian"
+  },
+  {
+    "code" : "12948",
+    "display" : "South African"
+  },
+  {
+    "code" : "12949",
+    "display" : "Afrikaner"
+  },
+  {
+    "code" : "12950",
+    "display" : "Zimbabwean"
+  },
+  {
+    "code" : "12999",
+    "display" : "European NEC"
+  },
+  {
+    "code" : "21111",
+    "display" : "Māori"
+  },
+  {
+    "code" : "30000",
+    "display" : "Pacific peoples NFD"
+  },
+  {
+    "code" : "31111",
+    "display" : "Samoan"
+  },
+  {
+    "code" : "32100",
+    "display" : "Cook Island Māori NFD"
+  },
+  {
+    "code" : "32111",
+    "display" : "Aitutaki Islander"
+  },
+  {
+    "code" : "32112",
+    "display" : "Atiu Islander"
+  },
+  {
+    "code" : "32113",
+    "display" : "Mangaia Islander"
+  },
+  {
+    "code" : "32114",
+    "display" : "Manihiki Islander"
+  },
+  {
+    "code" : "32115",
+    "display" : "Mauke Islander"
+  },
+  {
+    "code" : "32116",
+    "display" : "Mitiaro Islander"
+  },
+  {
+    "code" : "32117",
+    "display" : "Palmerston Islander"
+  },
+  {
+    "code" : "32118",
+    "display" : "Penrhyn Islander"
+  },
+  {
+    "code" : "32119",
+    "display" : "Pukapuka Islander"
+  },
+  {
+    "code" : "32120",
+    "display" : "Rakahanga Islander"
+  },
+  {
+    "code" : "32121",
+    "display" : "Rarotongan"
+  },
+  {
+    "code" : "33111",
+    "display" : "Tongan"
+  },
+  {
+    "code" : "34111",
+    "display" : "Niuean"
+  },
+  {
+    "code" : "35111",
+    "display" : "Tokelauan"
+  },
+  {
+    "code" : "36111",
+    "display" : "Fijian (except Fiji Indian / Indo-Fijian)"
+  },
+  {
+    "code" : "37111",
+    "display" : "Admiralty Islander"
+  },
+  {
+    "code" : "37112",
+    "display" : "Australian Aboriginal"
+  },
+  {
+    "code" : "37113",
+    "display" : "Austral Islander"
+  },
+  {
+    "code" : "37114",
+    "display" : "Belau / Palau Islander"
+  },
+  {
+    "code" : "37115",
+    "display" : "Bismark Archipelagoan"
+  },
+  {
+    "code" : "37116",
+    "display" : "Bougainvillean"
+  },
+  {
+    "code" : "37117",
+    "display" : "Caroline Islander"
+  },
+  {
+    "code" : "37118",
+    "display" : "Easter Islander"
+  },
+  {
+    "code" : "37119",
+    "display" : "Gambier Islander"
+  },
+  {
+    "code" : "37120",
+    "display" : "Guadalcanalian"
+  },
+  {
+    "code" : "37121",
+    "display" : "Guam Islander / Chamorro"
+  },
+  {
+    "code" : "37122",
+    "display" : "Hawaiian"
+  },
+  {
+    "code" : "37123",
+    "display" : "Kanaka / Kanak"
+  },
+  {
+    "code" : "37124",
+    "display" : "I-Kiribati / Gilbertese"
+  },
+  {
+    "code" : "37125",
+    "display" : "Malaitian"
+  },
+  {
+    "code" : "37126",
+    "display" : "Manus Islander"
+  },
+  {
+    "code" : "37127",
+    "display" : "Marianas Islander"
+  },
+  {
+    "code" : "37128",
+    "display" : "Marquesas Islander"
+  },
+  {
+    "code" : "37129",
+    "display" : "Marshall Islander"
+  },
+  {
+    "code" : "37130",
+    "display" : "Nauru Islander"
+  },
+  {
+    "code" : "37131",
+    "display" : "New Britain Islander"
+  },
+  {
+    "code" : "37132",
+    "display" : "New Georgian"
+  },
+  {
+    "code" : "37133",
+    "display" : "New Irelander"
+  },
+  {
+    "code" : "37134",
+    "display" : "Ocean Islander / Banaban"
+  },
+  {
+    "code" : "37135",
+    "display" : "Papuan / New Guinean / Irian Jayan"
+  },
+  {
+    "code" : "37136",
+    "display" : "Phoenix Islander"
+  },
+  {
+    "code" : "37137",
+    "display" : "Pitcairn Islander"
+  },
+  {
+    "code" : "37138",
+    "display" : "Rotuman / Rotuman Islander"
+  },
+  {
+    "code" : "37139",
+    "display" : "Santa Cruz Islander"
+  },
+  {
+    "code" : "37140",
+    "display" : "Society Islander (including Tahitian)"
+  },
+  {
+    "code" : "37141",
+    "display" : "Solomon Islander"
+  },
+  {
+    "code" : "37142",
+    "display" : "Torres Strait Islander / Thursday Islander"
+  },
+  {
+    "code" : "37143",
+    "display" : "Tuamotu Islander"
+  },
+  {
+    "code" : "37144",
+    "display" : "Tuvalu Islander / Ellice Islander"
+  },
+  {
+    "code" : "37145",
+    "display" : "Vanuatu Islander / New Hebridean"
+  },
+  {
+    "code" : "37146",
+    "display" : "Wake Islander"
+  },
+  {
+    "code" : "37147",
+    "display" : "Wallis Islander"
+  },
+  {
+    "code" : "37148",
+    "display" : "Yap Islander"
+  },
+  {
+    "code" : "37199",
+    "display" : "Other Pacific peoples NEC"
+  },
+  {
+    "code" : "40000",
+    "display" : "Asian NFD"
+  },
+  {
+    "code" : "41000",
+    "display" : "Southeast Asian NFD"
+  },
+  {
+    "code" : "41111",
+    "display" : "Filipino"
+  },
+  {
+    "code" : "41211",
+    "display" : "Khmer / Kampuchean / Cambodian"
+  },
+  {
+    "code" : "41311",
+    "display" : "Vietnamese"
+  },
+  {
+    "code" : "41411",
+    "display" : "Burmese"
+  },
+  {
+    "code" : "41412",
+    "display" : "Indonesian (including Javanese / Sundanese / Sumatran)"
+  },
+  {
+    "code" : "41413",
+    "display" : "Lao / Laotian"
+  },
+  {
+    "code" : "41414",
+    "display" : "Malay / Malayan"
+  },
+  {
+    "code" : "41415",
+    "display" : "Thai / Tai / Siamese"
+  },
+  {
+    "code" : "41499",
+    "display" : "Other Southeast Asian NEC"
+  },
+  {
+    "code" : "42100",
+    "display" : "Chinese NFD"
+  },
+  {
+    "code" : "42111",
+    "display" : "Hong Kong Chinese"
+  },
+  {
+    "code" : "42112",
+    "display" : "Kampuchean Chinese"
+  },
+  {
+    "code" : "42113",
+    "display" : "Malaysian Chinese"
+  },
+  {
+    "code" : "42114",
+    "display" : "Singaporean Chinese"
+  },
+  {
+    "code" : "42115",
+    "display" : "Vietnamese Chinese"
+  },
+  {
+    "code" : "42116",
+    "display" : "Taiwanese Chinese"
+  },
+  {
+    "code" : "42199",
+    "display" : "Chinese NEC"
+  },
+  {
+    "code" : "43100",
+    "display" : "Indian NFD"
+  },
+  {
+    "code" : "43111",
+    "display" : "Bengali"
+  },
+  {
+    "code" : "43112",
+    "display" : "Fijian Indian / Indo-Fijian"
+  },
+  {
+    "code" : "43113",
+    "display" : "Gujarati"
+  },
+  {
+    "code" : "43114",
+    "display" : "Tamil"
+  },
+  {
+    "code" : "43115",
+    "display" : "Punjabi"
+  },
+  {
+    "code" : "43116",
+    "display" : "Sikh"
+  },
+  {
+    "code" : "43117",
+    "display" : "Anglo Indian"
+  },
+  {
+    "code" : "43199",
+    "display" : "Indian NEC"
+  },
+  {
+    "code" : "44100",
+    "display" : "Sri Lankan NFD"
+  },
+  {
+    "code" : "44111",
+    "display" : "Sinhalese"
+  },
+  {
+    "code" : "44112",
+    "display" : "Sri Lankan Tamil"
+  },
+  {
+    "code" : "44199",
+    "display" : "Sri Lankan NEC"
+  },
+  {
+    "code" : "44211",
+    "display" : "Japanese"
+  },
+  {
+    "code" : "44311",
+    "display" : "Korean"
+  },
+  {
+    "code" : "44411",
+    "display" : "Afghani"
+  },
+  {
+    "code" : "44412",
+    "display" : "Bangladeshi"
+  },
+  {
+    "code" : "44413",
+    "display" : "Nepalese"
+  },
+  {
+    "code" : "44414",
+    "display" : "Pakistani"
+  },
+  {
+    "code" : "44415",
+    "display" : "Tibetan"
+  },
+  {
+    "code" : "44416",
+    "display" : "Eurasian"
+  },
+  {
+    "code" : "44499",
+    "display" : "Other Asian NEC"
+  },
+  {
+    "code" : "51100",
+    "display" : "Middle Eastern NFD"
+  },
+  {
+    "code" : "51111",
+    "display" : "Algerian"
+  },
+  {
+    "code" : "51112",
+    "display" : "Arab"
+  },
+  {
+    "code" : "51113",
+    "display" : "Assyrian"
+  },
+  {
+    "code" : "51114",
+    "display" : "Egyptian"
+  },
+  {
+    "code" : "51115",
+    "display" : "Iranian / Persian"
+  },
+  {
+    "code" : "51116",
+    "display" : "Iraqi"
+  },
+  {
+    "code" : "51117",
+    "display" : "Israeli / Jewish / Hebrew"
+  },
+  {
+    "code" : "51118",
+    "display" : "Jordanian"
+  },
+  {
+    "code" : "51119",
+    "display" : "Kurd"
+  },
+  {
+    "code" : "51120",
+    "display" : "Lebanese"
+  },
+  {
+    "code" : "51121",
+    "display" : "Libyan"
+  },
+  {
+    "code" : "51122",
+    "display" : "Moroccan"
+  },
+  {
+    "code" : "51123",
+    "display" : "Omani"
+  },
+  {
+    "code" : "51124",
+    "display" : "Palestinian"
+  },
+  {
+    "code" : "51125",
+    "display" : "Syrian"
+  },
+  {
+    "code" : "51126",
+    "display" : "Tunisian"
+  },
+  {
+    "code" : "51127",
+    "display" : "Turkish (including Turkish Cypriot)"
+  },
+  {
+    "code" : "51128",
+    "display" : "Yemeni"
+  },
+  {
+    "code" : "51199",
+    "display" : "Middle Eastern NEC"
+  },
+  {
+    "code" : "52100",
+    "display" : "Latin American / Hispanic NFD"
+  },
+  {
+    "code" : "52111",
+    "display" : "Argentinian"
+  },
+  {
+    "code" : "52112",
+    "display" : "Bolivian"
+  },
+  {
+    "code" : "52113",
+    "display" : "Brazilian"
+  },
+  {
+    "code" : "52114",
+    "display" : "Chilean"
+  },
+  {
+    "code" : "52115",
+    "display" : "Colombian"
+  },
+  {
+    "code" : "52116",
+    "display" : "Costa Rican"
+  },
+  {
+    "code" : "52117",
+    "display" : "Creole (Latin America)"
+  },
+  {
+    "code" : "52118",
+    "display" : "Ecuadorian"
+  },
+  {
+    "code" : "52119",
+    "display" : "Guatemalan"
+  },
+  {
+    "code" : "52120",
+    "display" : "Guyanese"
+  },
+  {
+    "code" : "52121",
+    "display" : "Honduran"
+  },
+  {
+    "code" : "52122",
+    "display" : "Malvinian (Spanish-speaking Falkland Islander)"
+  },
+  {
+    "code" : "52123",
+    "display" : "Mexican"
+  },
+  {
+    "code" : "52124",
+    "display" : "Nicaraguan"
+  },
+  {
+    "code" : "52125",
+    "display" : "Panamanian"
+  },
+  {
+    "code" : "52126",
+    "display" : "Paraguayan"
+  },
+  {
+    "code" : "52127",
+    "display" : "Peruvian"
+  },
+  {
+    "code" : "52128",
+    "display" : "Puerto Rican"
+  },
+  {
+    "code" : "52129",
+    "display" : "Uruguayan"
+  },
+  {
+    "code" : "52130",
+    "display" : "Venezuelan"
+  },
+  {
+    "code" : "52199",
+    "display" : "Latin American / Hispanic NEC"
+  },
+  {
+    "code" : "53100",
+    "display" : "African NFD"
+  },
+  {
+    "code" : "53112",
+    "display" : "Creole (US)"
+  },
+  {
+    "code" : "53113",
+    "display" : "Jamaican"
+  },
+  {
+    "code" : "53114",
+    "display" : "Kenyan"
+  },
+  {
+    "code" : "53115",
+    "display" : "Nigerian"
+  },
+  {
+    "code" : "53116",
+    "display" : "African American"
+  },
+  {
+    "code" : "53117",
+    "display" : "Ugandan"
+  },
+  {
+    "code" : "53118",
+    "display" : "West Indian / Caribbean"
+  },
+  {
+    "code" : "53119",
+    "display" : "Somali"
+  },
+  {
+    "code" : "53120",
+    "display" : "Eritrean"
+  },
+  {
+    "code" : "53121",
+    "display" : "Ethiopian"
+  },
+  {
+    "code" : "53122",
+    "display" : "Ghanaian"
+  },
+  {
+    "code" : "53199",
+    "display" : "Other African NEC"
+  },
+  {
+    "code" : "61111",
+    "display" : "Central American Indian"
+  },
+  {
+    "code" : "61112",
+    "display" : "Inuit / Eskimo"
+  },
+  {
+    "code" : "61113",
+    "display" : "North American Indian"
+  },
+  {
+    "code" : "61114",
+    "display" : "South American Indian"
+  },
+  {
+    "code" : "61115",
+    "display" : "Mauritian"
+  },
+  {
+    "code" : "61116",
+    "display" : "Seychelles Islander"
+  },
+  {
+    "code" : "61117",
+    "display" : "South African Coloured"
+  },
+  {
+    "code" : "61118",
+    "display" : "New Zealander"
+  },
+  {
+    "code" : "61199",
+    "display" : "Other NEC"
+  },
+  {
+    "code" : "94444",
+    "display" : "Don't know"
+  },
+  {
+    "code" : "95555",
+    "display" : "Refused to answer"
+  },
+  {
+    "code" : "96666",
+    "display" : "Repeated Value"
+  },
+  {
+    "code" : "97777",
+    "display" : "Response unidentifiable"
+  },
+  {
+    "code" : "98888",
+    "display" : "Response Outside Scope"
+  },
+  {
+    "code" : "99999",
+    "display" : "Not stated"
+  }]
+}

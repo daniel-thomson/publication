@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/PractitionerRole/practitionerRole-creator> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitionerRole-creator"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole-creator</b></p><a name=\"practitionerRole-creator\"> </a><a name=\"hcpractitionerRole-creator\"> </a><a name=\"practitionerRole-creator-en-US\"> </a><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Organization  #mmh</b></p><a name=\"practitionerRole-creator/mmh\"> </a><a name=\"hcpractitionerRole-creator/mmh\"> </a><a name=\"practitionerRole-creator/mmh-en-US\"> </a><p><b>identifier</b>: <a href=\"NamingSystem-hpiOrganization.html\" title=\"HPI organizations\">HPIOrganization</a>/mmh</p><p><b>name</b>: Middlemore Hospital</p></blockquote><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Practitioner  #administrator</b></p><a name=\"practitionerRole-creator/administrator\"> </a><a name=\"hcpractitionerRole-creator/administrator\"> </a><a name=\"practitionerRole-creator/administrator-en-US\"> </a><p><b>name</b>: Amy Administrator</p></blockquote></div>"
+  ] ; # 
+  fhir:contained ( [
+     a fhir:Organization ;
+     fhir:id [ fhir:v "mmh" ] ;
+     fhir:identifier ( [
+       fhir:system [ fhir:v "https://standards.digital.health.nz/ns/hpi-organisation-id"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "mmh" ]
+     ] ) ;
+     fhir:name [ fhir:v "Middlemore Hospital" ]
+  ] [
+     a fhir:Practitioner ;
+     fhir:id [ fhir:v "administrator" ] ;
+     fhir:name ( [
+       fhir:text [ fhir:v "Amy Administrator" ]
+     ] )
+  ] ) ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "person"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Reference ;
+         fhir:reference [ fhir:v "#administrator" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "organization"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Reference ;
+         fhir:reference [ fhir:v "#mmh" ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator"^^xsd:anyURI ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

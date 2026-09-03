@@ -1,0 +1,2083 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-2",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-2",
+  "name" : "UnionNZ_ethnic_group_codesAndNZ_ethnic_group_codes",
+  "title" : "Union of NZ ethnic group codes And NZ ethnic group codes",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "property" : [{
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "The concept identified in this property is a parent of the concept on which it is used",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "European"
+  },
+  {
+    "code" : "10",
+    "display" : "European nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "1"
+    }]
+  },
+  {
+    "code" : "100",
+    "display" : "European nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "10000",
+    "display" : "European nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "100"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "New Zealand European",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "1"
+    }]
+  },
+  {
+    "code" : "111",
+    "display" : "New Zealand European",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "11111",
+    "display" : "New Zealand European",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "111"
+    }]
+  },
+  {
+    "code" : "12",
+    "display" : "Other European",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "1"
+    }]
+  },
+  {
+    "code" : "121",
+    "display" : "British and Irish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12100",
+    "display" : "British nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12111",
+    "display" : "Celtic nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12112",
+    "display" : "Channel Islander",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12113",
+    "display" : "Cornish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12114",
+    "display" : "English",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12116",
+    "display" : "Irish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12117",
+    "display" : "Manx",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12119",
+    "display" : "Scottish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12121",
+    "display" : "Welsh",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "12199",
+    "display" : "British nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "121"
+    }]
+  },
+  {
+    "code" : "122",
+    "display" : "Dutch",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12211",
+    "display" : "Dutch",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "122"
+    }]
+  },
+  {
+    "code" : "123",
+    "display" : "Greek",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12311",
+    "display" : "Greek",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "123"
+    }]
+  },
+  {
+    "code" : "124",
+    "display" : "Polish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12411",
+    "display" : "Polish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "124"
+    }]
+  },
+  {
+    "code" : "125",
+    "display" : "South Slav",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12500",
+    "display" : "South Slav nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "125"
+    }]
+  },
+  {
+    "code" : "12511",
+    "display" : "Croatian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "125"
+    }]
+  },
+  {
+    "code" : "12512",
+    "display" : "Dalmatian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "125"
+    }]
+  },
+  {
+    "code" : "12513",
+    "display" : "Macedonian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "125"
+    }]
+  },
+  {
+    "code" : "12514",
+    "display" : "Serbian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "125"
+    }]
+  },
+  {
+    "code" : "12515",
+    "display" : "Slovenian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "125"
+    }]
+  },
+  {
+    "code" : "12516",
+    "display" : "Bosnian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "125"
+    }]
+  },
+  {
+    "code" : "12599",
+    "display" : "South Slav nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "125"
+    }]
+  },
+  {
+    "code" : "126",
+    "display" : "Italian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12611",
+    "display" : "Italian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "126"
+    }]
+  },
+  {
+    "code" : "127",
+    "display" : "German",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12711",
+    "display" : "German",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "127"
+    }]
+  },
+  {
+    "code" : "128",
+    "display" : "Australian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12811",
+    "display" : "Australian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "128"
+    }]
+  },
+  {
+    "code" : "129",
+    "display" : "Other European",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "12911",
+    "display" : "Albanian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12912",
+    "display" : "Armenian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12913",
+    "display" : "Austrian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12914",
+    "display" : "Belgian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12915",
+    "display" : "Bulgarian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12916",
+    "display" : "Belorussian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12918",
+    "display" : "Cypriot nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12919",
+    "display" : "Czech",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12920",
+    "display" : "Danish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12921",
+    "display" : "Estonian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12922",
+    "display" : "Finnish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12923",
+    "display" : "Flemish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12924",
+    "display" : "French",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12926",
+    "display" : "Hungarian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12927",
+    "display" : "Icelandic",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12928",
+    "display" : "Latvian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12929",
+    "display" : "Lithuanian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12930",
+    "display" : "Maltese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12931",
+    "display" : "Norwegian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12932",
+    "display" : "Portuguese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12933",
+    "display" : "Romanian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12934",
+    "display" : "Romani",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12935",
+    "display" : "Russian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12937",
+    "display" : "Slavic",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12938",
+    "display" : "Slovak",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12939",
+    "display" : "Spanish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12940",
+    "display" : "Swedish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12941",
+    "display" : "Swiss",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12942",
+    "display" : "Ukrainian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12943",
+    "display" : "American",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12945",
+    "display" : "Canadian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12947",
+    "display" : "New Caledonian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12948",
+    "display" : "South African European",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12949",
+    "display" : "Afrikaner",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12950",
+    "display" : "Zimbabwean European",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "12999",
+    "display" : "European nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "129"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Māori"
+  },
+  {
+    "code" : "21",
+    "display" : "Māori",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "2"
+    }]
+  },
+  {
+    "code" : "211",
+    "display" : "Māori",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "21111",
+    "display" : "Māori",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "211"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Pacific Peoples"
+  },
+  {
+    "code" : "30",
+    "display" : "Pacific Peoples nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "3"
+    }]
+  },
+  {
+    "code" : "300",
+    "display" : "Pacific Peoples nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "30"
+    }]
+  },
+  {
+    "code" : "30000",
+    "display" : "Pacific Peoples nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "300"
+    }]
+  },
+  {
+    "code" : "31",
+    "display" : "Samoan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "3"
+    }]
+  },
+  {
+    "code" : "311",
+    "display" : "Samoan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "31"
+    }]
+  },
+  {
+    "code" : "31111",
+    "display" : "Samoan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "311"
+    }]
+  },
+  {
+    "code" : "32",
+    "display" : "Cook Islands Maori",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "3"
+    }]
+  },
+  {
+    "code" : "321",
+    "display" : "Cook Islands Maori",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "32"
+    }]
+  },
+  {
+    "code" : "32100",
+    "display" : "Cook Islands Maori",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "321"
+    }]
+  },
+  {
+    "code" : "33",
+    "display" : "Tongan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "3"
+    }]
+  },
+  {
+    "code" : "331",
+    "display" : "Tongan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "33"
+    }]
+  },
+  {
+    "code" : "33111",
+    "display" : "Tongan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "331"
+    }]
+  },
+  {
+    "code" : "34",
+    "display" : "Niuean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "3"
+    }]
+  },
+  {
+    "code" : "341",
+    "display" : "Niuean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "34"
+    }]
+  },
+  {
+    "code" : "34111",
+    "display" : "Niuean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "341"
+    }]
+  },
+  {
+    "code" : "35",
+    "display" : "Tokelauan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "3"
+    }]
+  },
+  {
+    "code" : "351",
+    "display" : "Tokelauan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "35"
+    }]
+  },
+  {
+    "code" : "35111",
+    "display" : "Tokelauan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "351"
+    }]
+  },
+  {
+    "code" : "36",
+    "display" : "Fijian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "3"
+    }]
+  },
+  {
+    "code" : "361",
+    "display" : "Fijian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "36"
+    }]
+  },
+  {
+    "code" : "36111",
+    "display" : "Fijian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "361"
+    }]
+  },
+  {
+    "code" : "37",
+    "display" : "Other Pacific Peoples",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "3"
+    }]
+  },
+  {
+    "code" : "371",
+    "display" : "Other Pacific Peoples",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "37"
+    }]
+  },
+  {
+    "code" : "37112",
+    "display" : "Indigenous Australian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37122",
+    "display" : "Hawaiian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37124",
+    "display" : "Kiribati",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37130",
+    "display" : "Nauruan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37135",
+    "display" : "Papua New Guinean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37137",
+    "display" : "Pitcairn Islander",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37138",
+    "display" : "Rotuman",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37140",
+    "display" : "Tahitian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37141",
+    "display" : "Solomon Islander",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37144",
+    "display" : "Tuvaluan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37145",
+    "display" : "Ni Vanuatu",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "37199",
+    "display" : "Pacific Peoples nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "371"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Asian"
+  },
+  {
+    "code" : "40",
+    "display" : "Asian nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "4"
+    }]
+  },
+  {
+    "code" : "400",
+    "display" : "Asian nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "40"
+    }]
+  },
+  {
+    "code" : "40000",
+    "display" : "Asian nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "400"
+    }]
+  },
+  {
+    "code" : "41",
+    "display" : "Southeast Asian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "4"
+    }]
+  },
+  {
+    "code" : "410",
+    "display" : "Southeast Asian nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "41"
+    }]
+  },
+  {
+    "code" : "41000",
+    "display" : "Southeast Asian nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "410"
+    }]
+  },
+  {
+    "code" : "411",
+    "display" : "Filipino",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "41"
+    }]
+  },
+  {
+    "code" : "41111",
+    "display" : "Filipino",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "411"
+    }]
+  },
+  {
+    "code" : "412",
+    "display" : "Cambodian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "41"
+    }]
+  },
+  {
+    "code" : "41211",
+    "display" : "Cambodian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "412"
+    }]
+  },
+  {
+    "code" : "413",
+    "display" : "Vietnamese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "41"
+    }]
+  },
+  {
+    "code" : "41311",
+    "display" : "Vietnamese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "413"
+    }]
+  },
+  {
+    "code" : "414",
+    "display" : "Other Southeast Asian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "41"
+    }]
+  },
+  {
+    "code" : "41411",
+    "display" : "Burmese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "414"
+    }]
+  },
+  {
+    "code" : "41412",
+    "display" : "Indonesian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "414"
+    }]
+  },
+  {
+    "code" : "41413",
+    "display" : "Lao",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "414"
+    }]
+  },
+  {
+    "code" : "41414",
+    "display" : "Malay",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "414"
+    }]
+  },
+  {
+    "code" : "41415",
+    "display" : "Thai",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "414"
+    }]
+  },
+  {
+    "code" : "41416",
+    "display" : "Karen",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "414"
+    }]
+  },
+  {
+    "code" : "41417",
+    "display" : "Chin",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "414"
+    }]
+  },
+  {
+    "code" : "41499",
+    "display" : "Southeast Asian nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "414"
+    }]
+  },
+  {
+    "code" : "42",
+    "display" : "Chinese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "4"
+    }]
+  },
+  {
+    "code" : "421",
+    "display" : "Chinese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "42"
+    }]
+  },
+  {
+    "code" : "42100",
+    "display" : "Chinese nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "421"
+    }]
+  },
+  {
+    "code" : "42111",
+    "display" : "Hong Kong Chinese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "421"
+    }]
+  },
+  {
+    "code" : "42112",
+    "display" : "Cambodian Chinese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "421"
+    }]
+  },
+  {
+    "code" : "42113",
+    "display" : "Malaysian Chinese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "421"
+    }]
+  },
+  {
+    "code" : "42114",
+    "display" : "Singaporean Chinese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "421"
+    }]
+  },
+  {
+    "code" : "42115",
+    "display" : "Vietnamese Chinese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "421"
+    }]
+  },
+  {
+    "code" : "42116",
+    "display" : "Taiwanese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "421"
+    }]
+  },
+  {
+    "code" : "42199",
+    "display" : "Chinese nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "421"
+    }]
+  },
+  {
+    "code" : "43",
+    "display" : "Indian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "4"
+    }]
+  },
+  {
+    "code" : "431",
+    "display" : "Indian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "43"
+    }]
+  },
+  {
+    "code" : "43100",
+    "display" : "Indian nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43111",
+    "display" : "Bengali",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43112",
+    "display" : "Fijian Indian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43114",
+    "display" : "Indian Tamil",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43115",
+    "display" : "Punjabi",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43116",
+    "display" : "Sikh",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43117",
+    "display" : "Anglo Indian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43118",
+    "display" : "Malaysian Indian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43119",
+    "display" : "South African Indian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "43199",
+    "display" : "Indian nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "431"
+    }]
+  },
+  {
+    "code" : "44",
+    "display" : "Other Asian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "4"
+    }]
+  },
+  {
+    "code" : "441",
+    "display" : "Sri Lankan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "44"
+    }]
+  },
+  {
+    "code" : "44100",
+    "display" : "Sri Lankan nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "441"
+    }]
+  },
+  {
+    "code" : "44111",
+    "display" : "Sinhalese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "441"
+    }]
+  },
+  {
+    "code" : "44112",
+    "display" : "Sri Lankan Tamil",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "441"
+    }]
+  },
+  {
+    "code" : "44199",
+    "display" : "Sri Lankan nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "441"
+    }]
+  },
+  {
+    "code" : "442",
+    "display" : "Japanese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "44"
+    }]
+  },
+  {
+    "code" : "44211",
+    "display" : "Japanese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "442"
+    }]
+  },
+  {
+    "code" : "443",
+    "display" : "Korean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "44"
+    }]
+  },
+  {
+    "code" : "44311",
+    "display" : "Korean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "443"
+    }]
+  },
+  {
+    "code" : "444",
+    "display" : "Other Asian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "44"
+    }]
+  },
+  {
+    "code" : "44411",
+    "display" : "Afghan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44412",
+    "display" : "Bangladeshi",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44413",
+    "display" : "Nepali",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44414",
+    "display" : "Pakistani",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44415",
+    "display" : "Tibetan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44416",
+    "display" : "Eurasian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44417",
+    "display" : "Bhutanese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44418",
+    "display" : "Maldivian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44419",
+    "display" : "Mongolian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "44499",
+    "display" : "Asian nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "444"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Middle Eastern/Latin American/African"
+  },
+  {
+    "code" : "51",
+    "display" : "Middle Eastern",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "5"
+    }]
+  },
+  {
+    "code" : "511",
+    "display" : "Middle Eastern",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "51"
+    }]
+  },
+  {
+    "code" : "51100",
+    "display" : "Middle Eastern nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51111",
+    "display" : "Algerian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51112",
+    "display" : "Arab",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51113",
+    "display" : "Assyrian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51114",
+    "display" : "Egyptian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51115",
+    "display" : "Iranian/Persian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51116",
+    "display" : "Iraqi",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51117",
+    "display" : "Israeli/Jewish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51118",
+    "display" : "Jordanian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51119",
+    "display" : "Kurd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51120",
+    "display" : "Lebanese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51122",
+    "display" : "Moroccan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51124",
+    "display" : "Palestinian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51125",
+    "display" : "Syrian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51127",
+    "display" : "Turkish",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "51199",
+    "display" : "Middle Eastern nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "511"
+    }]
+  },
+  {
+    "code" : "52",
+    "display" : "Latin American",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "5"
+    }]
+  },
+  {
+    "code" : "521",
+    "display" : "Latin American",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "52"
+    }]
+  },
+  {
+    "code" : "52100",
+    "display" : "Latin American nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52111",
+    "display" : "Argentinian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52112",
+    "display" : "Bolivian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52113",
+    "display" : "Brazilian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52114",
+    "display" : "Chilean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52115",
+    "display" : "Colombian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52118",
+    "display" : "Ecuadorian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52123",
+    "display" : "Mexican",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52127",
+    "display" : "Peruvian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52128",
+    "display" : "Puerto Rican",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52129",
+    "display" : "Uruguayan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52130",
+    "display" : "Venezuelan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "52199",
+    "display" : "Latin American nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "521"
+    }]
+  },
+  {
+    "code" : "53",
+    "display" : "African",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "5"
+    }]
+  },
+  {
+    "code" : "531",
+    "display" : "African",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "53"
+    }]
+  },
+  {
+    "code" : "53100",
+    "display" : "African nfd",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53113",
+    "display" : "Jamaican",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53114",
+    "display" : "Kenyan",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53115",
+    "display" : "Nigerian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53116",
+    "display" : "African American",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53118",
+    "display" : "Caribbean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53119",
+    "display" : "Somali",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53120",
+    "display" : "Eritrean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53121",
+    "display" : "Ethiopian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53122",
+    "display" : "Ghanaian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53123",
+    "display" : "Burundian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53124",
+    "display" : "Congolese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53125",
+    "display" : "Sudanese",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53126",
+    "display" : "Zambian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53127",
+    "display" : "Other Zimbabwean",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "53199",
+    "display" : "African nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "531"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Other Ethnicity"
+  },
+  {
+    "code" : "61",
+    "display" : "Other Ethnicity",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "6"
+    }]
+  },
+  {
+    "code" : "611",
+    "display" : "Other Ethnicity",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "61"
+    }]
+  },
+  {
+    "code" : "61113",
+    "display" : "Indigenous American",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "611"
+    }]
+  },
+  {
+    "code" : "61115",
+    "display" : "Mauritian",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "611"
+    }]
+  },
+  {
+    "code" : "61116",
+    "display" : "Seychellois",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "611"
+    }]
+  },
+  {
+    "code" : "61117",
+    "display" : "Other South African",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "611"
+    }]
+  },
+  {
+    "code" : "61118",
+    "display" : "New Zealander",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "611"
+    }]
+  },
+  {
+    "code" : "61199",
+    "display" : "Other Ethnicity nec",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "611"
+    }]
+  },
+  {
+    "code" : "9",
+    "display" : "Residual Categories"
+  },
+  {
+    "code" : "94",
+    "display" : "Don't Know",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "9"
+    }]
+  },
+  {
+    "code" : "944",
+    "display" : "Don't Know",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "94"
+    }]
+  },
+  {
+    "code" : "94444",
+    "display" : "Don't Know",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "944"
+    }]
+  },
+  {
+    "code" : "95",
+    "display" : "Refused to Answer",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "9"
+    }]
+  },
+  {
+    "code" : "955",
+    "display" : "Refused to Answer",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "95"
+    }]
+  },
+  {
+    "code" : "95555",
+    "display" : "Refused to Answer",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "955"
+    }]
+  },
+  {
+    "code" : "96",
+    "display" : "Repeated Value",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "9"
+    }]
+  },
+  {
+    "code" : "966",
+    "display" : "Repeated Value",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "96"
+    }]
+  },
+  {
+    "code" : "96666",
+    "display" : "Repeated Value",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "966"
+    }]
+  },
+  {
+    "code" : "97",
+    "display" : "Response Unidentifiable",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "9"
+    }]
+  },
+  {
+    "code" : "977",
+    "display" : "Response Unidentifiable",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "97"
+    }]
+  },
+  {
+    "code" : "97777",
+    "display" : "Response Unidentifiable",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "977"
+    }]
+  },
+  {
+    "code" : "98",
+    "display" : "Response Outside Scope",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "9"
+    }]
+  },
+  {
+    "code" : "988",
+    "display" : "Response Outside Scope",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "98"
+    }]
+  },
+  {
+    "code" : "98888",
+    "display" : "Response Outside Scope",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "988"
+    }]
+  },
+  {
+    "code" : "99",
+    "display" : "Not Stated",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "9"
+    }]
+  },
+  {
+    "code" : "999",
+    "display" : "Not Stated",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "99"
+    }]
+  },
+  {
+    "code" : "99999",
+    "display" : "Not Stated",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "999"
+    }]
+  }]
+}

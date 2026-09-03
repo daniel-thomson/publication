@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "contact-point-purpose",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem contact-point-purpose</b></p><a name=\"contact-point-purpose\"> </a><a name=\"hccontact-point-purpose\"> </a><a name=\"contact-point-purpose-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/contact-point-purpose-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">rx<a name=\"contact-point-purpose-rx\"> </a></td><td>Prescription</td></tr><tr><td style=\"white-space:nowrap\">vc<a name=\"contact-point-purpose-vc\"> </a></td><td>Video Conference</td></tr><tr><td style=\"white-space:nowrap\">wf<a name=\"contact-point-purpose-wf\"> </a></td><td>Web forum</td></tr><tr><td style=\"white-space:nowrap\">ob<a name=\"contact-point-purpose-ob\"> </a></td><td>Online booking</td></tr><tr><td style=\"white-space:nowrap\">vob<a name=\"contact-point-purpose-vob\"> </a></td><td>Vaccination online booking</td></tr><tr><td style=\"white-space:nowrap\">www<a name=\"contact-point-purpose-www\"> </a></td><td>Website</td></tr></table></div>"
+  },
+  "url" : "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+  "version" : "1.0.0",
+  "name" : "ContactPointPurpose",
+  "title" : "ContactPoint purpose",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-08-14T09:20:22+12:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "The purpose of a ContactPoint - what it is used for.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "rx",
+    "display" : "Prescription"
+  },
+  {
+    "code" : "vc",
+    "display" : "Video Conference"
+  },
+  {
+    "code" : "wf",
+    "display" : "Web forum"
+  },
+  {
+    "code" : "ob",
+    "display" : "Online booking"
+  },
+  {
+    "code" : "vob",
+    "display" : "Vaccination online booking"
+  },
+  {
+    "code" : "www",
+    "display" : "Website"
+  }]
+}

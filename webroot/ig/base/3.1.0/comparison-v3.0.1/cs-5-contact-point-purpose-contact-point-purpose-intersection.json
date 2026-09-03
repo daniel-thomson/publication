@@ -1,0 +1,33 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-15",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-15",
+  "name" : "IntersectionContactPointPurposeAndContactPointPurpose",
+  "title" : "Intersection of ContactPoint purpose And ContactPoint purpose",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "rx",
+    "display" : "Prescription"
+  },
+  {
+    "code" : "vc",
+    "display" : "Video Conference"
+  },
+  {
+    "code" : "wf",
+    "display" : "Web forum"
+  },
+  {
+    "code" : "ob",
+    "display" : "Online booking"
+  },
+  {
+    "code" : "vob",
+    "display" : "Vaccination online booking"
+  },
+  {
+    "code" : "www",
+    "display" : "Website"
+  }]
+}

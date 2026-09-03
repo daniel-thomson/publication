@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="organization-moh"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Organization organization-moh</b></p><a name="organization-moh"> </a><a name="hcorganization-moh"> </a><p><b>name</b>: Ministry Of Health</p></div>
+  </text>
+  <name value="Ministry Of Health"/>
+</Organization>

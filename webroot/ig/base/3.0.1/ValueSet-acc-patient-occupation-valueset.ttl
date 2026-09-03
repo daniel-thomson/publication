@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/ValueSet/acc-patient-occupation-valueset> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "acc-patient-occupation-valueset"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet acc-patient-occupation-valueset</b></p><a name=\"acc-patient-occupation-valueset\"> </a><a name=\"hcacc-patient-occupation-valueset\"> </a><a name=\"acc-patient-occupation-valueset-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-acc-patient-occupation-codesystem.html\"><code>https://standards.digital.health.nz/ns/acc-patient-occupation-code</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "AccPatientOccupationValueSet"] ; # 
+  fhir:title [ fhir:v "ACC Patient Occupation"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet of codes for classifying patient occupations, drawn from the ACC codeset"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://standards.digital.health.nz/ns/acc-patient-occupation-code"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

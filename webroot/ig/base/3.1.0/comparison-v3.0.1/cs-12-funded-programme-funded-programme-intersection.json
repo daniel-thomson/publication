@@ -1,0 +1,25 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-36",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-36",
+  "name" : "IntersectionFundedProgrammeAndFundedProgramme",
+  "title" : "Intersection of Funded Programme And Funded Programme",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "DENTAL_CHILD",
+    "display" : "Dental Care - Children up to age 13"
+  },
+  {
+    "code" : "DENTAL_ADULT_EMERGENCY",
+    "display" : "Dental Care – Adult Emergency"
+  },
+  {
+    "code" : "ENROLLING_GP_PRACTICE",
+    "display" : "General Practice Enrollment"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Some other funded programme not otherwise defined"
+  }]
+}

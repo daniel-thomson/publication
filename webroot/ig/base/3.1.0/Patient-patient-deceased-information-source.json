@@ -1,0 +1,30 @@
+{
+  "resourceType" : "Patient",
+  "id" : "patient-deceased-information-source",
+  "meta" : {
+    "profile" : ["http://hl7.org.nz/fhir/StructureDefinition/NzPatient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-deceased-information-source</b></p><a name=\"patient-deceased-information-source\"> </a><a name=\"hcpatient-deceased-information-source\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NzPatient.html\">NZ Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">John Doe Male, DoB Unknown</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">1998-01-01</td></tr></table></div>"
+  },
+  "name" : [{
+    "text" : "John Doe",
+    "family" : "Doe",
+    "given" : ["John"]
+  }],
+  "gender" : "male",
+  "deceasedDateTime" : "1998-01-01",
+  "_deceasedDateTime" : {
+    "extension" : [{
+      "url" : "http://hl7.org.nz/fhir/StructureDefinition/information-source",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://standards.digital.health.nz/ns/information-source-code",
+          "code" : "PPRT",
+          "display" : "Passport"
+        }]
+      }
+    }]
+  }
+}

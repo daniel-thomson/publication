@@ -1,0 +1,38 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Organization/organization-funded-programme> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "organization-funded-programme"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization organization-funded-programme</b></p><a name=\"organization-funded-programme\"> </a><a name=\"hcorganization-funded-programme\"> </a><a name=\"organization-funded-programme-en-US\"> </a><p><b>name</b>: Dianes Dental care</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "fundedProgramme"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://standards.digital.health.nz/ns/funded-programme-code"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "DENTAL_CHILD" ] ;
+           fhir:display [ fhir:v "Dental Care - Children up to age 13" ]
+         ] )
+       ]
+     ] [
+       fhir:url [ fhir:v "currentAvailability"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:url [ fhir:v "notes"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Dental care is only free on referral. Your child’s care will normally be managed by the Auckland Regional Dental Services (ARDs)." ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/funded-programme"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Dianes Dental care"] . # 
+
+# -------------------------------------------------------------------------------------
+

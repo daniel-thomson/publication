@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nz-residency"/>
+  <meta>
+    <versionId value="10"/>
+    <lastUpdated value="2026-05-07T20:19:16.919+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NZ Residency status</h2><tt>https://standards.digital.health.nz/ns/nz-residency-code</tt><p>NZ Residency status</p></div>
+  </text>
+  <url value="https://standards.digital.health.nz/ns/nz-residency-code"/>
+  <version value="1.1.0"/>
+  <name value="NZResidency"/>
+  <title value="NZ Residency status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-25T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="NZ Residency status"/>
+  <caseSensitive value="true"/>
+  <valueSet value="https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-code"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="yes"/>
+    <display value="Permanent Resident"/>
+    <definition value="Use this status if the person holds a residence class visa"/>
+  </concept>
+  <concept>
+    <code value="no"/>
+    <display value="Not a Permanent Resident"/>
+    <definition value="Use this status for a person who is a NZ Citizen or does not hold a residence class visa"/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="use this status if the residency status of the person cannot be determined or is unknown"/>
+  </concept>
+</CodeSystem>

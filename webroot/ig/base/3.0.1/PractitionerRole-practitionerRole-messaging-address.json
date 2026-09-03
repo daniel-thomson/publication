@@ -1,0 +1,19 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "practitionerRole-messaging-address",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole-messaging-address</b></p><a name=\"practitionerRole-messaging-address\"> </a><a name=\"hcpractitionerRole-messaging-address\"> </a><a name=\"practitionerRole-messaging-address-en-US\"> </a></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "provider",
+      "valueString" : "healthLink"
+    },
+    {
+      "url" : "value",
+      "valueString" : "abc123"
+    }],
+    "url" : "http://hl7.org.nz/fhir/StructureDefinition/messaging-address"
+  }]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="practitioner-scope-of-practice"/>
+  <meta>
+    <versionId value="13"/>
+    <lastUpdated value="2026-05-07T20:43:54.889+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Scope of practice</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</tt><p>A coded type for professional scope of practice.</p></div>
+  </text>
+  <url value="https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code"/>
+  <version value="2.1.0"/>
+  <name value="PractitionerScopeOfPractice"/>
+  <title value="Scope of practice"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-11-22T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="A coded type for professional scope of practice."/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code"/>
+      <version value="2.1.0"/>
+    </include>
+  </compose>
+</ValueSet>

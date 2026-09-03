@@ -1,0 +1,400 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/scopeOfPractice> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "scopeOfPractice"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem scopeOfPractice</b></p><a name=\"scopeOfPractice\"> </a><a name=\"hcscopeOfPractice\"> </a><a name=\"scopeOfPractice-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CHIR<a name=\"scopeOfPractice-CHIR\"> </a></td><td>Chiropractor</td></tr><tr><td style=\"white-space:nowrap\">DEAC<a name=\"scopeOfPractice-DEAC\"> </a></td><td>Adult Care in Dental Therapy Practice</td></tr><tr><td style=\"white-space:nowrap\">DECD<a name=\"scopeOfPractice-DECD\"> </a></td><td>Clinical Dental Technology Practice</td></tr><tr><td style=\"white-space:nowrap\">DEDH<a name=\"scopeOfPractice-DEDH\"> </a></td><td>Dental Hygiene Practice</td></tr><tr><td style=\"white-space:nowrap\">DEDT<a name=\"scopeOfPractice-DEDT\"> </a></td><td>Dental Technology Practice</td></tr><tr><td style=\"white-space:nowrap\">DEEN<a name=\"scopeOfPractice-DEEN\"> </a></td><td>Endodontic Specialists</td></tr><tr><td style=\"white-space:nowrap\">DEGD<a name=\"scopeOfPractice-DEGD\"> </a></td><td>General Dental Therapy Practice</td></tr><tr><td style=\"white-space:nowrap\">DEIA<a name=\"scopeOfPractice-DEIA\"> </a></td><td>Implant over dentures in clinical dental technology practice</td></tr><tr><td style=\"white-space:nowrap\">DENT<a name=\"scopeOfPractice-DENT\"> </a></td><td>General Dental Practice</td></tr><tr><td style=\"white-space:nowrap\">DEOA<a name=\"scopeOfPractice-DEOA\"> </a></td><td>Orthodontic Auxiliary Practice</td></tr><tr><td style=\"white-space:nowrap\">DEOM<a name=\"scopeOfPractice-DEOM\"> </a></td><td>Oral Medicine Specialists</td></tr><tr><td style=\"white-space:nowrap\">DEOP<a name=\"scopeOfPractice-DEOP\"> </a></td><td>Oral Pathology Specialists</td></tr><tr><td style=\"white-space:nowrap\">DEOR<a name=\"scopeOfPractice-DEOR\"> </a></td><td>Oral and Maxillofacial Surgery Specialists</td></tr><tr><td style=\"white-space:nowrap\">DEOS<a name=\"scopeOfPractice-DEOS\"> </a></td><td>Oral Surgery Specialists</td></tr><tr><td style=\"white-space:nowrap\">DEPA<a name=\"scopeOfPractice-DEPA\"> </a></td><td>Paediatric Dentistry Specialists</td></tr><tr><td style=\"white-space:nowrap\">DEPE<a name=\"scopeOfPractice-DEPE\"> </a></td><td>Periodontic Specialists</td></tr><tr><td style=\"white-space:nowrap\">DEPH<a name=\"scopeOfPractice-DEPH\"> </a></td><td>Public Health Dentistry (or Community Dentistry) Specialists</td></tr><tr><td style=\"white-space:nowrap\">DEPS<a name=\"scopeOfPractice-DEPS\"> </a></td><td>Prosthodontic Specialists</td></tr><tr><td style=\"white-space:nowrap\">DERE<a name=\"scopeOfPractice-DERE\"> </a></td><td>Restorative Dentistry Specialists</td></tr><tr><td style=\"white-space:nowrap\">DESN<a name=\"scopeOfPractice-DESN\"> </a></td><td>Special Needs Dentistry Specialists</td></tr><tr><td style=\"white-space:nowrap\">DESP<a name=\"scopeOfPractice-DESP\"> </a></td><td>Orthodontic Specialists</td></tr><tr><td style=\"white-space:nowrap\">DIET<a name=\"scopeOfPractice-DIET\"> </a></td><td>Dietitian</td></tr><tr><td style=\"white-space:nowrap\">LTAT<a name=\"scopeOfPractice-LTAT\"> </a></td><td>Anaesthetic Technician</td></tr><tr><td style=\"white-space:nowrap\">LTPA<a name=\"scopeOfPractice-LTPA\"> </a></td><td>Medical Laboratory Pre-Analytical Technician</td></tr><tr><td style=\"white-space:nowrap\">LTLS<a name=\"scopeOfPractice-LTLS\"> </a></td><td>Medical Laboratory Scientist</td></tr><tr><td style=\"white-space:nowrap\">LTLT<a name=\"scopeOfPractice-LTLT\"> </a></td><td>Medical Laboratory Technician</td></tr><tr><td style=\"white-space:nowrap\">MCAM<a name=\"scopeOfPractice-MCAM\"> </a></td><td>Vocational Scope of Accident and Medical Practice</td></tr><tr><td style=\"white-space:nowrap\">MCAN<a name=\"scopeOfPractice-MCAN\"> </a></td><td>Vocational Scope of Anaesthesia</td></tr><tr><td style=\"white-space:nowrap\">MCAP<a name=\"scopeOfPractice-MCAP\"> </a></td><td>Vocational Scope of Pain Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCBM<a name=\"scopeOfPractice-MCBM\"> </a></td><td>Vocational Scope of Breast Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCCG<a name=\"scopeOfPractice-MCCG\"> </a></td><td>Vocational Scope of Clinical Genetics</td></tr><tr><td style=\"white-space:nowrap\">MCCS<a name=\"scopeOfPractice-MCCS\"> </a></td><td>Vocational Scope of Cardiothoracic Surgery</td></tr><tr><td style=\"white-space:nowrap\">MCDE<a name=\"scopeOfPractice-MCDE\"> </a></td><td>Vocational Scope of Dermatology</td></tr><tr><td style=\"white-space:nowrap\">MCDI<a name=\"scopeOfPractice-MCDI\"> </a></td><td>Vocational Scope of Diagnostic and Interventional Radiology</td></tr><tr><td style=\"white-space:nowrap\">MCEM<a name=\"scopeOfPractice-MCEM\"> </a></td><td>Vocational Scope of Emergency Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCFP<a name=\"scopeOfPractice-MCFP\"> </a></td><td>Vocational Scope of Family Planning/Reproductive Health</td></tr><tr><td style=\"white-space:nowrap\">MCGE<a name=\"scopeOfPractice-MCGE\"> </a></td><td>General Scope of Practice</td></tr><tr><td style=\"white-space:nowrap\">MCGP<a name=\"scopeOfPractice-MCGP\"> </a></td><td>Vocational Scope of General Practice</td></tr><tr><td style=\"white-space:nowrap\">MCGS<a name=\"scopeOfPractice-MCGS\"> </a></td><td>Vocational Scope of General Surgery</td></tr><tr><td style=\"white-space:nowrap\">MCIC<a name=\"scopeOfPractice-MCIC\"> </a></td><td>Vocational Scope of Intensive Care Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCIM<a name=\"scopeOfPractice-MCIM\"> </a></td><td>Vocational Scope of Internal Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCMA<a name=\"scopeOfPractice-MCMA\"> </a></td><td>Vocational Scope of Medical Administration</td></tr><tr><td style=\"white-space:nowrap\">MCMM<a name=\"scopeOfPractice-MCMM\"> </a></td><td>Vocational Scope of Musculoskeletal Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCNS<a name=\"scopeOfPractice-MCNS\"> </a></td><td>Vocational Scope of Neurosurgery</td></tr><tr><td style=\"white-space:nowrap\">MCOG<a name=\"scopeOfPractice-MCOG\"> </a></td><td>Vocational Scope of Obstetrics and Gynaecology</td></tr><tr><td style=\"white-space:nowrap\">MCOH<a name=\"scopeOfPractice-MCOH\"> </a></td><td>Vocational Scope of Otolaryngology Head and Neck Surgery</td></tr><tr><td style=\"white-space:nowrap\">MCOM<a name=\"scopeOfPractice-MCOM\"> </a></td><td>Vocational Scope of Occupational Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCOP<a name=\"scopeOfPractice-MCOP\"> </a></td><td>Vocational Scope of Ophthalmology</td></tr><tr><td style=\"white-space:nowrap\">MCOR<a name=\"scopeOfPractice-MCOR\"> </a></td><td>Vocational Scope of Oral and Maxillofacial Surgery</td></tr><tr><td style=\"white-space:nowrap\">MCOS<a name=\"scopeOfPractice-MCOS\"> </a></td><td>Vocational Scope of Orthopaedic Surgery</td></tr><tr><td style=\"white-space:nowrap\">MCPA<a name=\"scopeOfPractice-MCPA\"> </a></td><td>Vocational Scope of Pathology</td></tr><tr><td style=\"white-space:nowrap\">MCPE<a name=\"scopeOfPractice-MCPE\"> </a></td><td>Vocational Scope of Paediatrics</td></tr><tr><td style=\"white-space:nowrap\">MCPG<a name=\"scopeOfPractice-MCPG\"> </a></td><td>Provisional General Scope of Practice</td></tr><tr><td style=\"white-space:nowrap\">MCPH<a name=\"scopeOfPractice-MCPH\"> </a></td><td>Vocational Scope of Public Health Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCPM<a name=\"scopeOfPractice-MCPM\"> </a></td><td>Vocational Scope of Palliative Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCPR<a name=\"scopeOfPractice-MCPR\"> </a></td><td>Vocational Scope of Plastic and Reconstructive Surgery</td></tr><tr><td style=\"white-space:nowrap\">MCPS<a name=\"scopeOfPractice-MCPS\"> </a></td><td>Vocational Scope of Paediatric Surgery</td></tr><tr><td style=\"white-space:nowrap\">MCPV<a name=\"scopeOfPractice-MCPV\"> </a></td><td>Provisional Vocational Scope of Practice</td></tr><tr><td style=\"white-space:nowrap\">MCPY<a name=\"scopeOfPractice-MCPY\"> </a></td><td>Vocational Scope of Psychiatry</td></tr><tr><td style=\"white-space:nowrap\">MCRH<a name=\"scopeOfPractice-MCRH\"> </a></td><td>Vocational Scope of Rural Hospital Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCRM<a name=\"scopeOfPractice-MCRM\"> </a></td><td>Vocational Scope of Rehabilitation Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCRO<a name=\"scopeOfPractice-MCRO\"> </a></td><td>Vocational Scope of Radiation Oncology</td></tr><tr><td style=\"white-space:nowrap\">MCSH<a name=\"scopeOfPractice-MCSH\"> </a></td><td>Vocational Scope of Sexual Health Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCSM<a name=\"scopeOfPractice-MCSM\"> </a></td><td>Vocational Scope of Sports Medicine</td></tr><tr><td style=\"white-space:nowrap\">MCSP<a name=\"scopeOfPractice-MCSP\"> </a></td><td>Special Purpose Scope of Practice</td></tr><tr><td style=\"white-space:nowrap\">MCTR<a name=\"scopeOfPractice-MCTR\"> </a></td><td>Medical Council Temporary Registration</td></tr><tr><td style=\"white-space:nowrap\">MCUR<a name=\"scopeOfPractice-MCUR\"> </a></td><td>Vocational Scope of Urology</td></tr><tr><td style=\"white-space:nowrap\">MCVO<a name=\"scopeOfPractice-MCVO\"> </a></td><td>Vocational Scope of Practice</td></tr><tr><td style=\"white-space:nowrap\">MCVS<a name=\"scopeOfPractice-MCVS\"> </a></td><td>Vocational Scope of Vascular Surgery</td></tr><tr><td style=\"white-space:nowrap\">MWIF<a name=\"scopeOfPractice-MWIF\"> </a></td><td>Midwife</td></tr><tr><td style=\"white-space:nowrap\">NCEN<a name=\"scopeOfPractice-NCEN\"> </a></td><td>Enrolled Nurse</td></tr><tr><td style=\"white-space:nowrap\">NCNA<a name=\"scopeOfPractice-NCNA\"> </a></td><td>Nurse Assistant</td></tr><tr><td style=\"white-space:nowrap\">NCNP<a name=\"scopeOfPractice-NCNP\"> </a></td><td>Nurse Practitioner</td></tr><tr><td style=\"white-space:nowrap\">NCRN<a name=\"scopeOfPractice-NCRN\"> </a></td><td>Registered Nurse</td></tr><tr><td style=\"white-space:nowrap\">OCCT<a name=\"scopeOfPractice-OCCT\"> </a></td><td>Occupational Therapist</td></tr><tr><td style=\"white-space:nowrap\">OPDI<a name=\"scopeOfPractice-OPDI\"> </a></td><td>Optical Dispensing (Dispensing Optician)</td></tr><tr><td style=\"white-space:nowrap\">OPED<a name=\"scopeOfPractice-OPED\"> </a></td><td>Educator in Optometry (Educator Optometrist)</td></tr><tr><td style=\"white-space:nowrap\">OPET<a name=\"scopeOfPractice-OPET\"> </a></td><td>Educator in Optometry (TPA Endorsement) (Educator Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)</td></tr><tr><td style=\"white-space:nowrap\">OPTP<a name=\"scopeOfPractice-OPTP\"> </a></td><td>Optometry (Optometrist)</td></tr><tr><td style=\"white-space:nowrap\">OSTE<a name=\"scopeOfPractice-OSTE\"> </a></td><td>Osteopath</td></tr><tr><td style=\"white-space:nowrap\">PHAR<a name=\"scopeOfPractice-PHAR\"> </a></td><td>Pharmacist</td></tr><tr><td style=\"white-space:nowrap\">PHIN<a name=\"scopeOfPractice-PHIN\"> </a></td><td>Intern Pharmacist</td></tr><tr><td style=\"white-space:nowrap\">PHPP<a name=\"scopeOfPractice-PHPP\"> </a></td><td>Pharmacist Prescriber</td></tr><tr><td style=\"white-space:nowrap\">PHSO<a name=\"scopeOfPractice-PHSO\"> </a></td><td>Physiotherapist</td></tr><tr><td style=\"white-space:nowrap\">PODI<a name=\"scopeOfPractice-PODI\"> </a></td><td>Podiatrist</td></tr><tr><td style=\"white-space:nowrap\">PODP<a name=\"scopeOfPractice-PODP\"> </a></td><td>Podiatric Prescriber</td></tr><tr><td style=\"white-space:nowrap\">PODR<a name=\"scopeOfPractice-PODR\"> </a></td><td>Podiatric Radiographic Imager</td></tr><tr><td style=\"white-space:nowrap\">PODS<a name=\"scopeOfPractice-PODS\"> </a></td><td>Podiatric Surgeon</td></tr><tr><td style=\"white-space:nowrap\">POVD<a name=\"scopeOfPractice-POVD\"> </a></td><td>Visiting Podiatrist Educator/Presenter</td></tr><tr><td style=\"white-space:nowrap\">PSCE<a name=\"scopeOfPractice-PSCE\"> </a></td><td>Clinical and Educational</td></tr><tr><td style=\"white-space:nowrap\">PSCL<a name=\"scopeOfPractice-PSCL\"> </a></td><td>Clinical Psychologist</td></tr><tr><td style=\"white-space:nowrap\">PSCO<a name=\"scopeOfPractice-PSCO\"> </a></td><td>Counselling Psychologist</td></tr><tr><td style=\"white-space:nowrap\">PSED<a name=\"scopeOfPractice-PSED\"> </a></td><td>Educational Psychologist</td></tr><tr><td style=\"white-space:nowrap\">PSIT<a name=\"scopeOfPractice-PSIT\"> </a></td><td>Trainee or Intern Psychologist</td></tr><tr><td style=\"white-space:nowrap\">PSYC<a name=\"scopeOfPractice-PSYC\"> </a></td><td>Psychologist</td></tr><tr><td style=\"white-space:nowrap\">RTMR<a name=\"scopeOfPractice-RTMR\"> </a></td><td>Magnetic Resonance Technologist</td></tr><tr><td style=\"white-space:nowrap\">RTMS<a name=\"scopeOfPractice-RTMS\"> </a></td><td>Sonographer</td></tr><tr><td style=\"white-space:nowrap\">RTMT<a name=\"scopeOfPractice-RTMT\"> </a></td><td>Nuclear Medicine Technologist</td></tr><tr><td style=\"white-space:nowrap\">RTRT<a name=\"scopeOfPractice-RTRT\"> </a></td><td>Radiation Therapist</td></tr><tr><td style=\"white-space:nowrap\">RTTE<a name=\"scopeOfPractice-RTTE\"> </a></td><td>Medical Radiation Technologist</td></tr><tr><td style=\"white-space:nowrap\">RTTM<a name=\"scopeOfPractice-RTTM\"> </a></td><td>Trainee Magnetic Resonance Imaging (MRI) Technologist</td></tr><tr><td style=\"white-space:nowrap\">RTTN<a name=\"scopeOfPractice-RTTN\"> </a></td><td>Trainee Nuclear Medicine Technologist</td></tr><tr><td style=\"white-space:nowrap\">RTTS<a name=\"scopeOfPractice-RTTS\"> </a></td><td>Trainee Sonographer</td></tr><tr><td style=\"white-space:nowrap\">DEOH<a name=\"scopeOfPractice-DEOH\"> </a></td><td>Oral Health Practice</td></tr><tr><td style=\"white-space:nowrap\">OPLS<a name=\"scopeOfPractice-OPLS\"> </a></td><td>Ophthalmic Laser Surgeries</td></tr><tr><td style=\"white-space:nowrap\">OPPO<a name=\"scopeOfPractice-OPPO\"> </a></td><td>Provisional Optometrist</td></tr><tr><td style=\"white-space:nowrap\">OSCA<a name=\"scopeOfPractice-OSCA\"> </a></td><td>Osteopath -Child and Adolescent Health</td></tr><tr><td style=\"white-space:nowrap\">OSED<a name=\"scopeOfPractice-OSED\"> </a></td><td>Osteopath - Educator</td></tr><tr><td style=\"white-space:nowrap\">OSGE<a name=\"scopeOfPractice-OSGE\"> </a></td><td>Osteopath -Gerontology</td></tr><tr><td style=\"white-space:nowrap\">OSPM<a name=\"scopeOfPractice-OSPM\"> </a></td><td>Osteopath -Pain Management</td></tr><tr><td style=\"white-space:nowrap\">OSSP<a name=\"scopeOfPractice-OSSP\"> </a></td><td>Osteopath - Special Purpose</td></tr><tr><td style=\"white-space:nowrap\">OSTO<a name=\"scopeOfPractice-OSTO\"> </a></td><td>Trainee Osteopath</td></tr><tr><td style=\"white-space:nowrap\">OSVO<a name=\"scopeOfPractice-OSVO\"> </a></td><td>Visiting Osteopath Presenter</td></tr><tr><td style=\"white-space:nowrap\">OSWA<a name=\"scopeOfPractice-OSWA\"> </a></td><td>Osteopath -Western Medical Acupuncture</td></tr><tr><td style=\"white-space:nowrap\">PAPS<a name=\"scopeOfPractice-PAPS\"> </a></td><td>Paramedic</td></tr><tr><td style=\"white-space:nowrap\">PBCA<a name=\"scopeOfPractice-PBCA\"> </a></td><td>Psychotherapist with Child and Adolescent Specialism</td></tr><tr><td style=\"white-space:nowrap\">PBIN<a name=\"scopeOfPractice-PBIN\"> </a></td><td>Interim Psychotherapist</td></tr><tr><td style=\"white-space:nowrap\">PBPS<a name=\"scopeOfPractice-PBPS\"> </a></td><td>Psychotherapist</td></tr><tr><td style=\"white-space:nowrap\">PSHE<a name=\"scopeOfPractice-PSHE\"> </a></td><td>Health Psychologist</td></tr><tr><td style=\"white-space:nowrap\">PSNE<a name=\"scopeOfPractice-PSNE\"> </a></td><td>Neuropsychologist</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2.0.0"] ; # 
+  fhir:name [ fhir:v "ScopeOfPractice"] ; # 
+  fhir:title [ fhir:v "Scope of practice"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-11-22T11:59:31.000Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority."] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:valueSet [
+     fhir:v "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code"^^xsd:anyURI ;
+     fhir:link <https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "120"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CHIR" ] ;
+     fhir:display [ fhir:v "Chiropractor" ]
+  ] [
+     fhir:code [ fhir:v "DEAC" ] ;
+     fhir:display [ fhir:v "Adult Care in Dental Therapy Practice" ]
+  ] [
+     fhir:code [ fhir:v "DECD" ] ;
+     fhir:display [ fhir:v "Clinical Dental Technology Practice" ]
+  ] [
+     fhir:code [ fhir:v "DEDH" ] ;
+     fhir:display [ fhir:v "Dental Hygiene Practice" ]
+  ] [
+     fhir:code [ fhir:v "DEDT" ] ;
+     fhir:display [ fhir:v "Dental Technology Practice" ]
+  ] [
+     fhir:code [ fhir:v "DEEN" ] ;
+     fhir:display [ fhir:v "Endodontic Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DEGD" ] ;
+     fhir:display [ fhir:v "General Dental Therapy Practice" ]
+  ] [
+     fhir:code [ fhir:v "DEIA" ] ;
+     fhir:display [ fhir:v "Implant over dentures in clinical dental technology practice" ]
+  ] [
+     fhir:code [ fhir:v "DENT" ] ;
+     fhir:display [ fhir:v "General Dental Practice" ]
+  ] [
+     fhir:code [ fhir:v "DEOA" ] ;
+     fhir:display [ fhir:v "Orthodontic Auxiliary Practice" ]
+  ] [
+     fhir:code [ fhir:v "DEOM" ] ;
+     fhir:display [ fhir:v "Oral Medicine Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DEOP" ] ;
+     fhir:display [ fhir:v "Oral Pathology Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DEOR" ] ;
+     fhir:display [ fhir:v "Oral and Maxillofacial Surgery Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DEOS" ] ;
+     fhir:display [ fhir:v "Oral Surgery Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DEPA" ] ;
+     fhir:display [ fhir:v "Paediatric Dentistry Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DEPE" ] ;
+     fhir:display [ fhir:v "Periodontic Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DEPH" ] ;
+     fhir:display [ fhir:v "Public Health Dentistry (or Community Dentistry) Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DEPS" ] ;
+     fhir:display [ fhir:v "Prosthodontic Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DERE" ] ;
+     fhir:display [ fhir:v "Restorative Dentistry Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DESN" ] ;
+     fhir:display [ fhir:v "Special Needs Dentistry Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DESP" ] ;
+     fhir:display [ fhir:v "Orthodontic Specialists" ]
+  ] [
+     fhir:code [ fhir:v "DIET" ] ;
+     fhir:display [ fhir:v "Dietitian" ]
+  ] [
+     fhir:code [ fhir:v "LTAT" ] ;
+     fhir:display [ fhir:v "Anaesthetic Technician" ]
+  ] [
+     fhir:code [ fhir:v "LTPA" ] ;
+     fhir:display [ fhir:v "Medical Laboratory Pre-Analytical Technician" ]
+  ] [
+     fhir:code [ fhir:v "LTLS" ] ;
+     fhir:display [ fhir:v "Medical Laboratory Scientist" ]
+  ] [
+     fhir:code [ fhir:v "LTLT" ] ;
+     fhir:display [ fhir:v "Medical Laboratory Technician" ]
+  ] [
+     fhir:code [ fhir:v "MCAM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Accident and Medical Practice" ]
+  ] [
+     fhir:code [ fhir:v "MCAN" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Anaesthesia" ]
+  ] [
+     fhir:code [ fhir:v "MCAP" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Pain Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCBM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Breast Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCCG" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Clinical Genetics" ]
+  ] [
+     fhir:code [ fhir:v "MCCS" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Cardiothoracic Surgery" ]
+  ] [
+     fhir:code [ fhir:v "MCDE" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Dermatology" ]
+  ] [
+     fhir:code [ fhir:v "MCDI" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Diagnostic and Interventional Radiology" ]
+  ] [
+     fhir:code [ fhir:v "MCEM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Emergency Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCFP" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Family Planning/Reproductive Health" ]
+  ] [
+     fhir:code [ fhir:v "MCGE" ] ;
+     fhir:display [ fhir:v "General Scope of Practice" ]
+  ] [
+     fhir:code [ fhir:v "MCGP" ] ;
+     fhir:display [ fhir:v "Vocational Scope of General Practice" ]
+  ] [
+     fhir:code [ fhir:v "MCGS" ] ;
+     fhir:display [ fhir:v "Vocational Scope of General Surgery" ]
+  ] [
+     fhir:code [ fhir:v "MCIC" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Intensive Care Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCIM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Internal Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCMA" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Medical Administration" ]
+  ] [
+     fhir:code [ fhir:v "MCMM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Musculoskeletal Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCNS" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Neurosurgery" ]
+  ] [
+     fhir:code [ fhir:v "MCOG" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Obstetrics and Gynaecology" ]
+  ] [
+     fhir:code [ fhir:v "MCOH" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Otolaryngology Head and Neck Surgery" ]
+  ] [
+     fhir:code [ fhir:v "MCOM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Occupational Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCOP" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Ophthalmology" ]
+  ] [
+     fhir:code [ fhir:v "MCOR" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Oral and Maxillofacial Surgery" ]
+  ] [
+     fhir:code [ fhir:v "MCOS" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Orthopaedic Surgery" ]
+  ] [
+     fhir:code [ fhir:v "MCPA" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Pathology" ]
+  ] [
+     fhir:code [ fhir:v "MCPE" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Paediatrics" ]
+  ] [
+     fhir:code [ fhir:v "MCPG" ] ;
+     fhir:display [ fhir:v "Provisional General Scope of Practice" ]
+  ] [
+     fhir:code [ fhir:v "MCPH" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Public Health Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCPM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Palliative Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCPR" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Plastic and Reconstructive Surgery" ]
+  ] [
+     fhir:code [ fhir:v "MCPS" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Paediatric Surgery" ]
+  ] [
+     fhir:code [ fhir:v "MCPV" ] ;
+     fhir:display [ fhir:v "Provisional Vocational Scope of Practice" ]
+  ] [
+     fhir:code [ fhir:v "MCPY" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Psychiatry" ]
+  ] [
+     fhir:code [ fhir:v "MCRH" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Rural Hospital Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCRM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Rehabilitation Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCRO" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Radiation Oncology" ]
+  ] [
+     fhir:code [ fhir:v "MCSH" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Sexual Health Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCSM" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Sports Medicine" ]
+  ] [
+     fhir:code [ fhir:v "MCSP" ] ;
+     fhir:display [ fhir:v "Special Purpose Scope of Practice" ]
+  ] [
+     fhir:code [ fhir:v "MCTR" ] ;
+     fhir:display [ fhir:v "Medical Council Temporary Registration" ]
+  ] [
+     fhir:code [ fhir:v "MCUR" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Urology" ]
+  ] [
+     fhir:code [ fhir:v "MCVO" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Practice" ]
+  ] [
+     fhir:code [ fhir:v "MCVS" ] ;
+     fhir:display [ fhir:v "Vocational Scope of Vascular Surgery" ]
+  ] [
+     fhir:code [ fhir:v "MWIF" ] ;
+     fhir:display [ fhir:v "Midwife" ]
+  ] [
+     fhir:code [ fhir:v "NCEN" ] ;
+     fhir:display [ fhir:v "Enrolled Nurse" ]
+  ] [
+     fhir:code [ fhir:v "NCNA" ] ;
+     fhir:display [ fhir:v "Nurse Assistant" ]
+  ] [
+     fhir:code [ fhir:v "NCNP" ] ;
+     fhir:display [ fhir:v "Nurse Practitioner" ]
+  ] [
+     fhir:code [ fhir:v "NCRN" ] ;
+     fhir:display [ fhir:v "Registered Nurse" ]
+  ] [
+     fhir:code [ fhir:v "OCCT" ] ;
+     fhir:display [ fhir:v "Occupational Therapist" ]
+  ] [
+     fhir:code [ fhir:v "OPDI" ] ;
+     fhir:display [ fhir:v "Optical Dispensing (Dispensing Optician)" ]
+  ] [
+     fhir:code [ fhir:v "OPED" ] ;
+     fhir:display [ fhir:v "Educator in Optometry (Educator Optometrist)" ]
+  ] [
+     fhir:code [ fhir:v "OPET" ] ;
+     fhir:display [ fhir:v "Educator in Optometry (TPA Endorsement) (Educator Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)" ]
+  ] [
+     fhir:code [ fhir:v "OPTP" ] ;
+     fhir:display [ fhir:v "Optometry (Optometrist)" ]
+  ] [
+     fhir:code [ fhir:v "OSTE" ] ;
+     fhir:display [ fhir:v "Osteopath" ]
+  ] [
+     fhir:code [ fhir:v "PHAR" ] ;
+     fhir:display [ fhir:v "Pharmacist" ]
+  ] [
+     fhir:code [ fhir:v "PHIN" ] ;
+     fhir:display [ fhir:v "Intern Pharmacist" ]
+  ] [
+     fhir:code [ fhir:v "PHPP" ] ;
+     fhir:display [ fhir:v "Pharmacist Prescriber" ]
+  ] [
+     fhir:code [ fhir:v "PHSO" ] ;
+     fhir:display [ fhir:v "Physiotherapist" ]
+  ] [
+     fhir:code [ fhir:v "PODI" ] ;
+     fhir:display [ fhir:v "Podiatrist" ]
+  ] [
+     fhir:code [ fhir:v "PODP" ] ;
+     fhir:display [ fhir:v "Podiatric Prescriber" ]
+  ] [
+     fhir:code [ fhir:v "PODR" ] ;
+     fhir:display [ fhir:v "Podiatric Radiographic Imager" ]
+  ] [
+     fhir:code [ fhir:v "PODS" ] ;
+     fhir:display [ fhir:v "Podiatric Surgeon" ]
+  ] [
+     fhir:code [ fhir:v "POVD" ] ;
+     fhir:display [ fhir:v "Visiting Podiatrist Educator/Presenter" ]
+  ] [
+     fhir:code [ fhir:v "PSCE" ] ;
+     fhir:display [ fhir:v "Clinical and Educational" ]
+  ] [
+     fhir:code [ fhir:v "PSCL" ] ;
+     fhir:display [ fhir:v "Clinical Psychologist" ]
+  ] [
+     fhir:code [ fhir:v "PSCO" ] ;
+     fhir:display [ fhir:v "Counselling Psychologist" ]
+  ] [
+     fhir:code [ fhir:v "PSED" ] ;
+     fhir:display [ fhir:v "Educational Psychologist" ]
+  ] [
+     fhir:code [ fhir:v "PSIT" ] ;
+     fhir:display [ fhir:v "Trainee or Intern Psychologist" ]
+  ] [
+     fhir:code [ fhir:v "PSYC" ] ;
+     fhir:display [ fhir:v "Psychologist" ]
+  ] [
+     fhir:code [ fhir:v "RTMR" ] ;
+     fhir:display [ fhir:v "Magnetic Resonance Technologist" ]
+  ] [
+     fhir:code [ fhir:v "RTMS" ] ;
+     fhir:display [ fhir:v "Sonographer" ]
+  ] [
+     fhir:code [ fhir:v "RTMT" ] ;
+     fhir:display [ fhir:v "Nuclear Medicine Technologist" ]
+  ] [
+     fhir:code [ fhir:v "RTRT" ] ;
+     fhir:display [ fhir:v "Radiation Therapist" ]
+  ] [
+     fhir:code [ fhir:v "RTTE" ] ;
+     fhir:display [ fhir:v "Medical Radiation Technologist" ]
+  ] [
+     fhir:code [ fhir:v "RTTM" ] ;
+     fhir:display [ fhir:v "Trainee Magnetic Resonance Imaging (MRI) Technologist" ]
+  ] [
+     fhir:code [ fhir:v "RTTN" ] ;
+     fhir:display [ fhir:v "Trainee Nuclear Medicine Technologist" ]
+  ] [
+     fhir:code [ fhir:v "RTTS" ] ;
+     fhir:display [ fhir:v "Trainee Sonographer" ]
+  ] [
+     fhir:code [ fhir:v "DEOH" ] ;
+     fhir:display [ fhir:v "Oral Health Practice" ]
+  ] [
+     fhir:code [ fhir:v "OPLS" ] ;
+     fhir:display [ fhir:v "Ophthalmic Laser Surgeries" ]
+  ] [
+     fhir:code [ fhir:v "OPPO" ] ;
+     fhir:display [ fhir:v "Provisional Optometrist" ]
+  ] [
+     fhir:code [ fhir:v "OSCA" ] ;
+     fhir:display [ fhir:v "Osteopath -Child and Adolescent Health" ]
+  ] [
+     fhir:code [ fhir:v "OSED" ] ;
+     fhir:display [ fhir:v "Osteopath - Educator" ]
+  ] [
+     fhir:code [ fhir:v "OSGE" ] ;
+     fhir:display [ fhir:v "Osteopath -Gerontology" ]
+  ] [
+     fhir:code [ fhir:v "OSPM" ] ;
+     fhir:display [ fhir:v "Osteopath -Pain Management" ]
+  ] [
+     fhir:code [ fhir:v "OSSP" ] ;
+     fhir:display [ fhir:v "Osteopath - Special Purpose" ]
+  ] [
+     fhir:code [ fhir:v "OSTO" ] ;
+     fhir:display [ fhir:v "Trainee Osteopath" ]
+  ] [
+     fhir:code [ fhir:v "OSVO" ] ;
+     fhir:display [ fhir:v "Visiting Osteopath Presenter" ]
+  ] [
+     fhir:code [ fhir:v "OSWA" ] ;
+     fhir:display [ fhir:v "Osteopath -Western Medical Acupuncture" ]
+  ] [
+     fhir:code [ fhir:v "PAPS" ] ;
+     fhir:display [ fhir:v "Paramedic" ]
+  ] [
+     fhir:code [ fhir:v "PBCA" ] ;
+     fhir:display [ fhir:v "Psychotherapist with Child and Adolescent Specialism" ]
+  ] [
+     fhir:code [ fhir:v "PBIN" ] ;
+     fhir:display [ fhir:v "Interim Psychotherapist" ]
+  ] [
+     fhir:code [ fhir:v "PBPS" ] ;
+     fhir:display [ fhir:v "Psychotherapist" ]
+  ] [
+     fhir:code [ fhir:v "PSHE" ] ;
+     fhir:display [ fhir:v "Health Psychologist" ]
+  ] [
+     fhir:code [ fhir:v "PSNE" ] ;
+     fhir:display [ fhir:v "Neuropsychologist" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

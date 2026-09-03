@@ -1,0 +1,27 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/PractitionerRole/practitionerRole-messaging-address> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitionerRole-messaging-address"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole-messaging-address</b></p><a name=\"practitionerRole-messaging-address\"> </a><a name=\"hcpractitionerRole-messaging-address\"> </a><a name=\"practitionerRole-messaging-address-en-US\"> </a></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "provider"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "healthLink" ]
+     ] [
+       fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "abc123" ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/messaging-address"^^xsd:anyURI ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nz-relationship-codes"/>
+  <meta>
+    <versionId value="2"/>
+    <lastUpdated value="2026-05-08T10:19:41.469+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NZ Relationship Type Code System</h2><tt>http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes</tt><p>Code system for NZ relationship type codes.</p></div>
+  </text>
+  <url value="http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes"/>
+  <version value="1.1.0"/>
+  <name value="NzRelationshipCodes"/>
+  <title value="NZ Relationship Type Code System"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-24T15:52:23+12:00"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="Code system for NZ relationship type codes."/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="WHANGAI"/>
+    <display value="Whāngai"/>
+    <definition value="Whāngai is the Māori tradition of children being raised by someone other than their birth parents — usually a relative."/>
+  </concept>
+</CodeSystem>

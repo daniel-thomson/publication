@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="practitioner-edi-address"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner practitioner-edi-address</b></p><a name="practitioner-edi-address"> </a><a name="hcpractitioner-edi-address"> </a><p><b>name</b>: Marcus Welby</p><p><b>telecom</b>: 001a</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1998-01-01</p></div>
+  </text>
+  <name>
+    <text value="Marcus Welby"/>
+    <family value="Welby"/>
+    <given value="Marcus"/>
+  </name>
+  <telecom>
+    <system value="other">
+      <extension url="http://hl7.org.nz/fhir/StructureDefinition/edi-address">
+        <valueString value="healthlink"/>
+      </extension>
+    </system>
+    <value value="001a"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1998-01-01"/>
+</Practitioner>

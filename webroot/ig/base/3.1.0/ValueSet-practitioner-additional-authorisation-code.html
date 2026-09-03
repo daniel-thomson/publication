@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Additional Practitioner authorisations - HL7® FHIR® New Zealand Base Implementation Guide v3.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.54"}
+    h3,h4,h5,h6{--heading-prefix:"7.54"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+
+      
+<!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="http://hl7.org.nz">
+      <img height="50" alt="Project home" src="assets/images/hl7nz-logo.jpg"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7® FHIR® New Zealand Base Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">3.1.0 - Release
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">IG Home</a>
+  </li>
+  <li>
+    <a href="extensions.html">Extensions</a>
+  </li>
+  <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="terminology.html">Terminology</a>
+  </li>
+  <li>
+    <a href="namingSystems.html">Identifiers</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="full-ig.zip">Download IG</a>
+      </li>
+      <li>
+        <a href="http://hl7.org/fhir/R4/index.html">FHIR Spec</a>
+      </li>
+      <li>
+        <a href="definitions.json.zip">Artifacts (Json)</a>
+      </li>
+      <li>
+        <a href="definitions.xml.zip">Artifacts (Xml)</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Additional Practitioner authorisations</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the HL7® FHIR® New Zealand Base Implementation Guide (v3.1.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version in its permanent home (it will always be available at this URL).  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.org.nz/ig/base/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-practitioner-additional-authorisation-code.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-practitioner-additional-authorisation-code.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-practitioner-additional-authorisation-code.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Additional Practitioner authorisations
+
+  </h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.0.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code|1.0.1"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2024-09-23
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">PractitionerAdditionalAuthorisationCode</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>A coded type for additional authorisations</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-additional-authorisation.html">AdditionalAuthorisation</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="practitioner-additional-authorisation-code"> </a><a name="hcpractitioner-additional-authorisation-code"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 12; Last updated: 2026-05-07 20:43:29+1200</p><p style="margin-bottom: 0px">Tag: </p></div>
+<ul><li>Include all codes defined in <a href="CodeSystem-practitioner-additional-authorisation.html"><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></a><span title="Version is explicitly stated to be 1.0.1"> version &#x1F4CD;1.0.1</span></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="CodeSystem-practitioner-additional-authorisation.html">codesystem Additional Authorisation v1.0.1 (CodeSystem)</a><span class="copy-text-inline"><button data-clipboard-text="https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code|1.0.1" title="Click to Copy URL" class="btn-copy"> </button></span></p><p>This value set contains 45 concepts</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-CA01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-CA01">CA01</a></td><td>Cardiothoracic Surgery: Cardiothoracic Surgeon</td><td>Alternate name.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;CA01&quot;, &quot;display&quot;: &quot;Cardiothoracic Surgery: Cardiothoracic Surgeon&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;CA01&quot;&gt;&lt;display value=&quot;Cardiothoracic Surgery: Cardiothoracic Surgeon&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-CA02"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-CA02">CA02</a></td><td>Cardiothoracic Surgery: Transplant Surgeon</td><td>Alternate name.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;CA02&quot;, &quot;display&quot;: &quot;Cardiothoracic Surgery: Transplant Surgeon&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;CA02&quot;&gt;&lt;display value=&quot;Cardiothoracic Surgery: Transplant Surgeon&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-DI01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-DI01">DI01</a></td><td>Diagnostic Imaging authorisation</td><td>A practitioner is authorised to perform diagnostic imaging in rural settings.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;DI01&quot;, &quot;display&quot;: &quot;Diagnostic Imaging authorisation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;DI01&quot;&gt;&lt;display value=&quot;Diagnostic Imaging authorisation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-DP01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-DP01">DP01</a></td><td>Diabetes Prescriber</td><td>A Registered Nurse Diabetes Prescriber.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;DP01&quot;, &quot;display&quot;: &quot;Diabetes Prescriber&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;DP01&quot;&gt;&lt;display value=&quot;Diabetes Prescriber&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-EC01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-EC01">EC01</a></td><td>ECP authorisation</td><td>A practitioner is authorised to dispense the emergency contraceptive pill.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;EC01&quot;, &quot;display&quot;: &quot;ECP authorisation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;EC01&quot;&gt;&lt;display value=&quot;ECP authorisation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-FS01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-FS01">FS01</a></td><td>First Surgical Assistant</td><td>A nurse authorised to undertake an expanded role to assist the surgeon during surgery.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;FS01&quot;, &quot;display&quot;: &quot;First Surgical Assistant&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;FS01&quot;&gt;&lt;display value=&quot;First Surgical Assistant&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-IMMU"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-IMMU">IMMU</a></td><td>Immunisation</td><td>A person authorised to administer immunizations.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;IMMU&quot;, &quot;display&quot;: &quot;Immunisation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;IMMU&quot;&gt;&lt;display value=&quot;Immunisation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-INTR"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-INTR">INTR</a></td><td>Intravenous Infusions</td><td>A practitioner who is certified to administer intravenous infusions.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;INTR&quot;, &quot;display&quot;: &quot;Intravenous Infusions&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;INTR&quot;&gt;&lt;display value=&quot;Intravenous Infusions&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD01">MD01</a></td><td>Internal Medicine: Cardiologist</td><td>An internal medicine specialist working in the role of cardiologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD01&quot;, &quot;display&quot;: &quot;Internal Medicine: Cardiologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD01&quot;&gt;&lt;display value=&quot;Internal Medicine: Cardiologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD02"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD02">MD02</a></td><td>Internal Medicine: Endocrinologist</td><td>An internal medicine specialist working in the role of endocrinologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD02&quot;, &quot;display&quot;: &quot;Internal Medicine: Endocrinologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD02&quot;&gt;&lt;display value=&quot;Internal Medicine: Endocrinologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD03"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD03">MD03</a></td><td>Internal Medicine: Gastroenterologist</td><td>An internal medicine specialist working in the role of gastroenterologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD03&quot;, &quot;display&quot;: &quot;Internal Medicine: Gastroenterologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD03&quot;&gt;&lt;display value=&quot;Internal Medicine: Gastroenterologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD04"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD04">MD04</a></td><td>Internal Medicine: Geriatrician</td><td>An internal medicine specialist working in the role of geriatrician.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD04&quot;, &quot;display&quot;: &quot;Internal Medicine: Geriatrician&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD04&quot;&gt;&lt;display value=&quot;Internal Medicine: Geriatrician&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD05"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD05">MD05</a></td><td>Internal Medicine: Infectious Disease Specialist</td><td>An internal medicine specialist working in the role of infectious disease specialist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD05&quot;, &quot;display&quot;: &quot;Internal Medicine: Infectious Disease Specialist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD05&quot;&gt;&lt;display value=&quot;Internal Medicine: Infectious Disease Specialist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD06"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD06">MD06</a></td><td>Internal Medicine: Nephrologist</td><td>An internal medicine specialist working in the role of nephrologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD06&quot;, &quot;display&quot;: &quot;Internal Medicine: Nephrologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD06&quot;&gt;&lt;display value=&quot;Internal Medicine: Nephrologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD07"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD07">MD07</a></td><td>Internal Medicine: Neurologist</td><td>An internal medicine specialist working in the role of neurologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD07&quot;, &quot;display&quot;: &quot;Internal Medicine: Neurologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD07&quot;&gt;&lt;display value=&quot;Internal Medicine: Neurologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD08"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD08">MD08</a></td><td>Internal Medicine: Oncologist</td><td>An internal medicine specialist working in the role of oncologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD08&quot;, &quot;display&quot;: &quot;Internal Medicine: Oncologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD08&quot;&gt;&lt;display value=&quot;Internal Medicine: Oncologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD09"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD09">MD09</a></td><td>Internal Medicine: Physician for the Elderly (FRACP)</td><td>An internal medicine specialist working in the role of physician for the Elderly (FRACP = Royal Australasian College of Physicians).</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD09&quot;, &quot;display&quot;: &quot;Internal Medicine: Physician for the Elderly (FRACP)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD09&quot;&gt;&lt;display value=&quot;Internal Medicine: Physician for the Elderly (FRACP)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD10"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD10">MD10</a></td><td>Internal Medicine: Renal Physician</td><td>An internal medicine specialist working in the role of renal physician.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD10&quot;, &quot;display&quot;: &quot;Internal Medicine: Renal Physician&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD10&quot;&gt;&lt;display value=&quot;Internal Medicine: Renal Physician&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD11"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD11">MD11</a></td><td>Internal Medicine: Respiratory Specialist</td><td>An internal medicine specialist working in the role of respiratory specialist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD11&quot;, &quot;display&quot;: &quot;Internal Medicine: Respiratory Specialist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD11&quot;&gt;&lt;display value=&quot;Internal Medicine: Respiratory Specialist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-MD12"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-MD12">MD12</a></td><td>Internal Medicine: Rheumatologist</td><td>An internal medicine specialist working in the role of rheumatologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;MD12&quot;, &quot;display&quot;: &quot;Internal Medicine: Rheumatologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;MD12&quot;&gt;&lt;display value=&quot;Internal Medicine: Rheumatologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-NC01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-NC01">NC01</a></td><td>Prescribing authorisation</td><td>A nurse practitioner is authorised to prescribe.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;NC01&quot;, &quot;display&quot;: &quot;Prescribing authorisation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;NC01&quot;&gt;&lt;display value=&quot;Prescribing authorisation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-NC02"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-NC02">NC02</a></td><td>Nurse Colposcopist</td><td>A nurse authorised to undertake colposcopy procedures.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;NC02&quot;, &quot;display&quot;: &quot;Nurse Colposcopist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;NC02&quot;&gt;&lt;display value=&quot;Nurse Colposcopist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-NC03"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-NC03">NC03</a></td><td>A nurse authorised to prescribe with primary health and speciality teams</td><td>A nurse authorised to prescribe with primary health and speciality teams.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;NC03&quot;, &quot;display&quot;: &quot;A nurse authorised to prescribe with primary health and speciality teams&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;NC03&quot;&gt;&lt;display value=&quot;A nurse authorised to prescribe with primary health and speciality teams&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-NC04"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-NC04">NC04</a></td><td>A nurse authorised to prescribe in community health</td><td>A nurse authorised to prescribe in community health.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;NC04&quot;, &quot;display&quot;: &quot;A nurse authorised to prescribe in community health&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;NC04&quot;&gt;&lt;display value=&quot;A nurse authorised to prescribe in community health&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-OG01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-OG01">OG01</a></td><td>Obstetrics and Gynaecology: Gynaecologist</td><td>Alternate name.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;OG01&quot;, &quot;display&quot;: &quot;Obstetrics and Gynaecology: Gynaecologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;OG01&quot;&gt;&lt;display value=&quot;Obstetrics and Gynaecology: Gynaecologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-OG02"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-OG02">OG02</a></td><td>Obstetrics and Gynaecology: Obstetrician</td><td>Alternate name.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;OG02&quot;, &quot;display&quot;: &quot;Obstetrics and Gynaecology: Obstetrician&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;OG02&quot;&gt;&lt;display value=&quot;Obstetrics and Gynaecology: Obstetrician&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-ON01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-ON01">ON01</a></td><td>Radiation Oncology: Oncologist</td><td>Alternate name.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;ON01&quot;, &quot;display&quot;: &quot;Radiation Oncology: Oncologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;ON01&quot;&gt;&lt;display value=&quot;Radiation Oncology: Oncologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-ON02"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-ON02">ON02</a></td><td>Radiation Oncology: Radiation Oncologist</td><td>Alternate name.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;ON02&quot;, &quot;display&quot;: &quot;Radiation Oncology: Radiation Oncologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;ON02&quot;&gt;&lt;display value=&quot;Radiation Oncology: Radiation Oncologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-OP01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-OP01">OP01</a></td><td>Optometrists</td><td>Optometrists.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;OP01&quot;, &quot;display&quot;: &quot;Optometrists&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;OP01&quot;&gt;&lt;display value=&quot;Optometrists&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA01">PA01</a></td><td>Paediatrics: Cardiologist</td><td>A paediatrician working in the role of cardiologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA01&quot;, &quot;display&quot;: &quot;Paediatrics: Cardiologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA01&quot;&gt;&lt;display value=&quot;Paediatrics: Cardiologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA02"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA02">PA02</a></td><td>Paediatrics: Endocrinologist</td><td>A paediatrician working in the role of endocrinologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA02&quot;, &quot;display&quot;: &quot;Paediatrics: Endocrinologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA02&quot;&gt;&lt;display value=&quot;Paediatrics: Endocrinologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA03"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA03">PA03</a></td><td>Paediatrics: Gastroenterologist</td><td>A paediatrician working in the role of gastroenterologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA03&quot;, &quot;display&quot;: &quot;Paediatrics: Gastroenterologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA03&quot;&gt;&lt;display value=&quot;Paediatrics: Gastroenterologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA04"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA04">PA04</a></td><td>Paediatrics: Geriatrician</td><td>A paediatrician working in the role of geriatrician.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA04&quot;, &quot;display&quot;: &quot;Paediatrics: Geriatrician&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA04&quot;&gt;&lt;display value=&quot;Paediatrics: Geriatrician&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA05"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA05">PA05</a></td><td>Paediatrics: Infectious Disease Specialist</td><td>A paediatrician working in the role of infectious disease specialist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA05&quot;, &quot;display&quot;: &quot;Paediatrics: Infectious Disease Specialist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA05&quot;&gt;&lt;display value=&quot;Paediatrics: Infectious Disease Specialist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA06"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA06">PA06</a></td><td>Paediatrics: Nephrologist</td><td>A paediatrician working in the role of nephrologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA06&quot;, &quot;display&quot;: &quot;Paediatrics: Nephrologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA06&quot;&gt;&lt;display value=&quot;Paediatrics: Nephrologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA07"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA07">PA07</a></td><td>Paediatrics: Neurologist</td><td>A paediatrician working in the role of neurologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA07&quot;, &quot;display&quot;: &quot;Paediatrics: Neurologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA07&quot;&gt;&lt;display value=&quot;Paediatrics: Neurologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA08"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA08">PA08</a></td><td>Paediatrics: Oncologist</td><td>A paediatrician working in the role of oncologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA08&quot;, &quot;display&quot;: &quot;Paediatrics: Oncologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA08&quot;&gt;&lt;display value=&quot;Paediatrics: Oncologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA09"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA09">PA09</a></td><td>Paediatrics: Physician for the Elderly (FRACP)</td><td>A paediatrician working in the role of of physician for the elderly (FRACP = Royal Australasian College of Physicians).</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA09&quot;, &quot;display&quot;: &quot;Paediatrics: Physician for the Elderly (FRACP)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA09&quot;&gt;&lt;display value=&quot;Paediatrics: Physician for the Elderly (FRACP)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA10"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA10">PA10</a></td><td>Paediatrics: Renal Physician</td><td>A paediatrician working in the role of renal physician.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA10&quot;, &quot;display&quot;: &quot;Paediatrics: Renal Physician&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA10&quot;&gt;&lt;display value=&quot;Paediatrics: Renal Physician&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA11"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA11">PA11</a></td><td>Paediatrics: Respiratory Specialist</td><td>A paediatrician working in the role of respiratory specialist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA11&quot;, &quot;display&quot;: &quot;Paediatrics: Respiratory Specialist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA11&quot;&gt;&lt;display value=&quot;Paediatrics: Respiratory Specialist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PA12"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PA12">PA12</a></td><td>Paediatrics: Rheumatologist</td><td>A paediatrician working in the role of rheumatologist.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PA12&quot;, &quot;display&quot;: &quot;Paediatrics: Rheumatologist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PA12&quot;&gt;&lt;display value=&quot;Paediatrics: Rheumatologist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PS01"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PS01">PS01</a></td><td>Psychiatry: Psychiatrist</td><td>Alternate name.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PS01&quot;, &quot;display&quot;: &quot;Psychiatry: Psychiatrist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PS01&quot;&gt;&lt;display value=&quot;Psychiatry: Psychiatrist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-PS02"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-PS02">PS02</a></td><td>Psychiatry: Psychological Medicine Specialist</td><td>Alternate name.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;PS02&quot;, &quot;display&quot;: &quot;Psychiatry: Psychological Medicine Specialist&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;PS02&quot;&gt;&lt;display value=&quot;Psychiatry: Psychological Medicine Specialist&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-SMEA"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-SMEA">SMEA</a></td><td>Smear Taker</td><td>A person authorised by the Cervical Screening Programme to participate in smear taking and on the register.</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;SMEA&quot;, &quot;display&quot;: &quot;Smear Taker&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;SMEA&quot;&gt;&lt;display value=&quot;Smear Taker&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code-NC05"> </a><code>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</code></td><td style="white-space:nowrap">  <a href="CodeSystem-practitioner-additional-authorisation.html#practitioner-additional-authorisation-NC05">NC05</a></td><td>May supply Hepatitis C Medication</td><td>A nurse authorised to supply Hepatitis C medication</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;, &quot;version&quot;: &quot;1.0.1&quot;, &quot;code&quot;: &quot;NC05&quot;, &quot;display&quot;: &quot;May supply Hepatitis C Medication&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code&quot;&gt;&lt;version value=&quot;1.0.1&quot;&gt;&lt;code value=&quot;NC05&quot;&gt;&lt;display value=&quot;May supply Hepatitis C Medication&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:admin@hl7.org.nz">HL7 New Zealand</a>.  Package fhir.org.nz.ig.base#3.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 24, 2026 15:52+1200">2026-07-24</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

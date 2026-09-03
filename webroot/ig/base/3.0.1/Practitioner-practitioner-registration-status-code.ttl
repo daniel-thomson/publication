@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Practitioner/practitioner-registration-status-code> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitioner-registration-status-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner practitioner-registration-status-code</b></p><a name=\"practitioner-registration-status-code\"> </a><a name=\"hcpractitioner-registration-status-code\"> </a><a name=\"practitioner-registration-status-code-en-US\"> </a><p><b>name</b>: John Doe</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1998-01-01</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td/><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0360 BS}\">Bachelor of Science</span></td></tr></table></div>"
+  ] ; # 
+  fhir:name ( [
+     fhir:text [ fhir:v "John Doe" ] ;
+     fhir:family [ fhir:v "Doe" ] ;
+     fhir:given ( [ fhir:v "John" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1998-01-01"^^xsd:date] ; # 
+  fhir:qualification ( [
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "status"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:CodeableConcept ;
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://standards.digital.health.nz/ns/practitioner-registration-status-code"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "current" ] ;
+             fhir:display [ fhir:v "A provider who holds or is deemed to hold a current practising certificate." ]
+           ] )
+         ]
+       ] [
+         fhir:url [ fhir:v "period"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Period ;
+           fhir:start [ fhir:v "2021-01-01"^^xsd:date ] ;
+           fhir:end [ fhir:v "2021-12-31"^^xsd:date ]
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/registration-status-code"^^xsd:anyURI ]
+     ] ) ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0360"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "BS" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

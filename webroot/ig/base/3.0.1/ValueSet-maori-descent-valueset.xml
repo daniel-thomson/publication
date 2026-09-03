@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="maori-descent-valueset"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet maori-descent-valueset</b></p><a name="maori-descent-valueset"> </a><a name="hcmaori-descent-valueset"> </a><a name="maori-descent-valueset-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-maori-descent-codesystem.html"><code>https://standards.digital.health.nz/ns/maori-descent-code</code></a></li></ul></div>
+  </text>
+  <url value="https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent"/>
+  <version value="1.0.0"/>
+  <name value="MaoriDescentValues"/>
+  <title value="Māori Descent"/>
+  <status value="active"/>
+  <date value="2024-08-14T09:20:22+12:00"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="A code indicating whether a person is of Māori descent"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/ns/maori-descent-code"/>
+    </include>
+  </compose>
+</ValueSet>

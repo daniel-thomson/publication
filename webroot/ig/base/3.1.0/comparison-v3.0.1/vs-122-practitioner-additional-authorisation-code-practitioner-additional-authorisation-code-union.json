@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-365",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/66f47b2b-a4af-4e09-af52-f6f7d6631c18-365",
+  "name" : "UnionPractitionerAdditionalAuthorisationCodeAndPractitionerAdditionalAuthorisationCode",
+  "title" : "Union of Additional Practitioner authorisations And Additional Practitioner authorisations",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00"
+}

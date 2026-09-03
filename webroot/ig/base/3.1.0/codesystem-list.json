@@ -1,0 +1,178 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "NzRelationshipCodes",
+    "title" : "NZ Relationship Type Code System",
+    "description" : "Code system for NZ relationship type codes."
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/acc-patient-occupation-code",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "AccPatientOccupationCodeSystem",
+    "title" : "ACC Patient Occupation CodeSystem",
+    "description" : "Codes for classifying patient occupations, drawn from the ACC codeset"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/alias-type-code",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "AliasType",
+    "title" : "Type of Alias",
+    "description" : "Used in Organization and Location to indicate what is the type of Alias"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ContactPointPurpose",
+    "title" : "ContactPoint purpose",
+    "description" : "The purpose of a ContactPoint - what it is used for."
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/coverage-category-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "CoverageCategory",
+    "title" : "Coverage category",
+    "description" : "New Zealand codes for Coverage category types"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/coverage-type-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "CoverageType",
+    "title" : "Coverage type",
+    "description" : "New Zealand codes for Coverage Types"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/dhb-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "Dhb_code",
+    "title" : "NZ DHB",
+    "description" : "NZ District Health Board (HPI-ORG) Codes"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/domicile-code",
+    "version" : "3.0",
+    "status" : "active",
+    "name" : "DomicileCode",
+    "title" : "Domicile Code",
+    "description" : "Domicile codes"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+    "version" : "2.1.0",
+    "status" : "active",
+    "name" : "EthnicityL4",
+    "title" : "Level 4 ethnicity codes",
+    "description" : "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/funded-programme-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "FundedProgramme",
+    "title" : "Funded Programme",
+    "description" : "Codes to describe NZ-specific types of funded programmes"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "PractitionerRoleStatusReason",
+    "title" : "PractitionerRole status reason",
+    "description" : "The reason for the current status of PractitionerRole"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/information-source-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "InformationSource",
+    "title" : "Information Source",
+    "description" : "All possible sources of information"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/iwi-code",
+    "version" : "2.1.0",
+    "status" : "active",
+    "name" : "Iwi_code",
+    "title" : "NZ Iwi",
+    "description" : "NZ iwi and iwi-related groups statistical classification"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/maori-descent-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MaoriDescentCodes",
+    "title" : "Māori descent codes",
+    "description" : "Codes for classifying Māori descent. Defined by Stats NZ - Māori descent v1.0.0"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/nz-citizenship-status-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "CitizenshipStatus",
+    "title" : "NZ Citizenship status",
+    "description" : "Is this person a NZ Citizen"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/nz-datum-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DatumCode",
+    "title" : "Datum codes",
+    "description" : "Possible datum codes"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+    "version" : "2.1.0",
+    "status" : "active",
+    "name" : "NZ_ethnic_group_codes",
+    "title" : "NZ ethnic group codes",
+    "description" : "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to."
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/nz-residency-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "NZResidency",
+    "title" : "NZ Residency status",
+    "description" : "NZ Residency status"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/pho-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "PHO",
+    "title" : "PHO",
+    "description" : "Primary Healthcare Organization"
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "AdditionalAuthorisation",
+    "title" : "Additional Authorisation",
+    "description" : "Additional authorisations that a practitioner is authorised to practice or prescribe."
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/practitioner-registration-status-code",
+    "version" : "2.0",
+    "status" : "active",
+    "name" : "PractitionerRegistrationStatusCode",
+    "title" : "Registration Status of Practitioners",
+    "description" : "The code list represents the current practicing status of the Provider Person as per their registration with an RA."
+  },
+  {
+    "url" : "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+    "version" : "2.1.0",
+    "status" : "active",
+    "name" : "ScopeOfPractice",
+    "title" : "Scope of practice",
+    "description" : "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority."
+  }]
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "datumCode",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet datumCode</b></p><a name=\"datumCode\"> </a><a name=\"hcdatumCode\"> </a><a name=\"datumCode-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-datum-code.html\"><code>https://standards.digital.health.nz/ns/nz-datum-code</code></a></li></ul></div>"
+  },
+  "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code",
+  "version" : "1.0.0",
+  "name" : "DatumCode",
+  "title" : "Datum code",
+  "status" : "active",
+  "date" : "2024-08-14T09:20:22+12:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "Datum codes used",
+  "compose" : {
+    "include" : [{
+      "system" : "https://standards.digital.health.nz/ns/nz-datum-code"
+    }]
+  }
+}

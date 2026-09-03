@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-342",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/66f47b2b-a4af-4e09-af52-f6f7d6631c18-342",
+  "name" : "IntersectionPractitionerRoleStatusReasonAndPractitionerRoleStatusReason",
+  "title" : "Intersection of PractitionerRole status reason And PractitionerRole status reason",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00"
+}

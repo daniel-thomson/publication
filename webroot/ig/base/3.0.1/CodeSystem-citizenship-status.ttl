@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/citizenship-status> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "citizenship-status"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem citizenship-status</b></p><a name=\"citizenship-status\"> </a><a name=\"hccitizenship-status\"> </a><a name=\"citizenship-status-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/nz-citizenship-status-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">yes<a name=\"citizenship-status-yes\"> </a></td><td>Yes</td><td>This person is a citizen.</td></tr><tr><td style=\"white-space:nowrap\">no<a name=\"citizenship-status-no\"> </a></td><td>No</td><td>This person is not a citizen.</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"citizenship-status-unknown\"> </a></td><td>Unknown</td><td>The citizenship status is unknown.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/nz-citizenship-status-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "CitizenshipStatus"] ; # 
+  fhir:title [ fhir:v "NZ Citizenship status"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Is this person a NZ Citizen"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "yes" ] ;
+     fhir:display [ fhir:v "Yes" ] ;
+     fhir:definition [ fhir:v "This person is a citizen." ]
+  ] [
+     fhir:code [ fhir:v "no" ] ;
+     fhir:display [ fhir:v "No" ] ;
+     fhir:definition [ fhir:v "This person is not a citizen." ]
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:definition [ fhir:v "The citizenship status is unknown." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

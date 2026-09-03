@@ -1,0 +1,104 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/dhb-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "dhb-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem dhb-code</b></p><a name=\"dhb-code\"> </a><a name=\"hcdhb-code\"> </a><a name=\"dhb-code-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/dhb-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">G00011-K<a name=\"dhb-code-G00011-K\"> </a></td><td>Auckland District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00031-E<a name=\"dhb-code-G00031-E\"> </a></td><td>Bay of Plenty District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00005-D<a name=\"dhb-code-G00005-D\"> </a></td><td>Canterbury District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00036-D<a name=\"dhb-code-G00036-D\"> </a></td><td>Capital and Coast District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00012-A<a name=\"dhb-code-G00012-A\"> </a></td><td>Counties Manukau District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00032-G<a name=\"dhb-code-G00032-G\"> </a></td><td>Hawkes Bay District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00006-F<a name=\"dhb-code-G00006-F\"> </a></td><td>Hutt Valley District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00028-E<a name=\"dhb-code-G00028-E\"> </a></td><td>Lakes District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00033-J<a name=\"dhb-code-G00033-J\"> </a></td><td>Mid Central District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00038-H<a name=\"dhb-code-G00038-H\"> </a></td><td>Nelson Marlborough District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00026-A<a name=\"dhb-code-G00026-A\"> </a></td><td>Northland District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00025-K<a name=\"dhb-code-G00025-K\"> </a></td><td>South Canterbury District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G02328-E<a name=\"dhb-code-G02328-E\"> </a></td><td>Southern District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00029-G<a name=\"dhb-code-G00029-G\"> </a></td><td>Tairawhiti District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00030-C<a name=\"dhb-code-G00030-C\"> </a></td><td>Taranaki District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00027-C<a name=\"dhb-code-G00027-C\"> </a></td><td>Waikato District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00037-F<a name=\"dhb-code-G00037-F\"> </a></td><td>Wairarapa District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00013-C<a name=\"dhb-code-G00013-C\"> </a></td><td>Waitemata District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00039-K<a name=\"dhb-code-G00039-K\"> </a></td><td>West Coast District Health Board</td></tr><tr><td style=\"white-space:nowrap\">G00035-B<a name=\"dhb-code-G00035-B\"> </a></td><td>Whanganui District Health Board</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/dhb-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "Dhb_code"] ; # 
+  fhir:title [ fhir:v "NZ DHB"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2022-08-25"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "NZ District Health Board (HPI-ORG) Codes"] ; # 
+  fhir:copyright [ fhir:v "© 2020+ New Zealand Crown Copyright"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:valueSet [
+     fhir:v "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code"^^xsd:anyURI ;
+     fhir:link <https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code>
+  ] ; # 
+  fhir:compositional [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:versionNeeded [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "20"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "G00011-K" ] ;
+     fhir:display [ fhir:v "Auckland District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00031-E" ] ;
+     fhir:display [ fhir:v "Bay of Plenty District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00005-D" ] ;
+     fhir:display [ fhir:v "Canterbury District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00036-D" ] ;
+     fhir:display [ fhir:v "Capital and Coast District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00012-A" ] ;
+     fhir:display [ fhir:v "Counties Manukau District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00032-G" ] ;
+     fhir:display [ fhir:v "Hawkes Bay District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00006-F" ] ;
+     fhir:display [ fhir:v "Hutt Valley District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00028-E" ] ;
+     fhir:display [ fhir:v "Lakes District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00033-J" ] ;
+     fhir:display [ fhir:v "Mid Central District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00038-H" ] ;
+     fhir:display [ fhir:v "Nelson Marlborough District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00026-A" ] ;
+     fhir:display [ fhir:v "Northland District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00025-K" ] ;
+     fhir:display [ fhir:v "South Canterbury District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G02328-E" ] ;
+     fhir:display [ fhir:v "Southern District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00029-G" ] ;
+     fhir:display [ fhir:v "Tairawhiti District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00030-C" ] ;
+     fhir:display [ fhir:v "Taranaki District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00027-C" ] ;
+     fhir:display [ fhir:v "Waikato District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00037-F" ] ;
+     fhir:display [ fhir:v "Wairarapa District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00013-C" ] ;
+     fhir:display [ fhir:v "Waitemata District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00039-K" ] ;
+     fhir:display [ fhir:v "West Coast District Health Board" ]
+  ] [
+     fhir:code [ fhir:v "G00035-B" ] ;
+     fhir:display [ fhir:v "Whanganui District Health Board" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,40 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Practitioner/practitioner-death-date> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitioner-death-date"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner practitioner-death-date</b></p><a name=\"practitioner-death-date\"> </a><a name=\"hcpractitioner-death-date\"> </a><a name=\"practitioner-death-date-en-US\"> </a><p><b>name</b>: Marcus Welby</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1998-01-01</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "date"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "2021-01-01"^^xsd:date ]
+     ] [
+       fhir:url [ fhir:v "source"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://standards.digital.health.nz/ns/information-source-code"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "DREG" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/death-date"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:text [ fhir:v "Marcus Welby" ] ;
+     fhir:family [ fhir:v "Welby" ] ;
+     fhir:given ( [ fhir:v "Marcus" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1998-01-01"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+

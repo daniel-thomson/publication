@@ -1,0 +1,34 @@
+{
+  "package-id" : "fhir.org.nz.ig.base",
+  "title" : "HL7® FHIR® New Zealand Base Implementation Guide",
+  "canonical" : "http://fhir.org.nz/ig/base",
+  "category" : "National Base",
+  "introduction" : "New Zealand base FHIR profiles and extensions.",
+  "list" : [{
+    "version" : "current",
+    "desc" : "Continuous Integration Build",
+    "path" : "http://build.fhir.org/ig/HL7NZ/nzbase",
+    "status" : "ci-build",
+    "current" : true
+  },
+  {
+    "version" : "3.1.0",
+    "path" : "http://fhir.org.nz/ig/base/3.1.0",
+    "status" : "release",
+    "sequence" : "Releases",
+    "fhirversion" : "4.0.1",
+    "date" : "2026-07-24",
+    "current" : true,
+    "desc" : "Release 3.1.0 of the NZ Base Implementation Guide",
+    "descmd" : "Release 3.1.0 of the NZ Base Implementation Guide"
+  },
+  {
+    "version" : "3.0.1",
+    "date" : "2024-08-14",
+    "desc" : "Release 3.0.1",
+    "path" : "http://fhir.org.nz/ig/base/3.0.1",
+    "status" : "release",
+    "sequence" : "Releases",
+    "fhirversion" : "4.0.1"
+  }]
+}

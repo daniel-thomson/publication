@@ -1,0 +1,47 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "practitioner-registration-status-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem practitioner-registration-status-code</b></p><a name=\"practitioner-registration-status-code\"> </a><a name=\"hcpractitioner-registration-status-code\"> </a><a name=\"practitioner-registration-status-code-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/practitioner-registration-status-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">current<a name=\"practitioner-registration-status-code-current\"> </a></td><td>Current</td><td>A provider who holds or is deemed to hold a current practising certificate.</td></tr><tr><td style=\"white-space:nowrap\">inactive<a name=\"practitioner-registration-status-code-inactive\"> </a></td><td>Inactive</td><td>A provider who is not practising</td></tr><tr><td style=\"white-space:nowrap\">removed<a name=\"practitioner-registration-status-code-removed\"> </a></td><td>Removed</td><td>A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased</td></tr><tr><td style=\"white-space:nowrap\">suspended<a name=\"practitioner-registration-status-code-suspended\"> </a></td><td>Suspended</td><td>A provider who is suspended from practising by a Responsible Authority</td></tr></table></div>"
+  },
+  "url" : "https://standards.digital.health.nz/ns/practitioner-registration-status-code",
+  "version" : "2.0",
+  "name" : "PractitionerRegistrationStatusCode",
+  "title" : "Registration Status of Practitioners",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-08-14T09:20:22+12:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "current",
+    "display" : "Current",
+    "definition" : "A provider who holds or is deemed to hold a current practising certificate."
+  },
+  {
+    "code" : "inactive",
+    "display" : "Inactive",
+    "definition" : "A provider who is not practising"
+  },
+  {
+    "code" : "removed",
+    "display" : "Removed",
+    "definition" : "A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased"
+  },
+  {
+    "code" : "suspended",
+    "display" : "Suspended",
+    "definition" : "A provider who is suspended from practising by a Responsible Authority"
+  }]
+}

@@ -1,0 +1,26 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Location/location-established> a fhir:Location ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "location-established"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location location-established</b></p><a name=\"location-established\"> </a><a name=\"hclocation-established\"> </a><a name=\"location-established-en-US\"> </a><p><b>name</b>: Daves health centre</p><p><b>alias</b>: Best health</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/established"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2010-01-01"^^xsd:date ]
+     ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Daves health centre"] ; # 
+  fhir:alias ( [ fhir:v "Best health"] ) . # 
+
+# -------------------------------------------------------------------------------------
+

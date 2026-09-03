@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/funded-programme> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "funded-programme"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem funded-programme</b></p><a name=\"funded-programme\"> </a><a name=\"hcfunded-programme\"> </a><a name=\"funded-programme-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/funded-programme-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DENTAL_CHILD<a name=\"funded-programme-DENTAL_CHILD\"> </a></td><td>Dental Care - Children up to age 13</td></tr><tr><td style=\"white-space:nowrap\">DENTAL_ADULT_EMERGENCY<a name=\"funded-programme-DENTAL_ADULT_EMERGENCY\"> </a></td><td>Dental Care – Adult Emergency</td></tr><tr><td style=\"white-space:nowrap\">ENROLLING_GP_PRACTICE<a name=\"funded-programme-ENROLLING_GP_PRACTICE\"> </a></td><td>General Practice Enrollment</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"funded-programme-OTHER\"> </a></td><td>Some other funded programme not otherwise defined</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/funded-programme-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "FundedProgramme"] ; # 
+  fhir:title [ fhir:v "Funded Programme"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes to describe NZ-specific types of funded programmes."] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "DENTAL_CHILD" ] ;
+     fhir:display [ fhir:v "Dental Care - Children up to age 13" ]
+  ] [
+     fhir:code [ fhir:v "DENTAL_ADULT_EMERGENCY" ] ;
+     fhir:display [ fhir:v "Dental Care – Adult Emergency" ]
+  ] [
+     fhir:code [ fhir:v "ENROLLING_GP_PRACTICE" ] ;
+     fhir:display [ fhir:v "General Practice Enrollment" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Some other funded programme not otherwise defined" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

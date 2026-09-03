@@ -1,0 +1,29 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-59",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-59",
+  "name" : "UnionPractitionerRegistrationStatusCodeAndPractitionerRegistrationStatusCode",
+  "title" : "Union of Registration Status of Practitioners And Registration Status of Practitioners",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "current",
+    "display" : "Current",
+    "definition" : "A provider who holds or is deemed to hold a current practising certificate."
+  },
+  {
+    "code" : "inactive",
+    "display" : "Inactive",
+    "definition" : "A provider who is not practising"
+  },
+  {
+    "code" : "removed",
+    "display" : "Removed",
+    "definition" : "A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased"
+  },
+  {
+    "code" : "suspended",
+    "display" : "Suspended",
+    "definition" : "A provider who is suspended from practising by a Responsible Authority"
+  }]
+}

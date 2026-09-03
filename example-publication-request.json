@@ -1,0 +1,15 @@
+{
+  "package-id": "fhir.org.nz.ig.base",
+  "version": "3.1.0",
+  "path": "http://fhir.org.nz/ig/base/3.1.0",
+  "mode": "milestone",
+  "status": "release",
+  "sequence": "Releases",
+  "desc": "Release 3.1.0 of the NZ Base Implementation Guide",
+  "descmd": "Release 3.1.0 of the NZ Base Implementation Guide",
+  "first": false,
+  "title": "HL7&reg; FHIR&reg; New Zealand Base Implementation Guide",
+  "ci-build": "http://build.fhir.org/ig/HL7NZ/nzbase",
+  "category": "National Base",
+  "introduction": "New Zealand base FHIR profiles and extensions."
+}

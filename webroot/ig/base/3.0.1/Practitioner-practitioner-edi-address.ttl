@@ -1,0 +1,34 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Practitioner/practitioner-edi-address> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitioner-edi-address"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner practitioner-edi-address</b></p><a name=\"practitioner-edi-address\"> </a><a name=\"hcpractitioner-edi-address\"> </a><a name=\"practitioner-edi-address-en-US\"> </a><p><b>name</b>: Marcus Welby</p><p><b>telecom</b>: 001a</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1998-01-01</p></div>"
+  ] ; # 
+  fhir:name ( [
+     fhir:text [ fhir:v "Marcus Welby" ] ;
+     fhir:family [ fhir:v "Welby" ] ;
+     fhir:given ( [ fhir:v "Marcus" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [
+       fhir:v "other" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/edi-address"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "healthlink" ]
+       ] )
+     ] ;
+     fhir:value [ fhir:v "001a" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1998-01-01"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="pho-status"/>
+  <meta>
+    <versionId value="11"/>
+    <lastUpdated value="2026-07-03T12:26:02.681+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PHO</h2><tt>https://standards.digital.health.nz/ns/pho-code</tt><p>Primary Healthcare Organization</p></div>
+  </text>
+  <url value="https://standards.digital.health.nz/ns/pho-code"/>
+  <version value="1.1.0"/>
+  <name value="PHO"/>
+  <title value="PHO"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-18T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="Primary Healthcare Organization"/>
+  <caseSensitive value="true"/>
+  <valueSet value="https://nzhts.digital.health.nz/fhir/ValueSet/pho-code"/>
+  <content value="complete"/>
+  <count value="29"/>
+  <concept>
+    <code value="G05487-G"/>
+    <display value="Auckland PHO Limited"/>
+  </concept>
+  <concept>
+    <code value="G05491-J"/>
+    <display value="Christchurch PHO"/>
+  </concept>
+  <concept>
+    <code value="G02384-D"/>
+    <display value="Central Primary Health Organisation"/>
+  </concept>
+  <concept>
+    <code value="G00755-C"/>
+    <display value="Compass Health"/>
+  </concept>
+  <concept>
+    <code value="G05272-H"/>
+    <display value="Comprehensive Care PHO Limited"/>
+  </concept>
+  <concept>
+    <code value="G05493-B"/>
+    <display value="Cosine Primary Care Network Trust"/>
+  </concept>
+  <concept>
+    <code value="G05495-F"/>
+    <display value="Eastern Bay Primary Health Alliance"/>
+  </concept>
+  <concept>
+    <code value="G05494-D"/>
+    <display value="East Health Trust Board"/>
+  </concept>
+  <concept>
+    <code value="G09738-D"/>
+    <display value="Hauraki PHO"/>
+  </concept>
+  <concept>
+    <code value="G05498-A"/>
+    <display value="Health Hawke's Bay Limited"/>
+  </concept>
+  <concept>
+    <code value="G0F252-G"/>
+    <display value="Te Kaupapa Mahitahi Hauora - Papa o Te Raki Trust"/>
+  </concept>
+  <concept>
+    <code value="G04639-K"/>
+    <display value="Marlborough PHO Trust"/>
+  </concept>
+  <concept>
+    <code value="G05484-A"/>
+    <display value="Midlands Health Network Limited"/>
+  </concept>
+  <concept>
+    <code value="G05507-J"/>
+    <display value="National Hauora Coalition Limited"/>
+  </concept>
+  <concept>
+    <code value="G05454-C"/>
+    <display value="Nelson Bays Primary Health Trust"/>
+  </concept>
+  <concept>
+    <code value="G00246-D"/>
+    <display value="Nga Mataapuna Oranga Limited"/>
+  </concept>
+  <concept>
+    <code value="G04805-A"/>
+    <display value="Ngati Porou Hauora Charitable Trust Board"/>
+  </concept>
+  <concept>
+    <code value="G04764-B"/>
+    <display value="Ora Toa PHO Limited"/>
+  </concept>
+  <concept>
+    <code value="G03310-B"/>
+    <display value="Pegasus Health (Charitable) Limited"/>
+  </concept>
+  <concept>
+    <code value="G05533-K"/>
+    <display value="Procare Networks Limited"/>
+  </concept>
+  <concept>
+    <code value="G08550-C"/>
+    <display value="Rotorua Area Primary Health Services Ltd"/>
+  </concept>
+  <concept>
+    <code value="G00886-G"/>
+    <display value="Rural Canterbury PHO Limited"/>
+  </concept>
+  <concept>
+    <code value="G05596-A"/>
+    <display value="Total Healthcare Charitable Trust"/>
+  </concept>
+  <concept>
+    <code value="G05569-J"/>
+    <display value="Wellsouth Primary Health Network"/>
+  </concept>
+  <concept>
+    <code value="G00039-K"/>
+    <display value="West Coast PHO"/>
+  </concept>
+  <concept>
+    <code value="G00507-F"/>
+    <display value="Western Bay of Plenty Primary Healthcare Organisation Limited"/>
+  </concept>
+  <concept>
+    <code value="G01220-B"/>
+    <display value="Whanganui Regional Health Network"/>
+  </concept>
+  <concept>
+    <code value="G0P656-E"/>
+    <display value="Arataki (Tend)"/>
+  </concept>
+  <concept>
+    <code value="G0K668-C"/>
+    <display value="The Cause Collective"/>
+  </concept>
+</CodeSystem>

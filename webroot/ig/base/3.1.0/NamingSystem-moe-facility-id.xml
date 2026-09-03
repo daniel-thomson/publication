@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="moe-facility-id"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem moe-facility-id</b></p><a name="moe-facility-id"> </a><a name="hcmoe-facility-id"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://fhir.org.nz/ig/base/NamingSystem/moe-facility-id</td></tr><tr><td>Name</td><td>Moe_facility_id</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>This identifier, known as the 'MoE Number' or 'School Number', is used by the education sector to identify an NZ education institution. These identifiers can be looked up at the [<a href="http://educationcounts.govt.nz">educationcounts.govt.nz</a>](<a href="https://www.educationcounts.govt.nz/directories/list-of-nz-schools">https://www.educationcounts.govt.nz/directories/list-of-nz-schools</a>) website.</p>
+</div></td></tr><tr><td>Publisher</td><td>HL7 New Zealand</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td><td><b>Period</b></td></tr><tr><td>URI</td><td>https://standards.digital.health.nz/ns/moe-facility-id</td><td>true</td><td>2024-07-20 --&gt; (ongoing)</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
+    <valueUri value="http://fhir.org.nz/ig/base/NamingSystem/moe-facility-id"/>
+  </extension>
+  <name value="Moe_facility_id"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2024-07-20"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <responsible value="HISO"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+      <code value="FI"/>
+      <display value="Facility ID"/>
+    </coding>
+    <text value="moe-facility"/>
+  </type>
+  <description value="This identifier, known as the 'MoE Number' or 'School Number', is used by the education sector to identify an NZ education institution. These identifiers can be looked up at the \[[educationcounts.govt.nz](http://educationcounts.govt.nz)\]([https://www.educationcounts.govt.nz/directories/list-of-nz-schools](https://www.educationcounts.govt.nz/directories/list-of-nz-schools)) website."/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="https://standards.digital.health.nz/ns/moe-facility-id"/>
+    <preferred value="true"/>
+    <period>
+      <start value="2024-07-20"/>
+    </period>
+  </uniqueId>
+</NamingSystem>

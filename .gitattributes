@@ -1,0 +1,31 @@
+# Line-ending policy for this repository.
+#
+# This overrides the core.autocrlf setting of whoever clones it, so committed
+# content is identical no matter who runs the publish, or on which OS
+# (Windows, WSL, Linux, Windows-on-ARM). Text is normalised to LF in the
+# repository; working trees follow each platform's convention.
+#
+# Byte-exact provenance for a publication run lives in the build zip archived
+# to object storage, not here - see the ig-build-zips note in .gitignore.
+
+* text=auto
+
+# Binaries: never convert. This covers every binary extension present in the
+# tracked tree, so the content heuristic is never relied on.
+*.png   binary
+*.jpg   binary
+*.gif   binary
+*.bmp   binary
+*.xlsx  binary
+*.zip   binary
+*.tgz   binary
+*.pack  binary
+*.db    binary
+*.bin   binary
+*.eot   binary
+*.otf   binary
+*.ttf   binary
+*.woff  binary
+
+# SVG is XML - declare it explicitly so it is diffed as text.
+*.svg   text

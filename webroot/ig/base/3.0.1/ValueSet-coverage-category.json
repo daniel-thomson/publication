@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "coverage-category",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet coverage-category</b></p><a name=\"coverage-category\"> </a><a name=\"hccoverage-category\"> </a><a name=\"coverage-category-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-coverage-category.html\"><code>https://standards.digital.health.nz/ns/coverage-category-code</code></a></li></ul></div>"
+  },
+  "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-category-code",
+  "version" : "1.0.0",
+  "name" : "CoverageCategory",
+  "title" : "Coverage Category",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-08-14T09:20:22+12:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "New Zealand codes for Coverage category types",
+  "compose" : {
+    "include" : [{
+      "system" : "https://standards.digital.health.nz/ns/coverage-category-code"
+    }]
+  }
+}

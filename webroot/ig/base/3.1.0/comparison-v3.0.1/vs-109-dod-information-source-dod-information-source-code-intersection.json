@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-327",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/66f47b2b-a4af-4e09-af52-f6f7d6631c18-327",
+  "name" : "IntersectionDodInformationSourceAndDodInformationSource",
+  "title" : "Intersection of Death date Information Source And Death date Information Source",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DREG",
+        "display" : "Death Register"
+      },
+      {
+        "code" : "OSEAOFF",
+        "display" : "Death Overseas Official"
+      },
+      {
+        "code" : "OSEA",
+        "display" : "Death Overseas"
+      },
+      {
+        "code" : "CORONER",
+        "display" : "Coroner Notification"
+      },
+      {
+        "code" : "MCCOD",
+        "display" : "Medical Certificate Cause of Death"
+      }]
+    }]
+  }
+}

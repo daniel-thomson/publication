@@ -1,0 +1,6 @@
+{
+  "version" : "3.0.1",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20240814091741",
+  "name" : "fhir.org.nz.ig.base"
+}

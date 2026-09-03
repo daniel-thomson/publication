@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="acc-patient-occupation"/>
+  <meta>
+    <versionId value="2"/>
+    <lastUpdated value="2026-05-07T20:38:22.180+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ACC Patient Occupation</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code</tt><p>ValueSet of codes for classifying patient occupations, drawn from the ACC codeset</p></div>
+  </text>
+  <url value="https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code"/>
+  <version value="1.0.0"/>
+  <name value="AccPatientOccupationValueSet"/>
+  <title value="ACC Patient Occupation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-24T15:52:23+12:00"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet of codes for classifying patient occupations, drawn from the ACC codeset"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/ns/acc-patient-occupation-code"/>
+    </include>
+  </compose>
+</ValueSet>

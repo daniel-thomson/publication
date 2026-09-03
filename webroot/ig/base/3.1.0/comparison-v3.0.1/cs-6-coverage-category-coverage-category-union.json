@@ -1,0 +1,13 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-17",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-17",
+  "name" : "UnionCoverageCategoryAndCoverageCategory",
+  "title" : "Union of Coverage category And Coverage category",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "under6",
+    "display" : "A child under 6 years of age"
+  }]
+}

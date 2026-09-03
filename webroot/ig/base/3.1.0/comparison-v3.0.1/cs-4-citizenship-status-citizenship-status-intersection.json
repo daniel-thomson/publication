@@ -1,0 +1,24 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-12",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-12",
+  "name" : "IntersectionCitizenshipStatusAndCitizenshipStatus",
+  "title" : "Intersection of NZ Citizenship status And NZ Citizenship status",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "yes",
+    "display" : "Yes",
+    "definition" : "This person is a citizen."
+  },
+  {
+    "code" : "no",
+    "display" : "No",
+    "definition" : "This person is not a citizen."
+  },
+  {
+    "code" : "unknown",
+    "display" : "Unknown",
+    "definition" : "The citizenship status is unknown."
+  }]
+}

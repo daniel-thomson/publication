@@ -1,0 +1,175 @@
+# PHO - HL7® FHIR® New Zealand Base Implementation Guide v3.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **PHO**
+
+## CodeSystem: PHO 
+
+| | |
+| :--- | :--- |
+| *Official URL*:https://standards.digital.health.nz/ns/pho-code | *Version*:1.1.0 |
+| Active as of 2023-10-18 | *Computable Name*:PHO |
+
+ 
+Primary Healthcare Organization 
+
+ This Code system is referenced in the content logical definition of the following value sets: 
+
+* [PHO](ValueSet-pho.md)
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "pho-status",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-03T12:26:02.681+12:00",
+    "tag" : [{
+      "system" : "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+      "code" : "NZBase"
+    }]
+  },
+  "url" : "https://standards.digital.health.nz/ns/pho-code",
+  "version" : "1.1.0",
+  "name" : "PHO",
+  "title" : "PHO",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-18T11:59:31.000Z",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "Primary Healthcare Organization",
+  "caseSensitive" : true,
+  "valueSet" : "https://nzhts.digital.health.nz/fhir/ValueSet/pho-code",
+  "content" : "complete",
+  "count" : 29,
+  "concept" : [{
+    "code" : "G05487-G",
+    "display" : "Auckland PHO Limited"
+  },
+  {
+    "code" : "G05491-J",
+    "display" : "Christchurch PHO"
+  },
+  {
+    "code" : "G02384-D",
+    "display" : "Central Primary Health Organisation"
+  },
+  {
+    "code" : "G00755-C",
+    "display" : "Compass Health"
+  },
+  {
+    "code" : "G05272-H",
+    "display" : "Comprehensive Care PHO Limited"
+  },
+  {
+    "code" : "G05493-B",
+    "display" : "Cosine Primary Care Network Trust"
+  },
+  {
+    "code" : "G05495-F",
+    "display" : "Eastern Bay Primary Health Alliance"
+  },
+  {
+    "code" : "G05494-D",
+    "display" : "East Health Trust Board"
+  },
+  {
+    "code" : "G09738-D",
+    "display" : "Hauraki PHO"
+  },
+  {
+    "code" : "G05498-A",
+    "display" : "Health Hawke's Bay Limited"
+  },
+  {
+    "code" : "G0F252-G",
+    "display" : "Te Kaupapa Mahitahi Hauora - Papa o Te Raki Trust"
+  },
+  {
+    "code" : "G04639-K",
+    "display" : "Marlborough PHO Trust"
+  },
+  {
+    "code" : "G05484-A",
+    "display" : "Midlands Health Network Limited"
+  },
+  {
+    "code" : "G05507-J",
+    "display" : "National Hauora Coalition Limited"
+  },
+  {
+    "code" : "G05454-C",
+    "display" : "Nelson Bays Primary Health Trust"
+  },
+  {
+    "code" : "G00246-D",
+    "display" : "Nga Mataapuna Oranga Limited"
+  },
+  {
+    "code" : "G04805-A",
+    "display" : "Ngati Porou Hauora Charitable Trust Board"
+  },
+  {
+    "code" : "G04764-B",
+    "display" : "Ora Toa PHO Limited"
+  },
+  {
+    "code" : "G03310-B",
+    "display" : "Pegasus Health (Charitable) Limited"
+  },
+  {
+    "code" : "G05533-K",
+    "display" : "Procare Networks Limited"
+  },
+  {
+    "code" : "G08550-C",
+    "display" : "Rotorua Area Primary Health Services Ltd"
+  },
+  {
+    "code" : "G00886-G",
+    "display" : "Rural Canterbury PHO Limited"
+  },
+  {
+    "code" : "G05596-A",
+    "display" : "Total Healthcare Charitable Trust"
+  },
+  {
+    "code" : "G05569-J",
+    "display" : "Wellsouth Primary Health Network"
+  },
+  {
+    "code" : "G00039-K",
+    "display" : "West Coast PHO"
+  },
+  {
+    "code" : "G00507-F",
+    "display" : "Western Bay of Plenty Primary Healthcare Organisation Limited"
+  },
+  {
+    "code" : "G01220-B",
+    "display" : "Whanganui Regional Health Network"
+  },
+  {
+    "code" : "G0P656-E",
+    "display" : "Arataki (Tend)"
+  },
+  {
+    "code" : "G0K668-C",
+    "display" : "The Cause Collective"
+  }]
+}
+
+```

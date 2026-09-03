@@ -1,0 +1,31 @@
+# clones — pull these fresh, don't track from top level repository
+/fhir-web-templates/
+/ig-history/
+/ig-registry/
+/sources/
+# Build uses temp directory for intermediate files
+/temp/
+
+# Session artifacts
+/.claude/
+# was used to mock old package-list.json, future builds won't need
+/mock-live/
+
+# webroot: ignore generated output, keep the setup/config files in place
+# ORDER MATTERS: git applies the last matching rule, and never descends into an
+# excluded directory — so each negation must come after the broad rule it undoes.
+/webroot/*
+!/webroot/publish-setup.json
+!/webroot/package-feed.xml
+!/webroot/publication-feed.xml
+# build zips: keep the run log (publisher + resolved dependency versions)
+!/webroot/ig-build-zips/
+/webroot/ig-build-zips/*
+!/webroot/ig-build-zips/*.log
+!/webroot/ig/
+/webroot/ig/*
+!/webroot/ig/base/
+/webroot/ig/base/*
+!/webroot/ig/base/package-list.json
+!/webroot/ig/base/3.0.1/
+!/webroot/ig/base/3.1.0/

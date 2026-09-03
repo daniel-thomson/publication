@@ -1,0 +1,24 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-50",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-50",
+  "name" : "UnionNZResidencyAndNZResidency",
+  "title" : "Union of NZ Residency status And NZ Residency status",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "yes",
+    "display" : "Permanent Resident",
+    "definition" : "Use this status if the person holds a residence class visa"
+  },
+  {
+    "code" : "no",
+    "display" : "Not a Permanent Resident",
+    "definition" : "Use this status for a person who is a NZ Citizen or does not hold a residence class visa"
+  },
+  {
+    "code" : "unknown",
+    "display" : "Unknown",
+    "definition" : "use this status if the residency status of the person cannot be determined or is unknown"
+  }]
+}

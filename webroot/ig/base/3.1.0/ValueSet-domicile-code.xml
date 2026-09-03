@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="domicile-code"/>
+  <meta>
+    <versionId value="11"/>
+    <lastUpdated value="2026-05-07T20:40:29.197+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Domicile Code</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code</tt><p>Domicile Code</p></div>
+  </text>
+  <url value="https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code"/>
+  <version value="3.0"/>
+  <name value="DomicileCode"/>
+  <title value="Domicile Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-18T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="Domicile Code"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/ns/domicile-code"/>
+      <version value="3.0"/>
+    </include>
+  </compose>
+</ValueSet>

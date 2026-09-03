@@ -1,0 +1,753 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/ethnicityL4> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ethnicityL4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ethnicityL4</b></p><a name=\"ethnicityL4\"> </a><a name=\"hcethnicityL4\"> </a><a name=\"ethnicityL4-en-US\"> </a><p>This  code system <code>https://standards.digital.health.nz/ns/ethnic-group-level-4-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">10000<a name=\"ethnicityL4-10000\"> </a></td><td>European NFD</td></tr><tr><td style=\"white-space:nowrap\">11111<a name=\"ethnicityL4-11111\"> </a></td><td>New Zealand European</td></tr><tr><td style=\"white-space:nowrap\">12100<a name=\"ethnicityL4-12100\"> </a></td><td>British NFD</td></tr><tr><td style=\"white-space:nowrap\">12111<a name=\"ethnicityL4-12111\"> </a></td><td>Celtic</td></tr><tr><td style=\"white-space:nowrap\">12112<a name=\"ethnicityL4-12112\"> </a></td><td>Channel Islander</td></tr><tr><td style=\"white-space:nowrap\">12113<a name=\"ethnicityL4-12113\"> </a></td><td>Cornish</td></tr><tr><td style=\"white-space:nowrap\">12114<a name=\"ethnicityL4-12114\"> </a></td><td>English</td></tr><tr><td style=\"white-space:nowrap\">12115<a name=\"ethnicityL4-12115\"> </a></td><td>Gaelic</td></tr><tr><td style=\"white-space:nowrap\">12116<a name=\"ethnicityL4-12116\"> </a></td><td>Irish</td></tr><tr><td style=\"white-space:nowrap\">12117<a name=\"ethnicityL4-12117\"> </a></td><td>Manx</td></tr><tr><td style=\"white-space:nowrap\">12118<a name=\"ethnicityL4-12118\"> </a></td><td>Orkney Islander</td></tr><tr><td style=\"white-space:nowrap\">12119<a name=\"ethnicityL4-12119\"> </a></td><td>Scottish (Scots)</td></tr><tr><td style=\"white-space:nowrap\">12120<a name=\"ethnicityL4-12120\"> </a></td><td>Shetland Islander</td></tr><tr><td style=\"white-space:nowrap\">12121<a name=\"ethnicityL4-12121\"> </a></td><td>Welsh</td></tr><tr><td style=\"white-space:nowrap\">12199<a name=\"ethnicityL4-12199\"> </a></td><td>British NEC</td></tr><tr><td style=\"white-space:nowrap\">12211<a name=\"ethnicityL4-12211\"> </a></td><td>Dutch/Netherlands</td></tr><tr><td style=\"white-space:nowrap\">12311<a name=\"ethnicityL4-12311\"> </a></td><td>Greek (including Greek Cypriot)</td></tr><tr><td style=\"white-space:nowrap\">12411<a name=\"ethnicityL4-12411\"> </a></td><td>Polish</td></tr><tr><td style=\"white-space:nowrap\">12500<a name=\"ethnicityL4-12500\"> </a></td><td>South Slav (formerly Yugoslav groups) NFD</td></tr><tr><td style=\"white-space:nowrap\">12511<a name=\"ethnicityL4-12511\"> </a></td><td>Croat/Croatian</td></tr><tr><td style=\"white-space:nowrap\">12512<a name=\"ethnicityL4-12512\"> </a></td><td>Dalmatian</td></tr><tr><td style=\"white-space:nowrap\">12513<a name=\"ethnicityL4-12513\"> </a></td><td>Macedonian</td></tr><tr><td style=\"white-space:nowrap\">12514<a name=\"ethnicityL4-12514\"> </a></td><td>Serb/Serbian</td></tr><tr><td style=\"white-space:nowrap\">12515<a name=\"ethnicityL4-12515\"> </a></td><td>Slovene/Slovenian</td></tr><tr><td style=\"white-space:nowrap\">12516<a name=\"ethnicityL4-12516\"> </a></td><td>Bosnian</td></tr><tr><td style=\"white-space:nowrap\">12599<a name=\"ethnicityL4-12599\"> </a></td><td>South Slav (formerly Yugoslav groups) NEC</td></tr><tr><td style=\"white-space:nowrap\">12611<a name=\"ethnicityL4-12611\"> </a></td><td>Italian</td></tr><tr><td style=\"white-space:nowrap\">12711<a name=\"ethnicityL4-12711\"> </a></td><td>German</td></tr><tr><td style=\"white-space:nowrap\">12811<a name=\"ethnicityL4-12811\"> </a></td><td>Australian</td></tr><tr><td style=\"white-space:nowrap\">12911<a name=\"ethnicityL4-12911\"> </a></td><td>Albanian</td></tr><tr><td style=\"white-space:nowrap\">12912<a name=\"ethnicityL4-12912\"> </a></td><td>Armenian</td></tr><tr><td style=\"white-space:nowrap\">12913<a name=\"ethnicityL4-12913\"> </a></td><td>Austrian</td></tr><tr><td style=\"white-space:nowrap\">12914<a name=\"ethnicityL4-12914\"> </a></td><td>Belgian</td></tr><tr><td style=\"white-space:nowrap\">12915<a name=\"ethnicityL4-12915\"> </a></td><td>Bulgarian</td></tr><tr><td style=\"white-space:nowrap\">12916<a name=\"ethnicityL4-12916\"> </a></td><td>Belorussian</td></tr><tr><td style=\"white-space:nowrap\">12917<a name=\"ethnicityL4-12917\"> </a></td><td>Corsican</td></tr><tr><td style=\"white-space:nowrap\">12918<a name=\"ethnicityL4-12918\"> </a></td><td>Cypriot Unspecified</td></tr><tr><td style=\"white-space:nowrap\">12919<a name=\"ethnicityL4-12919\"> </a></td><td>Czech</td></tr><tr><td style=\"white-space:nowrap\">12920<a name=\"ethnicityL4-12920\"> </a></td><td>Danish</td></tr><tr><td style=\"white-space:nowrap\">12921<a name=\"ethnicityL4-12921\"> </a></td><td>Estonian</td></tr><tr><td style=\"white-space:nowrap\">12922<a name=\"ethnicityL4-12922\"> </a></td><td>Finnish</td></tr><tr><td style=\"white-space:nowrap\">12923<a name=\"ethnicityL4-12923\"> </a></td><td>Flemish</td></tr><tr><td style=\"white-space:nowrap\">12924<a name=\"ethnicityL4-12924\"> </a></td><td>French</td></tr><tr><td style=\"white-space:nowrap\">12925<a name=\"ethnicityL4-12925\"> </a></td><td>Greenlander</td></tr><tr><td style=\"white-space:nowrap\">12926<a name=\"ethnicityL4-12926\"> </a></td><td>Hungarian</td></tr><tr><td style=\"white-space:nowrap\">12927<a name=\"ethnicityL4-12927\"> </a></td><td>Icelander</td></tr><tr><td style=\"white-space:nowrap\">12928<a name=\"ethnicityL4-12928\"> </a></td><td>Latvian</td></tr><tr><td style=\"white-space:nowrap\">12929<a name=\"ethnicityL4-12929\"> </a></td><td>Lithuanian</td></tr><tr><td style=\"white-space:nowrap\">12930<a name=\"ethnicityL4-12930\"> </a></td><td>Maltese</td></tr><tr><td style=\"white-space:nowrap\">12931<a name=\"ethnicityL4-12931\"> </a></td><td>Norwegian</td></tr><tr><td style=\"white-space:nowrap\">12932<a name=\"ethnicityL4-12932\"> </a></td><td>Portuguese</td></tr><tr><td style=\"white-space:nowrap\">12933<a name=\"ethnicityL4-12933\"> </a></td><td>Romanian / Rumanian</td></tr><tr><td style=\"white-space:nowrap\">12934<a name=\"ethnicityL4-12934\"> </a></td><td>Romany / Gypsy</td></tr><tr><td style=\"white-space:nowrap\">12935<a name=\"ethnicityL4-12935\"> </a></td><td>Russian</td></tr><tr><td style=\"white-space:nowrap\">12936<a name=\"ethnicityL4-12936\"> </a></td><td>Sardinian</td></tr><tr><td style=\"white-space:nowrap\">12937<a name=\"ethnicityL4-12937\"> </a></td><td>Slavic / Slav</td></tr><tr><td style=\"white-space:nowrap\">12938<a name=\"ethnicityL4-12938\"> </a></td><td>Slovak</td></tr><tr><td style=\"white-space:nowrap\">12939<a name=\"ethnicityL4-12939\"> </a></td><td>Spanish</td></tr><tr><td style=\"white-space:nowrap\">12940<a name=\"ethnicityL4-12940\"> </a></td><td>Swedish</td></tr><tr><td style=\"white-space:nowrap\">12941<a name=\"ethnicityL4-12941\"> </a></td><td>Swiss</td></tr><tr><td style=\"white-space:nowrap\">12942<a name=\"ethnicityL4-12942\"> </a></td><td>Ukrainian</td></tr><tr><td style=\"white-space:nowrap\">12943<a name=\"ethnicityL4-12943\"> </a></td><td>American (US)</td></tr><tr><td style=\"white-space:nowrap\">12944<a name=\"ethnicityL4-12944\"> </a></td><td>Burgher</td></tr><tr><td style=\"white-space:nowrap\">12945<a name=\"ethnicityL4-12945\"> </a></td><td>Canadian</td></tr><tr><td style=\"white-space:nowrap\">12946<a name=\"ethnicityL4-12946\"> </a></td><td>Falkland Islander / Kelper</td></tr><tr><td style=\"white-space:nowrap\">12947<a name=\"ethnicityL4-12947\"> </a></td><td>New Caledonian</td></tr><tr><td style=\"white-space:nowrap\">12948<a name=\"ethnicityL4-12948\"> </a></td><td>South African</td></tr><tr><td style=\"white-space:nowrap\">12949<a name=\"ethnicityL4-12949\"> </a></td><td>Afrikaner</td></tr><tr><td style=\"white-space:nowrap\">12950<a name=\"ethnicityL4-12950\"> </a></td><td>Zimbabwean</td></tr><tr><td style=\"white-space:nowrap\">12999<a name=\"ethnicityL4-12999\"> </a></td><td>European NEC</td></tr><tr><td style=\"white-space:nowrap\">21111<a name=\"ethnicityL4-21111\"> </a></td><td>Māori</td></tr><tr><td style=\"white-space:nowrap\">30000<a name=\"ethnicityL4-30000\"> </a></td><td>Pacific peoples NFD</td></tr><tr><td style=\"white-space:nowrap\">31111<a name=\"ethnicityL4-31111\"> </a></td><td>Samoan</td></tr><tr><td style=\"white-space:nowrap\">32100<a name=\"ethnicityL4-32100\"> </a></td><td>Cook Island Māori NFD</td></tr><tr><td style=\"white-space:nowrap\">32111<a name=\"ethnicityL4-32111\"> </a></td><td>Aitutaki Islander</td></tr><tr><td style=\"white-space:nowrap\">32112<a name=\"ethnicityL4-32112\"> </a></td><td>Atiu Islander</td></tr><tr><td style=\"white-space:nowrap\">32113<a name=\"ethnicityL4-32113\"> </a></td><td>Mangaia Islander</td></tr><tr><td style=\"white-space:nowrap\">32114<a name=\"ethnicityL4-32114\"> </a></td><td>Manihiki Islander</td></tr><tr><td style=\"white-space:nowrap\">32115<a name=\"ethnicityL4-32115\"> </a></td><td>Mauke Islander</td></tr><tr><td style=\"white-space:nowrap\">32116<a name=\"ethnicityL4-32116\"> </a></td><td>Mitiaro Islander</td></tr><tr><td style=\"white-space:nowrap\">32117<a name=\"ethnicityL4-32117\"> </a></td><td>Palmerston Islander</td></tr><tr><td style=\"white-space:nowrap\">32118<a name=\"ethnicityL4-32118\"> </a></td><td>Penrhyn Islander</td></tr><tr><td style=\"white-space:nowrap\">32119<a name=\"ethnicityL4-32119\"> </a></td><td>Pukapuka Islander</td></tr><tr><td style=\"white-space:nowrap\">32120<a name=\"ethnicityL4-32120\"> </a></td><td>Rakahanga Islander</td></tr><tr><td style=\"white-space:nowrap\">32121<a name=\"ethnicityL4-32121\"> </a></td><td>Rarotongan</td></tr><tr><td style=\"white-space:nowrap\">33111<a name=\"ethnicityL4-33111\"> </a></td><td>Tongan</td></tr><tr><td style=\"white-space:nowrap\">34111<a name=\"ethnicityL4-34111\"> </a></td><td>Niuean</td></tr><tr><td style=\"white-space:nowrap\">35111<a name=\"ethnicityL4-35111\"> </a></td><td>Tokelauan</td></tr><tr><td style=\"white-space:nowrap\">36111<a name=\"ethnicityL4-36111\"> </a></td><td>Fijian (except Fiji Indian / Indo-Fijian)</td></tr><tr><td style=\"white-space:nowrap\">37111<a name=\"ethnicityL4-37111\"> </a></td><td>Admiralty Islander</td></tr><tr><td style=\"white-space:nowrap\">37112<a name=\"ethnicityL4-37112\"> </a></td><td>Australian Aboriginal</td></tr><tr><td style=\"white-space:nowrap\">37113<a name=\"ethnicityL4-37113\"> </a></td><td>Austral Islander</td></tr><tr><td style=\"white-space:nowrap\">37114<a name=\"ethnicityL4-37114\"> </a></td><td>Belau / Palau Islander</td></tr><tr><td style=\"white-space:nowrap\">37115<a name=\"ethnicityL4-37115\"> </a></td><td>Bismark Archipelagoan</td></tr><tr><td style=\"white-space:nowrap\">37116<a name=\"ethnicityL4-37116\"> </a></td><td>Bougainvillean</td></tr><tr><td style=\"white-space:nowrap\">37117<a name=\"ethnicityL4-37117\"> </a></td><td>Caroline Islander</td></tr><tr><td style=\"white-space:nowrap\">37118<a name=\"ethnicityL4-37118\"> </a></td><td>Easter Islander</td></tr><tr><td style=\"white-space:nowrap\">37119<a name=\"ethnicityL4-37119\"> </a></td><td>Gambier Islander</td></tr><tr><td style=\"white-space:nowrap\">37120<a name=\"ethnicityL4-37120\"> </a></td><td>Guadalcanalian</td></tr><tr><td style=\"white-space:nowrap\">37121<a name=\"ethnicityL4-37121\"> </a></td><td>Guam Islander / Chamorro</td></tr><tr><td style=\"white-space:nowrap\">37122<a name=\"ethnicityL4-37122\"> </a></td><td>Hawaiian</td></tr><tr><td style=\"white-space:nowrap\">37123<a name=\"ethnicityL4-37123\"> </a></td><td>Kanaka / Kanak</td></tr><tr><td style=\"white-space:nowrap\">37124<a name=\"ethnicityL4-37124\"> </a></td><td>I-Kiribati / Gilbertese</td></tr><tr><td style=\"white-space:nowrap\">37125<a name=\"ethnicityL4-37125\"> </a></td><td>Malaitian</td></tr><tr><td style=\"white-space:nowrap\">37126<a name=\"ethnicityL4-37126\"> </a></td><td>Manus Islander</td></tr><tr><td style=\"white-space:nowrap\">37127<a name=\"ethnicityL4-37127\"> </a></td><td>Marianas Islander</td></tr><tr><td style=\"white-space:nowrap\">37128<a name=\"ethnicityL4-37128\"> </a></td><td>Marquesas Islander</td></tr><tr><td style=\"white-space:nowrap\">37129<a name=\"ethnicityL4-37129\"> </a></td><td>Marshall Islander</td></tr><tr><td style=\"white-space:nowrap\">37130<a name=\"ethnicityL4-37130\"> </a></td><td>Nauru Islander</td></tr><tr><td style=\"white-space:nowrap\">37131<a name=\"ethnicityL4-37131\"> </a></td><td>New Britain Islander</td></tr><tr><td style=\"white-space:nowrap\">37132<a name=\"ethnicityL4-37132\"> </a></td><td>New Georgian</td></tr><tr><td style=\"white-space:nowrap\">37133<a name=\"ethnicityL4-37133\"> </a></td><td>New Irelander</td></tr><tr><td style=\"white-space:nowrap\">37134<a name=\"ethnicityL4-37134\"> </a></td><td>Ocean Islander / Banaban</td></tr><tr><td style=\"white-space:nowrap\">37135<a name=\"ethnicityL4-37135\"> </a></td><td>Papuan / New Guinean / Irian Jayan</td></tr><tr><td style=\"white-space:nowrap\">37136<a name=\"ethnicityL4-37136\"> </a></td><td>Phoenix Islander</td></tr><tr><td style=\"white-space:nowrap\">37137<a name=\"ethnicityL4-37137\"> </a></td><td>Pitcairn Islander</td></tr><tr><td style=\"white-space:nowrap\">37138<a name=\"ethnicityL4-37138\"> </a></td><td>Rotuman / Rotuman Islander</td></tr><tr><td style=\"white-space:nowrap\">37139<a name=\"ethnicityL4-37139\"> </a></td><td>Santa Cruz Islander</td></tr><tr><td style=\"white-space:nowrap\">37140<a name=\"ethnicityL4-37140\"> </a></td><td>Society Islander (including Tahitian)</td></tr><tr><td style=\"white-space:nowrap\">37141<a name=\"ethnicityL4-37141\"> </a></td><td>Solomon Islander</td></tr><tr><td style=\"white-space:nowrap\">37142<a name=\"ethnicityL4-37142\"> </a></td><td>Torres Strait Islander / Thursday Islander</td></tr><tr><td style=\"white-space:nowrap\">37143<a name=\"ethnicityL4-37143\"> </a></td><td>Tuamotu Islander</td></tr><tr><td style=\"white-space:nowrap\">37144<a name=\"ethnicityL4-37144\"> </a></td><td>Tuvalu Islander / Ellice Islander</td></tr><tr><td style=\"white-space:nowrap\">37145<a name=\"ethnicityL4-37145\"> </a></td><td>Vanuatu Islander / New Hebridean</td></tr><tr><td style=\"white-space:nowrap\">37146<a name=\"ethnicityL4-37146\"> </a></td><td>Wake Islander</td></tr><tr><td style=\"white-space:nowrap\">37147<a name=\"ethnicityL4-37147\"> </a></td><td>Wallis Islander</td></tr><tr><td style=\"white-space:nowrap\">37148<a name=\"ethnicityL4-37148\"> </a></td><td>Yap Islander</td></tr><tr><td style=\"white-space:nowrap\">37199<a name=\"ethnicityL4-37199\"> </a></td><td>Other Pacific peoples NEC</td></tr><tr><td style=\"white-space:nowrap\">40000<a name=\"ethnicityL4-40000\"> </a></td><td>Asian NFD</td></tr><tr><td style=\"white-space:nowrap\">41000<a name=\"ethnicityL4-41000\"> </a></td><td>Southeast Asian NFD</td></tr><tr><td style=\"white-space:nowrap\">41111<a name=\"ethnicityL4-41111\"> </a></td><td>Filipino</td></tr><tr><td style=\"white-space:nowrap\">41211<a name=\"ethnicityL4-41211\"> </a></td><td>Khmer / Kampuchean / Cambodian</td></tr><tr><td style=\"white-space:nowrap\">41311<a name=\"ethnicityL4-41311\"> </a></td><td>Vietnamese</td></tr><tr><td style=\"white-space:nowrap\">41411<a name=\"ethnicityL4-41411\"> </a></td><td>Burmese</td></tr><tr><td style=\"white-space:nowrap\">41412<a name=\"ethnicityL4-41412\"> </a></td><td>Indonesian (including Javanese / Sundanese / Sumatran)</td></tr><tr><td style=\"white-space:nowrap\">41413<a name=\"ethnicityL4-41413\"> </a></td><td>Lao / Laotian</td></tr><tr><td style=\"white-space:nowrap\">41414<a name=\"ethnicityL4-41414\"> </a></td><td>Malay / Malayan</td></tr><tr><td style=\"white-space:nowrap\">41415<a name=\"ethnicityL4-41415\"> </a></td><td>Thai / Tai / Siamese</td></tr><tr><td style=\"white-space:nowrap\">41499<a name=\"ethnicityL4-41499\"> </a></td><td>Other Southeast Asian NEC</td></tr><tr><td style=\"white-space:nowrap\">42100<a name=\"ethnicityL4-42100\"> </a></td><td>Chinese NFD</td></tr><tr><td style=\"white-space:nowrap\">42111<a name=\"ethnicityL4-42111\"> </a></td><td>Hong Kong Chinese</td></tr><tr><td style=\"white-space:nowrap\">42112<a name=\"ethnicityL4-42112\"> </a></td><td>Kampuchean Chinese</td></tr><tr><td style=\"white-space:nowrap\">42113<a name=\"ethnicityL4-42113\"> </a></td><td>Malaysian Chinese</td></tr><tr><td style=\"white-space:nowrap\">42114<a name=\"ethnicityL4-42114\"> </a></td><td>Singaporean Chinese</td></tr><tr><td style=\"white-space:nowrap\">42115<a name=\"ethnicityL4-42115\"> </a></td><td>Vietnamese Chinese</td></tr><tr><td style=\"white-space:nowrap\">42116<a name=\"ethnicityL4-42116\"> </a></td><td>Taiwanese Chinese</td></tr><tr><td style=\"white-space:nowrap\">42199<a name=\"ethnicityL4-42199\"> </a></td><td>Chinese NEC</td></tr><tr><td style=\"white-space:nowrap\">43100<a name=\"ethnicityL4-43100\"> </a></td><td>Indian NFD</td></tr><tr><td style=\"white-space:nowrap\">43111<a name=\"ethnicityL4-43111\"> </a></td><td>Bengali</td></tr><tr><td style=\"white-space:nowrap\">43112<a name=\"ethnicityL4-43112\"> </a></td><td>Fijian Indian / Indo-Fijian</td></tr><tr><td style=\"white-space:nowrap\">43113<a name=\"ethnicityL4-43113\"> </a></td><td>Gujarati</td></tr><tr><td style=\"white-space:nowrap\">43114<a name=\"ethnicityL4-43114\"> </a></td><td>Tamil</td></tr><tr><td style=\"white-space:nowrap\">43115<a name=\"ethnicityL4-43115\"> </a></td><td>Punjabi</td></tr><tr><td style=\"white-space:nowrap\">43116<a name=\"ethnicityL4-43116\"> </a></td><td>Sikh</td></tr><tr><td style=\"white-space:nowrap\">43117<a name=\"ethnicityL4-43117\"> </a></td><td>Anglo Indian</td></tr><tr><td style=\"white-space:nowrap\">43199<a name=\"ethnicityL4-43199\"> </a></td><td>Indian NEC</td></tr><tr><td style=\"white-space:nowrap\">44100<a name=\"ethnicityL4-44100\"> </a></td><td>Sri Lankan NFD</td></tr><tr><td style=\"white-space:nowrap\">44111<a name=\"ethnicityL4-44111\"> </a></td><td>Sinhalese</td></tr><tr><td style=\"white-space:nowrap\">44112<a name=\"ethnicityL4-44112\"> </a></td><td>Sri Lankan Tamil</td></tr><tr><td style=\"white-space:nowrap\">44199<a name=\"ethnicityL4-44199\"> </a></td><td>Sri Lankan NEC</td></tr><tr><td style=\"white-space:nowrap\">44211<a name=\"ethnicityL4-44211\"> </a></td><td>Japanese</td></tr><tr><td style=\"white-space:nowrap\">44311<a name=\"ethnicityL4-44311\"> </a></td><td>Korean</td></tr><tr><td style=\"white-space:nowrap\">44411<a name=\"ethnicityL4-44411\"> </a></td><td>Afghani</td></tr><tr><td style=\"white-space:nowrap\">44412<a name=\"ethnicityL4-44412\"> </a></td><td>Bangladeshi</td></tr><tr><td style=\"white-space:nowrap\">44413<a name=\"ethnicityL4-44413\"> </a></td><td>Nepalese</td></tr><tr><td style=\"white-space:nowrap\">44414<a name=\"ethnicityL4-44414\"> </a></td><td>Pakistani</td></tr><tr><td style=\"white-space:nowrap\">44415<a name=\"ethnicityL4-44415\"> </a></td><td>Tibetan</td></tr><tr><td style=\"white-space:nowrap\">44416<a name=\"ethnicityL4-44416\"> </a></td><td>Eurasian</td></tr><tr><td style=\"white-space:nowrap\">44499<a name=\"ethnicityL4-44499\"> </a></td><td>Other Asian NEC</td></tr><tr><td style=\"white-space:nowrap\">51100<a name=\"ethnicityL4-51100\"> </a></td><td>Middle Eastern NFD</td></tr><tr><td style=\"white-space:nowrap\">51111<a name=\"ethnicityL4-51111\"> </a></td><td>Algerian</td></tr><tr><td style=\"white-space:nowrap\">51112<a name=\"ethnicityL4-51112\"> </a></td><td>Arab</td></tr><tr><td style=\"white-space:nowrap\">51113<a name=\"ethnicityL4-51113\"> </a></td><td>Assyrian</td></tr><tr><td style=\"white-space:nowrap\">51114<a name=\"ethnicityL4-51114\"> </a></td><td>Egyptian</td></tr><tr><td style=\"white-space:nowrap\">51115<a name=\"ethnicityL4-51115\"> </a></td><td>Iranian / Persian</td></tr><tr><td style=\"white-space:nowrap\">51116<a name=\"ethnicityL4-51116\"> </a></td><td>Iraqi</td></tr><tr><td style=\"white-space:nowrap\">51117<a name=\"ethnicityL4-51117\"> </a></td><td>Israeli / Jewish / Hebrew</td></tr><tr><td style=\"white-space:nowrap\">51118<a name=\"ethnicityL4-51118\"> </a></td><td>Jordanian</td></tr><tr><td style=\"white-space:nowrap\">51119<a name=\"ethnicityL4-51119\"> </a></td><td>Kurd</td></tr><tr><td style=\"white-space:nowrap\">51120<a name=\"ethnicityL4-51120\"> </a></td><td>Lebanese</td></tr><tr><td style=\"white-space:nowrap\">51121<a name=\"ethnicityL4-51121\"> </a></td><td>Libyan</td></tr><tr><td style=\"white-space:nowrap\">51122<a name=\"ethnicityL4-51122\"> </a></td><td>Moroccan</td></tr><tr><td style=\"white-space:nowrap\">51123<a name=\"ethnicityL4-51123\"> </a></td><td>Omani</td></tr><tr><td style=\"white-space:nowrap\">51124<a name=\"ethnicityL4-51124\"> </a></td><td>Palestinian</td></tr><tr><td style=\"white-space:nowrap\">51125<a name=\"ethnicityL4-51125\"> </a></td><td>Syrian</td></tr><tr><td style=\"white-space:nowrap\">51126<a name=\"ethnicityL4-51126\"> </a></td><td>Tunisian</td></tr><tr><td style=\"white-space:nowrap\">51127<a name=\"ethnicityL4-51127\"> </a></td><td>Turkish (including Turkish Cypriot)</td></tr><tr><td style=\"white-space:nowrap\">51128<a name=\"ethnicityL4-51128\"> </a></td><td>Yemeni</td></tr><tr><td style=\"white-space:nowrap\">51199<a name=\"ethnicityL4-51199\"> </a></td><td>Middle Eastern NEC</td></tr><tr><td style=\"white-space:nowrap\">52100<a name=\"ethnicityL4-52100\"> </a></td><td>Latin American / Hispanic NFD</td></tr><tr><td style=\"white-space:nowrap\">52111<a name=\"ethnicityL4-52111\"> </a></td><td>Argentinian</td></tr><tr><td style=\"white-space:nowrap\">52112<a name=\"ethnicityL4-52112\"> </a></td><td>Bolivian</td></tr><tr><td style=\"white-space:nowrap\">52113<a name=\"ethnicityL4-52113\"> </a></td><td>Brazilian</td></tr><tr><td style=\"white-space:nowrap\">52114<a name=\"ethnicityL4-52114\"> </a></td><td>Chilean</td></tr><tr><td style=\"white-space:nowrap\">52115<a name=\"ethnicityL4-52115\"> </a></td><td>Colombian</td></tr><tr><td style=\"white-space:nowrap\">52116<a name=\"ethnicityL4-52116\"> </a></td><td>Costa Rican</td></tr><tr><td style=\"white-space:nowrap\">52117<a name=\"ethnicityL4-52117\"> </a></td><td>Creole (Latin America)</td></tr><tr><td style=\"white-space:nowrap\">52118<a name=\"ethnicityL4-52118\"> </a></td><td>Ecuadorian</td></tr><tr><td style=\"white-space:nowrap\">52119<a name=\"ethnicityL4-52119\"> </a></td><td>Guatemalan</td></tr><tr><td style=\"white-space:nowrap\">52120<a name=\"ethnicityL4-52120\"> </a></td><td>Guyanese</td></tr><tr><td style=\"white-space:nowrap\">52121<a name=\"ethnicityL4-52121\"> </a></td><td>Honduran</td></tr><tr><td style=\"white-space:nowrap\">52122<a name=\"ethnicityL4-52122\"> </a></td><td>Malvinian (Spanish-speaking Falkland Islander)</td></tr><tr><td style=\"white-space:nowrap\">52123<a name=\"ethnicityL4-52123\"> </a></td><td>Mexican</td></tr><tr><td style=\"white-space:nowrap\">52124<a name=\"ethnicityL4-52124\"> </a></td><td>Nicaraguan</td></tr><tr><td style=\"white-space:nowrap\">52125<a name=\"ethnicityL4-52125\"> </a></td><td>Panamanian</td></tr><tr><td style=\"white-space:nowrap\">52126<a name=\"ethnicityL4-52126\"> </a></td><td>Paraguayan</td></tr><tr><td style=\"white-space:nowrap\">52127<a name=\"ethnicityL4-52127\"> </a></td><td>Peruvian</td></tr><tr><td style=\"white-space:nowrap\">52128<a name=\"ethnicityL4-52128\"> </a></td><td>Puerto Rican</td></tr><tr><td style=\"white-space:nowrap\">52129<a name=\"ethnicityL4-52129\"> </a></td><td>Uruguayan</td></tr><tr><td style=\"white-space:nowrap\">52130<a name=\"ethnicityL4-52130\"> </a></td><td>Venezuelan</td></tr><tr><td style=\"white-space:nowrap\">52199<a name=\"ethnicityL4-52199\"> </a></td><td>Latin American / Hispanic NEC</td></tr><tr><td style=\"white-space:nowrap\">53100<a name=\"ethnicityL4-53100\"> </a></td><td>African NFD</td></tr><tr><td style=\"white-space:nowrap\">53112<a name=\"ethnicityL4-53112\"> </a></td><td>Creole (US)</td></tr><tr><td style=\"white-space:nowrap\">53113<a name=\"ethnicityL4-53113\"> </a></td><td>Jamaican</td></tr><tr><td style=\"white-space:nowrap\">53114<a name=\"ethnicityL4-53114\"> </a></td><td>Kenyan</td></tr><tr><td style=\"white-space:nowrap\">53115<a name=\"ethnicityL4-53115\"> </a></td><td>Nigerian</td></tr><tr><td style=\"white-space:nowrap\">53116<a name=\"ethnicityL4-53116\"> </a></td><td>African American</td></tr><tr><td style=\"white-space:nowrap\">53117<a name=\"ethnicityL4-53117\"> </a></td><td>Ugandan</td></tr><tr><td style=\"white-space:nowrap\">53118<a name=\"ethnicityL4-53118\"> </a></td><td>West Indian / Caribbean</td></tr><tr><td style=\"white-space:nowrap\">53119<a name=\"ethnicityL4-53119\"> </a></td><td>Somali</td></tr><tr><td style=\"white-space:nowrap\">53120<a name=\"ethnicityL4-53120\"> </a></td><td>Eritrean</td></tr><tr><td style=\"white-space:nowrap\">53121<a name=\"ethnicityL4-53121\"> </a></td><td>Ethiopian</td></tr><tr><td style=\"white-space:nowrap\">53122<a name=\"ethnicityL4-53122\"> </a></td><td>Ghanaian</td></tr><tr><td style=\"white-space:nowrap\">53199<a name=\"ethnicityL4-53199\"> </a></td><td>Other African NEC</td></tr><tr><td style=\"white-space:nowrap\">61111<a name=\"ethnicityL4-61111\"> </a></td><td>Central American Indian</td></tr><tr><td style=\"white-space:nowrap\">61112<a name=\"ethnicityL4-61112\"> </a></td><td>Inuit / Eskimo</td></tr><tr><td style=\"white-space:nowrap\">61113<a name=\"ethnicityL4-61113\"> </a></td><td>North American Indian</td></tr><tr><td style=\"white-space:nowrap\">61114<a name=\"ethnicityL4-61114\"> </a></td><td>South American Indian</td></tr><tr><td style=\"white-space:nowrap\">61115<a name=\"ethnicityL4-61115\"> </a></td><td>Mauritian</td></tr><tr><td style=\"white-space:nowrap\">61116<a name=\"ethnicityL4-61116\"> </a></td><td>Seychelles Islander</td></tr><tr><td style=\"white-space:nowrap\">61117<a name=\"ethnicityL4-61117\"> </a></td><td>South African Coloured</td></tr><tr><td style=\"white-space:nowrap\">61118<a name=\"ethnicityL4-61118\"> </a></td><td>New Zealander</td></tr><tr><td style=\"white-space:nowrap\">61199<a name=\"ethnicityL4-61199\"> </a></td><td>Other NEC</td></tr><tr><td style=\"white-space:nowrap\">94444<a name=\"ethnicityL4-94444\"> </a></td><td>Don't know</td></tr><tr><td style=\"white-space:nowrap\">95555<a name=\"ethnicityL4-95555\"> </a></td><td>Refused to answer</td></tr><tr><td style=\"white-space:nowrap\">96666<a name=\"ethnicityL4-96666\"> </a></td><td>Repeated Value</td></tr><tr><td style=\"white-space:nowrap\">97777<a name=\"ethnicityL4-97777\"> </a></td><td>Response unidentifiable</td></tr><tr><td style=\"white-space:nowrap\">98888<a name=\"ethnicityL4-98888\"> </a></td><td>Response Outside Scope</td></tr><tr><td style=\"white-space:nowrap\">99999<a name=\"ethnicityL4-99999\"> </a></td><td>Not stated</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/ethnic-group-level-4-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "EthnicityL4"] ; # 
+  fhir:title [ fhir:v "Level 4 ethnicity codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "239"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "10000" ] ;
+     fhir:display [ fhir:v "European NFD" ]
+  ] [
+     fhir:code [ fhir:v "11111" ] ;
+     fhir:display [ fhir:v "New Zealand European" ]
+  ] [
+     fhir:code [ fhir:v "12100" ] ;
+     fhir:display [ fhir:v "British NFD" ]
+  ] [
+     fhir:code [ fhir:v "12111" ] ;
+     fhir:display [ fhir:v "Celtic" ]
+  ] [
+     fhir:code [ fhir:v "12112" ] ;
+     fhir:display [ fhir:v "Channel Islander" ]
+  ] [
+     fhir:code [ fhir:v "12113" ] ;
+     fhir:display [ fhir:v "Cornish" ]
+  ] [
+     fhir:code [ fhir:v "12114" ] ;
+     fhir:display [ fhir:v "English" ]
+  ] [
+     fhir:code [ fhir:v "12115" ] ;
+     fhir:display [ fhir:v "Gaelic" ]
+  ] [
+     fhir:code [ fhir:v "12116" ] ;
+     fhir:display [ fhir:v "Irish" ]
+  ] [
+     fhir:code [ fhir:v "12117" ] ;
+     fhir:display [ fhir:v "Manx" ]
+  ] [
+     fhir:code [ fhir:v "12118" ] ;
+     fhir:display [ fhir:v "Orkney Islander" ]
+  ] [
+     fhir:code [ fhir:v "12119" ] ;
+     fhir:display [ fhir:v "Scottish (Scots)" ]
+  ] [
+     fhir:code [ fhir:v "12120" ] ;
+     fhir:display [ fhir:v "Shetland Islander" ]
+  ] [
+     fhir:code [ fhir:v "12121" ] ;
+     fhir:display [ fhir:v "Welsh" ]
+  ] [
+     fhir:code [ fhir:v "12199" ] ;
+     fhir:display [ fhir:v "British NEC" ]
+  ] [
+     fhir:code [ fhir:v "12211" ] ;
+     fhir:display [ fhir:v "Dutch/Netherlands" ]
+  ] [
+     fhir:code [ fhir:v "12311" ] ;
+     fhir:display [ fhir:v "Greek (including Greek Cypriot)" ]
+  ] [
+     fhir:code [ fhir:v "12411" ] ;
+     fhir:display [ fhir:v "Polish" ]
+  ] [
+     fhir:code [ fhir:v "12500" ] ;
+     fhir:display [ fhir:v "South Slav (formerly Yugoslav groups) NFD" ]
+  ] [
+     fhir:code [ fhir:v "12511" ] ;
+     fhir:display [ fhir:v "Croat/Croatian" ]
+  ] [
+     fhir:code [ fhir:v "12512" ] ;
+     fhir:display [ fhir:v "Dalmatian" ]
+  ] [
+     fhir:code [ fhir:v "12513" ] ;
+     fhir:display [ fhir:v "Macedonian" ]
+  ] [
+     fhir:code [ fhir:v "12514" ] ;
+     fhir:display [ fhir:v "Serb/Serbian" ]
+  ] [
+     fhir:code [ fhir:v "12515" ] ;
+     fhir:display [ fhir:v "Slovene/Slovenian" ]
+  ] [
+     fhir:code [ fhir:v "12516" ] ;
+     fhir:display [ fhir:v "Bosnian" ]
+  ] [
+     fhir:code [ fhir:v "12599" ] ;
+     fhir:display [ fhir:v "South Slav (formerly Yugoslav groups) NEC" ]
+  ] [
+     fhir:code [ fhir:v "12611" ] ;
+     fhir:display [ fhir:v "Italian" ]
+  ] [
+     fhir:code [ fhir:v "12711" ] ;
+     fhir:display [ fhir:v "German" ]
+  ] [
+     fhir:code [ fhir:v "12811" ] ;
+     fhir:display [ fhir:v "Australian" ]
+  ] [
+     fhir:code [ fhir:v "12911" ] ;
+     fhir:display [ fhir:v "Albanian" ]
+  ] [
+     fhir:code [ fhir:v "12912" ] ;
+     fhir:display [ fhir:v "Armenian" ]
+  ] [
+     fhir:code [ fhir:v "12913" ] ;
+     fhir:display [ fhir:v "Austrian" ]
+  ] [
+     fhir:code [ fhir:v "12914" ] ;
+     fhir:display [ fhir:v "Belgian" ]
+  ] [
+     fhir:code [ fhir:v "12915" ] ;
+     fhir:display [ fhir:v "Bulgarian" ]
+  ] [
+     fhir:code [ fhir:v "12916" ] ;
+     fhir:display [ fhir:v "Belorussian" ]
+  ] [
+     fhir:code [ fhir:v "12917" ] ;
+     fhir:display [ fhir:v "Corsican" ]
+  ] [
+     fhir:code [ fhir:v "12918" ] ;
+     fhir:display [ fhir:v "Cypriot Unspecified" ]
+  ] [
+     fhir:code [ fhir:v "12919" ] ;
+     fhir:display [ fhir:v "Czech" ]
+  ] [
+     fhir:code [ fhir:v "12920" ] ;
+     fhir:display [ fhir:v "Danish" ]
+  ] [
+     fhir:code [ fhir:v "12921" ] ;
+     fhir:display [ fhir:v "Estonian" ]
+  ] [
+     fhir:code [ fhir:v "12922" ] ;
+     fhir:display [ fhir:v "Finnish" ]
+  ] [
+     fhir:code [ fhir:v "12923" ] ;
+     fhir:display [ fhir:v "Flemish" ]
+  ] [
+     fhir:code [ fhir:v "12924" ] ;
+     fhir:display [ fhir:v "French" ]
+  ] [
+     fhir:code [ fhir:v "12925" ] ;
+     fhir:display [ fhir:v "Greenlander" ]
+  ] [
+     fhir:code [ fhir:v "12926" ] ;
+     fhir:display [ fhir:v "Hungarian" ]
+  ] [
+     fhir:code [ fhir:v "12927" ] ;
+     fhir:display [ fhir:v "Icelander" ]
+  ] [
+     fhir:code [ fhir:v "12928" ] ;
+     fhir:display [ fhir:v "Latvian" ]
+  ] [
+     fhir:code [ fhir:v "12929" ] ;
+     fhir:display [ fhir:v "Lithuanian" ]
+  ] [
+     fhir:code [ fhir:v "12930" ] ;
+     fhir:display [ fhir:v "Maltese" ]
+  ] [
+     fhir:code [ fhir:v "12931" ] ;
+     fhir:display [ fhir:v "Norwegian" ]
+  ] [
+     fhir:code [ fhir:v "12932" ] ;
+     fhir:display [ fhir:v "Portuguese" ]
+  ] [
+     fhir:code [ fhir:v "12933" ] ;
+     fhir:display [ fhir:v "Romanian / Rumanian" ]
+  ] [
+     fhir:code [ fhir:v "12934" ] ;
+     fhir:display [ fhir:v "Romany / Gypsy" ]
+  ] [
+     fhir:code [ fhir:v "12935" ] ;
+     fhir:display [ fhir:v "Russian" ]
+  ] [
+     fhir:code [ fhir:v "12936" ] ;
+     fhir:display [ fhir:v "Sardinian" ]
+  ] [
+     fhir:code [ fhir:v "12937" ] ;
+     fhir:display [ fhir:v "Slavic / Slav" ]
+  ] [
+     fhir:code [ fhir:v "12938" ] ;
+     fhir:display [ fhir:v "Slovak" ]
+  ] [
+     fhir:code [ fhir:v "12939" ] ;
+     fhir:display [ fhir:v "Spanish" ]
+  ] [
+     fhir:code [ fhir:v "12940" ] ;
+     fhir:display [ fhir:v "Swedish" ]
+  ] [
+     fhir:code [ fhir:v "12941" ] ;
+     fhir:display [ fhir:v "Swiss" ]
+  ] [
+     fhir:code [ fhir:v "12942" ] ;
+     fhir:display [ fhir:v "Ukrainian" ]
+  ] [
+     fhir:code [ fhir:v "12943" ] ;
+     fhir:display [ fhir:v "American (US)" ]
+  ] [
+     fhir:code [ fhir:v "12944" ] ;
+     fhir:display [ fhir:v "Burgher" ]
+  ] [
+     fhir:code [ fhir:v "12945" ] ;
+     fhir:display [ fhir:v "Canadian" ]
+  ] [
+     fhir:code [ fhir:v "12946" ] ;
+     fhir:display [ fhir:v "Falkland Islander / Kelper" ]
+  ] [
+     fhir:code [ fhir:v "12947" ] ;
+     fhir:display [ fhir:v "New Caledonian" ]
+  ] [
+     fhir:code [ fhir:v "12948" ] ;
+     fhir:display [ fhir:v "South African" ]
+  ] [
+     fhir:code [ fhir:v "12949" ] ;
+     fhir:display [ fhir:v "Afrikaner" ]
+  ] [
+     fhir:code [ fhir:v "12950" ] ;
+     fhir:display [ fhir:v "Zimbabwean" ]
+  ] [
+     fhir:code [ fhir:v "12999" ] ;
+     fhir:display [ fhir:v "European NEC" ]
+  ] [
+     fhir:code [ fhir:v "21111" ] ;
+     fhir:display [ fhir:v "Māori" ]
+  ] [
+     fhir:code [ fhir:v "30000" ] ;
+     fhir:display [ fhir:v "Pacific peoples NFD" ]
+  ] [
+     fhir:code [ fhir:v "31111" ] ;
+     fhir:display [ fhir:v "Samoan" ]
+  ] [
+     fhir:code [ fhir:v "32100" ] ;
+     fhir:display [ fhir:v "Cook Island Māori NFD" ]
+  ] [
+     fhir:code [ fhir:v "32111" ] ;
+     fhir:display [ fhir:v "Aitutaki Islander" ]
+  ] [
+     fhir:code [ fhir:v "32112" ] ;
+     fhir:display [ fhir:v "Atiu Islander" ]
+  ] [
+     fhir:code [ fhir:v "32113" ] ;
+     fhir:display [ fhir:v "Mangaia Islander" ]
+  ] [
+     fhir:code [ fhir:v "32114" ] ;
+     fhir:display [ fhir:v "Manihiki Islander" ]
+  ] [
+     fhir:code [ fhir:v "32115" ] ;
+     fhir:display [ fhir:v "Mauke Islander" ]
+  ] [
+     fhir:code [ fhir:v "32116" ] ;
+     fhir:display [ fhir:v "Mitiaro Islander" ]
+  ] [
+     fhir:code [ fhir:v "32117" ] ;
+     fhir:display [ fhir:v "Palmerston Islander" ]
+  ] [
+     fhir:code [ fhir:v "32118" ] ;
+     fhir:display [ fhir:v "Penrhyn Islander" ]
+  ] [
+     fhir:code [ fhir:v "32119" ] ;
+     fhir:display [ fhir:v "Pukapuka Islander" ]
+  ] [
+     fhir:code [ fhir:v "32120" ] ;
+     fhir:display [ fhir:v "Rakahanga Islander" ]
+  ] [
+     fhir:code [ fhir:v "32121" ] ;
+     fhir:display [ fhir:v "Rarotongan" ]
+  ] [
+     fhir:code [ fhir:v "33111" ] ;
+     fhir:display [ fhir:v "Tongan" ]
+  ] [
+     fhir:code [ fhir:v "34111" ] ;
+     fhir:display [ fhir:v "Niuean" ]
+  ] [
+     fhir:code [ fhir:v "35111" ] ;
+     fhir:display [ fhir:v "Tokelauan" ]
+  ] [
+     fhir:code [ fhir:v "36111" ] ;
+     fhir:display [ fhir:v "Fijian (except Fiji Indian / Indo-Fijian)" ]
+  ] [
+     fhir:code [ fhir:v "37111" ] ;
+     fhir:display [ fhir:v "Admiralty Islander" ]
+  ] [
+     fhir:code [ fhir:v "37112" ] ;
+     fhir:display [ fhir:v "Australian Aboriginal" ]
+  ] [
+     fhir:code [ fhir:v "37113" ] ;
+     fhir:display [ fhir:v "Austral Islander" ]
+  ] [
+     fhir:code [ fhir:v "37114" ] ;
+     fhir:display [ fhir:v "Belau / Palau Islander" ]
+  ] [
+     fhir:code [ fhir:v "37115" ] ;
+     fhir:display [ fhir:v "Bismark Archipelagoan" ]
+  ] [
+     fhir:code [ fhir:v "37116" ] ;
+     fhir:display [ fhir:v "Bougainvillean" ]
+  ] [
+     fhir:code [ fhir:v "37117" ] ;
+     fhir:display [ fhir:v "Caroline Islander" ]
+  ] [
+     fhir:code [ fhir:v "37118" ] ;
+     fhir:display [ fhir:v "Easter Islander" ]
+  ] [
+     fhir:code [ fhir:v "37119" ] ;
+     fhir:display [ fhir:v "Gambier Islander" ]
+  ] [
+     fhir:code [ fhir:v "37120" ] ;
+     fhir:display [ fhir:v "Guadalcanalian" ]
+  ] [
+     fhir:code [ fhir:v "37121" ] ;
+     fhir:display [ fhir:v "Guam Islander / Chamorro" ]
+  ] [
+     fhir:code [ fhir:v "37122" ] ;
+     fhir:display [ fhir:v "Hawaiian" ]
+  ] [
+     fhir:code [ fhir:v "37123" ] ;
+     fhir:display [ fhir:v "Kanaka / Kanak" ]
+  ] [
+     fhir:code [ fhir:v "37124" ] ;
+     fhir:display [ fhir:v "I-Kiribati / Gilbertese" ]
+  ] [
+     fhir:code [ fhir:v "37125" ] ;
+     fhir:display [ fhir:v "Malaitian" ]
+  ] [
+     fhir:code [ fhir:v "37126" ] ;
+     fhir:display [ fhir:v "Manus Islander" ]
+  ] [
+     fhir:code [ fhir:v "37127" ] ;
+     fhir:display [ fhir:v "Marianas Islander" ]
+  ] [
+     fhir:code [ fhir:v "37128" ] ;
+     fhir:display [ fhir:v "Marquesas Islander" ]
+  ] [
+     fhir:code [ fhir:v "37129" ] ;
+     fhir:display [ fhir:v "Marshall Islander" ]
+  ] [
+     fhir:code [ fhir:v "37130" ] ;
+     fhir:display [ fhir:v "Nauru Islander" ]
+  ] [
+     fhir:code [ fhir:v "37131" ] ;
+     fhir:display [ fhir:v "New Britain Islander" ]
+  ] [
+     fhir:code [ fhir:v "37132" ] ;
+     fhir:display [ fhir:v "New Georgian" ]
+  ] [
+     fhir:code [ fhir:v "37133" ] ;
+     fhir:display [ fhir:v "New Irelander" ]
+  ] [
+     fhir:code [ fhir:v "37134" ] ;
+     fhir:display [ fhir:v "Ocean Islander / Banaban" ]
+  ] [
+     fhir:code [ fhir:v "37135" ] ;
+     fhir:display [ fhir:v "Papuan / New Guinean / Irian Jayan" ]
+  ] [
+     fhir:code [ fhir:v "37136" ] ;
+     fhir:display [ fhir:v "Phoenix Islander" ]
+  ] [
+     fhir:code [ fhir:v "37137" ] ;
+     fhir:display [ fhir:v "Pitcairn Islander" ]
+  ] [
+     fhir:code [ fhir:v "37138" ] ;
+     fhir:display [ fhir:v "Rotuman / Rotuman Islander" ]
+  ] [
+     fhir:code [ fhir:v "37139" ] ;
+     fhir:display [ fhir:v "Santa Cruz Islander" ]
+  ] [
+     fhir:code [ fhir:v "37140" ] ;
+     fhir:display [ fhir:v "Society Islander (including Tahitian)" ]
+  ] [
+     fhir:code [ fhir:v "37141" ] ;
+     fhir:display [ fhir:v "Solomon Islander" ]
+  ] [
+     fhir:code [ fhir:v "37142" ] ;
+     fhir:display [ fhir:v "Torres Strait Islander / Thursday Islander" ]
+  ] [
+     fhir:code [ fhir:v "37143" ] ;
+     fhir:display [ fhir:v "Tuamotu Islander" ]
+  ] [
+     fhir:code [ fhir:v "37144" ] ;
+     fhir:display [ fhir:v "Tuvalu Islander / Ellice Islander" ]
+  ] [
+     fhir:code [ fhir:v "37145" ] ;
+     fhir:display [ fhir:v "Vanuatu Islander / New Hebridean" ]
+  ] [
+     fhir:code [ fhir:v "37146" ] ;
+     fhir:display [ fhir:v "Wake Islander" ]
+  ] [
+     fhir:code [ fhir:v "37147" ] ;
+     fhir:display [ fhir:v "Wallis Islander" ]
+  ] [
+     fhir:code [ fhir:v "37148" ] ;
+     fhir:display [ fhir:v "Yap Islander" ]
+  ] [
+     fhir:code [ fhir:v "37199" ] ;
+     fhir:display [ fhir:v "Other Pacific peoples NEC" ]
+  ] [
+     fhir:code [ fhir:v "40000" ] ;
+     fhir:display [ fhir:v "Asian NFD" ]
+  ] [
+     fhir:code [ fhir:v "41000" ] ;
+     fhir:display [ fhir:v "Southeast Asian NFD" ]
+  ] [
+     fhir:code [ fhir:v "41111" ] ;
+     fhir:display [ fhir:v "Filipino" ]
+  ] [
+     fhir:code [ fhir:v "41211" ] ;
+     fhir:display [ fhir:v "Khmer / Kampuchean / Cambodian" ]
+  ] [
+     fhir:code [ fhir:v "41311" ] ;
+     fhir:display [ fhir:v "Vietnamese" ]
+  ] [
+     fhir:code [ fhir:v "41411" ] ;
+     fhir:display [ fhir:v "Burmese" ]
+  ] [
+     fhir:code [ fhir:v "41412" ] ;
+     fhir:display [ fhir:v "Indonesian (including Javanese / Sundanese / Sumatran)" ]
+  ] [
+     fhir:code [ fhir:v "41413" ] ;
+     fhir:display [ fhir:v "Lao / Laotian" ]
+  ] [
+     fhir:code [ fhir:v "41414" ] ;
+     fhir:display [ fhir:v "Malay / Malayan" ]
+  ] [
+     fhir:code [ fhir:v "41415" ] ;
+     fhir:display [ fhir:v "Thai / Tai / Siamese" ]
+  ] [
+     fhir:code [ fhir:v "41499" ] ;
+     fhir:display [ fhir:v "Other Southeast Asian NEC" ]
+  ] [
+     fhir:code [ fhir:v "42100" ] ;
+     fhir:display [ fhir:v "Chinese NFD" ]
+  ] [
+     fhir:code [ fhir:v "42111" ] ;
+     fhir:display [ fhir:v "Hong Kong Chinese" ]
+  ] [
+     fhir:code [ fhir:v "42112" ] ;
+     fhir:display [ fhir:v "Kampuchean Chinese" ]
+  ] [
+     fhir:code [ fhir:v "42113" ] ;
+     fhir:display [ fhir:v "Malaysian Chinese" ]
+  ] [
+     fhir:code [ fhir:v "42114" ] ;
+     fhir:display [ fhir:v "Singaporean Chinese" ]
+  ] [
+     fhir:code [ fhir:v "42115" ] ;
+     fhir:display [ fhir:v "Vietnamese Chinese" ]
+  ] [
+     fhir:code [ fhir:v "42116" ] ;
+     fhir:display [ fhir:v "Taiwanese Chinese" ]
+  ] [
+     fhir:code [ fhir:v "42199" ] ;
+     fhir:display [ fhir:v "Chinese NEC" ]
+  ] [
+     fhir:code [ fhir:v "43100" ] ;
+     fhir:display [ fhir:v "Indian NFD" ]
+  ] [
+     fhir:code [ fhir:v "43111" ] ;
+     fhir:display [ fhir:v "Bengali" ]
+  ] [
+     fhir:code [ fhir:v "43112" ] ;
+     fhir:display [ fhir:v "Fijian Indian / Indo-Fijian" ]
+  ] [
+     fhir:code [ fhir:v "43113" ] ;
+     fhir:display [ fhir:v "Gujarati" ]
+  ] [
+     fhir:code [ fhir:v "43114" ] ;
+     fhir:display [ fhir:v "Tamil" ]
+  ] [
+     fhir:code [ fhir:v "43115" ] ;
+     fhir:display [ fhir:v "Punjabi" ]
+  ] [
+     fhir:code [ fhir:v "43116" ] ;
+     fhir:display [ fhir:v "Sikh" ]
+  ] [
+     fhir:code [ fhir:v "43117" ] ;
+     fhir:display [ fhir:v "Anglo Indian" ]
+  ] [
+     fhir:code [ fhir:v "43199" ] ;
+     fhir:display [ fhir:v "Indian NEC" ]
+  ] [
+     fhir:code [ fhir:v "44100" ] ;
+     fhir:display [ fhir:v "Sri Lankan NFD" ]
+  ] [
+     fhir:code [ fhir:v "44111" ] ;
+     fhir:display [ fhir:v "Sinhalese" ]
+  ] [
+     fhir:code [ fhir:v "44112" ] ;
+     fhir:display [ fhir:v "Sri Lankan Tamil" ]
+  ] [
+     fhir:code [ fhir:v "44199" ] ;
+     fhir:display [ fhir:v "Sri Lankan NEC" ]
+  ] [
+     fhir:code [ fhir:v "44211" ] ;
+     fhir:display [ fhir:v "Japanese" ]
+  ] [
+     fhir:code [ fhir:v "44311" ] ;
+     fhir:display [ fhir:v "Korean" ]
+  ] [
+     fhir:code [ fhir:v "44411" ] ;
+     fhir:display [ fhir:v "Afghani" ]
+  ] [
+     fhir:code [ fhir:v "44412" ] ;
+     fhir:display [ fhir:v "Bangladeshi" ]
+  ] [
+     fhir:code [ fhir:v "44413" ] ;
+     fhir:display [ fhir:v "Nepalese" ]
+  ] [
+     fhir:code [ fhir:v "44414" ] ;
+     fhir:display [ fhir:v "Pakistani" ]
+  ] [
+     fhir:code [ fhir:v "44415" ] ;
+     fhir:display [ fhir:v "Tibetan" ]
+  ] [
+     fhir:code [ fhir:v "44416" ] ;
+     fhir:display [ fhir:v "Eurasian" ]
+  ] [
+     fhir:code [ fhir:v "44499" ] ;
+     fhir:display [ fhir:v "Other Asian NEC" ]
+  ] [
+     fhir:code [ fhir:v "51100" ] ;
+     fhir:display [ fhir:v "Middle Eastern NFD" ]
+  ] [
+     fhir:code [ fhir:v "51111" ] ;
+     fhir:display [ fhir:v "Algerian" ]
+  ] [
+     fhir:code [ fhir:v "51112" ] ;
+     fhir:display [ fhir:v "Arab" ]
+  ] [
+     fhir:code [ fhir:v "51113" ] ;
+     fhir:display [ fhir:v "Assyrian" ]
+  ] [
+     fhir:code [ fhir:v "51114" ] ;
+     fhir:display [ fhir:v "Egyptian" ]
+  ] [
+     fhir:code [ fhir:v "51115" ] ;
+     fhir:display [ fhir:v "Iranian / Persian" ]
+  ] [
+     fhir:code [ fhir:v "51116" ] ;
+     fhir:display [ fhir:v "Iraqi" ]
+  ] [
+     fhir:code [ fhir:v "51117" ] ;
+     fhir:display [ fhir:v "Israeli / Jewish / Hebrew" ]
+  ] [
+     fhir:code [ fhir:v "51118" ] ;
+     fhir:display [ fhir:v "Jordanian" ]
+  ] [
+     fhir:code [ fhir:v "51119" ] ;
+     fhir:display [ fhir:v "Kurd" ]
+  ] [
+     fhir:code [ fhir:v "51120" ] ;
+     fhir:display [ fhir:v "Lebanese" ]
+  ] [
+     fhir:code [ fhir:v "51121" ] ;
+     fhir:display [ fhir:v "Libyan" ]
+  ] [
+     fhir:code [ fhir:v "51122" ] ;
+     fhir:display [ fhir:v "Moroccan" ]
+  ] [
+     fhir:code [ fhir:v "51123" ] ;
+     fhir:display [ fhir:v "Omani" ]
+  ] [
+     fhir:code [ fhir:v "51124" ] ;
+     fhir:display [ fhir:v "Palestinian" ]
+  ] [
+     fhir:code [ fhir:v "51125" ] ;
+     fhir:display [ fhir:v "Syrian" ]
+  ] [
+     fhir:code [ fhir:v "51126" ] ;
+     fhir:display [ fhir:v "Tunisian" ]
+  ] [
+     fhir:code [ fhir:v "51127" ] ;
+     fhir:display [ fhir:v "Turkish (including Turkish Cypriot)" ]
+  ] [
+     fhir:code [ fhir:v "51128" ] ;
+     fhir:display [ fhir:v "Yemeni" ]
+  ] [
+     fhir:code [ fhir:v "51199" ] ;
+     fhir:display [ fhir:v "Middle Eastern NEC" ]
+  ] [
+     fhir:code [ fhir:v "52100" ] ;
+     fhir:display [ fhir:v "Latin American / Hispanic NFD" ]
+  ] [
+     fhir:code [ fhir:v "52111" ] ;
+     fhir:display [ fhir:v "Argentinian" ]
+  ] [
+     fhir:code [ fhir:v "52112" ] ;
+     fhir:display [ fhir:v "Bolivian" ]
+  ] [
+     fhir:code [ fhir:v "52113" ] ;
+     fhir:display [ fhir:v "Brazilian" ]
+  ] [
+     fhir:code [ fhir:v "52114" ] ;
+     fhir:display [ fhir:v "Chilean" ]
+  ] [
+     fhir:code [ fhir:v "52115" ] ;
+     fhir:display [ fhir:v "Colombian" ]
+  ] [
+     fhir:code [ fhir:v "52116" ] ;
+     fhir:display [ fhir:v "Costa Rican" ]
+  ] [
+     fhir:code [ fhir:v "52117" ] ;
+     fhir:display [ fhir:v "Creole (Latin America)" ]
+  ] [
+     fhir:code [ fhir:v "52118" ] ;
+     fhir:display [ fhir:v "Ecuadorian" ]
+  ] [
+     fhir:code [ fhir:v "52119" ] ;
+     fhir:display [ fhir:v "Guatemalan" ]
+  ] [
+     fhir:code [ fhir:v "52120" ] ;
+     fhir:display [ fhir:v "Guyanese" ]
+  ] [
+     fhir:code [ fhir:v "52121" ] ;
+     fhir:display [ fhir:v "Honduran" ]
+  ] [
+     fhir:code [ fhir:v "52122" ] ;
+     fhir:display [ fhir:v "Malvinian (Spanish-speaking Falkland Islander)" ]
+  ] [
+     fhir:code [ fhir:v "52123" ] ;
+     fhir:display [ fhir:v "Mexican" ]
+  ] [
+     fhir:code [ fhir:v "52124" ] ;
+     fhir:display [ fhir:v "Nicaraguan" ]
+  ] [
+     fhir:code [ fhir:v "52125" ] ;
+     fhir:display [ fhir:v "Panamanian" ]
+  ] [
+     fhir:code [ fhir:v "52126" ] ;
+     fhir:display [ fhir:v "Paraguayan" ]
+  ] [
+     fhir:code [ fhir:v "52127" ] ;
+     fhir:display [ fhir:v "Peruvian" ]
+  ] [
+     fhir:code [ fhir:v "52128" ] ;
+     fhir:display [ fhir:v "Puerto Rican" ]
+  ] [
+     fhir:code [ fhir:v "52129" ] ;
+     fhir:display [ fhir:v "Uruguayan" ]
+  ] [
+     fhir:code [ fhir:v "52130" ] ;
+     fhir:display [ fhir:v "Venezuelan" ]
+  ] [
+     fhir:code [ fhir:v "52199" ] ;
+     fhir:display [ fhir:v "Latin American / Hispanic NEC" ]
+  ] [
+     fhir:code [ fhir:v "53100" ] ;
+     fhir:display [ fhir:v "African NFD" ]
+  ] [
+     fhir:code [ fhir:v "53112" ] ;
+     fhir:display [ fhir:v "Creole (US)" ]
+  ] [
+     fhir:code [ fhir:v "53113" ] ;
+     fhir:display [ fhir:v "Jamaican" ]
+  ] [
+     fhir:code [ fhir:v "53114" ] ;
+     fhir:display [ fhir:v "Kenyan" ]
+  ] [
+     fhir:code [ fhir:v "53115" ] ;
+     fhir:display [ fhir:v "Nigerian" ]
+  ] [
+     fhir:code [ fhir:v "53116" ] ;
+     fhir:display [ fhir:v "African American" ]
+  ] [
+     fhir:code [ fhir:v "53117" ] ;
+     fhir:display [ fhir:v "Ugandan" ]
+  ] [
+     fhir:code [ fhir:v "53118" ] ;
+     fhir:display [ fhir:v "West Indian / Caribbean" ]
+  ] [
+     fhir:code [ fhir:v "53119" ] ;
+     fhir:display [ fhir:v "Somali" ]
+  ] [
+     fhir:code [ fhir:v "53120" ] ;
+     fhir:display [ fhir:v "Eritrean" ]
+  ] [
+     fhir:code [ fhir:v "53121" ] ;
+     fhir:display [ fhir:v "Ethiopian" ]
+  ] [
+     fhir:code [ fhir:v "53122" ] ;
+     fhir:display [ fhir:v "Ghanaian" ]
+  ] [
+     fhir:code [ fhir:v "53199" ] ;
+     fhir:display [ fhir:v "Other African NEC" ]
+  ] [
+     fhir:code [ fhir:v "61111" ] ;
+     fhir:display [ fhir:v "Central American Indian" ]
+  ] [
+     fhir:code [ fhir:v "61112" ] ;
+     fhir:display [ fhir:v "Inuit / Eskimo" ]
+  ] [
+     fhir:code [ fhir:v "61113" ] ;
+     fhir:display [ fhir:v "North American Indian" ]
+  ] [
+     fhir:code [ fhir:v "61114" ] ;
+     fhir:display [ fhir:v "South American Indian" ]
+  ] [
+     fhir:code [ fhir:v "61115" ] ;
+     fhir:display [ fhir:v "Mauritian" ]
+  ] [
+     fhir:code [ fhir:v "61116" ] ;
+     fhir:display [ fhir:v "Seychelles Islander" ]
+  ] [
+     fhir:code [ fhir:v "61117" ] ;
+     fhir:display [ fhir:v "South African Coloured" ]
+  ] [
+     fhir:code [ fhir:v "61118" ] ;
+     fhir:display [ fhir:v "New Zealander" ]
+  ] [
+     fhir:code [ fhir:v "61199" ] ;
+     fhir:display [ fhir:v "Other NEC" ]
+  ] [
+     fhir:code [ fhir:v "94444" ] ;
+     fhir:display [ fhir:v "Don't know" ]
+  ] [
+     fhir:code [ fhir:v "95555" ] ;
+     fhir:display [ fhir:v "Refused to answer" ]
+  ] [
+     fhir:code [ fhir:v "96666" ] ;
+     fhir:display [ fhir:v "Repeated Value" ]
+  ] [
+     fhir:code [ fhir:v "97777" ] ;
+     fhir:display [ fhir:v "Response unidentifiable" ]
+  ] [
+     fhir:code [ fhir:v "98888" ] ;
+     fhir:display [ fhir:v "Response Outside Scope" ]
+  ] [
+     fhir:code [ fhir:v "99999" ] ;
+     fhir:display [ fhir:v "Not stated" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

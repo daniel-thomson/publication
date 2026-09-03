@@ -1,0 +1,220 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org.nz/fhir/ValueSet/nz-relationship-type",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "NzRelationshipType",
+    "title" : "NZ Relationship Type",
+    "description" : "New Zealand relationship types, extending the HL7 related person relationship types with Māori concepts.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "http://terminology.hl7.org/CodeSystem/v2-0131",
+    "http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "AccPatientOccupationValueSet",
+    "title" : "ACC Patient Occupation",
+    "description" : "ValueSet of codes for classifying patient occupations, drawn from the ACC codeset",
+    "systems" : ["https://standards.digital.health.nz/ns/acc-patient-occupation-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "AliasType",
+    "title" : "Alias types",
+    "description" : "The complete set of alias types that apply to Locations and Organizations",
+    "systems" : ["https://standards.digital.health.nz/ns/alias-type-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ContactPointPurpose",
+    "title" : "ContactPoint purpose",
+    "description" : "The purpose of a ContactPoint - what it is used for.",
+    "systems" : ["https://standards.digital.health.nz/ns/contact-point-purpose-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-category-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "CoverageCategory",
+    "title" : "Coverage Category",
+    "description" : "New Zealand codes for Coverage category types",
+    "systems" : ["https://standards.digital.health.nz/ns/coverage-category-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "CoverageType",
+    "title" : "Coverage Type",
+    "description" : "New Zealand codes for Coverage Types",
+    "systems" : ["https://standards.digital.health.nz/ns/coverage-type-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DHB",
+    "title" : "District Health Board Identifer",
+    "description" : "District Health Board Identifer. Assigned by the HPI.",
+    "systems" : ["https://standards.digital.health.nz/ns/dhb-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DodInformationSource",
+    "title" : "Death date Information Source",
+    "description" : "The source from where the date of death was sourced.",
+    "systems" : ["https://standards.digital.health.nz/ns/information-source-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code",
+    "version" : "3.0",
+    "status" : "active",
+    "name" : "DomicileCode",
+    "title" : "Domicile Code",
+    "description" : "Domicile Code",
+    "systems" : ["https://standards.digital.health.nz/ns/domicile-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code",
+    "version" : "2.1.0",
+    "status" : "active",
+    "name" : "Ethnicity",
+    "title" : "Ethnicity of a person (L4)",
+    "description" : "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+    "systems" : ["https://standards.digital.health.nz/ns/ethnic-group-level-4-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "FundedProgramme",
+    "title" : "Funded Programme",
+    "description" : "Codes to describe NZ-specific types of funded programmes",
+    "systems" : ["https://standards.digital.health.nz/ns/funded-programme-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "PractitionerRoleStatusReason",
+    "title" : "PractitionerRole status reason",
+    "description" : "The reason for the current status of PractitionerRole",
+    "systems" : ["https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "InformationSource",
+    "title" : "Information Source",
+    "description" : "The source from where the value of this item was sourced",
+    "systems" : ["https://standards.digital.health.nz/ns/information-source-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
+    "version" : "2.1.0",
+    "status" : "active",
+    "name" : "Iwi",
+    "title" : "Iwi",
+    "description" : "New Zealand iwi codes. The 2 digit codes are abstract codes and provided in the expansion for navigational purposes. Users should not select an abstract code directly as a proper value.",
+    "systems" : ["https://standards.digital.health.nz/ns/iwi-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MaoriDescent",
+    "title" : "Māori descent",
+    "description" : "Codes indicating whether a person is of Māori descent",
+    "systems" : ["https://standards.digital.health.nz/ns/maori-descent-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/nhi-use-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "NHIUse",
+    "title" : "Valid use values for NHI",
+    "description" : "NHI Use codes",
+    "systems" : ["http://hl7.org/fhir/identifier-use"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "CitizenshipStatus",
+    "title" : "NZ Citizenship status",
+    "description" : "Citizenship status",
+    "systems" : ["https://standards.digital.health.nz/ns/nz-citizenship-status-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DatumCode",
+    "title" : "Datum code",
+    "description" : "Datum codes used",
+    "systems" : ["https://standards.digital.health.nz/ns/nz-datum-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code",
+    "version" : "2.1.0",
+    "status" : "active",
+    "name" : "Ethnicityfull",
+    "title" : "Ethnicity of a person (full)",
+    "description" : "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to. This ValueSet contains all levels of classification.",
+    "systems" : ["https://standards.digital.health.nz/ns/nz-ethnic-group-codes"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "NZResidency",
+    "title" : "NZ Residency status",
+    "description" : "Is the person a NZ resident",
+    "systems" : ["https://standards.digital.health.nz/ns/nz-residency-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/pho-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "PHO",
+    "title" : "PHO",
+    "description" : "Primary Healthcare Organization",
+    "systems" : ["https://standards.digital.health.nz/ns/pho-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "PractitionerAdditionalAuthorisationCode",
+    "title" : "Additional Practitioner authorisations",
+    "description" : "A coded type for additional authorisations",
+    "systems" : ["https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code",
+    "version" : "2.0",
+    "status" : "active",
+    "name" : "PractitionerRegistrationStatusCode",
+    "title" : "Registration Status of Practitioners",
+    "description" : "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+    "systems" : ["https://standards.digital.health.nz/ns/practitioner-registration-status-code"]
+  },
+  {
+    "url" : "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code",
+    "version" : "2.1.0",
+    "status" : "active",
+    "name" : "PractitionerScopeOfPractice",
+    "title" : "Scope of practice",
+    "description" : "A coded type for professional scope of practice.",
+    "systems" : ["https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code"]
+  }]
+}

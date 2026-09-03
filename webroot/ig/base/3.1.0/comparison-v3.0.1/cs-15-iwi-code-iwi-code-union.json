@@ -1,0 +1,1659 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-44",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-44",
+  "name" : "UnionIwi_codeAndIwi_code",
+  "title" : "Union of NZ Iwi And NZ Iwi",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "property" : [{
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "The concept identified in this property is a parent of the concept on which it is used",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Te Tai Tokerau/Tāmaki-makaurau (Northland/Auckland) Region Iwi"
+  },
+  {
+    "code" : "0101",
+    "display" : "Te Aupōuri",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0102",
+    "display" : "Ngāti Kahu",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0103",
+    "display" : "Ngāti Kurī",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0104",
+    "display" : "Ngāpuhi",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0105",
+    "display" : "Ngāpuhi ki Whaingaroa-Ngāti Kahu ki Whaingaroa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0106",
+    "display" : "Te Rarawa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0107",
+    "display" : "Ngāi Takoto",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0108",
+    "display" : "Ngāti Wai",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0109",
+    "display" : "Ngāti Whātua (not Ōrākei or Kaipara)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0110",
+    "display" : "Te Kawerau ā Maki",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0111",
+    "display" : "Te Uri-o-Hau",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0112",
+    "display" : "Te Roroa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0113",
+    "display" : "Ngāti Whātua o Kaipara",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0114",
+    "display" : "Ngāti Whātua o Ōrākei",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0115",
+    "display" : "Ngāi Tai ki Tāmaki",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0116",
+    "display" : "Ngāti Hine (Te Tai Tokerau)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0117",
+    "display" : "Te Paatu",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0118",
+    "display" : "Ngāti Manuhiri",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0119",
+    "display" : "Ngāti Rehua",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0120",
+    "display" : "Ngāti Torehina ki Mata-ure ō Hau",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "0121",
+    "display" : "Ngāti Kahu ki Whangaroa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "01"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Hauraki (Coromandel) Region Iwi"
+  },
+  {
+    "code" : "0201",
+    "display" : "Ngāti Hako",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0202",
+    "display" : "Ngāti Hei",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0203",
+    "display" : "Ngāti Maru (Hauraki)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0204",
+    "display" : "Ngāti Paoa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0205",
+    "display" : "Patukirikiri",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0206",
+    "display" : "Ngāti Porou ki Harataunga ki Mataora",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0207",
+    "display" : "Ngāti Pūkenga ki Waiau",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0208",
+    "display" : "Ngāti Rāhiri Tumutumu",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0210",
+    "display" : "Ngāti Tamaterā",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0211",
+    "display" : "Ngāti Tara Tokanui",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0212",
+    "display" : "Ngāti Whanaunga",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "0213",
+    "display" : "Ngāti Huarere",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "02"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Waikato/Te Rohe Pōtae (Waikato/King Country) Region Iwi"
+  },
+  {
+    "code" : "0301",
+    "display" : "Ngāti Haua (Waikato)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0302",
+    "display" : "Ngāti Maniapoto",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0303",
+    "display" : "Raukawa (Waikato)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0304",
+    "display" : "Waikato",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0305",
+    "display" : "Ngāti Te Ata",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0306",
+    "display" : "Ngāti Hīkairo",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0307",
+    "display" : "Rereahu",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0308",
+    "display" : "Ngāti Tiipa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0309",
+    "display" : "Ngāti Korokī Kahukura",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0310",
+    "display" : "Ngāti Tamaoho",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0311",
+    "display" : "Te Ākitai-Waiohua",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "0312",
+    "display" : "Tainui Awhiro",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Te Arawa/Taupō (Rotorua/Taupō) Region Iwi"
+  },
+  {
+    "code" : "0401",
+    "display" : "Ngāti Pikiao (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0402",
+    "display" : "Ngāti Rangiteaorere (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0403",
+    "display" : "Ngāti Rangitihi (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0404",
+    "display" : "Ngāti Rangiwewehi (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0405",
+    "display" : "Tapuika (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0406",
+    "display" : "Ngāti Tarāwhai (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0407",
+    "display" : "Tūhourangi (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0408",
+    "display" : "Uenuku-Kōpako (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0409",
+    "display" : "Waitaha (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0410",
+    "display" : "Ngāti Whakaue (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0411",
+    "display" : "Ngāti Tūwharetoa (ki Taupō)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0412",
+    "display" : "Ngāti Tahu-Ngāti Whaoa (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0413",
+    "display" : "Ngāti Mākino",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0414",
+    "display" : "Ngāti Kearoa / Ngāti Tuarā",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "0415",
+    "display" : "Ngāti Rongomai (Te Arawa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "04"
+    }]
+  },
+  {
+    "code" : "05",
+    "display" : "Tauranga Moana/Mātaatua (Bay of Plenty) Region Iwi"
+  },
+  {
+    "code" : "0501",
+    "display" : "Ngāti Pūkenga",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0502",
+    "display" : "Ngāi Te Rangi",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0503",
+    "display" : "Ngāti Ranginui",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0504",
+    "display" : "Ngāti Awa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0505",
+    "display" : "Ngāti Manawa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0506",
+    "display" : "Ngāi Tai (Tauranga Moana/Mātaatua)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0507",
+    "display" : "Tūhoe",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0508",
+    "display" : "Whakatōhea",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0509",
+    "display" : "Te Whānau-ā-Apanui",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0510",
+    "display" : "Ngāti Whare",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0511",
+    "display" : "Ngā Pōtiki ā Tamapahore",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0512",
+    "display" : "Te Upokorehe",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "0513",
+    "display" : "Ngāti Tūwharetoa ki Kawerau",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "05"
+    }]
+  },
+  {
+    "code" : "06",
+    "display" : "Te Tai Rāwhiti (East Coast) Region Iwi"
+  },
+  {
+    "code" : "0601",
+    "display" : "Ngāti Porou",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "06"
+    }]
+  },
+  {
+    "code" : "0602",
+    "display" : "Te Aitanga-a-Māhaki",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "06"
+    }]
+  },
+  {
+    "code" : "0603",
+    "display" : "Rongowhakaata",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "06"
+    }]
+  },
+  {
+    "code" : "0604",
+    "display" : "Ngāi Tāmanuhiri",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "06"
+    }]
+  },
+  {
+    "code" : "0605",
+    "display" : "Te Aitanga ā Hauiti",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "06"
+    }]
+  },
+  {
+    "code" : "07",
+    "display" : "Te Matau-a-Māui/Wairarapa (Hawke's Bay/Wairarapa) Region iwi"
+  },
+  {
+    "code" : "0701",
+    "display" : "Rongomaiwahine (Te Māhia)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0702",
+    "display" : "Ngāti Kahungunu ki Te Wairoa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0703",
+    "display" : "Ngāti Kahungunu ki Heretaunga",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0704",
+    "display" : "Ngāti Kahungunu ki Wairarapa",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0706",
+    "display" : "Rangitāne (Te Matau-a-Māui/Hawke's Bay/Wairarapa)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0707",
+    "display" : "Ngāti Kahungunu ki Te Whanganui-a-Orotu",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0708",
+    "display" : "Ngāti Kahungunu ki Tamatea",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0709",
+    "display" : "Ngāti Kahungunu ki Tamakinui a Rua",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0710",
+    "display" : "Ngāti Pāhauwera",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0711",
+    "display" : "Ngāti Rākaipaaka",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0712",
+    "display" : "Ngāti Hineuru",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0713",
+    "display" : "Maungaharuru Tangitū",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0714",
+    "display" : "Rangitāne o Tamaki nui ā Rua",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0715",
+    "display" : "Ngāti Ruapani ki Waikaremoana",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0716",
+    "display" : "Te Hika o Pāpāuma",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "0717",
+    "display" : "Ngāti Hinemanu (Heretaunga)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07"
+    }]
+  },
+  {
+    "code" : "08",
+    "display" : "Taranaki Region Iwi"
+  },
+  {
+    "code" : "0801",
+    "display" : "Te Atiawa (Taranaki)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0802",
+    "display" : "Ngāti Maru (Taranaki)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0803",
+    "display" : "Ngāti Mutunga (Taranaki)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0804",
+    "display" : "Ngā Rauru",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0805",
+    "display" : "Ngā Ruahine",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0806",
+    "display" : "Ngāti Ruanui",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0807",
+    "display" : "Ngāti Tama (Taranaki)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0808",
+    "display" : "Taranaki",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0809",
+    "display" : "Tangāhoe",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "0810",
+    "display" : "Pakakohi",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "08"
+    }]
+  },
+  {
+    "code" : "09",
+    "display" : "Whanganui/Rangitīkei (Wanganui/Rangitīkei) Region Iwi"
+  },
+  {
+    "code" : "0901",
+    "display" : "Ngāti Apa (Rangitīkei)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0902",
+    "display" : "Te Ati Haunui-a-Pāpārangi",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0903",
+    "display" : "Ngāti Haua (Taumarunui)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0904",
+    "display" : "Ngāti Hauiti (Rangitīkei)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0905",
+    "display" : "Ngāti Whitikaupeka (Rangitīkei)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0906",
+    "display" : "Ngāi Te Ohuake (Rangitīkei)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0907",
+    "display" : "Ngāti Tamakōpiri (Rangitīkei)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0908",
+    "display" : "Ngāti Rangi (Ruapehu, Whanganui)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0909",
+    "display" : "Uenuku (Ruapehu, Waimarino)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0910",
+    "display" : "Tamahaki (Ruapehu, Waimarino)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0911",
+    "display" : "Tamakana (Ruapehu, Waimarino)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "0912",
+    "display" : "Ngāti Hinemanu (Rangitīkei)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "09"
+    }]
+  },
+  {
+    "code" : "10",
+    "display" : "Manawatū/Horowhenua/Te Whanganui-a-Tara (Manawatū/Horowhenua/Wellington) Region Iwi"
+  },
+  {
+    "code" : "1001",
+    "display" : "Te Atiawa (Te Whanganui-a-Tara/Wellington)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "1002",
+    "display" : "Muaūpoko",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "1003",
+    "display" : "Rangitāne (Manawatū)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "1004",
+    "display" : "Ngāti Raukawa (Horowhenua/Manawatū)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "1005",
+    "display" : "Ngāti Toarangatira (Te Whanganui-a-Tara/Wellington)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "1006",
+    "display" : "Te Atiawa ki Whakarongotai",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "1007",
+    "display" : "Ngāti Tama ki Te Upoko o Te Ika (Te Whanganui-a-Tara/Wellington)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "1008",
+    "display" : "Ngāti Kauwhata",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "1009",
+    "display" : "Ngāti Tukorehe",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "10"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Te Waipounamu (South Island) Region Iwi"
+  },
+  {
+    "code" : "1101",
+    "display" : "Te Atiawa (Te Waipounamu/South Island)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1102",
+    "display" : "Ngāti Koata",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1103",
+    "display" : "Ngāti Kuia",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1104",
+    "display" : "Kāti Māmoe",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1107",
+    "display" : "Rangitāne (Te Waipounamu/South Island)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1108",
+    "display" : "Ngāti Rārua",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1109",
+    "display" : "Ngāi Tahu / Kāi Tahu",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1110",
+    "display" : "Ngāti Tama ki Te Tauihu",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1111",
+    "display" : "Ngāti Toarangatira (Te Waipounamu/South Island)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1112",
+    "display" : "Waitaha (Te Waipounamu/South Island)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "1113",
+    "display" : "Ngāti Apa ki Te Rā Tō",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "11"
+    }]
+  },
+  {
+    "code" : "12",
+    "display" : "Rēkohu/Wharekauri (Chatham Islands) Region Imi/Iwi"
+  },
+  {
+    "code" : "1201",
+    "display" : "Moriori",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "1202",
+    "display" : "Ngāti Mutunga (Wharekauri/Chatham Islands)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "12"
+    }]
+  },
+  {
+    "code" : "20",
+    "display" : "Confederations and Waka, iwi not named"
+  },
+  {
+    "code" : "2001",
+    "display" : "Tainui, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2002",
+    "display" : "Te Arawa, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2003",
+    "display" : "Tākitimu, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2004",
+    "display" : "Aotea, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2005",
+    "display" : "Mātaatua, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2006",
+    "display" : "Mahuru, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2007",
+    "display" : "Māmari, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2008",
+    "display" : "Ngātokimatawhaorua, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2009",
+    "display" : "Nukutere, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2010",
+    "display" : "Tokomaru, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2011",
+    "display" : "Kurahaupō, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2012",
+    "display" : "Muriwhenua, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2013",
+    "display" : "Hauraki / Pare Hauraki, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2014",
+    "display" : "Tūranganui a Kiwa, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2015",
+    "display" : "Te Tauihu o Te Waka a Māui, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2016",
+    "display" : "Tauranga Moana, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2017",
+    "display" : "Horouta, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "2018",
+    "display" : "Mōkai Pātea, iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "20"
+    }]
+  },
+  {
+    "code" : "21",
+    "display" : "Iwi named, region not known"
+  },
+  {
+    "code" : "2101",
+    "display" : "Te Atiawa, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2102",
+    "display" : "Ngāti Haua, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2103",
+    "display" : "Ngāti Maru, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2104",
+    "display" : "Ngāti Mutunga, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2105",
+    "display" : "Rangitāne, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2106",
+    "display" : "Ngāti Raukawa, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2107",
+    "display" : "Ngāti Tama, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2108",
+    "display" : "Ngāti Toa, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2109",
+    "display" : "Waitaha, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2110",
+    "display" : "Ngāti Apa, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2111",
+    "display" : "Ngāi Tai, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2112",
+    "display" : "Ngāti Kahungunu, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2113",
+    "display" : "Ngāti Tūwharetoa, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "2114",
+    "display" : "Ngāti Hinemanu, region not known",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "21"
+    }]
+  },
+  {
+    "code" : "22",
+    "display" : "Hapū affiliated to more than one iwi"
+  },
+  {
+    "code" : "2201",
+    "display" : "Hapū affiliated to more than one iwi",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "22"
+    }]
+  },
+  {
+    "code" : "23",
+    "display" : "Region known, Iwi not named"
+  },
+  {
+    "code" : "2301",
+    "display" : "Te Tai Tokerau/Tāmaki-makaurau Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2302",
+    "display" : "Hauraki Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2303",
+    "display" : "Waikato/Te Rohe Pōtae Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2304",
+    "display" : "Te Arawa/Taupō Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2305",
+    "display" : "Tauranga Moana/Mātaatua Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2306",
+    "display" : "Te Tai Rāwhiti Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2307",
+    "display" : "Te Matau-a-Māui/Wairarapa Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2308",
+    "display" : "Taranaki Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2309",
+    "display" : "Whanganui/Rangitīkei Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2310",
+    "display" : "Manawatū/Horowhenua/Te Whanganui-a-Tara Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2311",
+    "display" : "Te Waipounamu Region, Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "2312",
+    "display" : "Rēkohu/Wharekauri Region, Imi/Iwi not named",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "23"
+    }]
+  },
+  {
+    "code" : "44",
+    "display" : "Don't Know"
+  },
+  {
+    "code" : "4444",
+    "display" : "Don't Know",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "44"
+    }]
+  },
+  {
+    "code" : "55",
+    "display" : "Refused To Answer"
+  },
+  {
+    "code" : "5555",
+    "display" : "Refused To Answer",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "55"
+    }]
+  },
+  {
+    "code" : "77",
+    "display" : "Response Unidentifiable"
+  },
+  {
+    "code" : "7777",
+    "display" : "Response Unidentifiable",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "77"
+    }]
+  },
+  {
+    "code" : "88",
+    "display" : "Response Outside Scope"
+  },
+  {
+    "code" : "8888",
+    "display" : "Response Outside Scope",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "88"
+    }]
+  },
+  {
+    "code" : "99",
+    "display" : "Not Stated"
+  },
+  {
+    "code" : "9999",
+    "display" : "Not Stated",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "99"
+    }]
+  },
+  {
+    "code" : "0313",
+    "display" : "Ngāti Hinerangi",
+    "designation" : [{
+      "language" : "en-NZ",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ngati Hinerangi Waikato"
+    },
+    {
+      "language" : "en-NZ",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ngati Hinerangi King Country"
+    },
+    {
+      "language" : "en-NZ",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ngāti Hinerangi"
+    },
+    {
+      "language" : "en-NZ",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ngāti Hinerangi Waikato/Te Rohe Pōtae (Waikato/King Country) Region"
+    },
+    {
+      "language" : "en-NZ",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Hinerangi Tawhaki"
+    },
+    {
+      "language" : "en-NZ",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ngāti Hinerangi Waikato"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "03"
+    }]
+  }]
+}

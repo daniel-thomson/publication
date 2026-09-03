@@ -1,0 +1,22 @@
+{
+  "resourceType" : "Condition",
+  "id" : "condition-long-term-condition",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition condition-long-term-condition</b></p><a name=\"condition-long-term-condition\"> </a><a name=\"hccondition-long-term-condition\"> </a><a name=\"condition-long-term-condition-en-US\"> </a><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1201005}\">Benign essential hypertension (disorder)</span></p><p><b>subject</b>: <a href=\"Patient-patient-dhb.html\">John Doe Male, DoB: 1998-01-01</a></p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
+    "valueBoolean" : true
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1201005",
+      "display" : "Benign essential hypertension (disorder)"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patient-dhb"
+  }
+}

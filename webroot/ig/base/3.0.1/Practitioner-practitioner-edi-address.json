@@ -1,0 +1,25 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "practitioner-edi-address",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner practitioner-edi-address</b></p><a name=\"practitioner-edi-address\"> </a><a name=\"hcpractitioner-edi-address\"> </a><a name=\"practitioner-edi-address-en-US\"> </a><p><b>name</b>: Marcus Welby</p><p><b>telecom</b>: 001a</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1998-01-01</p></div>"
+  },
+  "name" : [{
+    "text" : "Marcus Welby",
+    "family" : "Welby",
+    "given" : ["Marcus"]
+  }],
+  "telecom" : [{
+    "system" : "other",
+    "_system" : {
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/edi-address",
+        "valueString" : "healthlink"
+      }]
+    },
+    "value" : "001a"
+  }],
+  "gender" : "male",
+  "birthDate" : "1998-01-01"
+}

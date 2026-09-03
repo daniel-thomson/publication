@@ -1,0 +1,32 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Location/location-alias-type> a fhir:Location ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "location-alias-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location location-alias-type</b></p><a name=\"location-alias-type\"> </a><a name=\"hclocation-alias-type\"> </a><a name=\"location-alias-type-en-US\"> </a><p><b>name</b>: Daves health centre</p><p><b>alias</b>: Best health</p></div>"
+  ] ; # 
+  fhir:name [ fhir:v "Daves health centre"] ; # 
+  fhir:alias ( [
+     fhir:v "Best health" ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org.nz/fhir/StructureDefinition/alias-type"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://standards.digital.health.nz/ns/alias-type-code"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "short" ] ;
+           fhir:display [ fhir:v "Short" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

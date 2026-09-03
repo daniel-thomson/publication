@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Coverage/CoverageHUHC> a fhir:Coverage ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CoverageHUHC"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"^^xsd:anyURI ;
+       fhir:link <http://hl7.org.nz/fhir/StructureDefinition/NzCoverage>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "additional" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">High User Health Card for Raewyn Joseph<br/>NHI ZZZ0032<br/>HUHC number 12345689<br/></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://standards.digital.health.nz/ns/huhc-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123456789" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://standards.digital.health.nz/ns/coverage-type-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "huhc" ] ;
+       fhir:display [ fhir:v "High user health card" ]
+     ] )
+  ] ; # 
+  fhir:subscriber [
+     fhir:link <http://fhir.org.nz/ig/base/Patient/patient-dhb> ;
+     fhir:reference [ fhir:v "Patient/patient-dhb" ]
+  ] ; # 
+  fhir:beneficiary [
+     fhir:link <http://fhir.org.nz/ig/base/Patient/patient-dhb> ;
+     fhir:reference [ fhir:v "Patient/patient-dhb" ]
+  ] ; # 
+  fhir:relationship [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/subscriber-relationship"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "self" ]
+     ] )
+  ] ; # 
+  fhir:period [
+     fhir:end [ fhir:v "2023-09-17"^^xsd:date ]
+  ] ; # 
+  fhir:payor ( [
+     fhir:link <http://fhir.org.nz/ig/base/Organization/organization-moh> ;
+     fhir:reference [ fhir:v "Organization/organization-moh" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

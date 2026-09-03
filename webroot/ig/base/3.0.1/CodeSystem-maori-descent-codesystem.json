@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "maori-descent-codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem maori-descent-codesystem</b></p><a name=\"maori-descent-codesystem\"> </a><a name=\"hcmaori-descent-codesystem\"> </a><a name=\"maori-descent-codesystem-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/maori-descent-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"maori-descent-codesystem-1\"> </a></td><td>Māori Descent</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"maori-descent-codesystem-2\"> </a></td><td>No Māori Descent</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"maori-descent-codesystem-4\"> </a></td><td>Don't Know</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"maori-descent-codesystem-5\"> </a></td><td>Refused to Answer</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"maori-descent-codesystem-7\"> </a></td><td>Response Unidentifiable</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"maori-descent-codesystem-8\"> </a></td><td>Response Outside Scope</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"maori-descent-codesystem-9\"> </a></td><td>Not Stated</td></tr></table></div>"
+  },
+  "url" : "https://standards.digital.health.nz/ns/maori-descent-code",
+  "version" : "1.0.0",
+  "name" : "MaoriDescent",
+  "title" : "Māori Descent",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-08-14T09:20:22+12:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "HL7 New Zealand",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:admin@hl7.org.nz"
+    }]
+  }],
+  "description" : "Codes for classifying Māori descent. Defined by Stats NZ - Māori descent v1.0.0",
+  "caseSensitive" : true,
+  "valueSet" : "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
+  "compositional" : false,
+  "versionNeeded" : false,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Māori Descent"
+  },
+  {
+    "code" : "2",
+    "display" : "No Māori Descent"
+  },
+  {
+    "code" : "4",
+    "display" : "Don't Know"
+  },
+  {
+    "code" : "5",
+    "display" : "Refused to Answer"
+  },
+  {
+    "code" : "7",
+    "display" : "Response Unidentifiable"
+  },
+  {
+    "code" : "8",
+    "display" : "Response Outside Scope"
+  },
+  {
+    "code" : "9",
+    "display" : "Not Stated"
+  }]
+}

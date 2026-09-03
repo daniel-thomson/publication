@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/nz-relationship-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "nz-relationship-codes"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "2" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-05-08T10:19:41.469+12:00"^^xsd:dateTime ] ;
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://standards.digital.health.nz/ns/nzhts-usage-tags" ] ;
+       fhir:Coding.code [ fhir:value "NZBase" ]
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ Relationship Type Code System</h2><tt>http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes</tt><p>Code system for NZ relationship type codes.</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "NzRelationshipCodes"] ;
+  fhir:CodeSystem.title [ fhir:value "NZ Relationship Type Code System"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-07-24T15:52:23+12:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 New Zealand"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 New Zealand" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "mailto:admin@hl7.org.nz" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Code system for NZ relationship type codes."] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "1"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WHANGAI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Whāngai" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Whāngai is the Māori tradition of children being raised by someone other than their birth parents — usually a relative." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/nz-relationship-codes.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

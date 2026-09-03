@@ -1,0 +1,29 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "66f47b2b-a4af-4e09-af52-f6f7d6631c18-20",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/66f47b2b-a4af-4e09-af52-f6f7d6631c18-20",
+  "name" : "UnionCoverageTypeAndCoverageType",
+  "title" : "Union of Coverage type And Coverage type",
+  "status" : "active",
+  "date" : "2026-07-24T15:54:07+12:00",
+  "concept" : [{
+    "code" : "gms",
+    "display" : "General Medical Subsidy"
+  },
+  {
+    "code" : "acc",
+    "display" : "Accident Compensation Corporation"
+  },
+  {
+    "code" : "csc",
+    "display" : "Community Services Card"
+  },
+  {
+    "code" : "huhc",
+    "display" : "High User Health Card"
+  },
+  {
+    "code" : "psc",
+    "display" : "Pharmacy subsidy card"
+  }]
+}

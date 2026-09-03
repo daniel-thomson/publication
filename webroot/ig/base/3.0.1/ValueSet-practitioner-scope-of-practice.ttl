@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/ValueSet/practitioner-scope-of-practice> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitioner-scope-of-practice"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet practitioner-scope-of-practice</b></p><a name=\"practitioner-scope-of-practice\"> </a><a name=\"hcpractitioner-scope-of-practice\"> </a><a name=\"practitioner-scope-of-practice-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-scopeOfPractice.html\"><code>https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2.0.0"] ; # 
+  fhir:name [ fhir:v "PractitionerScopeOfPractice"] ; # 
+  fhir:title [ fhir:v "Scope of practice"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A coded type for professional scope of practice."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

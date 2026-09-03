@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/coverage-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "coverage-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem coverage-type</b></p><a name=\"coverage-type\"> </a><a name=\"hccoverage-type\"> </a><a name=\"coverage-type-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/coverage-type-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">gms<a name=\"coverage-type-gms\"> </a></td><td>General Medical Subsidy</td></tr><tr><td style=\"white-space:nowrap\">acc<a name=\"coverage-type-acc\"> </a></td><td>Accident Compensation Corporation</td></tr><tr><td style=\"white-space:nowrap\">csc<a name=\"coverage-type-csc\"> </a></td><td>Community Services Card</td></tr><tr><td style=\"white-space:nowrap\">huhc<a name=\"coverage-type-huhc\"> </a></td><td>High User Health Card</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/coverage-type-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "CoverageType"] ; # 
+  fhir:title [ fhir:v "Coverage type"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "New Zealand codes for Coverage Types"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "gms" ] ;
+     fhir:display [ fhir:v "General Medical Subsidy" ]
+  ] [
+     fhir:code [ fhir:v "acc" ] ;
+     fhir:display [ fhir:v "Accident Compensation Corporation" ]
+  ] [
+     fhir:code [ fhir:v "csc" ] ;
+     fhir:display [ fhir:v "Community Services Card" ]
+  ] [
+     fhir:code [ fhir:v "huhc" ] ;
+     fhir:display [ fhir:v "High User Health Card" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

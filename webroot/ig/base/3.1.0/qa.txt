@@ -1,0 +1,419 @@
+HL7FHIRNewZealandBaseImplementationGuide : Validation Results
+=========================================
+
+err = 0, warn = 0, info = 80
+IG Publisher Version: 2.2.11
+Generated Fri Jul 24 15:58:55 NZST 2026. FHIR version 4.0.1 for fhir.org.nz.ig.base#3.1.0 (canonical = http://fhir.org.nz/ig/base)
+ Build Errors : 0 / 0 / 0
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Condition-condition-long-term-condition : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Coverage-CoverageCSC : 0 / 1 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Coverage-CoverageGMS : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Coverage-CoverageHUHC : 0 / 1 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Location-location-alias-type : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Location-location-established : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\MedicationRequest-medicationrequest-nzeps-long-term-medication : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\MedicationRequest-medicationrequest-nzeps-supply-period-reason : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\MedicationRequest-medicationrequest-nzeps-unusual-dose-quantity : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-acc45-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-chiropractic-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-dental-council-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-dietitians-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-hpi-facility-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-hpi-nzbn : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-hpi-organisation-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-hpi-person-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-medical-council-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-medical-radiation-technologists-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-medical-sciences-council-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-midwifery-council-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-moe-facility-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-nhi-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-nursing-council-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-nz-address-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-occupational-therapy-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-optometrists-dispensing-opticians-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-osteopathic-council-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-paramedic-council-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-pharmacy-council-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-physiotherapy-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-podiatrists-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-psychologists-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-psychotherapists-board-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-rheumatic-fever-ccs-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-sdhr-id : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Organization-organization-edi-address : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Organization-organization-funded-programme : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Organization-organization-moh : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-address-building-name : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-address-suburb : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-building-name : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-deceased-information-source : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-dhb : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-domicile-code : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-information-source : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-messaging-address : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nhi : 0 / 0 / 3
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nz-citizenship : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nz-ethnicity : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nz-geocode : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nz-residency : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-pho : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-sex-at-birth : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-suburb : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-additional-authorisation : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-condition-on-practice : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-death-date : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-edi-address : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-educational-qualification : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-registration-initial-date : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-registration-status-code : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-scope-of-practice : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\PractitionerRole-practitionerRole-creator : 0 / 0 / 3
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\PractitionerRole-practitionerRole-messaging-address : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\PractitionerRole-practitionerRole-status-reason : 0 / 0 / 1
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzAddress : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzCondition : 0 / 1 / 3
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzContactPoint : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzCoverage : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzHealthcareService : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzLocation : 0 / 1 / 3
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzMedication : 0 / 3 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzMedicationDispense : 0 / 3 / 3
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzMedicationRequest : 0 / 3 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzMedicationStatement : 0 / 3 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzOrganization : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzPatient : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzPractitioner : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzPractitionerRole : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzRelatedPerson : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-acc-patient-occupation : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-additional-authorisation : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-alias-type : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-building-name : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-condition-on-practice : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-contactpoint-purpose : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-country-name : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-death-date : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-dhb : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-domicile-code : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-edi-address : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-educational-qualification : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-established : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-funded-programme : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-gender-original-text : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-information-source : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-long-term-condition : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-maori-descent : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-messaging-address : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-citizenship : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-ethnicity : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-geocode : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-iwi : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-residency : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzeps-long-term-medication : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzeps-supply-period-reason : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzeps-unusual-dose-quantity : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzf-atc : 0 / 3 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzf-nzmt-type : 0 / 3 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-pho : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-practitionerRole-creator : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-practitionerRole-status-reason : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-registration-initial-date : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-registration-status-code : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-scope-of-practice : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-sex-at-birth : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-suburb : 0 / 0 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\Ethnicity-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\Ethnicityfull-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\MaoriDescentValueset-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\acc-patient-occupation-ValueSet : 0 / 1 / 3
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\acc-patient-occupation-code-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\alias-type-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\citizenship-status-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\contact-point-purpose-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\contact-point-purpose-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\coverage-category-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\coverage-category-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\coverage-type-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\coverage-type-code-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\datum-code-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\datumCode-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\dhb-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\dhb-code-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\dod-information-source-code-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\domicile-code-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\domicile-code-ValueSet : 0 / 1 / 3
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\ethnicity-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\ethnicityL4-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\funded-programme-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\funded-programme-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\hpi-practitionerRole-status-reason-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\hpi-practitionerrole-status-reason-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\information-source-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\information-source-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\iwi-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\iwi-code-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\maoridescentcode-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nhi-use-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-citizenship-status-code-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-relationship-codes-CodeSystem : 0 / 1 / 3
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-relationship-type-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-residency-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-residency-code-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\org-and-location-alias-type-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\pho-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\pho-status-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-additional-authorisation-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-additional-authorisation-code-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-registration-status-code-CodeSystem : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-registration-status-code-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-scope-of-practice-ValueSet : 0 / 1 / 2
+ D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\scopeOfPractice-CodeSystem : 0 / 1 / 2
+ d:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\ImplementationGuide-fhir.org.nz.ig.base : 0 / 0 / 2
+</table>
+== n/a ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Condition-condition-long-term-condition.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Coverage-CoverageCSC.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Coverage-CoverageGMS.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Coverage-CoverageHUHC.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Location-location-alias-type.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Location-location-established.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\MedicationRequest-medicationrequest-nzeps-long-term-medication.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\MedicationRequest-medicationrequest-nzeps-supply-period-reason.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\MedicationRequest-medicationrequest-nzeps-unusual-dose-quantity.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-acc45-id.json ==
+INFORMATION: Resource: The resource NamingSystem/acc45-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-chiropractic-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/chiropractic-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-dental-council-id.json ==
+INFORMATION: Resource: The resource NamingSystem/dental-council-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-dietitians-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/dietitians-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-hpi-facility-id.json ==
+INFORMATION: Resource: The resource NamingSystem/hpi-facility-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-hpi-nzbn.json ==
+INFORMATION: Resource: The resource NamingSystem/hpi-nzbn could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-hpi-organisation-id.json ==
+INFORMATION: Resource: The resource NamingSystem/hpi-organisation-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-hpi-person-id.json ==
+INFORMATION: Resource: The resource NamingSystem/hpi-person-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-medical-council-id.json ==
+INFORMATION: Resource: The resource NamingSystem/medical-council-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-medical-radiation-technologists-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/medical-radiation-technologists-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-medical-sciences-council-id.json ==
+INFORMATION: Resource: The resource NamingSystem/medical-sciences-council-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-midwifery-council-id.json ==
+INFORMATION: Resource: The resource NamingSystem/midwifery-council-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-moe-facility-id.json ==
+INFORMATION: Resource: The resource NamingSystem/moe-facility-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-nhi-id.json ==
+INFORMATION: Resource: The resource NamingSystem/nhi-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-nursing-council-id.json ==
+INFORMATION: Resource: The resource NamingSystem/nursing-council-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-nz-address-id.json ==
+INFORMATION: Resource: The resource NamingSystem/nz-address-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-occupational-therapy-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/occupational-therapy-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-optometrists-dispensing-opticians-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/optometrists-dispensing-opticians-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-osteopathic-council-id.json ==
+INFORMATION: Resource: The resource NamingSystem/osteopathic-council-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-paramedic-council-id.json ==
+INFORMATION: Resource: The resource NamingSystem/paramedic-council-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-pharmacy-council-id.json ==
+INFORMATION: Resource: The resource NamingSystem/pharmacy-council-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-physiotherapy-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/physiotherapy-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-podiatrists-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/podiatrists-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-psychologists-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/psychologists-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-psychotherapists-board-id.json ==
+INFORMATION: Resource: The resource NamingSystem/psychotherapists-board-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-rheumatic-fever-ccs-id.json ==
+INFORMATION: Resource: The resource NamingSystem/rheumatic-fever-ccs-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\NamingSystem-sdhr-id.json ==
+INFORMATION: Resource: The resource NamingSystem/sdhr-id could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Organization-organization-edi-address.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Organization-organization-funded-programme.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Organization-organization-moh.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-address-building-name.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-address-suburb.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-building-name.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-deceased-information-source.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-dhb.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-domicile-code.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-information-source.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-messaging-address.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nhi.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nz-citizenship.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nz-ethnicity.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nz-geocode.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-nz-residency.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-pho.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-sex-at-birth.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Patient-patient-suburb.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-additional-authorisation.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-condition-on-practice.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-death-date.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-edi-address.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-educational-qualification.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-registration-initial-date.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-registration-status-code.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\Practitioner-practitioner-scope-of-practice.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\PractitionerRole-practitionerRole-creator.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\PractitionerRole-practitionerRole-messaging-address.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\PractitionerRole-practitionerRole-status-reason.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzAddress.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzAddress could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzCondition.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzCondition could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzContactPoint.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzContactPoint could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzCoverage.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzCoverage could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzHealthcareService.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzHealthcareService could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzLocation.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzLocation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzMedication.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzMedication could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzMedicationDispense.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzMedicationDispense could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzMedicationRequest.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzMedicationRequest could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzMedicationStatement.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzMedicationStatement could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzOrganization.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzOrganization could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzPatient.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzPatient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzPractitioner.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzPractitioner could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzPractitionerRole.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzPractitionerRole could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-NzRelatedPerson.json ==
+INFORMATION: Resource: The resource StructureDefinition/NzRelatedPerson could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-acc-patient-occupation.json ==
+INFORMATION: Resource: The resource StructureDefinition/acc-patient-occupation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-additional-authorisation.json ==
+INFORMATION: Resource: The resource StructureDefinition/additional-authorisation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-alias-type.json ==
+INFORMATION: Resource: The resource StructureDefinition/alias-type could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-building-name.json ==
+INFORMATION: Resource: The resource StructureDefinition/building-name could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-condition-on-practice.json ==
+INFORMATION: Resource: The resource StructureDefinition/condition-on-practice could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-contactpoint-purpose.json ==
+INFORMATION: Resource: The resource StructureDefinition/contactpoint-purpose could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-country-name.json ==
+INFORMATION: Resource: The resource StructureDefinition/country-name could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-death-date.json ==
+INFORMATION: Resource: The resource StructureDefinition/death-date could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-dhb.json ==
+INFORMATION: Resource: The resource StructureDefinition/dhb could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-domicile-code.json ==
+INFORMATION: Resource: The resource StructureDefinition/domicile-code could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-edi-address.json ==
+INFORMATION: Resource: The resource StructureDefinition/edi-address could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-educational-qualification.json ==
+INFORMATION: Resource: The resource StructureDefinition/educational-qualification could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-established.json ==
+INFORMATION: Resource: The resource StructureDefinition/established could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-funded-programme.json ==
+INFORMATION: Resource: The resource StructureDefinition/funded-programme could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-gender-original-text.json ==
+INFORMATION: Resource: The resource StructureDefinition/gender-original-text could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-information-source.json ==
+INFORMATION: Resource: The resource StructureDefinition/information-source could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-long-term-condition.json ==
+INFORMATION: Resource: The resource StructureDefinition/long-term-condition could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-maori-descent.json ==
+INFORMATION: Resource: The resource StructureDefinition/maori-descent could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-messaging-address.json ==
+INFORMATION: Resource: The resource StructureDefinition/messaging-address could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-citizenship.json ==
+INFORMATION: Resource: The resource StructureDefinition/nz-citizenship could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-ethnicity.json ==
+INFORMATION: Resource: The resource StructureDefinition/nz-ethnicity could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-geocode.json ==
+INFORMATION: Resource: The resource StructureDefinition/nz-geocode could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-iwi.json ==
+INFORMATION: Resource: The resource StructureDefinition/nz-iwi could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nz-residency.json ==
+INFORMATION: Resource: The resource StructureDefinition/nz-residency could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzeps-long-term-medication.json ==
+INFORMATION: Resource: The resource StructureDefinition/nzeps-long-term-medication could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzeps-supply-period-reason.json ==
+INFORMATION: Resource: The resource StructureDefinition/nzeps-supply-period-reason could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzeps-unusual-dose-quantity.json ==
+INFORMATION: Resource: The resource StructureDefinition/nzeps-unusual-dose-quantity could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzf-atc.json ==
+INFORMATION: Resource: The resource StructureDefinition/nzf-atc could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-nzf-nzmt-type.json ==
+INFORMATION: Resource: The resource StructureDefinition/nzf-nzmt-type could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-pho.json ==
+INFORMATION: Resource: The resource StructureDefinition/pho could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-practitionerRole-creator.json ==
+INFORMATION: Resource: The resource StructureDefinition/practitionerRole-creator could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-practitionerRole-status-reason.json ==
+INFORMATION: Resource: The resource StructureDefinition/practitionerRole-status-reason could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-registration-initial-date.json ==
+INFORMATION: Resource: The resource StructureDefinition/registration-initial-date could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-registration-status-code.json ==
+INFORMATION: Resource: The resource StructureDefinition/registration-status-code could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-scope-of-practice.json ==
+INFORMATION: Resource: The resource StructureDefinition/scope-of-practice could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-sex-at-birth.json ==
+INFORMATION: Resource: The resource StructureDefinition/sex-at-birth could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\StructureDefinition-suburb.json ==
+INFORMATION: Resource: The resource StructureDefinition/suburb could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\Ethnicity-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\Ethnicityfull-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\MaoriDescentValueset-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\acc-patient-occupation-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\acc-patient-occupation-code-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\alias-type-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\citizenship-status-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\contact-point-purpose-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\contact-point-purpose-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\coverage-category-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\coverage-category-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\coverage-type-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\coverage-type-code-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\datum-code-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\datumCode-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\dhb-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\dhb-code-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\dod-information-source-code-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\domicile-code-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\domicile-code-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\ethnicity-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\ethnicityL4-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\funded-programme-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\funded-programme-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\hpi-practitionerRole-status-reason-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\hpi-practitionerrole-status-reason-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\information-source-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\information-source-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\iwi-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\iwi-code-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\maoridescentcode-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nhi-use-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-citizenship-status-code-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-relationship-codes-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-relationship-type-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-residency-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\nz-residency-code-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\org-and-location-alias-type-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\pho-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\pho-status-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-additional-authorisation-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-additional-authorisation-code-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-registration-status-code-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-registration-status-code-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\practitioner-scope-of-practice-ValueSet.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\input\vocabulary\scopeOfPractice-CodeSystem.json ==
+== D:\publication\temp\ig-builds\fhir.org.nz.ig.base#3.1.0\fsh-generated\resources\ImplementationGuide-fhir.org.nz.ig.base.json ==
+INFORMATION: Resource: The resource ImplementationGuide/fhir.org.nz.ig.base could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)

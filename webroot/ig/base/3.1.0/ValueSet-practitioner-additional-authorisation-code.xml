@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="practitioner-additional-authorisation-code"/>
+  <meta>
+    <versionId value="12"/>
+    <lastUpdated value="2026-05-07T20:43:29.485+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Additional Practitioner authorisations</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</tt><p>A coded type for additional authorisations</p></div>
+  </text>
+  <url value="https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"/>
+  <version value="1.0.1"/>
+  <name value="PractitionerAdditionalAuthorisationCode"/>
+  <title value="Additional Practitioner authorisations"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-09-23T12:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="A coded type for additional authorisations"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code"/>
+      <version value="1.0.1"/>
+    </include>
+  </compose>
+</ValueSet>

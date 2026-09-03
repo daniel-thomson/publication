@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/ValueSet/dod-information-source> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "dod-information-source"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet dod-information-source</b></p><a name=\"dod-information-source\"> </a><a name=\"hcdod-information-source\"> </a><a name=\"dod-information-source-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-information-source.html\"><code>https://standards.digital.health.nz/ns/information-source-code</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-information-source.html#information-source-DREG\">DREG</a></td><td>Death Register</td><td>The code is added only after MOH/DIA data matching</td></tr><tr><td><a href=\"CodeSystem-information-source.html#information-source-OSEAOFF\">OSEAOFF</a></td><td>Death Overseas Official</td><td>Indicates a non-New Zealand registered death advised by an official source from another country.</td></tr><tr><td><a href=\"CodeSystem-information-source.html#information-source-NPRF\">NPRF</a></td><td>Proof not Sighted</td><td>Information (not proof) provided by the patient / whānau verbally communicated. No proof sighted</td></tr><tr><td><a href=\"CodeSystem-information-source.html#information-source-OSEA\">OSEA</a></td><td>Death Overseas</td><td>Indicates a non-New Zealand registered death advised by a third party or discovered by a media search</td></tr><tr><td><a href=\"CodeSystem-information-source.html#information-source-CORONER\">CORONER</a></td><td>Coroner Notification</td><td>Date of death notified to the Ministry by a Coronial Office</td></tr><tr><td><a href=\"CodeSystem-information-source.html#information-source-MCCOD\">MCCOD</a></td><td>Medical Certificate Cause of Death</td><td>Date of Death from a Medical Certificate Cause of  Death. Forms HP4720, HP4721 or BDM 50</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "DodInformationSource"] ; # 
+  fhir:title [ fhir:v "Death date Information Source"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The source from where the date of death was sourced"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://standards.digital.health.nz/ns/information-source-code"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "DREG" ] ;
+         fhir:display [ fhir:v "Death Register" ]
+       ] [
+         fhir:code [ fhir:v "OSEAOFF" ] ;
+         fhir:display [ fhir:v "Death Overseas Official" ]
+       ] [
+         fhir:code [ fhir:v "NPRF" ] ;
+         fhir:display [ fhir:v "Proof not Sighted" ]
+       ] [
+         fhir:code [ fhir:v "OSEA" ] ;
+         fhir:display [ fhir:v "Death Overseas" ]
+       ] [
+         fhir:code [ fhir:v "CORONER" ] ;
+         fhir:display [ fhir:v "Coroner Notification" ]
+       ] [
+         fhir:code [ fhir:v "MCCOD" ] ;
+         fhir:display [ fhir:v "Medical Certificate Cause of Death" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

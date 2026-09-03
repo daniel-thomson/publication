@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="datumCode"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet datumCode</b></p><a name="datumCode"> </a><a name="hcdatumCode"> </a><a name="datumCode-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-datum-code.html"><code>https://standards.digital.health.nz/ns/nz-datum-code</code></a></li></ul></div>
+  </text>
+  <url value="https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code"/>
+  <version value="1.0.0"/>
+  <name value="DatumCode"/>
+  <title value="Datum code"/>
+  <status value="active"/>
+  <date value="2024-08-14T09:20:22+12:00"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="Datum codes used"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/ns/nz-datum-code"/>
+    </include>
+  </compose>
+</ValueSet>

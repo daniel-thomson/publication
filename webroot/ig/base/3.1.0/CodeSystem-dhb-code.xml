@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="dhb-code"/>
+  <meta>
+    <versionId value="8"/>
+    <lastUpdated value="2026-05-07T20:15:43.802+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NZ DHB</h2><tt>https://standards.digital.health.nz/ns/dhb-code</tt><p>NZ District Health Board (HPI-ORG) Codes</p></div>
+  </text>
+  <url value="https://standards.digital.health.nz/ns/dhb-code"/>
+  <version value="1.0.0"/>
+  <name value="Dhb_code"/>
+  <title value="NZ DHB"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-25T23:00:00.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="NZ District Health Board (HPI-ORG) Codes"/>
+  <copyright value="© 2020+ New Zealand Crown Copyright"/>
+  <caseSensitive value="true"/>
+  <valueSet value="https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <count value="20"/>
+  <concept>
+    <code value="G00011-K"/>
+    <display value="Auckland District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00031-E"/>
+    <display value="Bay of Plenty District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00005-D"/>
+    <display value="Canterbury District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00036-D"/>
+    <display value="Capital and Coast District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00012-A"/>
+    <display value="Counties Manukau District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00032-G"/>
+    <display value="Hawkes Bay District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00006-F"/>
+    <display value="Hutt Valley District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00028-E"/>
+    <display value="Lakes District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00033-J"/>
+    <display value="Mid Central District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00038-H"/>
+    <display value="Nelson Marlborough District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00026-A"/>
+    <display value="Northland District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00025-K"/>
+    <display value="South Canterbury District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G02328-E"/>
+    <display value="Southern District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00029-G"/>
+    <display value="Tairawhiti District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00030-C"/>
+    <display value="Taranaki District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00027-C"/>
+    <display value="Waikato District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00037-F"/>
+    <display value="Wairarapa District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00013-C"/>
+    <display value="Waitemata District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00039-K"/>
+    <display value="West Coast District Health Board"/>
+  </concept>
+  <concept>
+    <code value="G00035-B"/>
+    <display value="Whanganui District Health Board"/>
+  </concept>
+</CodeSystem>

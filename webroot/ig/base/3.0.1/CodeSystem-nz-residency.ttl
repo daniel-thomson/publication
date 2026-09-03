@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/nz-residency> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "nz-residency"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem nz-residency</b></p><a name=\"nz-residency\"> </a><a name=\"hcnz-residency\"> </a><a name=\"nz-residency-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/nz-residency-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">yes<a name=\"nz-residency-yes\"> </a></td><td>Permanent Resident</td><td>Use this status if the person holds a residence class visa</td></tr><tr><td style=\"white-space:nowrap\">no<a name=\"nz-residency-no\"> </a></td><td>Not a Permanent Resident</td><td>Use this status for a person who is a NZ Citizen or does not hold a residence class visa</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"nz-residency-unknown\"> </a></td><td>Unknown</td><td>use this status if the residency status of the person cannot be determined or is unknown</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/nz-residency-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "NZResidency"] ; # 
+  fhir:title [ fhir:v "NZ Residency status"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "NZ Residency status"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "yes" ] ;
+     fhir:display [ fhir:v "Permanent Resident" ] ;
+     fhir:definition [ fhir:v "Use this status if the person holds a residence class visa" ]
+  ] [
+     fhir:code [ fhir:v "no" ] ;
+     fhir:display [ fhir:v "Not a Permanent Resident" ] ;
+     fhir:definition [ fhir:v "Use this status for a person who is a NZ Citizen or does not hold a residence class visa" ]
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:definition [ fhir:v "use this status if the residency status of the person cannot be determined or is unknown" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

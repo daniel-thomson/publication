@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="alias-type"/>
+  <meta>
+    <versionId value="9"/>
+    <lastUpdated value="2026-05-07T20:10:43.324+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Type of Alias</h2><tt>https://standards.digital.health.nz/ns/alias-type-code</tt><p>Used in Organization and Location to indicate what is the type of Alias</p></div>
+  </text>
+  <url value="https://standards.digital.health.nz/ns/alias-type-code"/>
+  <version value="2.0.0"/>
+  <name value="AliasType"/>
+  <title value="Type of Alias"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-25T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="Used in Organization and Location to indicate what is the type of Alias"/>
+  <caseSensitive value="true"/>
+  <valueSet value="https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="aka"/>
+    <display value="Aka"/>
+    <definition value="The name by which the organisation or facility is also known as."/>
+  </concept>
+  <concept>
+    <code value="old"/>
+    <display value="Old"/>
+    <definition value="The previous legal name(s) of the organisation/facility."/>
+  </concept>
+  <concept>
+    <code value="maori"/>
+    <display value="Māori"/>
+    <definition value="The Māori name of the organisation or facility."/>
+  </concept>
+  <concept>
+    <code value="legal"/>
+    <display value="Legal"/>
+    <definition value="The name as recorded in the official register eg Register of Companies."/>
+  </concept>
+  <concept>
+    <code value="short"/>
+    <display value="Short"/>
+    <definition value="An abbreviated name by which the organisation or facility is known."/>
+  </concept>
+  <concept>
+    <code value="trade-as"/>
+    <display value="Trading as"/>
+    <definition value="Used when the organisation/facility has a separate trading name."/>
+  </concept>
+  <concept>
+    <code value="current"/>
+    <display value="Current unverified or unofficial name"/>
+    <definition value="The name currently used for a facility."/>
+  </concept>
+</CodeSystem>

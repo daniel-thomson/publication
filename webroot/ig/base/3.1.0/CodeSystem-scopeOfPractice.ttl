@@ -1,0 +1,553 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/scopeOfPractice> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "scopeOfPractice"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "13" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-05-07T20:21:31.272+12:00"^^xsd:dateTime ] ;
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://standards.digital.health.nz/ns/nzhts-usage-tags" ] ;
+       fhir:Coding.code [ fhir:value "NZBase" ]
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Scope of practice</h2><tt>https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code</tt><p>A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code"] ;
+  fhir:CodeSystem.version [ fhir:value "2.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ScopeOfPractice"] ;
+  fhir:CodeSystem.title [ fhir:value "Scope of practice"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-02-03T11:59:31.000Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 New Zealand"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 New Zealand" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "mailto:admin@hl7.org.nz" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority."] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code" ;
+     fhir:link <https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "124"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHIR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chiropractor" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEAC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Adult Care in Dental Therapy Practice" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DECD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Dental Technology Practice" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEDH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dental Hygiene Practice" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEDT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dental Technology Practice" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEEN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Endodontic Specialists" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEGD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "General Dental Therapy Practice" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEIA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Implant over dentures in clinical dental technology practice" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DENT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "General Dental Practice" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEOA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orthodontic Auxiliary Practice" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEOM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Medicine Specialists" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEOP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Pathology Specialists" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEOR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral and Maxillofacial Surgery Specialists" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEOS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Surgery Specialists" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEPA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Paediatric Dentistry Specialists" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEPE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Periodontic Specialists" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEPH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Public Health Dentistry (or Community Dentistry) Specialists" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEPS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prosthodontic Specialists" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DERE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Restorative Dentistry Specialists" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DESN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Special Needs Dentistry Specialists" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DESP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orthodontic Specialists" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIET" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dietitian" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LTAT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anaesthetic Technician" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LTPA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Laboratory Pre-Analytical Technician" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LTLS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Laboratory Scientist" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LTLT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Laboratory Technician" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCAM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Accident and Medical Practice" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCAN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Anaesthesia" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Pain Medicine" ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCBM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Breast Medicine" ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCCG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Clinical Genetics" ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCCS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Cardiothoracic Surgery" ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCDE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Dermatology" ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCDI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Diagnostic and Interventional Radiology" ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCEM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Emergency Medicine" ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCFP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Family Planning/Reproductive Health" ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCGE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "General Scope of Practice" ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCGP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of General Practice" ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCGS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of General Surgery" ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCIC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Intensive Care Medicine" ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCIM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Internal Medicine" ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCMA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Medical Administration" ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCMM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Musculoskeletal Medicine" ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCNS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Neurosurgery" ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCOG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Obstetrics and Gynaecology" ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCOH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Otolaryngology Head and Neck Surgery" ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCOM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Occupational Medicine" ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCOP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Ophthalmology" ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCOR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Oral and Maxillofacial Surgery" ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCOS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Orthopaedic Surgery" ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Pathology" ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Paediatrics" ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Provisional General Scope of Practice" ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Public Health Medicine" ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Palliative Medicine" ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Plastic and Reconstructive Surgery" ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Paediatric Surgery" ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Provisional Vocational Scope of Practice" ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCPY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Psychiatry" ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCRH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Rural Hospital Medicine" ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Rehabilitation Medicine" ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCRO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Radiation Oncology" ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCSH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Sexual Health Medicine" ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCSM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Sports Medicine" ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Special Purpose Scope of Practice" ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCTR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Council Temporary Registration" ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCUR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Urology" ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCVO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Practice" ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MCVS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vocational Scope of Vascular Surgery" ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MWIF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Midwife" ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NCEN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enrolled Nurse" ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NCNA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nurse Assistant" ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NCNP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nurse Practitioner" ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NCRN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Registered Nurse" ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OCCT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Occupational Therapist" ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPDI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Optical Dispensing (Dispensing Optician)" ]
+  ], [
+     fhir:index 76 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPED" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Educator in Optometry (Educator Optometrist)" ]
+  ], [
+     fhir:index 77 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPET" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Educator in Optometry (TPA Endorsement) (Educator Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)" ]
+  ], [
+     fhir:index 78 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPTP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Optometry (Optometrist)" ]
+  ], [
+     fhir:index 79 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSTE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Osteopath" ]
+  ], [
+     fhir:index 80 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PHAR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pharmacist" ]
+  ], [
+     fhir:index 81 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PHIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Intern Pharmacist" ]
+  ], [
+     fhir:index 82 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PHPP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pharmacist Prescriber" ]
+  ], [
+     fhir:index 83 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PHSO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Physiotherapist" ]
+  ], [
+     fhir:index 84 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PODI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Podiatrist" ]
+  ], [
+     fhir:index 85 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PODP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Podiatric Prescriber" ]
+  ], [
+     fhir:index 86 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PODR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Podiatric Radiographic Imager" ]
+  ], [
+     fhir:index 87 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PODS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Podiatric Surgeon" ]
+  ], [
+     fhir:index 88 ;
+     fhir:CodeSystem.concept.code [ fhir:value "POVD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Visiting Podiatrist Educator/Presenter" ]
+  ], [
+     fhir:index 89 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PSCE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical and Educational" ]
+  ], [
+     fhir:index 90 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PSCL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Psychologist" ]
+  ], [
+     fhir:index 91 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PSCO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Counselling Psychologist" ]
+  ], [
+     fhir:index 92 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PSED" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Educational Psychologist" ]
+  ], [
+     fhir:index 93 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PSIT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trainee or Intern Psychologist" ]
+  ], [
+     fhir:index 94 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PSYC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psychologist" ]
+  ], [
+     fhir:index 95 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RTMR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Magnetic Resonance Technologist" ]
+  ], [
+     fhir:index 96 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RTMS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sonographer" ]
+  ], [
+     fhir:index 97 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RTMT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nuclear Medicine Technologist" ]
+  ], [
+     fhir:index 98 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RTRT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Radiation Therapist" ]
+  ], [
+     fhir:index 99 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RTTE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Radiation Technologist" ]
+  ], [
+     fhir:index 100 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RTTM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trainee Magnetic Resonance Imaging (MRI) Technologist" ]
+  ], [
+     fhir:index 101 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RTTN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trainee Nuclear Medicine Technologist" ]
+  ], [
+     fhir:index 102 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RTTS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trainee Sonographer" ]
+  ], [
+     fhir:index 103 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEOH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Health Practice" ]
+  ], [
+     fhir:index 104 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPLS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ophthalmic Laser Surgeries" ]
+  ], [
+     fhir:index 105 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPPO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Provisional Optometrist" ]
+  ], [
+     fhir:index 106 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSCA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Osteopath -Child and Adolescent Health" ]
+  ], [
+     fhir:index 107 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSED" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Osteopath - Educator" ]
+  ], [
+     fhir:index 108 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSGE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Osteopath -Gerontology" ]
+  ], [
+     fhir:index 109 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSPM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Osteopath -Pain Management" ]
+  ], [
+     fhir:index 110 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Osteopath - Special Purpose" ]
+  ], [
+     fhir:index 111 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSTO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trainee Osteopath" ]
+  ], [
+     fhir:index 112 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSVO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Visiting Osteopath Presenter" ]
+  ], [
+     fhir:index 113 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSWA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Osteopath -Western Medical Acupuncture" ]
+  ], [
+     fhir:index 114 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PAPS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Paramedic" ]
+  ], [
+     fhir:index 115 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PBCA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psychotherapist with Child and Adolescent Specialism" ]
+  ], [
+     fhir:index 116 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PBIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Interim Psychotherapist" ]
+  ], [
+     fhir:index 117 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PBPS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psychotherapist" ]
+  ], [
+     fhir:index 118 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PSHE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Health Psychologist" ]
+  ], [
+     fhir:index 119 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PSNE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Neuropsychologist" ]
+  ], [
+     fhir:index 120 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CMAC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chinese medicine practitioner (acupuncturist)" ]
+  ], [
+     fhir:index 121 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CMMP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chinese massage (tuina) practition" ]
+  ], [
+     fhir:index 122 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CMSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chinese medicine special purpose" ]
+  ], [
+     fhir:index 123 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CMST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chinese medicine specialist" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/scopeOfPractice.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

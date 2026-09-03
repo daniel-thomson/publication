@@ -1,0 +1,35 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/PractitionerRole/practitionerRole-messaging-address> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "practitionerRole-messaging-address"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole-messaging-address</b></p><a name=\"practitionerRole-messaging-address\"> </a><a name=\"hcpractitionerRole-messaging-address\"> </a><blockquote><p><b>Messaging Address</b></p><ul><li>provider: healthLink</li><li>value: abc123</li></ul></blockquote></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "provider" ] ;
+       fhir:Extension.valueString [ fhir:value "healthLink" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "value" ] ;
+       fhir:Extension.valueString [ fhir:value "abc123" ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org.nz/fhir/StructureDefinition/messaging-address" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/PractitionerRole/practitionerRole-messaging-address.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

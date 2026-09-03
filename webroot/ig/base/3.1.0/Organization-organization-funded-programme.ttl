@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Organization/organization-funded-programme> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "organization-funded-programme"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization organization-funded-programme</b></p><a name=\"organization-funded-programme\"> </a><a name=\"hcorganization-funded-programme\"> </a><blockquote><p><b>Funded Healthcare Programme</b></p><ul><li>fundedProgramme: <span title=\"Codes:{https://standards.digital.health.nz/ns/funded-programme-code DENTAL_CHILD}\">Dental Care - Children up to age 13</span></li><li>currentAvailability: true</li><li>notes: Dental care is only free on referral. Your child’s care will normally be managed by the Auckland Regional Dental Services (ARDs).</li></ul></blockquote><p><b>name</b>: Dianes Dental care</p></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "fundedProgramme" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://standards.digital.health.nz/ns/funded-programme-code" ] ;
+           fhir:Coding.code [ fhir:value "DENTAL_CHILD" ] ;
+           fhir:Coding.display [ fhir:value "Dental Care - Children up to age 13" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "currentAvailability" ] ;
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "notes" ] ;
+       fhir:Extension.valueString [ fhir:value "Dental care is only free on referral. Your child’s care will normally be managed by the Auckland Regional Dental Services (ARDs)." ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org.nz/fhir/StructureDefinition/funded-programme" ]
+  ] ;
+  fhir:Organization.name [ fhir:value "Dianes Dental care"] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/Organization/organization-funded-programme.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

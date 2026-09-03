@@ -1,0 +1,81 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/contact-point-purpose> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "contact-point-purpose"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "9" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-05-07T20:12:44.959+12:00"^^xsd:dateTime ] ;
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://standards.digital.health.nz/ns/nzhts-usage-tags" ] ;
+       fhir:Coding.code [ fhir:value "NZBase" ]
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ContactPoint purpose</h2><tt>https://standards.digital.health.nz/ns/contact-point-purpose-code</tt><p>The purpose of a ContactPoint - what it is used for.</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://standards.digital.health.nz/ns/contact-point-purpose-code"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ContactPointPurpose"] ;
+  fhir:CodeSystem.title [ fhir:value "ContactPoint purpose"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-10-25T11:59:31.000Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 New Zealand"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 New Zealand" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "mailto:admin@hl7.org.nz" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "The purpose of a ContactPoint - what it is used for."] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code" ;
+     fhir:link <https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "rx" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prescription" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "vc" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Video Conference" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "wf" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Web forum" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ob" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Online booking" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "vob" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaccination online booking" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "www" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Website" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/contact-point-purpose.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

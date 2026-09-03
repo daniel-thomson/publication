@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org.nz/ig/base/CodeSystem/contact-point-purpose> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "contact-point-purpose"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem contact-point-purpose</b></p><a name=\"contact-point-purpose\"> </a><a name=\"hccontact-point-purpose\"> </a><a name=\"contact-point-purpose-en-US\"> </a><p>This case-sensitive code system <code>https://standards.digital.health.nz/ns/contact-point-purpose-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">rx<a name=\"contact-point-purpose-rx\"> </a></td><td>Prescription</td></tr><tr><td style=\"white-space:nowrap\">vc<a name=\"contact-point-purpose-vc\"> </a></td><td>Video Conference</td></tr><tr><td style=\"white-space:nowrap\">wf<a name=\"contact-point-purpose-wf\"> </a></td><td>Web forum</td></tr><tr><td style=\"white-space:nowrap\">ob<a name=\"contact-point-purpose-ob\"> </a></td><td>Online booking</td></tr><tr><td style=\"white-space:nowrap\">vob<a name=\"contact-point-purpose-vob\"> </a></td><td>Vaccination online booking</td></tr><tr><td style=\"white-space:nowrap\">www<a name=\"contact-point-purpose-www\"> </a></td><td>Website</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://standards.digital.health.nz/ns/contact-point-purpose-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "ContactPointPurpose"] ; # 
+  fhir:title [ fhir:v "ContactPoint purpose"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-08-14T09:20:22+12:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 New Zealand"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 New Zealand" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:admin@hl7.org.nz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The purpose of a ContactPoint - what it is used for."] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "rx" ] ;
+     fhir:display [ fhir:v "Prescription" ]
+  ] [
+     fhir:code [ fhir:v "vc" ] ;
+     fhir:display [ fhir:v "Video Conference" ]
+  ] [
+     fhir:code [ fhir:v "wf" ] ;
+     fhir:display [ fhir:v "Web forum" ]
+  ] [
+     fhir:code [ fhir:v "ob" ] ;
+     fhir:display [ fhir:v "Online booking" ]
+  ] [
+     fhir:code [ fhir:v "vob" ] ;
+     fhir:display [ fhir:v "Vaccination online booking" ]
+  ] [
+     fhir:code [ fhir:v "www" ] ;
+     fhir:display [ fhir:v "Website" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

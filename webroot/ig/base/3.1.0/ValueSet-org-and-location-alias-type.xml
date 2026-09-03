@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="org-and-location-alias-type"/>
+  <meta>
+    <versionId value="4"/>
+    <lastUpdated value="2026-05-07T22:14:57.559+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Alias types</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code</tt><p>The complete set of alias types that apply to Locations and Organizations</p></div>
+  </text>
+  <url value="https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code"/>
+  <version value="1.0.0"/>
+  <name value="AliasType"/>
+  <title value="Alias types"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-18T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="The complete set of alias types that apply to Locations and Organizations"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/ns/alias-type-code"/>
+      <version value="2.0.0"/>
+    </include>
+  </compose>
+</ValueSet>

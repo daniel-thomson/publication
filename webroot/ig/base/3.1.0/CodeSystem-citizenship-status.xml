@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="citizenship-status"/>
+  <meta>
+    <versionId value="14"/>
+    <lastUpdated value="2026-05-07T20:12:14.184+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NZ Citizenship status</h2><tt>https://standards.digital.health.nz/ns/nz-citizenship-status-code</tt><p>Is this person a NZ Citizen</p></div>
+  </text>
+  <url value="https://standards.digital.health.nz/ns/nz-citizenship-status-code"/>
+  <version value="1.1.0"/>
+  <name value="CitizenshipStatus"/>
+  <title value="NZ Citizenship status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-25T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="Is this person a NZ Citizen"/>
+  <caseSensitive value="true"/>
+  <valueSet value="https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="yes"/>
+    <display value="Yes"/>
+    <definition value="This patient is a citizen."/>
+  </concept>
+  <concept>
+    <code value="no"/>
+    <display value="No"/>
+    <definition value="This patient is not a citizen."/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="The citizenship is unknown"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="pho"/>
+  <meta>
+    <versionId value="8"/>
+    <lastUpdated value="2026-05-07T20:43:14.996+12:00"/>
+    <tag>
+      <system value="https://standards.digital.health.nz/ns/nzhts-usage-tags"/>
+      <code value="NZBase"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PHO</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/pho-code</tt><p>Primary Healthcare Organization</p></div>
+  </text>
+  <url value="https://nzhts.digital.health.nz/fhir/ValueSet/pho-code"/>
+  <version value="1.1.0"/>
+  <name value="PHO"/>
+  <title value="PHO"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-18T11:59:31.000Z"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="HL7 New Zealand"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:admin@hl7.org.nz"/>
+    </telecom>
+  </contact>
+  <description value="Primary Healthcare Organization"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/ns/pho-code"/>
+      <version value="1.1.0"/>
+    </include>
+  </compose>
+</ValueSet>
