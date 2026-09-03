@@ -4,10 +4,7 @@ Configuration and published output for the **HL7® FHIR® New Zealand Base Imple
 Guide** (`fhir.org.nz.ig.base`, canonical `http://fhir.org.nz/ig/base`), as produced by the
 HL7 FHIR IG Publisher running in `-go-publish` mode.
 
-**This is not the IG source.** Profiles, extensions and FSH live in
-[HL7NZ/nzbase](https://github.com/HL7NZ/nzbase). This repository is just capturing the *publication* config:
-the settings that control how a release is published to `fhir.org.nz`, the NZ-customised
-page templates, and the resulting website.
+**This is not the IG source.** Source and config for the IG live in [HL7NZ/nzbase](https://github.com/HL7NZ/nzbase). This repository is just capturing the *publication* config for milestone releases: the settings that control how a release is published to `fhir.org.nz`, the NZ-customised page templates, and the resulting website.
 
 ## Published versions
 
